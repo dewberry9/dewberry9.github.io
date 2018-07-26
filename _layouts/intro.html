@@ -12,7 +12,7 @@ layout: base
     <nav class="static-nav">
         <ul>
             <li>
-                <a class="select" href="{{ "/" | relative_url }}">Introduce</a>
+                <a class="select" href="{{ "/" | relative_url }}">Introduction</a>
             </li>
             <li>
                 <a href="{{ "/article" | relative_url }}">Article</a>
@@ -21,5 +21,18 @@ layout: base
     </nav>
 </section>
 <section class="intro-sec about">
-
+    <div class="txt-boxes">
+        <article class="about-txt-box">
+            <h2>환영합니다!<span class="block"></span></h2>
+            <p>매드 티 파티를 찾아오신 분이라면 돌아가 주세요. 여기에 모자 장수는 없답니다. 차 한 잔에 이야기 하나를 곁들이는 공간, 이곳은 <strong>디자인 티타임</strong>입니다. 얼 그레이든, 아이스티든, 루왁 커피든, 믹스 커피든 상관없습니다. 필요한 건 차와 이야기에 어울리는 여유뿐입니다.<br>이곳에서 중심적으로 다루는 내용은 인터렉션 디자인에 관한 것이지만, 가끔 다른 맛이 생각날 때면 다른 주제의 이야기를 쓰기도 합니다. 이야기가 올라오는 시기는 그다지 일정하지 않습니다. 생각나면 쓰고, 생각나면 보는 그런 곳이 되었으면 합니다. 혹시 모르죠, <a href="mailto:{{ site.email }}">메일</a>로 재촉하시면 뭐라도 올라올지?<br><br><a href="{{ "/article" | relative_url }}">그럼 차 한 잔 준비하시는 건 어떨까요?</a></p>
+        </article>
+        <article class="about-txt-box">
+            <h2>차 끓이는 사람 : dewberry9<span class="block"></span><span class="block"></span></h2>
+            <p>디자인 티타임의 이야기 짓는 사람 dewberry9입니다. 이해하고, 상상하고, 즐겨보는 디자이너입니다. 이곳처럼 혼잣말하듯 이야기를 쓰는 것도 좋아하지만, 재미있는 대화도 좋아합니다. 편안히 메일 남겨주세요😉</p>
+            <ul>
+                <li><a href="mailto:{{ site.email }}"><i class='bx bx-envelope'></i> {{ site.email }}</a></li>
+                <li><a href="https://www.behance.net/dewberry9"><i class='bx bxl-behance'></i> behance.net/dewberry9</a></li>
+            </ul>
+        </article>
+    </div>
 </section>
