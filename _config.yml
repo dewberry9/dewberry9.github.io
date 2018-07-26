@@ -10,3 +10,6 @@ github_username: dewberry9
 show_excerpts: true
 # Build settings
 markdown: kramdown
+paginate: 10
+plugins:
+  - jekyll-paginate

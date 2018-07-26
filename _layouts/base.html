@@ -2,7 +2,10 @@
 <html lang="{{ page.lang | default: site.lang | default: "ko" }}">
 {%- include head.html -%}
 <body>
+    {%- include nav.html -%}
     {{ content }}
-    {%- include footer.html -%}
+    {%- if page.addFooter -%}
+        {%- include footer.html -%}
+    {%- endif -%}
 </body>
 </html>

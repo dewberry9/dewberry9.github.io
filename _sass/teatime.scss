@@ -17,7 +17,7 @@ $base-color-shade: #929292 !default;
 
 $wide-width:       1152px !default;
 $normal-width:     960px !default;
-$mobile-width:     480px !default;
+$mobile-width:     640px !default;
 
 $wave-background:  url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox='0 0 100 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M21.184 20c.357-.13.72-.264 1.088-.402l1.768-.661C33.64 15.347 39.647 14 50 14c10.271 0 15.362 1.222 24.629 4.928.955.383 1.869.74 2.75 1.072h6.225c-2.51-.73-5.139-1.691-8.233-2.928C65.888 13.278 60.562 12 50 12c-10.626 0-16.855 1.397-26.66 5.063l-1.767.662c-2.475.923-4.66 1.674-6.724 2.275h6.335zm0-20C13.258 2.892 8.077 4 0 4V2c5.744 0 9.951-.574 14.85-2h6.334zM77.38 0C85.239 2.966 90.502 4 100 4V2c-6.842 0-11.386-.542-16.396-2h-6.225zM0 14c8.44 0 13.718-1.21 22.272-4.402l1.768-.661C33.64 5.347 39.647 4 50 4c10.271 0 15.362 1.222 24.629 4.928C84.112 12.722 89.438 14 100 14v-2c-10.271 0-15.362-1.222-24.629-4.928C65.888 3.278 60.562 2 50 2 39.374 2 33.145 3.397 23.34 7.063l-1.767.662C13.223 10.84 8.163 12 0 12v2z' fill='%235500cc' fill-opacity='1' fill-rule='evenodd'/%3E%3C/svg%3E");
 
@@ -113,6 +113,11 @@ span.block {
     &:not(:first-child) {
         margin-right: 4px;
     }
+    
+    @include media-query($mobile-width) {
+        float: left;
+        margin-right: 4px;
+    }
 }
 
 .intro-sec {
@@ -142,7 +147,7 @@ span.block {
     
         .tapestry {
             width: 200px;
-            height: 400px;
+            height: 360px;
             display: inline-flex;
             align-items: center;
             justify-content: center;
@@ -160,44 +165,6 @@ span.block {
             &:hover {
                 background-color: $base-color-tint;
                 filter: grayscale(100%);
-            }
-        }
-    }
-
-    .static-nav {
-        text-align: right;
-        justify-self: stretch;
-        
-        ul {
-            list-style: none;
-
-            li {
-                a {
-                    padding: 8px 16px 8px 16px;
-                    font: 600 1.2em/1 'Renner*';
-                    color: $primary-color;
-                    box-sizing: border-box;
-                    transition: all .3s ease;
-    
-                    &:hover {
-                        color: $secondary-color;
-                        border-color: $secondary-color;
-                    }
-                }
-        
-                a.select {
-                    border: none;
-                    color: #fff;
-                    background-color: $primary-color;
-
-                    &:hover {
-                        background-color: $secondary-color;
-                    }
-                }
-
-                &:first-child {
-                    margin-bottom: 1.2em;
-                }
             }
         }
     }
@@ -231,5 +198,173 @@ span.block {
                 }
             }
         }
+    }
+
+    @include media-query($wide-width) {
+        padding-left: -webkit-calc((100vw - #{$normal-width}) / 2);
+        padding-left:         calc((100vw - #{$normal-width}) / 2);
+        padding-right: -webkit-calc((100vw - #{$normal-width}) / 2);
+        padding-right:         calc((100vw - #{$normal-width}) / 2);
+
+        &:first-child {
+            justify-content: center;
+        }
+
+        .static-nav {
+            display: none;
+        }
+    }
+
+    @include media-query($normal-width) {
+        padding: 0;
+        justify-content: center;
+        
+        .txt-boxes {
+            justify-content: center;
+            width: 90%;
+            flex-direction: column;
+
+            .about-txt-box {
+                width: 100%;
+
+                &:first-child {
+                    margin-bottom: 4rem;
+                }
+            }
+
+        }
+    }
+
+    @include media-query($mobile-width) {
+        margin-bottom: 1.5rem;
+
+        .typography {
+            h1 {
+                font-size: 3.2rem;
+                margin-left: -24px;
+            }
+
+            .tapestry {
+                width: 25vw;
+                height: 45vw;
+        
+                .hole {
+                    height: 50%;
+                    width: 10%;
+                }
+            }
+        }
+
+        .txt-boxes {
+            width: 100%;
+            padding: 0 1rem 0 1rem;
+        }
+    }
+}
+
+.static-nav,
+.dynamic-nav {
+    text-align: right;
+    justify-self: stretch;
+    
+    ul {
+        list-style: none;
+
+        li {
+            a {
+                padding: 8px 16px 8px 16px;
+                font: 600 1.2em/1 'Renner*';
+                color: $primary-color;
+                box-sizing: border-box;
+                transition: all .3s ease;
+
+                &:hover {
+                    color: $secondary-color;
+                    border-color: $secondary-color;
+                }
+            }
+    
+            a.select {
+                border: none;
+                color: #fff;
+                background-color: $primary-color;
+
+                &:hover {
+                    background-color: $secondary-color;
+                }
+            }
+
+            &:first-child {
+                margin-bottom: 1.2em;
+            }
+        }
+    }
+}
+
+.top-nav {
+    display: none;
+    position: fixed;
+    background-color: $background-color;
+    border-bottom: 1px solid $base-color-tint;
+    box-sizing: border-box;
+    width: 100%;
+    height: 56px;
+    z-index: 10;
+    padding: 0 1.5rem 0 1.5rem;
+
+    nav {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-sizing: border-box;
+        flex-direction: row;
+        
+        .logo a * {
+            vertical-align: middle;
+        }
+        
+        .logo svg {
+            display: none;
+        }
+
+        .logo a span {
+            font: 800 1.5rem/1 'Renner*';
+            color: #111;
+        }
+
+        .dynamic-nav {
+            ul  li {
+                display: inline-block;
+
+                a {
+                    padding: 4px 12px 4px 12px;
+                    font: 600 1rem/1 'Renner*';
+                }
+                
+                &:first-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+
+        @include media-query($mobile-width) {
+            .logo svg {
+                display: inline;
+            }
+
+            .logo a span {
+                display: none;
+            }
+        }
+    }
+    
+    @include media-query($wide-width) {
+        display: block;
+    }
+
+    @include media-query($mobile-width) {
+        padding: 0 1rem 0 1rem;
     }
 }

@@ -1,0 +1,30 @@
+<header class="top-nav">
+    <nav>
+        <div class="logo">
+            <a href="{{ "/" | relative_url }}">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32" style="width: 32px; height: 32px;" xml:space="preserve"><path d="M14.7,12.3v7.3H7.3v-7.3H14.7 M22,5H0v22h22V5z"/><circle cx="28" cy="23" r="4"/></svg>
+                <span>Design Teatime.</span>
+            </a>
+        </div>
+        <div class="dynamic-nav">
+            <ul>
+                {% if page.layout == "intro" %}
+                    <li>
+                        <a class="select" href="{{ "/" | relative_url }}">Introduction</a>
+                    </li>
+                    <li>
+                        <a href="{{ "/article" | relative_url }}">Article</a>
+                    </li>
+                {% endif %}
+                {% if page.layout == "article" %}
+                    <li>
+                        <a href="{{ "/" | relative_url }}">Introduction</a>
+                    </li>
+                    <li>
+                        <a class="select" href="{{ "/article" | relative_url }}">Article</a>
+                    </li>
+                {% endif %}
+            </ul>
+        </div>
+    </nav>
+</header>
