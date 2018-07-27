@@ -3,9 +3,10 @@
 {%- include head.html -%}
 <body>
     {%- include nav.html -%}
-    {{ content }}
-    {%- if page.addFooter -%}
-        {%- include footer.html -%}
-    {%- endif -%}
+    <div id="content">
+        {{ content }}
+    </div>
+    {%- include footer.html -%}
 </body>
+<script type="text/javascript" src="{{ "/assets/view.js" | relative_url }}"></script>
 </html>

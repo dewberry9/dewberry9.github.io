@@ -1,0 +1,100 @@
+---
+layout: base
+---
+
+<div id="introduction-page" class="hide">
+    <section class="intro-sec front">
+        <div class="typography">
+            <div class="tapestry">
+                <div class="hole"></div>
+            </div>
+            <h1>DESIGN
+                <br>TEATIME.</h1>
+        </div>
+        <nav class="static-nav">
+            <ul>
+                <li>
+                    <a class="select btn-intro">Introduction</a>
+                </li>
+                <li>
+                    <a class="btn-article">Article</a>
+                </li>
+            </ul>
+        </nav>
+    </section>
+    <section class="intro-sec about">
+        <div class="txt-boxes">
+            <article class="about-txt-box">
+                <h2>
+                    <span class="block"></span>환영합니다!</h2>
+                <p>매드 티 파티를 찾아오신 분이라면 돌아가 주세요. 여기에 모자 장수는 없답니다. 차 한 잔에 이야기 하나를 곁들이는 공간, 이곳은
+                    <strong>디자인 티타임</strong>입니다. 얼 그레이든, 아이스티든, 루왁 커피든, 믹스 커피든 상관없습니다. 필요한 건 차와 이야기에 어울리는 여유뿐입니다.
+                    <br>이곳에서 중심적으로 다루는 내용은 인터렉션 디자인에 관한 것이지만, 가끔 다른 맛이 생각날 때면 다른 주제의 이야기를 쓰기도 합니다. 이야기가 올라오는 시기는 그다지 일정하지 않습니다.
+                    생각나면 쓰고, 생각나면 보는 그런 곳이 되었으면 합니다. 혹시 모르죠,
+                    <a href="mailto:{{ site.email }}">메일</a>로 재촉하시면 뭐라도 올라올지?
+                    <br>
+                    <br>
+                    그럼 차 한 잔 준비하시는 건 어떨까요?
+                </p>
+            </article>
+            <article class="about-txt-box">
+                <h2>
+                    <span class="block"></span>
+                    <span class="block"></span>차 끓이는 사람 : dewberry9</h2>
+                <p>디자인 티타임의 이야기 짓는 사람 dewberry9입니다. 이해하고, 상상하고, 즐겨보는, 그런 성장기 디자이너입니다. 디자인 티타임에서 혼잣말하듯 이야기를 쓰는 것도 좋아하지만, 재미있게
+                    대화를 나누는 것도 좋아합니다. 편안히 메일 남겨주세요😉</p>
+                <ul>
+                    <li>
+                        <a href="mailto:{{ site.email }}">
+                            <i class='bx bx-envelope'></i> {{ site.email }}</a>
+                    </li>
+                    <li>
+                        <a href="https://www.behance.net/dewberry9">
+                            <i class='bx bxl-behance'></i> behance.net/dewberry9</a>
+                    </li>
+                </ul>
+            </article>
+        </div>
+    </section>
+</div>
+<div id="article-page" class="hide">
+    <section style="margin-top: 56px; padding-top: 1.5rem" class="post-list">
+            {% for post in paginator.posts %}
+                <a title="{{ post.title }}" target="_blank" href="{{ post.url }}" class="post-list-item" title="{{ post.title | prepend : 'Read' }}">
+                    <div class="post-thumbnail" style="background-image: '{{ post.thumbnail }}'">
+                        <div class="cover-pattern"></div>
+                    </div>
+                    <div class="post-description">
+                        <h2>{{ post.title }}</h2>
+                        <p class="post-excerpt">{{ post.excerpt }}</p>
+                    </div>
+                </a>
+            {% endfor %}
+
+            {% if paginator.total_pages > 1 %}
+                <div class="pagination">
+                {% if paginator.previous_page %}
+                    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" title="Previous"><i class='bx bx-chevron-left'></i> 이전</a>
+                {% else %}
+                    <a class="disable-txt"><i class='bx bx-chevron-left' title="Previous"></i> 이전</a>
+                {% endif %}
+
+                {% for page in (1..paginator.total_pages) %}
+                    {% if page == paginator.page %}
+                    <a class="now-page" title="This Page">{{ page }}</a>
+                    {% elsif page == 1 %}
+                    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" title="Page {{ page }}">{{ page }}</a>
+                    {% else %}
+                    <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}" title="Page {{ page }}">{{ page }}</a>
+                    {% endif %}
+                {% endfor %}
+
+                {% if paginator.next_page %}
+                    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" title="Next">다음 <i class='bx bx-chevron-right'></i></a>
+                {% else %}
+                    <a class="disable-txt">다음 <i class='bx bx-chevron-right' title="Next"></i></a>
+                {% endif %}
+                </div>
+            {% endif %}
+    </section>
+</div>
