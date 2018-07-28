@@ -1,6 +1,15 @@
 ---
 layout: base
 ---
+<script>
+    const introButtons = document.getElementsByClassName('btn-intro')
+    const articleButtons = document.getElementsByClassName('btn-article')
+
+    introButtons[0].classList.remove('select')
+    articleButtons[0].classList.add('select')
+
+    introButtons[0].href = '{{ "/" | relative_url }}'
+</script>
 <style>
     .top-nav {
         top: 0;

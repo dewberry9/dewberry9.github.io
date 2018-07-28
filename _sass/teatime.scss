@@ -6,7 +6,7 @@ $base-line-height: 1.8 !default;
 $base-font-size:   1em !default;
 $small-font-size:  0.8em !default;
 
-$text-color:       #333 !default;
+$text-color:       #555 !default;
 $background-color: #fefefe !default;
 $primary-color:    #5500cc !default;
 $secondary-color:  #b894e9 !default;
@@ -63,6 +63,7 @@ dl, dd, ol, ul, figure {
 h1, h2, h3 {
     line-height: 1 !important;
     font-weight: bold;
+    color: #333;
 }
 
 h1 {
@@ -82,10 +83,10 @@ h2 {
 }
 
 h3 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 
     @include media-query($mobile-width) {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
     }
 }
 
@@ -127,6 +128,60 @@ a {
   
     &:hover {
       color: $base-color-tone;
+    }
+}
+
+blockquote {
+    position: relative;
+    font-weight: bold !important;
+    color: $base-color-shade;
+    padding-left: 1rem;
+    margin-left: 1rem;
+
+    &::before {
+        top: 0;
+        left: 0;
+        content: '';
+        position: absolute;
+        width: 0.25rem;
+        background-color: $base-color-tone;
+        height: 100%;
+    }
+
+    * {
+        margin: 0.5rem 0 !important;
+
+        &:last-child {
+            color: $base-color-tone;
+        }
+    }
+
+    @include media-query($mobile-width) {
+        padding-left: 0.75rem;
+
+        &::before {
+            width: 0.2rem;
+        }
+
+        * {
+            margin: 0.25rem 0 !important;
+        }
+    }
+}
+
+pre, code {
+    font-family: 'Fira Mono', sans-serif;
+    font-weight: bold;
+    background-color: $base-color-tint;
+    color: $base-color-shade;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+
+    @include media-query($mobile-width) {
+        font-size: 0.75rem;
+        padding: 0.125rem 0.25rem;
+        border-radius: 0.125rem;
     }
 }
 
@@ -185,6 +240,7 @@ section {
     }
 
     &.post-content {
+        margin-bottom: 4rem;
         justify-content: center;
         align-items: flex-start;
         flex-wrap: wrap;
@@ -200,10 +256,25 @@ section {
         div {
             width: 100%;
 
+            > p.indent {
+                text-indent: 1rem;
+            }
+
+            p, h3 {
+                margin: 1.5rem 0;
+            }
+
             img {
                 width: 100%;
                 height: auto;
-                margin: 1rem 0;
+            }
+
+            p, li {
+                font-size: 1.1rem;
+            }
+
+            ul, ol {
+                padding-left: 1.1rem;
             }
         }
     }
@@ -460,9 +531,28 @@ section {
 
         &.post-content {
             padding: 0 0.5rem;
+            margin-bottom: 2rem;
+
+            p, h3 {
+                margin: 1rem 0;
+            }
 
             .post-title {
                 margin: 1.5rem 0;
+            }
+
+            div {
+                > p.indent {
+                    text-indent: 0.5rem;
+                }
+
+                p, li {
+                    font-size: 1rem;
+                }
+
+                ul, ol {
+                    padding-left: 1rem;
+                }
             }
         }
 

@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+User-agent: BadBot
+Disallow: /
+
+Sitemap: http://dewberry9.github.io/sitemap.xml
