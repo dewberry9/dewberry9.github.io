@@ -6,10 +6,5 @@
     <link rel="stylesheet" href="https://indestructibletype-fonthosting.github.io/renner.css" type="text/css" charset="utf-8">
     <link rel="shortcut icon" href="{{ "/assets/" | relative_url }}/favicon.ico">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-    <title>
-        {{ site.title | escape }}
-        {%- if page.title -%}
-        &nbsp;-&nbsp;{{ page.title | escape }}
-        {%- endif -%}
-    </title>
+    <title>{{ site.title | escape }}{%- if page.title != "intro" -%}&nbsp;-&nbsp;{{ page.title | escape }}{%- endif -%}</title>
 </head>

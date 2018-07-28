@@ -147,11 +147,14 @@ span.block {
     }
 }
 
+#content {
+    min-height: 90vh;
+}
+
 #introduction-page,
 #article-page {
     transition: all .3s ease;
     margin-bottom: 2rem;
-    min-height: 90vh;
 }
 
 #article-page section {
@@ -173,6 +176,36 @@ section {
 
     &.intro-sec {
         min-height: 100vh;
+    }
+
+    &.post-list,
+    &.post-content {
+        margin-top: 56px;
+        padding-top: 1rem;
+    }
+
+    &.post-content {
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        padding-left: -webkit-calc((100vw - #{$normal-width}) / 2);
+        padding-left:         calc((100vw - #{$normal-width}) / 2);
+        padding-right: -webkit-calc((100vw - #{$normal-width}) / 2);
+        padding-right:         calc((100vw - #{$normal-width}) / 2);
+
+        .post-title {
+            margin: 4rem 0;
+        }
+
+        div {
+            width: 100%;
+
+            img {
+                width: 100%;
+                height: auto;
+                margin: 1rem 0;
+            }
+        }
     }
 
     .typography {
@@ -277,7 +310,7 @@ section {
 
             &:hover {
                 .cover-pattern {
-                    opacity: 0.8;
+                    opacity: 0.5;
                 }
             }
         }
@@ -376,6 +409,10 @@ section {
         padding: 0;
         justify-content: center;
 
+        &.post-content {
+            padding: 0 1rem;
+        }
+
         &.post-list {
             padding: 0 1rem;
             justify-content: space-between;
@@ -417,7 +454,16 @@ section {
 
     @include media-query($mobile-width) {
         &.post-list {
+            padding-top: 0.5rem;
             justify-content: center;
+        }
+
+        &.post-content {
+            padding: 0 0.5rem;
+
+            .post-title {
+                margin: 1.5rem 0;
+            }
         }
 
         .post-list-item {
@@ -540,7 +586,10 @@ section {
     width: 100%;
     height: 56px;
     z-index: 10;
-    padding: 0 1.5rem 0 1.5rem;
+    padding-left: -webkit-calc((100vw - #{$wide-width}) / 2);
+    padding-left:         calc((100vw - #{$wide-width}) / 2);
+    padding-right: -webkit-calc((100vw - #{$wide-width}) / 2);
+    padding-right:         calc((100vw - #{$wide-width}) / 2);
     transition: all .3s ease;
     top: -56px;
 
@@ -593,10 +642,14 @@ section {
     }
     
     @include media-query($wide-width) {
+        padding-left: -webkit-calc((100vw - #{$normal-width}) / 2);
+        padding-left:         calc((100vw - #{$normal-width}) / 2);
+        padding-right: -webkit-calc((100vw - #{$normal-width}) / 2);
+        padding-right:         calc((100vw - #{$normal-width}) / 2);
         top: 0;
     }
 
-    @include media-query($mobile-width) {
+    @include media-query($normal-width) {
         padding: 0 1rem 0 1rem;
     }
 }

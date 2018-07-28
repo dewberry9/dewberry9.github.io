@@ -1,5 +1,6 @@
 ---
 layout: base
+title: intro
 ---
 
 <div id="introduction-page" class="hide">
@@ -58,10 +59,10 @@ layout: base
     </section>
 </div>
 <div id="article-page" class="hide">
-    <section style="margin-top: 56px; padding-top: 1.5rem" class="post-list">
+    <section class="post-list">
             {% for post in paginator.posts %}
                 <a title="{{ post.title }}" target="_blank" href="{{ post.url }}" class="post-list-item" title="{{ post.title | prepend : 'Read' }}">
-                    <div class="post-thumbnail" style="background-image: '{{ post.thumbnail }}'">
+                    <div class="post-thumbnail" style="background-image: url('{{ post.thumbnail | absolute_url }}')">
                         <div class="cover-pattern"></div>
                     </div>
                     <div class="post-description">

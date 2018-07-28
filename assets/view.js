@@ -1,13 +1,10 @@
-const footer = document.getElementById('footer')
 const contentView = document.getElementById('content')
 const introView = document.getElementById('introduction-page')
 const articleView = document.getElementById('article-page')
 const introButtons = document.getElementsByClassName('btn-intro')
 const articleButtons = document.getElementsByClassName('btn-article')
 const navigator = document.getElementById('nav')
-
-introView.classList.remove('hide')
-articleView.remove()
+const url = window.location.href
 
 function onOffIntroButtons(goOn) {
     if (goOn) {
@@ -42,14 +39,16 @@ for (var i = 0; i < introButtons.length; i++) {
             contentView.appendChild(introView)
             onOffIntroButtons(true)
             onOffArticleButtons(false)
-        }, 300)
-        setTimeout(function() {
-            introView.classList.remove('hide')
+
+            setTimeout(function() {
+                introView.classList.remove('hide')
+            }, 10)
         }, 300)
     }, false)
 }
 
 for (var i = 0; i < articleButtons.length; i++) {
+    console.log(`Hey, I'm Her?!`)
     articleButtons[i].addEventListener('click', () => {
         introView.classList.add('hide')
         setTimeout(function() {
@@ -59,9 +58,23 @@ for (var i = 0; i < articleButtons.length; i++) {
             articleView.classList.remove('hide')
             onOffIntroButtons(false)
             onOffArticleButtons(true)
-        }, 300)
-        setTimeout(function() {
-            articleView.classList.remove('hide')
+
+            setTimeout(function() {
+                articleView.classList.remove('hide')
+            }, 300)
         }, 300)
     }, false)
+}
+
+if (url.indexOf('list') == -1) {
+    articleView.remove()
+    setTimeout(function() {
+        introView.classList.remove('hide')
+    }, 300)
+} else {
+    articleView.classList.remove('hide')
+    introView.remove()
+    onOffIntroButtons(false)
+    onOffArticleButtons(true)
+    navigator.classList.add('show')
 }
