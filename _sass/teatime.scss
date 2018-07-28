@@ -203,7 +203,7 @@ span.block {
 }
 
 #content {
-    min-height: 90vh;
+    min-height: 98vh;
 }
 
 #introduction-page,
@@ -363,7 +363,7 @@ section {
         }
 
         .post-thumbnail {
-            margin-bottom: 1rem;
+            margin-bottom: 1.5rem;
             width: 100%;
             height: 215px;
             background-size: cover;
@@ -414,6 +414,10 @@ section {
                 width: 70%;
                 height: 392px;
             }
+
+            .post-description {
+                width: calc(30% - 1.5rem);
+            }
         }
     }
 
@@ -452,6 +456,10 @@ section {
             justify-content: center;
         }
 
+        &.post-list {
+            justify-content: space-between;
+        }
+
         .static-nav {
             display: none;
         }
@@ -466,7 +474,6 @@ section {
             &:first-child {    
                 .post-thumbnail {
                     height: 325px;
-
                 }
 
                 h2 {
@@ -496,13 +503,16 @@ section {
                 height: 175px;
             }
 
-            &:first-child {    
-                * {
+            &:first-child {
+                .post-thumbnail {
+                    margin: 0 0 1.5rem 0;
+                    width: 100%;
                     display: block;
                 }
 
-                .post-thumbnail {
+                .post-description {
                     width: 100%;
+                    display: block;
                 }
             }
         }
@@ -559,17 +569,11 @@ section {
         .post-list-item {
             width: 100%;
             padding: 0.5rem;
-            margin-bottom: 0.5rem;
-
-            * {
-                display: inline-block;
-                vertical-align: middle;
-            }
+            margin-bottom: 1rem;
 
             .post-thumbnail {
-                margin: 0 1rem 0 0;
-                width: 80px;
-                height: 80px;
+                height: 48vw;
+                margin-bottom: 1rem;
             }            
 
             .post-description {
@@ -580,22 +584,32 @@ section {
                 h2 {
                     margin-bottom: 0.25rem;
                 }
+
+                p {
+                    font-size: 0.75rem;
+                }
             }
 
-            &:first-child {                  
-                * {
-                    display: inline-block;
-                }
+            &:first-child {
+                padding: 0.5rem;
+                margin-bottom: 1rem;
 
                 .post-thumbnail {
-                    margin: 0 1rem 0 0;
-                    width: 80px;
-                    height: 80px;
+                    margin-bottom: 1rem;
+                    height: 48vw;
                 }            
     
                 .post-description {
                     * {
                         display: block;
+                    }
+    
+                    h2 {
+                        margin-bottom: 0.25rem;
+                    }
+    
+                    p {
+                        font-size: 0.75rem;
                     }
                 }
 
