@@ -197,8 +197,7 @@ span.block {
     }
     
     @include media-query($mobile-width) {
-        float: left;
-        margin-right: 4px;
+        display: none;
     }
 }
 
@@ -773,14 +772,18 @@ footer {
     padding-right: -webkit-calc((100vw - #{$wide-width}) / 2);
     padding-right:         calc((100vw - #{$wide-width}) / 2);
 
-    a {
-        &:first-child {
+    span a {
+        &#home-page {
             font-family: 'Renner*';
             font-weight: 800;
         }
 
         i {
             font-size: 1rem !important;
+        }
+
+        &#rss-link {
+            margin-left: 1.5rem;
         }
     }
 
@@ -793,5 +796,9 @@ footer {
 
     @include media-query($normal-width) {
         padding: 0 1rem;
+
+        &#rss-link {
+            margin-left: 1rem;
+        }
     }
 }

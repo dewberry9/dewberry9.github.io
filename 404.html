@@ -1,3 +1,40 @@
 ---
 layout: base
+title: error
 ---
+<style>
+    section {
+        height: 100vh;
+        justify-content: center;
+    }
+
+    section .typography {
+        margin: 0 1rem;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+    }
+
+    footer a:first-child {
+        margin-right: 2rem;
+    }
+</style>
+<section>
+    <div class="typography">
+        <div class="tapestry">
+            <div class="hole"></div>
+        </div>
+        <h1>404<br>NOT FOUND.</h1>
+    </div>
+</section>
+<footer>
+    <a href="{{ "/" | relative_url }}"><i class='bx bx-home'></i> 홈으로</a>
+    <a onclick="history.back()"><i class='bx bx-arrow-back'></i> 돌아가기</a>
+</footer>

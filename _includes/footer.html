@@ -1,4 +1,9 @@
 <footer id="footer">
-    <a href="{{ "/" | relative_url }}" title="Design Teatime">Design Teatime.</a>
-    <a href="mailto:{{ site.email }}" title="Email"><i class='bx bx-envelope'></i> {{ site.email }}</a>
+    <span>
+        <a id="home-page" href="{{ "/" | relative_url }}" title="Design Teatime">Design Teatime.</a>
+    </span>
+    <span>
+        <a href="mailto:{{ site.email }}" title="Email"><i class='bx bx-envelope'></i> {{ site.email }}</a>
+        <a id="rss-link" href="{{ site.url | escape }}/rss.xml"><i class='bx bx-rss'></i> RSS</a>
+    </span>
 </footer>
