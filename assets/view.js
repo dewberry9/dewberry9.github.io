@@ -48,7 +48,6 @@ for (var i = 0; i < introButtons.length; i++) {
 }
 
 for (var i = 0; i < articleButtons.length; i++) {
-    console.log(`Hey, I'm Her?!`)
     articleButtons[i].addEventListener('click', () => {
         introView.classList.add('hide')
         setTimeout(function() {
