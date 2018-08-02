@@ -40,6 +40,7 @@ permalink: /build-house-with-cards
 {: .indent}
 
 ### 활용법 2. 카드를 카드답게
+{: #clear-dividerness}
 
 ![Shadow and Round]({{ "/assets/images/01-build-house-with-cards/03.jpg" | absolute_url }} "현실에 가까이")
 
