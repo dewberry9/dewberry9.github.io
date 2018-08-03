@@ -5,7 +5,7 @@
     {% if page.title != "error" %}
         {%- include nav.html -%}
     {% endif %}
-    <div id="content">
+    <div id="content" vocab="http://schema.org/" typeof="Blog">
         {{ content }}
     </div>
     {% if page.title != "error" %}
