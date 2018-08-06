@@ -509,6 +509,12 @@ section {
         transition: all .3s ease;
         margin-bottom: 1rem;
 
+        &:nth-child(3),
+        &:nth-child(6) {
+            margin-right: 12px;
+            margin-left: 12px;
+        }
+
         * {
             -webkit-transition: all .3s ease;
             transition: all .3s ease;
@@ -667,6 +673,12 @@ section {
 
         .post-list-item {
             width: 48%;
+
+            &:nth-child(3),
+            &:nth-child(6) {
+                margin-right: 0;
+                margin-left: 0;
+            }
 
             .post-thumbnail {
                 height: 175px;
