@@ -2,13 +2,13 @@
 <html lang="{{ page.lang | default: site.lang | default: "ko" }}">
 {%- include head.html -%}
 <body>
-    {% if page.title != "error" %}
+    {% if page.title != "error" and page.title != "about" %}
         {%- include nav.html -%}
     {% endif %}
     <div id="content" vocab="http://schema.org/" typeof="Blog">
         {{ content }}
     </div>
-    {% if page.title != "error" %}
+    {% if page.title != "error" and page.title != "about" %}
         {%- include footer.html -%}
     {% endif %}
 </body>
