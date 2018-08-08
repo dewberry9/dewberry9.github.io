@@ -24,7 +24,7 @@ title: intro
     </section>
     <section class="intro-sec about">
         <div class="txt-boxes">
-            <article class="about-txt-box">
+            <article class="about-txt-box" data-aos="fade-in">
                 <h2>
                     <span class="block"></span>환영합니다!</h2>
                 <p>매드 티 파티를 찾아오신 분이라면 돌아가 주세요. 여기에 모자 장수는 없답니다. 차 한 잔에 이야기 하나를 곁들이는 공간, 이곳은
@@ -37,7 +37,7 @@ title: intro
                     그럼 차 한 잔 준비하시는 건 어떨까요?
                 </p>
             </article>
-            <article class="about-txt-box">
+            <article class="about-txt-box" data-aos="fade-in" data-aos-delay="500">
                 <h2>
                     <span class="block"></span>
                     <span class="block"></span>차 끓이는 사람 : dewberry9</h2>
@@ -61,7 +61,7 @@ title: intro
 <div id="article-page" class="hide">
     <section class="post-list">
             {% for post in paginator.posts %}
-                <a title="{{ post.title }}" target="_blank" href="{{ post.url }}" class="post-list-item" title="{{ post.title | prepend : 'Read' }}">
+                <a title="{{ post.title }}" target="_blank" href="{{ post.url }}" class="post-list-item" title="{{ post.title | prepend : 'Read' }}" data-aos="fade-in">
                     <div class="post-thumbnail" style="background-image: url('{{ post.thumbnail | absolute_url }}')">
                         <div class="cover-pattern"></div>
                     </div>
@@ -73,7 +73,7 @@ title: intro
             {% endfor %}
 
             {% if paginator.total_pages > 1 %}
-                <div class="pagination">
+                <div class="pagination" data-aos="fade-in">
                 {% if paginator.previous_page %}
                     <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" title="Previous"><i class='bx bx-chevron-left'></i> 이전</a>
                 {% else %}
