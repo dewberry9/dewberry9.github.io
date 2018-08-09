@@ -1106,6 +1106,7 @@ footer {
         &#home-page {
             font-family: 'Renner*';
             font-weight: 800;
+            margin-right: 1.5rem;
         }
 
         i {
@@ -1125,8 +1126,15 @@ footer {
     @include media-query($normal-width) {
         padding: 0 1rem;
 
-        &#rss-link {
-            margin-left: 1rem;
+        span a {
+            &#home-page {
+                margin-right: 1rem;
+            }
+
+            &#rss-link {
+                margin-left: 1rem;
+            }
         }
+
     }
 }

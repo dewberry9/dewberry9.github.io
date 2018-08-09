@@ -12,5 +12,5 @@
     <link rel="shortcut icon" href="{{ "assets" | relative_url }}/favicon.ico">
     <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-    <title>{{ site.title | escape }}{%- if page.title != "intro" -%}&nbsp;-&nbsp;{%- if page.title != "about" -%}{{ page.title | escape }}{% else %}About Designer Junhwan Lee{%- endif -%}{%- endif -%}</title>
+    <title>{%- if page.title != "intro" -%}{%- if page.title != "about" -%}{{ page.title | escape }}{% else %}About Designer Junhwan Lee{%- endif -%}&nbsp;-&nbsp;{%- endif -%}{{ site.title | escape }}</title>
 </head>
