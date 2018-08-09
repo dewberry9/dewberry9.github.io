@@ -2,7 +2,7 @@
 title: 밀그램의 노치 실험
 layout: post
 date: 2018-08-07 00:00:00
-excerpt: iPhone X의 등장으로 스마트폰 시장에는 반짝 노치 열풍이 불었습니다. 1년이 되어가는 금, 이 바람은 차갑게 식었습니다.<br>독선적이고 과도기적인 노치가 왜 문제인지 짚어보도록 하겠습니다.
+excerpt: iPhone X의 등장으로 스마트폰 시장에는 반짝 노치 열풍이 불었습니다. 1년이 되어가는 금, 이 바람은 차갑게 식었습니다. 독선적이고 과도기적인 노치가 왜 문제인지 짚어보도록 하겠습니다.
 thumbnail: /assets/images/05-notch-study-of-milgram/01.jpg
 permalink: /notch-study-of-milgram
 ---

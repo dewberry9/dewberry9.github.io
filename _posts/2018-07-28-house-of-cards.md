@@ -2,7 +2,7 @@
 title: 카드로 쌓은 집
 layout: post
 date: 2018-07-28 00:00:00
-excerpt: 디자이너에게 카드는 좋은 재료입니다. 그러나 카드로 쌓은 집은 과연 온전할까요?<br>카드를 쓸 때 생각해볼 만한 활용법 3가지를 골라봤습니다.
+excerpt: 디자이너에게 카드는 좋은 재료입니다. 그러나 카드로 쌓은 집은 과연 온전할까요? 카드를 쓸 때 생각해볼 만한 활용법 3가지를 골라봤습니다.
 thumbnail: /assets/images/01-build-house-with-cards/02.jpg
 permalink: /build-house-with-cards
 ---

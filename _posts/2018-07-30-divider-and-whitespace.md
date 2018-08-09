@@ -2,7 +2,7 @@
 title: 구분선과 공백의 콘텐츠 커팅식
 layout: post
 date: 2018-07-30 00:00:00
-excerpt: 인터랙션 디자인에서 구분선과 공백은 요소와 요소, 콘텐츠와 콘텐츠를 분리하는 대표적인 도구입니다.<br>같은 듯 다른 이 두 가지를 비교해봅시다.
+excerpt: 인터랙션 디자인에서 구분선과 공백은 요소와 요소, 콘텐츠와 콘텐츠를 분리하는 대표적인 도구입니다. 같은 듯 다른 이 두 가지를 비교해봅시다.
 thumbnail: /assets/images/03-divider-and-whitespace/01.jpg
 permalink: /divider-and-whitespace
 ---
