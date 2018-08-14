@@ -161,6 +161,7 @@ h1 {
 
 h2 {
     font-size: 1.6rem;
+    line-height: 1.2;
 
     @include media-query($mobile-width) {
         font-size: 1.4rem;
@@ -484,7 +485,8 @@ section {
     &.about-sec {
         padding-top: 4rem;
         padding-bottom: 4rem;
-        align-content: center;
+        -ms-flex-line-pack: center;
+            align-content: center;
         -webkit-box-align: center;
             -ms-flex-align: center;
                 align-items: center;
@@ -501,14 +503,14 @@ section {
 
             svg {
                 width: 400px;
-                filter: drop-shadow(0px 40px 40px rgba(0,0,0,0.15));  
+                -webkit-filter: drop-shadow(0px 40px 40px rgba(0,0,0,0.15));
+                        filter: drop-shadow(0px 40px 40px rgba(0,0,0,0.15));  
             }
         }
 
         &:last-child {
             background: rgba(255,255,255,0);
-            background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, $background-color 30%);
-            background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, $background-color 30%);
+            background: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,0)), color-stop(30%, $background-color));
             background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, $background-color 30%);
             filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(255,255,255,0)', endColorstr='#fefefe',GradientType=0 );                                
         }
@@ -522,7 +524,8 @@ section {
                 span {
                     margin-top: 1rem;
                     font-weight: 400;
-                    box-sizing: border-box;
+                    -webkit-box-sizing: border-box;
+                            box-sizing: border-box;
                     padding: 1rem;
                     text-align: center;
                     display: block;
@@ -536,6 +539,7 @@ section {
             img {
                 height: 640px;
                 display: block;
+                -webkit-transition: all 2s ease;
                 transition: all 2s ease;
 
                 &:hover {
@@ -968,26 +972,20 @@ section {
             a {
                 padding: 8px 16px 8px 16px;
                 font: 600 1.2em/1 'Renner*';
-                color: $primary-color;
+                color: $base-color-tone;
                 -webkit-box-sizing: border-box;
                         box-sizing: border-box;
                 -webkit-transition: all .3s ease;
                 transition: all .3s ease;
+                box-sizing: border-box;
 
                 &:hover {
-                    color: $secondary-color;
-                    border-color: $secondary-color;
+                    color: $base-color-tint;
                 }
             }
     
             a.select {
-                border: none;
-                color: #fff;
-                background-color: $primary-color;
-
-                &:hover {
-                    background-color: $secondary-color;
-                }
+                color: $primary-color;
             }
 
             &:first-child {
