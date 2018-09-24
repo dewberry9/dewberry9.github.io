@@ -161,7 +161,7 @@ h1 {
 
 h2 {
     font-size: 1.6rem;
-    line-height: 1.2;
+    line-height: 1.5 !important;
 
     @include media-query($mobile-width) {
         font-size: 1.4rem;
@@ -594,7 +594,7 @@ section {
                 box-sizing: border-box;
         padding: 1rem;
         width: 376px;
-        -webkit-transition: all .3s ease;
+        -webkit-transition:  .3s ease;
         transition: all .3s ease;
         margin-bottom: 1rem;
 
@@ -667,6 +667,7 @@ section {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
+        align-items: center;
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center;
