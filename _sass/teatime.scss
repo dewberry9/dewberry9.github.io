@@ -97,6 +97,15 @@ $wave-background:  url("data:image/svg+xml,%3Csvg width='100' height='20' viewBo
     }
 }
 
+@keyframes bg-color-fade {
+    from {
+        background-color: rgba(242, 242, 242,0);
+    }
+    to {
+        background-color: rgba(242, 242, 242,1);
+    }
+}
+
 .cover-pattern {
     width: 100%;
     height: 100%;
@@ -610,7 +619,7 @@ section {
         }
 
         .post-description h2 {
-            margin-bottom: 0.5rem;
+            margin-bottom: 2rem;
         }
 
         .post-thumbnail {
@@ -628,7 +637,8 @@ section {
         }
 
         &:hover {
-            background-color: $base-color-tint;
+            animation: bg-color-fade .5s;
+            animation-fill-mode: forwards;
 
             h2 {
                 color: $base-color-shade;
@@ -716,6 +726,10 @@ section {
         .post-list-item {
             width: 312px;
 
+            .post-description h2 {
+                margin-bottom: 1rem;
+            }
+
             .post-thumbnail {
                 height: 175px;
             }
@@ -769,6 +783,10 @@ section {
 
         .post-list-item {
             width: 48%;
+
+            .post-description h2 {
+                margin-bottom: 0.5rem;
+            }
 
             &:nth-child(3),
             &:nth-child(6) {
