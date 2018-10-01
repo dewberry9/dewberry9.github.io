@@ -619,7 +619,7 @@ section {
         }
 
         .post-description h2 {
-            margin-bottom: 2rem;
+            margin-bottom: 1rem;
         }
 
         .post-thumbnail {
@@ -668,6 +668,10 @@ section {
 
             .post-description {
                 width: calc(30% - 1.5rem);
+
+                h2 {
+                    margin-bottom: 2rem;
+                }
             }
         }
     }
