@@ -727,7 +727,7 @@ section {
             width: 312px;
 
             .post-description h2 {
-                margin-bottom: 1rem;
+                margin-bottom: 0.5rem;
             }
 
             .post-thumbnail {
@@ -737,6 +737,10 @@ section {
             &:first-child {    
                 .post-thumbnail {
                     height: 325px;
+                }
+
+                .post-description h2 {
+                    margin-bottom: 1rem;
                 }
 
                 h2 {
