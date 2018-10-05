@@ -60,7 +60,7 @@ permalink: /grid-list-and-spaghetti
 
 ### 토마토맛 레이아웃
 
-![]({{ '/assets/images/10-grid-list-and-spaghetti/06.jpg' | absolute_url }} "")
+![Ridiculous Answer]({{ '/assets/images/10-grid-list-and-spaghetti/06.jpg' | absolute_url }} "어이없는 대답")
 
 고양이가 헝큰 실타래에 질서가 있을까요? 막 팬 위에서 섞은 스파게티에는요? 두 질문의 답은 '예'입니다. 모두 무질서라는 질서를 가지고 있습니다. 어처구니 없을지도 모르지만, 사실입니다. 토마토 파스타에서 토마토소스라는 레이아웃을 뺄 수는 없습니다.
 {: .indent}
