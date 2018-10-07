@@ -16,7 +16,7 @@ permalink: /grid-list-and-spaghetti
 디자인 티타임의 열 번째 이야기는 이 고민에 대한 것입니다. 바로 레이아웃입니다. 레이아웃이 러시아 미술부터 근대 디자인의 확립까지 어떤 모습으로 변해왔는지, 왜 고민해야 하는지, 어떻게 써야 되는지, 그리고 도대체 그리드 레이아웃과 리스트 레이아웃 중 무얼 선택해야 하는지를 알아볼 겁니다.
 {: .indent}
 
-###오래된 고민
+### 오래된 고민
 
 ![Pieter Cornelis Mondrian - 「Composition No. 10」]({{ '/assets/images/10-grid-list-and-spaghetti/02.jpg' | absolute_url }} "피트 몬드리안 - 「작품 10번」")
 
