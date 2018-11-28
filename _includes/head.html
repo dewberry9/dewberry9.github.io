@@ -5,6 +5,13 @@
     <meta name="author" content="{{ site.author }}">
     <meta name="google-site-verification" content="Q1Gkv54gFGh2MxaT7ehKmua6BROtBIJR_ki_z_1_EwE" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:title" content='{%- if page.title != "intro" -%}{%- if page.title != "about" -%}{{ page.title | escape }}{% else %}About Designer Junhwan Lee{%- endif -%}&nbsp;-&nbsp;{%- endif -%}{{ site.title | escape }}'>
+    <meta property="og:url" content="https://dewberry9.github.io">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="{% if page.title == 'intro' %}{{ site.description }}{% else  %}{{ page.excerpt }}{% endif %}">
+    <meta property="og:site_name" content="Design Teatime.">
+    <meta property="og:image" content="{{ 'assets/images/ogimage.jpg' | absolute_url }}">
     <link rel="stylesheet" href="{{ "assets/style.css" | relative_url }}">
     <link rel="stylesheet" href="{{ "assets/dist/aos.css" | relative_url }}">
     <link rel="stylesheet" href="https://indestructibletype-fonthosting.github.io/renner.css" type="text/css" charset="utf-8">
