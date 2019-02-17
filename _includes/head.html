@@ -13,9 +13,8 @@
     <meta property="og:image" content='{%- if page.title != "intro" -%}{%- if page.title != "about" -%}{{ page.thumbnail  | absolute_url }}{% else %}{{ "assets/images/ogimage.jpg" | absolute_url }}{%- endif -%}{% else %}{{ "assets/images/ogimage.jpg" | absolute_url }}{%- endif -%}'>
     <link rel="stylesheet" href="{{ "assets/style.css" | relative_url }}">
     <link rel="stylesheet" href="{{ "assets/dist/aos.css" | relative_url }}">
-    <link rel="stylesheet" href="https://indestructibletype-fonthosting.github.io/renner.css" type="text/css" charset="utf-8">
-    <link href="https://fonts.googleapis.com/css?family=Fira+Mono:500" rel="stylesheet"> 
     <link rel="shortcut icon" href="{{ "assets" | relative_url }}/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Mono:500|Poppins:600,800,900" rel="stylesheet">
     <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
     <title>{%- if page.title != "intro" -%}{%- if page.title != "about" -%}{{ page.title | escape }}{% else %}About Designer Junhwan Lee{%- endif -%}&nbsp;-&nbsp;{%- endif -%}{{ site.title | escape }}</title>

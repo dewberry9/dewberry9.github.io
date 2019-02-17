@@ -7,6 +7,6 @@ show_excerpts: true
 # Build settings
 markdown: kramdown
 paginate: 7
-paginate_path: "list/p:num/"
+paginate_path: "/article/p:num/"
 plugins:
   - jekyll-paginate

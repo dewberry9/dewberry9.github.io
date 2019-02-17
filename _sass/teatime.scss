@@ -452,7 +452,7 @@ section {
 
         h1 {
             z-index: 1;
-            font: 900 6.4em/1 'Renner*';
+            font: 900 6.4em/1 'Poppins';
             display: block;
             margin-left: -36px;
             color: #111;
@@ -779,7 +779,7 @@ section {
         }
 
         &.post-content {
-            padding: 0 1rem;
+            padding: 0 1.5rem;
         }
 
         &.post-list {
@@ -861,18 +861,18 @@ section {
         }
 
         &.post-list {
-            padding-top: 0.5rem;
+            padding-top: 1rem;
             -webkit-box-pack: center;
                 -ms-flex-pack: center;
                     justify-content: center;
         }
 
         &.post-content {
-            padding: 0 0.5rem;
+            padding: 0 1.5rem;
             margin-bottom: 2rem;
 
             p {
-                margin: 0.5rem 0;
+                margin: 1rem 0;
             }
             
             h3 {
@@ -884,7 +884,7 @@ section {
             }
 
             .post-date {
-                margin-bottom: 1.5rem;
+                margin-bottom: 1rem;
             }
 
             div {
@@ -998,7 +998,7 @@ section {
         li {
             a {
                 padding: 8px 16px 8px 16px;
-                font: 600 1.2em/1 'Renner*';
+                font: 600 1.2em/1 'Poppins';
                 color: $base-color-tone;
                 -webkit-box-sizing: border-box;
                         box-sizing: border-box;
@@ -1065,7 +1065,7 @@ section {
         }
 
         .logo a span {
-            font: 800 1.5rem/1 'Renner*';
+            font: 800 1.5rem/1 'Poppins';
             color: #111;
         }
 
@@ -1075,7 +1075,7 @@ section {
 
                 a {
                     padding: 4px 12px 4px 12px;
-                    font: 600 1rem/1 'Renner*';
+                    font: 600 1rem/1 'Poppins';
                 }
                 
                 &:first-child {
@@ -1129,7 +1129,7 @@ footer {
 
     span a {
         &#home-page {
-            font-family: 'Renner*';
+            font-family: 'Poppins';
             font-weight: 800;
             margin-right: 1.5rem;
         }
