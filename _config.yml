@@ -10,3 +10,4 @@ paginate: 7
 paginate_path: "/article/p:num/"
 plugins:
   - jekyll-paginate
+  - jekyll-feed
