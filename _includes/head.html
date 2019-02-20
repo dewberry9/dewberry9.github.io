@@ -16,6 +16,7 @@
     <meta name="naver-site-verification" content="d9a8213816d39cd0b58123c579fb50704ab632a8"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="theme-color" content="#ffffff">
+    <meta name="mobile-web-app-capable" content="yes">
 
     <meta property="og:title" content='{%- if page.title != "intro" -%}{%- if page.title != "about" -%}{{ page.title | escape }}{% else %}About Designer Junhwan Lee{%- endif -%}&nbsp;-&nbsp;{%- endif -%}{{ site.title | escape }}'>
     <meta property="og:url" content="https://dewberry9.github.io{{ page.url | escape }}">
@@ -27,7 +28,15 @@
     <meta name="twitter:description" content="{% if page.title == 'intro' %}{{ site.description }}{% else  %}{{ page.excerpt }}{% endif %}">
     <meta name="twitter:image" content='{%- if page.title != "intro" -%}{%- if page.title != "about" -%}{{ page.thumbnail  | absolute_url }}{% else %}{{ "assets/images/ogimage.jpg" | absolute_url }}{%- endif -%}{% else %}{{ "assets/images/ogimage.jpg" | absolute_url }}{%- endif -%}'>
     <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="https://dewberry9.github.io{{ page.url | escape }}">
 
+    <meta itemprop="name" content='{%- if page.title != "intro" -%}{%- if page.title != "about" -%}{{ page.title | escape }}{% else %}About Designer Junhwan Lee{%- endif -%}&nbsp;-&nbsp;{%- endif -%}{{ site.title | escape }}'>
+    <meta itemprop="description" content="{% if page.title == 'intro' %}{{ site.description }}{% else  %}{{ page.excerpt }}{% endif %}">
+    <meta itemprop="image" content='{%- if page.title != "intro" -%}{%- if page.title != "about" -%}{{ page.thumbnail  | absolute_url }}{% else %}{{ "assets/images/ogimage.jpg" | absolute_url }}{%- endif -%}{% else %}{{ "assets/images/ogimage.jpg" | absolute_url }}{%- endif -%}'>
+    <meta name="robots" content="index,follow">
+    <meta name="subject" content="{% if page.title == 'intro' %}{{ site.description }}{% else  %}{{ page.excerpt }}{% endif %}">
+
+    <link rel="alternate" href="https://dewberry9.github.io/feed.xml" type="application/atom+xml" title="Atom 0.3">
     <link rel="stylesheet" href="{{ "assets/style.css" | relative_url }}">
     <link rel="stylesheet" href="{{ "assets/dist/aos.css" | relative_url }}">
     <link rel="shortcut icon" href="{{ "assets" | relative_url }}/favicon.ico">
@@ -36,4 +45,4 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
     <link rel="canonical" href="https://dewberry9.github.io">
     <title>{%- if page.title != "intro" -%}{%- if page.title != "about" -%}{{ page.title | escape }}{% else %}About Designer Junhwan Lee{%- endif -%}&nbsp;|&nbsp;{%- endif -%}{{ site.title | escape }}</title>
-</head>
+</head>`
