@@ -2,9 +2,10 @@
     <span>
         <a id="home-page" href="{{ "/" | relative_url }}" title="Design Teatime">Design Teatime.</a>
         <a href="{{ 'about' | relative_url }}" title="About Me">About</a>
+        <a href="{{ 'article' | relative_url }}" title="Articles">Articles</a>
     </span>
     <span>
-        <a href="mailto:{{ site.email }}" title="Email"><i class='bx bx-envelope'></i> {{ site.email }}</a>
+        <a id="mail-link" href="mailto:{{ site.email }}" title="Email"><i class='bx bx-envelope'></i> {{ site.email }}</a>
         <a id="rss-link" href="{{ site.url | escape }}/feed.xml"><i class='bx bx-rss'></i> RSS</a>
     </span>
 </footer>

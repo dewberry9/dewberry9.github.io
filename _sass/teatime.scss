@@ -1128,10 +1128,11 @@ footer {
     padding-right:         calc((100vw - #{$wide-width}) / 2);
 
     span a {
+        margin-right: 1.5rem;
+
         &#home-page {
             font-family: 'Poppins';
             font-weight: 800;
-            margin-right: 1.5rem;
         }
 
         i {
@@ -1152,11 +1153,14 @@ footer {
         padding: 0 1rem;
 
         span a {
-            &#home-page {
-                margin-right: 1rem;
+            margin-right: 1rem;
+
+            &#mail-link {
+                display: none;
             }
 
             &#rss-link {
+                display: none;
                 margin-left: 1rem;
             }
         }
