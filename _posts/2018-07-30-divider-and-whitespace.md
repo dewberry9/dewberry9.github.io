@@ -1,6 +1,7 @@
 ---
 title: 우리의 디자인에는 항상 공백이 부족하다
 layout: post
+category: design-teatime
 date: 2018-07-30 00:00:00
 excerpt: 인터랙션 디자인에서 구분선과 공백은 요소와 요소, 콘텐츠와 콘텐츠를 분리하는 대표적인 도구입니다. 같은 듯 다른 이 두 가지를 비교해봅시다.
 thumbnail: /assets/images/03-divider-and-whitespace/01.jpg

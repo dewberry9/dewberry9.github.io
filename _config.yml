@@ -1,13 +1,17 @@
-title: Design Teatime.
-description: "차 한 잔에 이야기 하나가 함께하는 디자인 티타임. 디자인 소식부터 이론, 영감까지 다양한 주제의 사설과 함께하세요."
+title: 환승역 파도
+description: "생각과 기록의 모음 - 환승역 파도는 묘한 틈새다. 채움도 다다름도 가만히 지나간다."
 email: dewberryneun@gmail.com
 author: dewberry9
 url: "https://dewberry9.github.io"
 show_excerpts: true
 # Build settings
 markdown: kramdown
-paginate: 7
-paginate_path: "/article/p:num/"
+pagination:
+    enabled: true
+    per_page: 9
+    limit: 0
+    sort_field: "date"
+    sort_reverse: true
 plugins:
-  - jekyll-paginate
   - jekyll-feed
+  - jekyll-paginate-v2

@@ -1,6 +1,7 @@
 ---
 title: 블러는 클릭 뒤 흐림
 layout: post
+category: design-teatime
 date: 2018-08-01 00:00:00
 excerpt: 블러는 아름다운 효과지만 인터랙션 디자인에서 그 쓰임은 매우 조심스럽습니다. 이번 이야기는 블러의 바람직한 사용법에 대한 것입니다.
 thumbnail: /assets/images/04-blur-is-cloudy-after-click/01.jpg

@@ -1,6 +1,7 @@
 ---
 title: 현명하지 못한 선택, 노치
 layout: post
+category: design-teatime
 date: 2018-08-07 00:00:00
 excerpt: iPhone X의 등장으로 스마트폰 시장에는 반짝 노치 열풍이 불었습니다. 1년이 되어가는 금, 이 바람은 차갑게 식었습니다. 독선적이고 과도기적인 노치가 왜 문제인지 짚어보도록 하겠습니다.
 thumbnail: /assets/images/05-notch-study-of-milgram/01.jpg

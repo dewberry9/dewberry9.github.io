@@ -1,6 +1,7 @@
 ---
 title: 미니멀리스트는 「월든」을 읽는다
 layout: post
+category: design-teatime
 date: 2018-09-13 00:00:00
 excerpt: 소로의 명저 「월든」에는 그의 생태주의와 소소한 철학이 잘 드러나 있습니다. 현대의 미니멀리즘을 신봉하는 디자이너는 이를 어떻게 읽을까요?
 thumbnail: /assets/images/09-minimalist-reads-walden/05.jpg

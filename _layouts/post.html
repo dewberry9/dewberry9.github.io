@@ -2,19 +2,8 @@
 layout: base
 ---
 <script>
-    const introButtons = document.getElementsByClassName('btn-intro')
-    const articleButtons = document.getElementsByClassName('btn-article')
-
-    introButtons[0].classList.remove('select')
-    articleButtons[0].classList.add('select')
-
-    introButtons[0].href = '{{ "/" | relative_url }}'
+    document.getElementById('nav').classList.add('show')
 </script>
-<style>
-    .top-nav {
-        top: 0;
-    }
-</style>
 <section class="post-content">
     <meta property="author" content="dewberry9" />
     <meta property="datePublished dateModified dateCreated" content="{{ page.date | date: '%Y-%m-%dT%H:%M:%S' }}">
@@ -24,3 +13,8 @@ layout: base
         {{ page.content }}
     </div>
 </section>
+{% if page.category == 'design-teatime' %}
+<script>document.getElementById('btn-article').classList.remove('op75')</script>
+{% else %}
+<script>document.getElementById('btn-story').classList.remove('op75')</script>
+{% endif %}

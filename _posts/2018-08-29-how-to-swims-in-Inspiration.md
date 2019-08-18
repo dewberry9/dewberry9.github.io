@@ -1,6 +1,7 @@
 ---
 title: 래퍼런스 다시 읽기
 layout: post
+category: design-teatime
 date: 2018-08-29 00:00:00
 excerpt: 만성적인 영감 부족에 시달리는 오늘날의 디자이너, 어떻게 하면 영감을 얻을 수 있을까요? 디자인 사고를 바탕으로 이를 해결합니다.
 thumbnail: /assets/images/07-how-to-swims-in-inspiration/02.jpg

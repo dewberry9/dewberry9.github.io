@@ -1,6 +1,7 @@
 ---
 title: 손톱만한 카피로 할 수 있는 일
 layout: post
+category: design-teatime
 date: 2018-10-09 00:00:00
 excerpt: 마이크로카피는 아주 작은 한 덩어리의 텍스트입니다. 이 섬세한 텍스트가 피드백 루프와 Hook 모델에서 어떤 역할을 맡는지 살펴봅니다.
 thumbnail: /assets/images/11-talk-with-microcopy/04.jpg

@@ -1,6 +1,7 @@
 ---
 title: 사실 우리는 불편하다
 layout: post
+category: design-teatime
 date: 2018-11-30 00:00:00
 excerpt: 유용한 디자인, 쉬운 디자인을 겨쳐 오늘날의 디지털 프로덕트가 안고 있는 문제점을 편안한 디자인이 해결책이 됩니다.
 thumbnail: /assets/images/12-next-step-the-cozy/01.jpg

@@ -1,40 +1,55 @@
 ---
-layout: base
 title: error
 ---
-<style>
-    section {
-        height: 100vh;
-        justify-content: center;
-    }
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
+    <title>페이지를 잃어버렸습니다</title>
+</head>
+<body>
+    <style>
+        body {
+            background-color: #363059;
+            font-family: "Spoqa Han Sans", sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 100vh;
+            box-sizing: border-box;
+        }
 
-    section .typography {
-        margin: 0 1rem;
-    }
+        p {
+            font-size: .875rem;
+            font-weight: 300;
+            color: #f2f2f2;
+        }
 
-    footer {
-        position: absolute;
-        bottom: 0;
-        width: 100vw;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: transparent;
-    }
+        a {
+            text-decoration: none;
+            display: block;
+            color: #363059;
+            background-color: #fff;
+            font-weight: bold;
+            padding: .75rem 1.5rem;
+            box-sizing: border-box;
+            transition: all .3s ease;
+            border: 2px solid #fff;
+        }
 
-    footer a:first-child {
-        margin-right: 2rem;
-    }
-</style>
-<section>
-    <div class="typography">
-        <div class="tapestry">
-            <div class="hole"></div>
-        </div>
-        <h1>404<br>NOT FOUND.</h1>
-    </div>
-</section>
-<footer>
-    <a href="{{ "/" | relative_url }}"><i class='bx bx-home'></i> 홈으로</a>
-    <a onclick="history.back()"><i class='bx bx-arrow-back'></i> 돌아가기</a>
-</footer>
+        a:hover, a:focus {
+            background-color: #363059;
+            color: #fff;
+        }
+    </style>
+    <a href="{{ "/" | relative_url }}"><i class='bx bxs-home'></i> 처음으로</a>
+    <p>페이지를 잃어버렸습니다.</p>
+</body>
+</html>
+
+

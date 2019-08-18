@@ -1,64 +1,63 @@
 ---
 layout: base
-title: intro
+title: 처음
 ---
-<script>
-    document.getElementById('btn-article').classList.remove('select')
-    document.getElementById('btn-intro').classList.add('select')
-</script>
-<div id="introduction-page">
-    <section class="intro-sec front">
-        <div class="typography">
-            <div class="tapestry">
-                <div class="hole"></div>
+<section class="starting-point" id="nav-set" data-aos="fade-in">
+    <h1 class="title"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 5a6.41 6.41 0 0 0-3.67-1 6.68 6.68 0 0 0-3.85 1.14A4.66 4.66 0 0 1 9.66 6a4.6 4.6 0 0 1-2.81-.86A6.77 6.77 0 0 0 4 4.07v2a5.07 5.07 0 0 1 1.82.78A6.62 6.62 0 0 0 9.66 8a6.63 6.63 0 0 0 3.85-1.14A4.66 4.66 0 0 1 16.33 6a4.66 4.66 0 0 1 2.82.86c.27.16.54.32.85.47zM20 11a6.41 6.41 0 0 0-3.67-1 6.68 6.68 0 0 0-3.85 1.14 4.66 4.66 0 0 1-2.82.86 4.6 4.6 0 0 1-2.81-.86A6.77 6.77 0 0 0 4 10.07v2a5.07 5.07 0 0 1 1.82.78A6.62 6.62 0 0 0 9.66 14a6.63 6.63 0 0 0 3.85-1.14 4.66 4.66 0 0 1 2.82-.86 4.66 4.66 0 0 1 2.82.86c.27.16.54.32.85.47zM16 16a6.71 6.71 0 0 0-3.52 1.13 4.66 4.66 0 0 1-2.82.87 4.6 4.6 0 0 1-2.81-.86A6.77 6.77 0 0 0 4 16.07v2a5.07 5.07 0 0 1 1.82.78A6.62 6.62 0 0 0 9.66 20a6.63 6.63 0 0 0 3.85-1.14A4.69 4.69 0 0 1 16 18zM18 16.18v2.08a7.88 7.88 0 0 1 1.15.6c.27.16.54.32.85.47V17a6.76 6.76 0 0 0-2-.82z"/></svg><br><span>환승역 파도는 틈새다.<br>다다름이 쓰임으로 지나간다.</span></h1>
+</section>
+<!--
+<section class="recent-story post-list">
+        {% for post in site.categories.story limit:3 %}
+            <a title="{{ post.title }}" href="{{ post.url }}" class="post-list-item" title="{{ post.title | prepend : 'Read' }}" data-aos="fade-in">
+                <div class="post-thumbnail"><div class="img-source" style="background-image: url('{{ post.thumbnail | absolute_url }}')"></div></div>
+                <div class="post-description">
+                    <time datetime="{{ post.date }}">{{ post.date | date : "%b %d %Y"}}</time>
+                    <div class="post-intro">
+                        <h2>{{ post.title }}</h2>
+                        <p class="post-excerpt">{{ post.excerpt }}</p>
+                    </div>
+                </div>
+            </a>
+        {% endfor %}
+    </section>
+    <section class="btn-point">
+            <a href="{{ 'story' | relative_url }}" title="Story" class="btn-list">이야기 더보기</a>
+</section>
+-->
+<section class="recent-article post-list">
+    {% for post in site.categories.design-teatime limit:3 %}
+        <a title="{{ post.title }}" href="{{ post.url }}" class="post-list-item" title="{{ post.title | prepend : 'Read' }}" data-aos="fade-in">
+            <div class="post-thumbnail"><div class="img-source" style="background-image: url('{{ post.thumbnail | absolute_url }}')"></div></div>
+            <div class="post-description">
+                <time datetime="{{ post.date }}">{{ post.date | date : "%b %d %Y"}}</time>
+                <div class="post-intro">
+                    <h2>{{ post.title }}</h2>
+                    <p class="post-excerpt">{{ post.excerpt }}</p>
+                </div>
             </div>
-            <h1>DESIGN
-                <br>TEATIME.</h1>
-        </div>
-        <nav class="static-nav">
-            <ul>
-                <li>
-                    <a class="select btn-intro" href="{{ "/" | relative_url }}" title="Introduction">Introduction</a>
-                </li>
-                <li>
-                    <a class="btn-article" title="Articles" href="{{ "/article" | relative_url }}">Articles</a>
-                </li>
-            </ul>
-        </nav>
-    </section>
-    <section class="intro-sec about">
-        <div class="txt-boxes">
-            <article class="about-txt-box" data-aos="fade-in">
-                <h2>
-                    <span class="block"></span>환영합니다!</h2>
-                <p>매드 티 파티를 찾아오신 분이라면 돌아가 주세요. 여기에 모자 장수는 없답니다. 차 한 잔에 이야기 하나를 곁들이는 공간, 이곳은
-                    디자인 티타임입니다. 얼 그레이든, 아이스티든, 루왁 커피든, 믹스 커피든 상관없습니다. 필요한 건 차와 이야기에 어울리는 여유뿐입니다.
-                    <br>이곳에서 중심적으로 다루는 내용은 인터렉션 디자인에 관한 것이지만, 가끔 다른 맛이 생각날 때면 다른 주제의 이야기를 쓰기도 합니다. 이야기가 올라오는 시기는 그다지 일정하지 않습니다.
-                    생각나면 쓰고, 생각나면 보는 그런 곳이 되었으면 합니다. 혹시 모르죠,
-                    <strong><a href="mailto:{{ site.email }}">메일</a></strong>로 재촉하시면 뭐라도 올라올지?
-                    <br>
-                    <br>
-                    그럼 차 한 잔 준비하시는 건 어떨까요? <strong><a title="Articles" href="{{ '/article' | relative_url }}">이야기 읽으러 가기🤟</a></strong>
-                </p>
-            </article>
-            <article class="about-txt-box" data-aos="fade-in" data-aos-delay="250">
-                <h2>
-                    <span class="block"></span>
-                    <span class="block"></span>차 끓이는 사람 : dewberry9</h2>
-                <p>디자인 티타임의 이야기 짓는 사람 dewberry9입니다. 이해하고, 상상하고, 즐겨보는, 그런 성장기 디자이너입니다. 디자인 티타임에서 혼잣말하듯 이야기를 쓰는 것도 좋아하지만, 재미있게
-                    대화를 나누는 것도 좋아합니다. 편안히 메일 남겨주세요😉<br>
-                    저에 대해 자세히 알고 싶다면 <strong><a href="{{ 'about' | relative_url }}">소개 페이지</a></strong>를 참고해주세요.</p>
-                <ul>
-                    <li>
-                        <a href="mailto:{{ site.email }}">
-                            <i class='bx bx-envelope'></i> {{ site.email }}</a>
-                    </li>
-                    <li>
-                        <a href="https://www.behance.net/dewberry9">
-                            <i class='bx bxl-behance'></i> behance.net/dewberry9</a>
-                    </li>
-                </ul>
-            </article>
-        </div>
-    </section>
-</div>
+        </a>
+    {% endfor %}
+</section>
+<section class="btn-point">
+        <a href="{{ 'article' | relative_url }}" title="Articles" class="btn-list">디자인 티타임 더보기</a>
+</section>
+<section class="about-point" data-aos="fade-in">
+    <div class="left-script">
+        <h2>쓰는 사람</h2>
+        <p class="op75">혼자서 오손도손 글쓰는 집돌이 🏠<br>환승역 파도에서 짧은 소설(준비중)이나 인터렉션 디자인에 대한 사설을 쓰고 있습니다.</p>
+    </div>
+    <!--
+    <a href="{{ 'about' | relative_url }}" title="About Me">좀더 말해봐요<i class='bx bxs-right-arrow-square'></i></a>
+    -->
+</section>
+<script>
+    const topNav = document.getElementById('nav')
+    const navSet = document.getElementById('nav-set')
+
+    window.onscroll = () => {
+        if(window.pageYOffset >= navSet.offsetHeight) topNav.classList.add('show')
+        else topNav.classList.remove('show')
+    }
+
+    document.getElementById('btn-starting').classList.remove('op75')
+</script>

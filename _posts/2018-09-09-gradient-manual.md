@@ -1,6 +1,7 @@
 ---
 title: 그라디언트 활용법
 layout: post
+category: design-teatime
 date: 2018-09-09 00:00:00
 excerpt: 그다리언트는 화려하고 이색적입니다. 이는 인터렉션 디자인에서 활용되기 어려운 조건입니다. 두 가지 활용법에 대해 알아보겠습니다.
 thumbnail: /assets/images/08-gradient-manual/01.jpg
