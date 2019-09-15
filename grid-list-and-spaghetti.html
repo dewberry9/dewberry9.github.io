@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ko" itemscope itemtype="https://schema.org/Article"><head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134698276-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-134698276-1');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="레이아웃은 디자인 분야의 오래된 고민거리입니다. 구성주의와 국제주의 양식의 부흥부터 현대 인터랙션 디자인의 라이벌, 그리드와 리스트에 대해 사유합니다.">
+    <meta name="author" content="dewberry9">
+    <meta name="google-site-verification" content="Q1Gkv54gFGh2MxaT7ehKmua6BROtBIJR_ki_z_1_EwE" />
+    <meta name="naver-site-verification" content="d9a8213816d39cd0b58123c579fb50704ab632a8"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <meta property="locale" content="ko_KR">
+    <meta property="og:title" content='그리드 VS 리스트&nbsp;|&nbsp;환승역 파도'>
+    <meta property="og:url" content="https://dewberry9.github.io/grid-list-and-spaghetti">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="design-teatime">
+    <meta property="og:description" content="레이아웃은 디자인 분야의 오래된 고민거리입니다. 구성주의와 국제주의 양식의 부흥부터 현대 인터랙션 디자인의 라이벌, 그리드와 리스트에 대해 사유합니다.">
+    <meta property="og:image" content='https://dewberry9.github.io/assets/images/10-grid-list-and-spaghetti/01.jpg'>
+    <meta name="twitter:title" content='그리드 VS 리스트&nbsp;|&nbsp;환승역 파도'>
+    <meta name="twitter:description" content="레이아웃은 디자인 분야의 오래된 고민거리입니다. 구성주의와 국제주의 양식의 부흥부터 현대 인터랙션 디자인의 라이벌, 그리드와 리스트에 대해 사유합니다.">
+    <meta name="twitter:image" content='https://dewberry9.github.io/assets/images/10-grid-list-and-spaghetti/01.jpg'>
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="https://dewberry9.github.io/grid-list-and-spaghetti">
+
+    <meta itemprop="name" content='그리드 VS 리스트&nbsp;|&nbsp;환승역 파도'>
+    <meta itemprop="description" content="레이아웃은 디자인 분야의 오래된 고민거리입니다. 구성주의와 국제주의 양식의 부흥부터 현대 인터랙션 디자인의 라이벌, 그리드와 리스트에 대해 사유합니다.">
+    <meta itemprop="image" content='https://dewberry9.github.io/assets/images/10-grid-list-and-spaghetti/01.jpg'>
+    <meta name="subject" content="레이아웃은 디자인 분야의 오래된 고민거리입니다. 구성주의와 국제주의 양식의 부흥부터 현대 인터랙션 디자인의 라이벌, 그리드와 리스트에 대해 사유합니다.">
+
+    <link rel="alternate" href="https://dewberry9.github.io/feed.xml" type="application/atom+xml" title="Atom 0.3">
+    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="stylesheet" href="/assets/dist/aos.css">
+    <link rel="shortcut icon" href="/assets/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Mono:500|Nanum+Myeongjo:400,800&display=swap&subset=korean" rel="stylesheet">
+    <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="canonical" href="https://dewberry9.github.io">
+    <title>그리드 VS 리스트 | 환승역 파도</title>
+</head><body>
+    <header class="top-nav" id="nav">
+    <nav>
+        <a href="/" title="Pado St" class="logo"><span class="nosvg">환승역</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 5a6.41 6.41 0 0 0-3.67-1 6.68 6.68 0 0 0-3.85 1.14A4.66 4.66 0 0 1 9.66 6a4.6 4.6 0 0 1-2.81-.86A6.77 6.77 0 0 0 4 4.07v2a5.07 5.07 0 0 1 1.82.78A6.62 6.62 0 0 0 9.66 8a6.63 6.63 0 0 0 3.85-1.14A4.66 4.66 0 0 1 16.33 6a4.66 4.66 0 0 1 2.82.86c.27.16.54.32.85.47zM20 11a6.41 6.41 0 0 0-3.67-1 6.68 6.68 0 0 0-3.85 1.14 4.66 4.66 0 0 1-2.82.86 4.6 4.6 0 0 1-2.81-.86A6.77 6.77 0 0 0 4 10.07v2a5.07 5.07 0 0 1 1.82.78A6.62 6.62 0 0 0 9.66 14a6.63 6.63 0 0 0 3.85-1.14 4.66 4.66 0 0 1 2.82-.86 4.66 4.66 0 0 1 2.82.86c.27.16.54.32.85.47zM16 16a6.71 6.71 0 0 0-3.52 1.13 4.66 4.66 0 0 1-2.82.87 4.6 4.6 0 0 1-2.81-.86A6.77 6.77 0 0 0 4 16.07v2a5.07 5.07 0 0 1 1.82.78A6.62 6.62 0 0 0 9.66 20a6.63 6.63 0 0 0 3.85-1.14A4.69 4.69 0 0 1 16 18zM18 16.18v2.08a7.88 7.88 0 0 1 1.15.6c.27.16.54.32.85.47V17a6.76 6.76 0 0 0-2-.82z"/></svg><span class="nosvg">파도</span></a>
+        <div class="dynamic-nav">
+            <ul>
+                <li>
+                    <a id="btn-starting" href="/" title="Starting Point" class="op75">처음<span class="num-square">1</span></a>
+                </li>
+                <li>
+                    <a id="btn-story" href="/story" title="Starting Point" class="op75">이야기(준비중)<span class="num-square">2</span></a>
+                </li>
+                <li>
+                    <a id="btn-article" href="/article" title="Starting Point" class="op75">디자인 티타임<span class="num-square">3</span></a>
+                </li>
+                <!--
+                <li>
+                    <a id="btn-about" href="/about" title="Starting Point" class="op75">쓰는 사람<span class="num-square">4</span></a>
+                </li>
+                -->
+            </ul>
+        </div>
+    </nav>
+</header>
+    <div id="content" vocab="http://schema.org/" typeof="Blog">
+        <script>
+    document.getElementById('nav').classList.add('show')
+</script>
+<section class="post-content">
+    <meta property="author" content="dewberry9" />
+    <meta property="datePublished dateModified dateCreated" content="2018-09-30T09:00:00">
+    <h1 class="post-title" property="name">그리드 VS 리스트<svg id="bubble" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120"><circle cx="66.5" cy="13.5" r="13.5" fill="#b894e9"/><path d="M10 40a8 8 0 1 1-8 8 8 8 0 0 1 8-8m0-2a10 10 0 1 0 10 10 10 10 0 0 0-10-10zM130 94a3 3 0 1 1-3 3 3 3 0 0 1 3-3m0-2a5 5 0 1 0 5 5 5 5 0 0 0-5-5z" fill="#b894e9"/><circle cx="265" cy="114" r="6" fill="#b894e9"/><circle cx="46.5" cy="101.5" r="6.5" fill="#b894e9"/><circle cx="351" cy="69" r="7" fill="#b894e9"/><circle cx="198" cy="38" r="5" fill="#b894e9"/><path d="M390 2a8 8 0 1 1-8 8 8 8 0 0 1 8-8m0-2a10 10 0 1 0 10 10 10 10 0 0 0-10-10zM298 29a1 1 0 1 1-1 1 1 1 0 0 1 1-1m0-2a3 3 0 1 0 3 3 3 3 0 0 0-3-3zM296.5 80a11.5 11.5 0 1 1-11.5 11.5 11.51 11.51 0 0 1 11.5-11.5m0-2a13.5 13.5 0 1 0 13.5 13.5 13.49 13.49 0 0 0-13.5-13.5zM153 6a6 6 0 1 1-6 6 6 6 0 0 1 6-6m0-2a8 8 0 1 0 8 8 8 8 0 0 0-8-8z" fill="#b894e9"/></svg></h1>
+    <span class="post-date">2018-09-30</span>
+    <div>
+        <p><img src="https://dewberry9.github.io/assets/images/10-grid-list-and-spaghetti/01.jpg" alt="Let's Cook the Layout" title="레이아웃 요리, 시작" /></p>
+
+<p class="indent">‘각 잡는 일’에 병적으로 신경을 곤두세운 사람들이 있습니다. 사무실 책상 위 노트북, 도서, 케이블은 나란히 놓여있고, 현관의 신발은 짝을 맞추어 횡대를 이뤄야 비로소 마음이 놓이는 이들입니다. 이런 일상을 살아가는 이들은 현대의 디자이너와 같은 고민을 안고 있다고 말할 수 있을 겁니다. 더 정돈된 상태, 접근하기 쉬운 조합을 고민하는 것입니다. 두말할 나위 없이, 저도 같은 증상을 가지고 있습니다.</p>
+<p class="indent">19세기에 산업혁명이 시작된 직후, ‘디자인’이라는 분야가 독립하고 본격적으로 활동하던 시점부터 이 고민은 전승되어왔습니다. 좀 더 명료한 형상, 좀 더 간결한 의미를 담기 위해 끊임없이 연구되어왔던 요소입니다. 길 산스(Gill Sans)의 제작자 에릭 길(Eric Gill)의 명저 「타이포그래피에 관한 에세이」에도 같은 고민이 담겨 있습니다. 타이포그래피라는 언어를 빌려 이야기하는 이 고뇌는 역동하는 시기에 휴머니즘을 추구한 결과라고 볼 수 있을 겁니다.</p>
+<p class="indent">디자인 티타임의 열 번째 이야기는 이 고민에 대한 것입니다. 바로 레이아웃입니다. 레이아웃이 러시아 미술부터 근대 디자인의 확립까지 어떤 모습으로 변해왔는지, 왜 고민해야 하는지, 어떻게 써야 되는지, 그리고 도대체 그리드 레이아웃과 리스트 레이아웃 중 무얼 선택해야 하는지를 알아볼 겁니다.</p>
+
+<h3 id="오래된-고민">오래된 고민</h3>
+
+<p><img src="https://dewberry9.github.io/assets/images/10-grid-list-and-spaghetti/02.jpg" alt="Pieter Cornelis Mondrian - 「Composition No. 10」" title="피트 몬드리안 - 「작품 10번」" /></p>
+
+<p class="indent">디자인에서 어떤 목적을 달성하기 위해 요소를 특정하게 배치한 모습을 레이아웃, 더 정확히는 페이지 레이아웃이라고 합니다. 레리아웃의 역사는 피라미드 안의 벽화에서도 찾아볼 수 있지만, 근대적인 의미의 레이아웃이라고 한다면 활판 인쇄의 부흥부터 시작했다고 할 수 있습니다. 한정된 매수에 최대한 많은 정보를 인쇄하는 것이 경제적이었기 때문입니다. 이는 인쇄물의 구성을 개선하고 글 일부를 편집하는 등, 여러 개선안이 탄생하는 주된 이유가 되었습니다.</p>
+<p class="indent">인쇄라는 작은 산업 분야에 머물러 있던 레이아웃은 1920년대에 새로운 국면으로 접어들게 됩니다. 구성주의(Constructivism)가 시작된 겁니다. 조형 예술과 건축 분야에서 두각을 나타낸 이 예술사조는 상호의존적 요소를 기능·실용적으로 구축하는 것을 목표로 합니다. 이는 바우하우스(Staatliches Bauhaus)에 큰 영향을 주고, 바우하우스 해체 이후 인터내셔널 스타일이 대두되던 때까지도 영향을 줍니다. 20세기 중반을 풍미하던 이 모더니즘 양식은 그리드를 통한 정적이고 절제된 레이아웃을 강조했습니다. 시각 아이덴티티 프로그램 유니마크(Unimark International), 미국 국립 공원 지도를 양식을 통일한 유니그리드(Unigrid) 역시 이런 모더니즘의 기류 속에서 탄생했습니다.</p>
+<p class="indent">포스트 모더니즘이 들어서고 오랜 시간이 지났지만 레이아웃은 건재했습니다. 편집 디자인도 건축도 아닌 인터랙션 디자인에서 거대한 부흥이 시작되었습니다. 디스플레이 속 세상에는 책 몇 권도, 우주비행선의 계기판도, 바다가 보이는 창문도 들어설 수 있었습니다. 많은 브랜드가 인터랙션 디자인에 둥지를 틀었습니다. 기획 단계부터 서비스 공개 단계까지 복합적인 레이아웃이 요구되는 시대가 온 것입니다. 이런 혼란스러운 상황에서 역설적이게도, 고전이 정답이 되었습니다.</p>
+
+<h3 id="사과와-사과잼">사과와 사과잼</h3>
+
+<p><img src="https://dewberry9.github.io/assets/images/10-grid-list-and-spaghetti/03.jpg" alt="The Rival" title="라이벌" /></p>
+
+<p class="indent">그리드 레이아웃과 리스트 레이아웃은 인터랙션 디자인에서 레이아웃을 논할 때 빼놓을 수 없는 명작입니다. 오래되었지만 여전히 현대적입니다. 이 늙지 않는 레이아웃 둘은 대부분의 경우에서 효과적이며 범용적입니다. 어떤 콘텐츠이든 선뜻 받아들입니다. 이런 공통점에도 불구하고, 이 둘은 상당히 달리 보입니다. 부각하는 콘텐츠가 다르기 때문입니다.</p>
+<p class="indent">그리드 레이아웃은 상대적으로 텍스트 콘텐츠의 강조가 부족합니다. 그리드 레이아웃에서 주인공은 이미지 콘텐츠입니다. 이미지 콘텐츠를 중심으로 한 항목이 수평·수직으로 쌓입니다. 사용자는 이런 레이아웃을 글을 읽기보다는 진열대를 바라보는 느낌으로 사용합니다. 사용자의 주의력은 각 항목에 상당히 균일하게 분산됩니다. 항목 각각이 충분한 크기를 확보하고 있기에 그리드 레이아웃은 필연적으로 비대합니다. 같은 디스플레이라면 한 번에 보여줄 수 있는 항목은 후술할 리스트 레이아웃에 비해 적습니다. 그러나 동시에 사용자의 시각적 만족은 큽니다.</p>
+<p class="indent">리스트 레이아웃은 상대적으로 텍스트의 강조가 강합니다. 각 항목은 비교적 낮은 높이를 가지고 있어 수직으로 쌓이기 용이합니다. 그렇기에 글을 읽는 것처럼 자연스러운 시선 이동을 유도할 수 있습니다. 수평 정렬이 필요하지 않아 신경 쓸 속성도 적습니다. 한 번에 보여줄 수 있는 항목의 수도 많습니다. 항목은 서로 수직적으로 연결되어 있을 뿐이니 그 수를 제어하기도 한결 쉽습니다. 간단한 형태이니 만큼 시각적 안정감도 좋습니다.</p>
+
+<h3 id="레이아웃-뷔페">레이아웃 뷔페</h3>
+
+<p><img src="https://dewberry9.github.io/assets/images/10-grid-list-and-spaghetti/04.jpg" alt="Anyway, Microinteraction isn't a Bubble" title="여느 새로운 것들처럼 마이크로인터랙션도 거품이라는 의심을 받은 때가 있었다. 완전히 무산되었지만" /></p>
+
+<p class="indent">주소, 도서명, 방명록처럼 듣기만 해도 텍스트 가득할 것 같은 콘텐츠에 그리드 레이아웃을 강요하는 게 말이 될까요? 그리드 레이아웃과 리스트 레이아웃은 둘 다 비슷한 양식을 가진 많은 항목을 효과적으로 나타낼 수 있는 도구입니다. 만능 도구가 없듯, 이 둘에게도 각자의 전문이 있습니다. 이렇게 항목의 구성에 따라 적합한 레이아웃을 고르는 것이 디자이너에게는 중요한 일입니다.
+{: .indent}
+텍스트 중심으로 구성된 콘텐츠는 리스트 레이아웃에 어울립니다. 수평으로 기다란 항목을 가진 리스트 레이아웃에 비해 그리드 레이아웃의 항목은 수평으로 구분됩니다. 긴 줄글 콘텐츠가 항목에 포함되어 있을 때 수평으로 구분된 그리드 레이아웃은 지나치게 많은 줄 바꿈을 가진 텍스트 콘텐츠를 만들 겁니다. 그렇다고 크기나 굵기, 자간 같은 텍스트의 속성을 변경하는 것은 어렵습니다. 레이아웃의 항목을 설계하면서 구축했던 텍스트의 위계가 깨질 수 있기 때문입니다. 결론적으로 텍스트 중심으로 구성된 콘텐츠는 리스트 레이아웃에서 활용해야 좋습니다.</p>
+<p class="indent">마이크로인터랙션 같은 경우는 어떨까요? UX 기반의 서비스 설계가 주류가 되면서 함께 부흥한 이것은 작지만 큰 힘을 발휘하는 요소입니다. 단출한 구성을 가진 버튼 등의 모습으로, 필요할 때 필요한 곳에서 나타납니다. 큰 불편으로 이어질 수 있는 사소한 결점을 지워버리는 것이 마이크로인터랙션이 가진 장점입니다. 특유의 앙증맞은 크기 덕에 피드백을 입력받는 요소치고는 활용이 편합니다. 추가와 이식이 쉬운 편에 속합니다. 그리드 레이아웃은 물론이고 리스트 레이아웃에도 어울립니다. 다만 후자의 경우에는 주의가 필요한데요, 이미지에 몇 가지 위계의 텍스트까지 묶여 있는 상황에 마이크로인터랙션까지 욱여넣는다면 제어하기도 어려울뿐더러 시각적인 긴장까지도 유발할 수 있습니다. 과감하게 높이를 늘리든지 이미지를 제거하는 등 항목의 구성요소를 줄이는 시도가 필요합니다.</p>
+
+<h3 id="트로피는-누구에게">트로피는 누구에게?</h3>
+
+<p><img src="https://dewberry9.github.io/assets/images/10-grid-list-and-spaghetti/05.jpg" alt="The Summary of Three Lines, Again?" title="3줄 요약이 또…" /></p>
+
+<p class="indent">이번에는 디스플레이를 생각해봅시다. 오늘날 많은 디지털 콘텐츠는 모바일 플랫폼에서 소비됩니다. 불행하게도 모바일의 좁은 너비는 그리드 레이아웃에 치명적입니다. 모바일에서 그리드 레이아웃의 항목은 가로로 2~3개밖에 놓이지 못합니다. 그리드 레이아웃이 지닌 큰 장점인 이미지의 시각적 부각이 힘을 잃는 대목입니다. 그렇다면 실제로는 어떨까요? <a href="https://www.moovweb.com/list-view-vs-grid-view-best-option-for-mobile/">Moovweb의 조사결과</a>에 따르면 500개의 쇼핑몰 페이지 중 54%가 모바일에서 리스트 레이아웃을 활용하고 있습니다. 디스플레이의 너비에 비례하여 항목 배치의 변화폭이 큰 그리드 레이아웃에 비해 리스트 레이아웃의 일관성이 높다는 점을 생각해보면, 의외의 결과입니다. 쇼핑몰처럼 사용자에게 특정 시나리오를 강요하는 것이 아닌, 둘러보고 항목을 선택할 여지를 최대한 많이 만들려는 목적을 지닌 페이지에서는 이와 같은 결과가 나올 확률이 높습니다. 앞서 언급했듯, 그리드 레이아웃은 주의력을 효과적으로 분산시킵니다.</p>
+<p class="indent">글처럼 읽히는 리스트 레이아웃의 특징도 고려할 필요가 있습니다. <a href="https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content-discovered/">디지털에서 구현된 줄글은 잘 읽히지 않습니다</a>. 이 특성은 리스트 레이아웃에서도 똑같이 작용합니다. <a href="https://blog.sli-systems.com/blog/2006/09/grid-vs-list-view-for-search-results.html">SLI 시스템즈의 연구결과</a>에 따르면, 리스트 레이아웃의 첫 번째 항목을 향해 50%에 달하는 클릭이 이뤄졌습니다. 같은 상황에서 그리드 레이아웃의 첫 번째 항목은 20%를 조금 넘는 클릭을 받았습니다. 이는 서열 위치 효(Serial-Position Effect)에서 최초의 항목이 다른 항목보다 더 자주 회상된다는 초두 효과로 설명할 수 있습니다. 마냥 단점으로 볼 수 없는 것이, 사용자에게 필요한 기능을 리스트 레이아웃의 초반에 배치하여 제시한다면 사용자는 빠르게 기능을 사용할 수 있을 겁니다. 결국, 그리드 레이아웃과 리스트 레이아웃의 선택은 콘텐츠를 기반으로 한 치밀한 설계를 배경으로 이뤄져야 하는 겁니다.</p>
+
+<h3 id="토마토맛-레이아웃">토마토맛 레이아웃</h3>
+
+<p><img src="https://dewberry9.github.io/assets/images/10-grid-list-and-spaghetti/06.jpg" alt="Ridiculous Answer" title="어이없는 대답" /></p>
+
+<p class="indent">고양이가 헝큰 실타래에 질서가 있을까요? 막 팬 위에서 섞은 스파게티에는요? 두 질문의 답은 ‘예’입니다. 모두 무질서라는 질서를 가지고 있습니다. 어처구니 없을지도 모르지만, 사실입니다. 토마토 파스타에서 토마토소스라는 레이아웃을 뺄 수는 없습니다.</p>
+<p class="indent">더 나은 레이아웃에 대한 열망은 유구한 역사가 있습니다. 까탈스러운 완벽주의부터 유니버셜 디자인까지, 작은 일간지부터 계획도시의 설계까지 다양한 분야에서 수 없는 양상으로, 그렇지만 같은 목적을 가지고 일어났습니다. 하루가 채 안 되어 새로운 개념이 탄생하고 죽어버리는 오늘날에도 레이아웃은 변화가 적습니다. 지금 활용하고 있는 레이아웃이 증명받았음을 의미합니다. 완전해져서 하나의 언어, 디자이너끼리 통하는 공용어가 되는 것입니다. 이는 단순히 모더니즘의 후손으로서 성취한 업적이 아닙니다.</p>
+<p class="indent">이론도 결과물도 완벽하길 원했던 그런 소망이 만들어낸 성과입니다.</p>
+
+<p class="indent refer">참고자료</p>
+<p class="indent"><a href="https://en.wikipedia.org/wiki/Page_layout">Wikipeida - Page Layout</a></p>
+<p class="indent"><a href="http://www.euris.co.kr/eurasiaDB/Photo/sub/ru_picture.asp?code=architect&amp;board_idx=79">유리스 - 러시아 구성미술</a></p>
+<p class="indent"><a href="https://uxplanet.org/mobile-ux-design-list-view-and-grid-view-8f129b56fd5b">Nick Babich - 「Mobile UX Design: List View and Grid View」</a></p>
+<p class="indent"><a href="https://www.digitalsurgeons.com/thoughts/creative/list-vs-grid-view-how-do-you-choose/">Inessa Davydova - 「List vs Grid View – How do you choose?」</a></p>
+
+    </div>
+</section>
+
+<script>document.getElementById('btn-article').classList.remove('op75')</script>
+
+    </div>
+    <footer id="footer">
+    <span>
+        <a id="home-page" href="/" title="Design Teatime">환승역 파도</a>
+        <a href="/story" title="Stories">이야기</a>
+        <a href="/article" title="Articles">디자인 티타임</a>
+        <!-- <a href="/about" title="About Me">쓰는 사람</a> -->
+    </span>
+    <span>
+        <a id="mail-link" href="mailto:dewberryneun@gmail.com" title="Email"><i class='bx bx-envelope'></i><span class="link-copy"> dewberryneun@gmail.com</span></a>
+        <a id="rss-link" href="https://dewberry9.github.io/feed.xml"><i class='bx bx-rss'></i><span class="link-copy"> RSS</span></a>
+    </span>
+</footer>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.10/webfont.js"></script>
+<script src="/assets/dist/aos.js"></script>
+<script>
+    AOS.init({ duration : 500, easing: 'ease-in-sine', once: true });
+    WebFont.load({
+        custom: {
+        families: ['Spoqa Han Sans']
+        }
+    })
+</script>
+</html>

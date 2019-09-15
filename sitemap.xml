@@ -1,23 +1,126 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  {% for post in site.posts %}
+  
     <url>
-      <loc>{{ site.url }}{{ post.url }}</loc>
-      {% if post.lastmod == null %}
-        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
-      {% else %}
-        <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
-      {% endif %}
-      {% if post.sitemap.changefreq == null %}
+      <loc>https://dewberry9.github.io/next-step-the-cozy</loc>
+      
+        <lastmod>2018-11-30T09:00:00+09:00</lastmod>
+      
+      
         <changefreq>monthly</changefreq>
-      {% else %}
-        <changefreq>{{ post.sitemap.changefreq }}</changefreq>
-      {% endif %}
+      
     </url>
-  {% endfor %}
+  
+    <url>
+      <loc>https://dewberry9.github.io/talk-with-microcopy</loc>
+      
+        <lastmod>2018-10-09T09:00:00+09:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+    </url>
+  
+    <url>
+      <loc>https://dewberry9.github.io/grid-list-and-spaghetti</loc>
+      
+        <lastmod>2018-09-30T09:00:00+09:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+    </url>
+  
+    <url>
+      <loc>https://dewberry9.github.io/minimalist-reads-walden</loc>
+      
+        <lastmod>2018-09-13T09:00:00+09:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+    </url>
+  
+    <url>
+      <loc>https://dewberry9.github.io/gradient-manual</loc>
+      
+        <lastmod>2018-09-09T09:00:00+09:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+    </url>
+  
+    <url>
+      <loc>https://dewberry9.github.io/how-to-swims-in-inspiration</loc>
+      
+        <lastmod>2018-08-29T09:00:00+09:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+    </url>
+  
+    <url>
+      <loc>https://dewberry9.github.io/design-for-contrast</loc>
+      
+        <lastmod>2018-08-17T09:00:00+09:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+    </url>
+  
+    <url>
+      <loc>https://dewberry9.github.io/notch-study-of-milgram</loc>
+      
+        <lastmod>2018-08-07T09:00:00+09:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+    </url>
+  
+    <url>
+      <loc>https://dewberry9.github.io/blur-is-cloudy-after-click</loc>
+      
+        <lastmod>2018-08-01T09:00:00+09:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+    </url>
+  
+    <url>
+      <loc>https://dewberry9.github.io/divider-and-whitespace</loc>
+      
+        <lastmod>2018-07-30T09:00:00+09:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+    </url>
+  
+    <url>
+      <loc>https://dewberry9.github.io/remodeling-of-material-design</loc>
+      
+        <lastmod>2018-07-29T09:00:00+09:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+    </url>
+  
+    <url>
+      <loc>https://dewberry9.github.io/build-house-with-cards</loc>
+      
+        <lastmod>2018-07-28T09:00:00+09:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+    </url>
+  
   <url>
     <loc>https://dewberry9.github.io/article</loc>
     <lastmod>2019-02-20T09:00:00+09:00</lastmod>
