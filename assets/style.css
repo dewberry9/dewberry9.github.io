@@ -35,98 +35,98 @@
     opacity: 1; } }
 @-webkit-keyframes glitch-anim {
   0% {
-    -webkit-clip-path: inset(10% 0 12% 0);
-    clip-path: inset(44% 0 92% 0); }
+    -webkit-clip-path: inset(36% 0 5% 0);
+    clip-path: inset(36% 0 67% 0); }
   3.3333333333% {
-    -webkit-clip-path: inset(40% 0 71% 0);
-    clip-path: inset(99% 0 12% 0); }
+    -webkit-clip-path: inset(94% 0 89% 0);
+    clip-path: inset(98% 0 6% 0); }
   6.6666666667% {
-    -webkit-clip-path: inset(3% 0 42% 0);
-    clip-path: inset(1% 0 20% 0); }
+    -webkit-clip-path: inset(89% 0 72% 0);
+    clip-path: inset(54% 0 59% 0); }
   10% {
-    -webkit-clip-path: inset(47% 0 6% 0);
-    clip-path: inset(22% 0 56% 0); }
+    -webkit-clip-path: inset(5% 0 90% 0);
+    clip-path: inset(27% 0 94% 0); }
   13.3333333333% {
-    -webkit-clip-path: inset(33% 0 92% 0);
-    clip-path: inset(59% 0 25% 0); }
+    -webkit-clip-path: inset(26% 0 54% 0);
+    clip-path: inset(15% 0 68% 0); }
   16.6666666667% {
-    -webkit-clip-path: inset(21% 0 67% 0);
-    clip-path: inset(68% 0 75% 0); }
+    -webkit-clip-path: inset(80% 0 90% 0);
+    clip-path: inset(7% 0 8% 0); }
   20% {
-    -webkit-clip-path: inset(58% 0 10% 0);
-    clip-path: inset(66% 0 56% 0); }
+    -webkit-clip-path: inset(82% 0 29% 0);
+    clip-path: inset(78% 0 80% 0); }
   23.3333333333% {
-    -webkit-clip-path: inset(5% 0 19% 0);
-    clip-path: inset(16% 0 81% 0); }
+    -webkit-clip-path: inset(43% 0 61% 0);
+    clip-path: inset(27% 0 48% 0); }
   26.6666666667% {
-    -webkit-clip-path: inset(32% 0 36% 0);
-    clip-path: inset(36% 0 9% 0); }
+    -webkit-clip-path: inset(24% 0 57% 0);
+    clip-path: inset(15% 0 16% 0); }
   30% {
-    -webkit-clip-path: inset(10% 0 59% 0);
-    clip-path: inset(3% 0 27% 0); }
+    -webkit-clip-path: inset(52% 0 44% 0);
+    clip-path: inset(10% 0 16% 0); }
   33.3333333333% {
-    -webkit-clip-path: inset(49% 0 94% 0);
-    clip-path: inset(76% 0 19% 0); }
+    -webkit-clip-path: inset(31% 0 16% 0);
+    clip-path: inset(46% 0 58% 0); }
   36.6666666667% {
-    -webkit-clip-path: inset(58% 0 8% 0);
-    clip-path: inset(94% 0 69% 0); }
+    -webkit-clip-path: inset(98% 0 41% 0);
+    clip-path: inset(89% 0 8% 0); }
   40% {
-    -webkit-clip-path: inset(99% 0 37% 0);
-    clip-path: inset(91% 0 23% 0); }
+    -webkit-clip-path: inset(44% 0 18% 0);
+    clip-path: inset(16% 0 86% 0); }
   43.3333333333% {
-    -webkit-clip-path: inset(57% 0 47% 0);
-    clip-path: inset(48% 0 10% 0); }
+    -webkit-clip-path: inset(30% 0 40% 0);
+    clip-path: inset(58% 0 54% 0); }
   46.6666666667% {
-    -webkit-clip-path: inset(16% 0 54% 0);
-    clip-path: inset(53% 0 20% 0); }
+    -webkit-clip-path: inset(78% 0 80% 0);
+    clip-path: inset(7% 0 22% 0); }
   50% {
-    -webkit-clip-path: inset(57% 0 37% 0);
-    clip-path: inset(54% 0 61% 0); }
+    -webkit-clip-path: inset(65% 0 31% 0);
+    clip-path: inset(91% 0 10% 0); }
   53.3333333333% {
-    -webkit-clip-path: inset(28% 0 34% 0);
-    clip-path: inset(31% 0 100% 0); }
+    -webkit-clip-path: inset(99% 0 85% 0);
+    clip-path: inset(33% 0 36% 0); }
   56.6666666667% {
-    -webkit-clip-path: inset(49% 0 61% 0);
-    clip-path: inset(67% 0 90% 0); }
+    -webkit-clip-path: inset(52% 0 17% 0);
+    clip-path: inset(100% 0 43% 0); }
   60% {
-    -webkit-clip-path: inset(20% 0 1% 0);
-    clip-path: inset(18% 0 6% 0); }
+    -webkit-clip-path: inset(23% 0 29% 0);
+    clip-path: inset(11% 0 43% 0); }
   63.3333333333% {
-    -webkit-clip-path: inset(61% 0 44% 0);
-    clip-path: inset(73% 0 58% 0); }
+    -webkit-clip-path: inset(53% 0 69% 0);
+    clip-path: inset(9% 0 24% 0); }
   66.6666666667% {
-    -webkit-clip-path: inset(42% 0 45% 0);
-    clip-path: inset(70% 0 90% 0); }
+    -webkit-clip-path: inset(34% 0 59% 0);
+    clip-path: inset(16% 0 57% 0); }
   70% {
-    -webkit-clip-path: inset(10% 0 24% 0);
-    clip-path: inset(9% 0 33% 0); }
+    -webkit-clip-path: inset(26% 0 99% 0);
+    clip-path: inset(96% 0 43% 0); }
   73.3333333333% {
-    -webkit-clip-path: inset(12% 0 77% 0);
-    clip-path: inset(12% 0 53% 0); }
+    -webkit-clip-path: inset(31% 0 86% 0);
+    clip-path: inset(37% 0 45% 0); }
   76.6666666667% {
-    -webkit-clip-path: inset(62% 0 85% 0);
-    clip-path: inset(49% 0 28% 0); }
+    -webkit-clip-path: inset(11% 0 67% 0);
+    clip-path: inset(22% 0 46% 0); }
   80% {
-    -webkit-clip-path: inset(84% 0 17% 0);
-    clip-path: inset(62% 0 68% 0); }
+    -webkit-clip-path: inset(57% 0 64% 0);
+    clip-path: inset(92% 0 80% 0); }
   83.3333333333% {
-    -webkit-clip-path: inset(39% 0 88% 0);
-    clip-path: inset(37% 0 62% 0); }
+    -webkit-clip-path: inset(62% 0 20% 0);
+    clip-path: inset(49% 0 15% 0); }
   86.6666666667% {
-    -webkit-clip-path: inset(57% 0 24% 0);
-    clip-path: inset(2% 0 17% 0); }
+    -webkit-clip-path: inset(53% 0 90% 0);
+    clip-path: inset(74% 0 68% 0); }
   90% {
-    -webkit-clip-path: inset(96% 0 24% 0);
-    clip-path: inset(59% 0 77% 0); }
+    -webkit-clip-path: inset(79% 0 78% 0);
+    clip-path: inset(50% 0 28% 0); }
   93.3333333333% {
-    -webkit-clip-path: inset(85% 0 65% 0);
-    clip-path: inset(23% 0 57% 0); }
+    -webkit-clip-path: inset(65% 0 34% 0);
+    clip-path: inset(6% 0 9% 0); }
   96.6666666667% {
-    -webkit-clip-path: inset(59% 0 9% 0);
-    clip-path: inset(6% 0 98% 0); }
+    -webkit-clip-path: inset(19% 0 89% 0);
+    clip-path: inset(46% 0 57% 0); }
   100% {
-    -webkit-clip-path: inset(67% 0 22% 0);
-    clip-path: inset(15% 0 82% 0); }
+    -webkit-clip-path: inset(65% 0 92% 0);
+    clip-path: inset(31% 0 89% 0); }
   0% {
     opacity: 0; }
   1% {
@@ -139,98 +139,98 @@
     opacity: 0; } }
 @keyframes glitch-anim {
   0% {
-    -webkit-clip-path: inset(32% 0 92% 0);
-    clip-path: inset(44% 0 66% 0); }
+    -webkit-clip-path: inset(33% 0 3% 0);
+    clip-path: inset(95% 0 47% 0); }
   3.3333333333% {
-    -webkit-clip-path: inset(31% 0 58% 0);
-    clip-path: inset(72% 0 9% 0); }
+    -webkit-clip-path: inset(35% 0 33% 0);
+    clip-path: inset(76% 0 87% 0); }
   6.6666666667% {
-    -webkit-clip-path: inset(56% 0 61% 0);
-    clip-path: inset(75% 0 48% 0); }
+    -webkit-clip-path: inset(84% 0 9% 0);
+    clip-path: inset(95% 0 9% 0); }
   10% {
-    -webkit-clip-path: inset(44% 0 3% 0);
-    clip-path: inset(85% 0 63% 0); }
+    -webkit-clip-path: inset(38% 0 51% 0);
+    clip-path: inset(49% 0 59% 0); }
   13.3333333333% {
-    -webkit-clip-path: inset(16% 0 91% 0);
-    clip-path: inset(57% 0 55% 0); }
+    -webkit-clip-path: inset(7% 0 98% 0);
+    clip-path: inset(48% 0 43% 0); }
   16.6666666667% {
-    -webkit-clip-path: inset(10% 0 53% 0);
-    clip-path: inset(90% 0 6% 0); }
+    -webkit-clip-path: inset(9% 0 52% 0);
+    clip-path: inset(58% 0 84% 0); }
   20% {
-    -webkit-clip-path: inset(96% 0 100% 0);
-    clip-path: inset(23% 0 20% 0); }
+    -webkit-clip-path: inset(73% 0 53% 0);
+    clip-path: inset(96% 0 6% 0); }
   23.3333333333% {
-    -webkit-clip-path: inset(20% 0 74% 0);
-    clip-path: inset(33% 0 73% 0); }
+    -webkit-clip-path: inset(20% 0 66% 0);
+    clip-path: inset(42% 0 35% 0); }
   26.6666666667% {
-    -webkit-clip-path: inset(92% 0 41% 0);
-    clip-path: inset(22% 0 41% 0); }
+    -webkit-clip-path: inset(100% 0 26% 0);
+    clip-path: inset(38% 0 2% 0); }
   30% {
-    -webkit-clip-path: inset(64% 0 90% 0);
-    clip-path: inset(39% 0 31% 0); }
+    -webkit-clip-path: inset(19% 0 14% 0);
+    clip-path: inset(31% 0 58% 0); }
   33.3333333333% {
-    -webkit-clip-path: inset(66% 0 13% 0);
-    clip-path: inset(77% 0 89% 0); }
+    -webkit-clip-path: inset(41% 0 60% 0);
+    clip-path: inset(97% 0 52% 0); }
   36.6666666667% {
-    -webkit-clip-path: inset(13% 0 17% 0);
-    clip-path: inset(91% 0 1% 0); }
+    -webkit-clip-path: inset(9% 0 82% 0);
+    clip-path: inset(23% 0 21% 0); }
   40% {
-    -webkit-clip-path: inset(63% 0 35% 0);
-    clip-path: inset(28% 0 62% 0); }
+    -webkit-clip-path: inset(30% 0 33% 0);
+    clip-path: inset(87% 0 8% 0); }
   43.3333333333% {
-    -webkit-clip-path: inset(56% 0 42% 0);
-    clip-path: inset(99% 0 40% 0); }
+    -webkit-clip-path: inset(58% 0 91% 0);
+    clip-path: inset(48% 0 1% 0); }
   46.6666666667% {
-    -webkit-clip-path: inset(48% 0 24% 0);
-    clip-path: inset(87% 0 79% 0); }
+    -webkit-clip-path: inset(13% 0 71% 0);
+    clip-path: inset(96% 0 86% 0); }
   50% {
-    -webkit-clip-path: inset(8% 0 5% 0);
-    clip-path: inset(70% 0 34% 0); }
+    -webkit-clip-path: inset(57% 0 15% 0);
+    clip-path: inset(9% 0 50% 0); }
   53.3333333333% {
-    -webkit-clip-path: inset(23% 0 21% 0);
-    clip-path: inset(26% 0 57% 0); }
+    -webkit-clip-path: inset(85% 0 78% 0);
+    clip-path: inset(83% 0 86% 0); }
   56.6666666667% {
-    -webkit-clip-path: inset(100% 0 89% 0);
-    clip-path: inset(83% 0 27% 0); }
+    -webkit-clip-path: inset(32% 0 2% 0);
+    clip-path: inset(76% 0 53% 0); }
   60% {
-    -webkit-clip-path: inset(45% 0 36% 0);
-    clip-path: inset(5% 0 74% 0); }
+    -webkit-clip-path: inset(93% 0 37% 0);
+    clip-path: inset(34% 0 53% 0); }
   63.3333333333% {
-    -webkit-clip-path: inset(84% 0 57% 0);
-    clip-path: inset(54% 0 26% 0); }
+    -webkit-clip-path: inset(73% 0 5% 0);
+    clip-path: inset(100% 0 34% 0); }
   66.6666666667% {
-    -webkit-clip-path: inset(17% 0 72% 0);
-    clip-path: inset(41% 0 50% 0); }
+    -webkit-clip-path: inset(95% 0 66% 0);
+    clip-path: inset(48% 0 98% 0); }
   70% {
-    -webkit-clip-path: inset(79% 0 67% 0);
-    clip-path: inset(2% 0 86% 0); }
+    -webkit-clip-path: inset(53% 0 73% 0);
+    clip-path: inset(74% 0 99% 0); }
   73.3333333333% {
-    -webkit-clip-path: inset(62% 0 15% 0);
-    clip-path: inset(38% 0 15% 0); }
+    -webkit-clip-path: inset(41% 0 6% 0);
+    clip-path: inset(67% 0 25% 0); }
   76.6666666667% {
-    -webkit-clip-path: inset(31% 0 53% 0);
-    clip-path: inset(13% 0 17% 0); }
+    -webkit-clip-path: inset(38% 0 2% 0);
+    clip-path: inset(50% 0 67% 0); }
   80% {
-    -webkit-clip-path: inset(61% 0 81% 0);
-    clip-path: inset(6% 0 19% 0); }
+    -webkit-clip-path: inset(21% 0 42% 0);
+    clip-path: inset(24% 0 86% 0); }
   83.3333333333% {
-    -webkit-clip-path: inset(90% 0 19% 0);
-    clip-path: inset(88% 0 67% 0); }
+    -webkit-clip-path: inset(55% 0 81% 0);
+    clip-path: inset(42% 0 48% 0); }
   86.6666666667% {
-    -webkit-clip-path: inset(39% 0 13% 0);
-    clip-path: inset(81% 0 27% 0); }
+    -webkit-clip-path: inset(36% 0 11% 0);
+    clip-path: inset(16% 0 58% 0); }
   90% {
-    -webkit-clip-path: inset(77% 0 52% 0);
-    clip-path: inset(41% 0 62% 0); }
+    -webkit-clip-path: inset(9% 0 63% 0);
+    clip-path: inset(33% 0 73% 0); }
   93.3333333333% {
-    -webkit-clip-path: inset(60% 0 98% 0);
-    clip-path: inset(1% 0 23% 0); }
+    -webkit-clip-path: inset(100% 0 39% 0);
+    clip-path: inset(81% 0 83% 0); }
   96.6666666667% {
-    -webkit-clip-path: inset(79% 0 30% 0);
-    clip-path: inset(31% 0 66% 0); }
+    -webkit-clip-path: inset(84% 0 52% 0);
+    clip-path: inset(73% 0 62% 0); }
   100% {
-    -webkit-clip-path: inset(54% 0 43% 0);
-    clip-path: inset(3% 0 6% 0); }
+    -webkit-clip-path: inset(33% 0 31% 0);
+    clip-path: inset(31% 0 98% 0); }
   0% {
     opacity: 0; }
   1% {
