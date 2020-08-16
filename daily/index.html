@@ -55,16 +55,16 @@
         <div class="dynamic-nav">
             <ul>
                 <li>
-                    <a id="btn-starting" href="/" title="Starting Point" class="op75">처음<span class="num-square">1</span></a>
+                    <a id="btn-starting" href="/" title="Starting Point" class="op75">처음</a>
                 </li>
                 <li>
-                    <a id="btn-article" href="/article" title="Starting Point" class="op75">디자인 티타임<span class="num-square">2</span></a>
+                    <a id="btn-article" href="/article" title="Design Teatime" class="op75">디자인 티타임</a>
                 </li>
                 <li>
-                    <a id="btn-story" href="/story" title="Starting Point" class="op75">이야기<span class="num-square">3</span></a>
+                    <a id="btn-story" href="/story" title="Story" class="op75">이야기</a>
                 </li>
                 <li>
-                    <a id="btn-daily" href="/daily" title="Starting Point" class="op75">일일<span class="num-square">4</span></a>
+                    <a id="btn-daily" href="/daily" title="Daily" class="op75">일일</a>
                 </li>
                 <!--
                 <li>
@@ -109,7 +109,8 @@
         document.getElementById('nav').classList.add('show')
 </script>
 <script>
-    document.getElementById('btn-daily').classList.remove('op75')
+    document.getElementById('btn-daily').classList.remove('op75');
+    document.getElementById('btn-daily').classList.add('nav-item-act');
 </script>
     </div>
     <footer id="footer">
