@@ -2,6 +2,16 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
     <url>
+      <loc>https://dewberry9.github.io/starting-google-optimize</loc>
+      
+        <lastmod>2020-11-12T00:00:00+00:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+    </url>
+  
+    <url>
       <loc>https://dewberry9.github.io/3step-ab-test</loc>
       
         <lastmod>2020-11-11T00:00:00+00:00</lastmod>
