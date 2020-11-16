@@ -846,8 +846,7 @@ footer {
       font-weight: 800; }
     footer span a i {
       font-size: 1rem !important; }
-    footer span a#rss-link {
-      margin-left: 1.5rem;
+    footer span a:last-child {
       margin-right: 0; }
   @media screen and (max-width: 1152px) {
     footer {
