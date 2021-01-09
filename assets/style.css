@@ -1,109 +1,3 @@
-@keyframes red-glitch-anim {
-  0% {
-    opacity: 0;
-    clip-path: inset(10% 0 80% 70%);
-    left: 5%; }
-  1% {
-    opacity: 1;
-    clip-path: inset(10% 0 80% 70%);
-    left: 5%; }
-  6% {
-    opacity: 1;
-    clip-path: inset(10% 0 80% 70%);
-    left: 5%; }
-  7% {
-    opacity: 0;
-    clip-path: inset(10% 0 80% 70%);
-    left: 5%; }
-  20% {
-    opacity: 0;
-    clip-path: inset(40% 80% 10% 0);
-    left: -3%; }
-  21% {
-    opacity: 1;
-    clip-path: inset(40% 80% 10% 0);
-    left: -3%; }
-  26% {
-    opacity: 1;
-    clip-path: inset(40% 80% 10% 0);
-    left: -3%; }
-  27% {
-    opacity: 0;
-    clip-path: inset(40% 80% 10% 0);
-    left: -3%; }
-  30% {
-    opacity: 0;
-    clip-path: inset(30% 60% 50% 24%);
-    left: 10%; }
-  31% {
-    opacity: 1;
-    clip-path: inset(30% 60% 50% 24%);
-    left: 10%; }
-  36% {
-    opacity: 1;
-    clip-path: inset(30% 60% 50% 24%);
-    left: 10%; }
-  37% {
-    opacity: 0;
-    clip-path: inset(30% 60% 50% 24%);
-    left: 10%; }
-  100% {
-    opacity: 0;
-    clip-path: inset(30% 60% 50% 24%);
-    left: 10%; } }
-@keyframes blue-glitch-anim {
-  0% {
-    opacity: 0;
-    clip-path: inset(30% 90% 0 8%);
-    top: 6%; }
-  1% {
-    opacity: 1;
-    clip-path: inset(30% 90% 0 8%);
-    top: 6%; }
-  6% {
-    opacity: 1;
-    clip-path: inset(30% 90% 0 8%);
-    top: 6%; }
-  7% {
-    opacity: 0;
-    clip-path: inset(30% 90% 0 8%);
-    top: 6%; }
-  20% {
-    opacity: 0;
-    clip-path: inset(5% 10% 75% 80%);
-    top: -8%; }
-  21% {
-    opacity: 1;
-    clip-path: inset(5% 10% 75% 80%);
-    top: -8%; }
-  26% {
-    opacity: 1;
-    clip-path: inset(5% 10% 75% 80%);
-    top: -8%; }
-  27% {
-    opacity: 0;
-    clip-path: inset(5% 10% 75% 80%);
-    top: -8%; }
-  30% {
-    opacity: 0;
-    clip-path: inset(93% 15% 0 50%);
-    top: 3%; }
-  31% {
-    opacity: 1;
-    clip-path: inset(93% 15% 0 50%);
-    top: 3%; }
-  36% {
-    opacity: 1;
-    clip-path: inset(93% 15% 0 50%);
-    top: 3%; }
-  37% {
-    opacity: 0;
-    clip-path: inset(93% 15% 0 50%);
-    top: 3%; }
-  100% {
-    opacity: 0;
-    clip-path: inset(93% 15% 0 50%);
-    top: 3%; } }
 @-webkit-keyframes fade-in {
   from {
     opacity: 0; }
@@ -315,89 +209,21 @@ section {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     flex-flow: column; }
-    section.starting-point .the-space-container {
+    section.starting-point .title-space,
+    section.starting-point .page-slide {
       width: 100%;
+      box-sizing: border-box; }
+    section.starting-point .title-space {
+      padding: 0 1.5rem;
       display: flex;
-      justify-content: center; }
-      section.starting-point .the-space-container .the-space-center {
-        width: 100%;
-        max-width: 680px;
-        position: relative; }
-        section.starting-point .the-space-container .the-space-center .the-space-headline-container .the-space-headline,
-        section.starting-point .the-space-container .the-space-center .the-space-headline-container .the-space-headline-stretch-wings {
-          fill: #363059;
-          opacity: 0; }
-        section.starting-point .the-space-container .the-space-center .the-space-headline-container .the-space-headline {
-          width: 100%;
-          position: absolute;
-          z-index: 3; }
-        section.starting-point .the-space-container .the-space-center .the-space-headline-container .the-space-headline-normal {
-          animation: fade-in 0.03s 0.4s forwards; }
-        section.starting-point .the-space-container .the-space-center .the-space-headline-container .the-space-headline-stretch {
-          animation: fade-in 0.03s 0.4s reverse forwards; }
-        section.starting-point .the-space-container .the-space-center .the-space-headline-container .the-space-headline-stretch-wings {
-          position: absolute;
-          top: 0;
-          width: calc((100vw - 100%) / 2);
-          height: 223px;
-          animation: fade-in 0.03s 0.4s reverse forwards; }
-        section.starting-point .the-space-container .the-space-center .the-space-headline-container .the-space-headline-stretch-left {
-          right: 100%; }
-        section.starting-point .the-space-container .the-space-center .the-space-headline-container .the-space-headline-stretch-right {
-          left: 100%; }
-        section.starting-point .the-space-container .the-space-center .the-space-gradient-container {
-          width: 100%;
-          padding: 60px 60px 0;
-          box-sizing: border-box; }
-          section.starting-point .the-space-container .the-space-center .the-space-gradient-container .the-space-gradient {
-            width: 100%;
-            height: 320px;
-            background-color: #363059;
-            position: relative; }
-            section.starting-point .the-space-container .the-space-center .the-space-gradient-container .the-space-gradient::before, section.starting-point .the-space-container .the-space-center .the-space-gradient-container .the-space-gradient::after {
-              top: 0;
-              left: 0;
-              width: 100%;
-              height: 100%;
-              position: absolute;
-              content: ""; }
-            section.starting-point .the-space-container .the-space-center .the-space-gradient-container .the-space-gradient::before {
-              z-index: 2;
-              background: linear-gradient(#fff 5%, rgba(255, 255, 255, 0) 100%); }
-            section.starting-point .the-space-container .the-space-center .the-space-gradient-container .the-space-gradient::after {
-              background-image: url(/assets/images/noise.gif);
-              opacity: 0.1;
-              z-index: 1; }
-            section.starting-point .the-space-container .the-space-center .the-space-gradient-container .the-space-gradient .the-space-gradient-overlay {
-              width: 100%;
-              height: 100%;
-              position: absolute;
-              z-index: 3;
-              opacity: 0.8; }
-              section.starting-point .the-space-container .the-space-center .the-space-gradient-container .the-space-gradient .the-space-gradient-overlay::before {
-                content: "";
-                width: 100%;
-                height: 100%;
-                position: absolute;
-                top: 0;
-                left: 0;
-                opacity: 0;
-                background-color: #363059;
-                animation: red-glitch-anim 1.5s 0.4s forwards; }
-              section.starting-point .the-space-container .the-space-center .the-space-gradient-container .the-space-gradient .the-space-gradient-overlay::after {
-                content: "";
-                width: 100%;
-                height: 100%;
-                position: absolute;
-                top: 0;
-                left: 0;
-                opacity: 0;
-                background-color: #363059;
-                animation: blue-glitch-anim 1s 0.4s forwards; }
-          section.starting-point .the-space-container .the-space-center .the-space-gradient-container .description {
-            margin-top: 2rem; }
-            section.starting-point .the-space-container .the-space-center .the-space-gradient-container .description .bx {
-              font-size: 1rem; }
+      justify-content: space-between;
+      align-items: center; }
+      section.starting-point .title-space .title-space-title {
+        font-size: 5rem;
+        font-weight: normal;
+        color: #1F193B; }
+      section.starting-point .title-space .title-space-description {
+        text-align: right; }
   section.btn-point {
     padding-top: 4rem;
     -webkit-box-orient: vertical;
@@ -535,7 +361,7 @@ section {
     color: #514f59;
     box-sizing: border-box;
     padding: 1.5rem;
-    width: 376px;
+    width: 384px;
     -webkit-transition: 0.3s ease;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
@@ -636,7 +462,7 @@ section {
       padding-left: calc((100vw - 960px) / 2);
       padding-right: calc((100vw - 960px) / 2); }
       section .post-list-item {
-        width: 312px; }
+        width: 320px; }
         section .post-list-item .post-description h2 {
           margin-bottom: 0.5rem; }
         section .post-list-item .post-thumbnail {
@@ -648,6 +474,10 @@ section {
       justify-content: center; }
       section.starting-point {
         padding: 3.5rem 1.5rem 0; }
+        section.starting-point .title-space .title-space-title {
+          font-size: 3rem; }
+        section.starting-point .title-space .title-space-description {
+          font-size: 0.875rem; }
       section.about-point {
         padding-left: 1.5rem;
         padding-right: 1.5rem;
@@ -673,13 +503,16 @@ section {
     section .numbering {
       padding-left: 0.5rem;
       margin-bottom: 0.5rem; }
-    section.starting-point .the-space-container .the-space-center .the-space-gradient-container {
-      padding: 24px 24px 0; }
-      section.starting-point .the-space-container .the-space-center .the-space-gradient-container .the-space-gradient {
-        height: 160px; }
-      section.starting-point .the-space-container .the-space-center .the-space-gradient-container .description {
-        font-size: .75rem;
-        margin-top: .75rem; }
+    section.starting-point .title-space {
+      padding: 0 0.5rem;
+      flex-wrap: wrap; }
+      section.starting-point .title-space .title-space-title {
+        font-size: 2rem; }
+      section.starting-point .title-space .title-space-description {
+        font-size: 0.75rem;
+        text-align: left;
+        margin-top: .5rem;
+        padding-left: .25rem; }
     section.btn-point .text-content h3 {
       padding-left: 0.5rem; }
     section.btn-point .text-content .btn-list {
