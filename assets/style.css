@@ -44,7 +44,7 @@ figure {
   padding: 0; }
 
 body {
-  animation: fade-in .5s; }
+  animation: fade-in 0.5s; }
 
 h1,
 h2,
@@ -238,7 +238,7 @@ section {
       section.starting-point .title-space .title-space-title {
         font-size: 5rem;
         font-weight: normal;
-        color: #1F193B; }
+        color: #1f193b; }
       section.starting-point .title-space .title-space-description {
         text-align: right; }
   section.btn-point {
@@ -402,7 +402,8 @@ section {
         opacity: 0.5;
         -webkit-transition: all 0.3s ease;
         transition: all 0.3s ease; }
-      section .post-list-item .post-description time {
+      section .post-list-item .post-description time,
+      section .post-list-item .post-description .post-topic {
         box-sizing: border-box;
         padding-top: 0.5rem;
         letter-spacing: 1px;
@@ -441,7 +442,8 @@ section {
           transition: all 0.3s ease; }
     section .post-list-item:hover .post-description::before {
       height: 36px; }
-    section .post-list-item:hover .post-description time {
+    section .post-list-item:hover .post-description time,
+    section .post-list-item:hover .post-description .post-topic {
       padding: 0; }
     section .post-list-item:hover .post-description h2 {
       color: #86868a; }
@@ -539,8 +541,8 @@ section {
         section.starting-point .title-space .title-space-description {
           font-size: 0.75rem;
           text-align: left;
-          margin-top: .5rem;
-          padding-left: .25rem; }
+          margin-top: 0.5rem;
+          padding-left: 0.25rem; }
     section.btn-point .text-content h3 {
       padding-left: 0.5rem; }
     section.btn-point .text-content .btn-list {
