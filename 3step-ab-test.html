@@ -143,7 +143,7 @@
         <!-- 2020-11-11 -->
     </span>
     <div>
-        <p class="full-size"><img src="/assets/images/design/3step-ab-test/02.jpg" alt="AB Test in Many Apps" title="이미 많은 기업에서 활용 중인 AB 테스트" /></p>
+        <p class="full-size"><img src="https://cdn.jsdelivr.net/gh/dewberry9/dewberry9.github.io/assets/images/design/3step-ab-test/02.jpg" alt="AB Test in Many Apps" title="이미 많은 기업에서 활용 중인 AB 테스트" /></p>
 
 <p>한때 스타트업 업계에 유행이 돌았던 그로쓰 해킹(Growth Hacking)에 대해 조금이라도 관심이 있는 분이라면 AB 테스트라는 방법론 역시 모르는 바가 없지는 않을 겁니다. 룰렛 기능을 도입하여 특정 횟수 이상 운행한 사용자를 23% 늘린(결과적으로 전체 운행 수가 증가하게 됩니다.) <a href="https://engineering.grab.com/grabbing-growth-a-growth-hacking-story" title="Grab's Roulette AB Test">그랩(Grab)의 사례</a>, 사용자 맞춤으로 유명한 넷플릭스(Netflix) 섬네일 알고리즘의 모태가 된 <a href="https://netflixtechblog.com/selecting-the-best-artwork-for-videos-through-a-b-testing-f6155c4595f6" title="Netflix's Movie Artwork Optimizing">AB 테스트</a>, 에어비앤비(Airbnb)의 <a href="https://goodui.org/leaks/airbnb-gets-creative-in-this-multiple-variation-homepage-experiment/" title="Airbnb's Landing Page AB Test">랜딩 페이지 AB 테스트</a> 등 데이터 좀 다룬다 싶은 회사는 모두 AB 테스트 성공담 하나씩을 가지고 있습니다. AB 테스트가 서비스의 성장과 회사의 매출에 도움을 주는 확실한 방법론이라는 것은 명료해 보입니다.</p>
 
@@ -153,7 +153,7 @@
 
 <p>제 대답은 ‘누구라도 가능하다.’입니다. AB 테스트와 데이터 분석에 대한 이해와 적절한 실행 방법만 알고 있으면 큰 그로쓰 팀이 없어도, 그렇기는커녕 회사에 누구 하나 AB 테스트에 대해 알고 있는 사람이 없어도 충분히 해내고도 남습니다. 실제로 저는 AB 테스트에 대한 정보 없이 약간의 데이터 분석과 개발 지식만을 가지고 AB 테스트를 시작해서 1년 반 동안 100개에 가까운 AB 테스트를 거의 혼자 해냈습니다. 이 글을 보는 누구라도 해낼 수 있는 일입니다. 2부로 구성된 이번 가이드가 AB 테스트를 시작하려는 여러분께 도움이 되길 바랍니다.</p>
 
-<p><img src="/assets/images/design/3step-ab-test/03.jpg" alt="AB Test Cycle" title="AB 테스트 사이클" /></p>
+<p><img src="https://cdn.jsdelivr.net/gh/dewberry9/dewberry9.github.io/assets/images/design/3step-ab-test/03.jpg" alt="AB Test Cycle" title="AB 테스트 사이클" /></p>
 
 <p>AB 테스트는 크게 다음과 같은 3단계를 따릅니다.</p>
 
@@ -171,7 +171,7 @@
 
 <p>AB 테스트의 가설은 핵심적인 아이디어와 함께 어떠한 요소를 어떤 방식으로 바꿔서(혹은 추가하거나 제거해서) 어떤 지표를 바꿀 것인지 특정해야 합니다. 예를 들어 이름과 이메일 주소를 한 페이지에서 한꺼번에 받는 회원가입 퍼널이 있다고 해봅시다. 현재 이탈률은 60%입니다. 이탈률의 원인을 찾는 방법은 여러 가지가 있습니다. 직접 사용자를 앉혀놓고 왜 회원가입을 진행하지 못하는지 관찰하고 설문할 수도 있고, Hotjar와 같은 레코딩 툴을 이용해서 여기서 이탈하는 사용자가 어떤 행동을 하는지 관측할 수도 있습니다. 여기서 도출된 문제를 해결하면 당연히 회원가입 비율도 늘어날 것입니다. 이 부분에서 중요한 것은 리서치로 합당한 문제를 찾아내서 그것을 토대로 가설을 만드는 일도 좋지만, 리서치 비용이 크다거나 시간이 오래 걸릴 일이 되는 경우에는 과감하게 생략하고 머릿속으로 합리적인 가설을 세우는 것만으로 충분하다는 점을 염두에 두어야 합니다. <strong>AB 테스트의 목적은 전환율 개선이지 문제 파악이 아닙니다.</strong> 보통 파악한 문제를 해결하게 될 경우 전환율이 개선되기 때문에 가설 수립 전 리서치에 힘을 쏟게 되는 경우가 많습니다. 그러나 리서치에 많은 리소스가 필요하다면 깔끔하게 생략하는 것이 낫습니다. 어차피 리서치로 찾아낸 문제가 진짜인지, 해결한다면 전환율을 개선할 수 있는지 확인하려면 AB 테스트를 거칠 수 밖에 없습니다. AB 테스트의 우선순위를 항상 높게 잡아두고 될 수 있는 한 많이, 자주 반복하는 게 중요합니다. 이에 대해서는 결과 분석 단계에서 설명하겠습니다.</p>
 
-<p><img src="/assets/images/design/3step-ab-test/04.jpg" alt="Structure of the AB test hypothesis" title="AB 테스트 가설의 구조" /></p>
+<p><img src="https://cdn.jsdelivr.net/gh/dewberry9/dewberry9.github.io/assets/images/design/3step-ab-test/04.jpg" alt="Structure of the AB test hypothesis" title="AB 테스트 가설의 구조" /></p>
 
 <p>위 예시에서는 ‘한꺼번에 많은 정보를 요구하기 때문에 이탈률이 높다.’라고 문제를 생각해보겠습니다. 좀 더 글자 수가 적어 입력하기 쉬운 이름 정보를 먼저 받고, 다음 화면에서 이메일 주소를 받는 퍼널을 구상합니다. 가설은 <strong>‘이름과 이메일 주소를 한 페이지에서 입력받는 현재의 퍼널 A를 / 이름을 먼저 입력받고 다음 페이지에서 이메일 주소를 입력받는 퍼널 B로 바꾸면 / 회원 가입률이 / 높아질 것이다.’</strong>가 됩니다. 가설 수립 단계에서 어떻게 데이터를 수집할지 미리 생각해두어야 합니다. 지금과 같은 가설이라면 회원 가입률을 어떻게 추적할지 알아둬야 합니다. 이번 목차에서는 가설 수립에 대한 내용만 다루고 데이터 수집 등 보다 자세한 내용은 후에 결과 분석 단계에서 설명하겠습니다.</p>
 
@@ -189,7 +189,7 @@
 
 <p>분기는 수립된 가설에 따라 각각 원본 A와 대안 B를 보여줄 트래픽을 분리하는 작업입니다. AB 테스트 기능을 직접 개발하는 경우라면 DB의 PK 값처럼 고유한 식별자가 그 기준이 될 겁니다. PK가 홀수인 사용자는 원본 A를 보여주고, 짝수라면 대안 B를 보여주는 식입니다. <a href="http://optimize.google.com" title="Google Optimize">구글 옵티마이즈</a>, <a href="https://www.hubspot.com/" title="Hubspot">허브스팟(Hubspot)</a>, <a href="https://vwo.com/" title="VWO">VWO</a>, <a href="https://www.optimizely.com/" title="Optimizelay">옵티마이즐리(Optimizely)</a>, <a href="https://unbounce.com" title="Unbounce">언바운스(Unbounce)</a> 등 많은 AB 테스트 툴에서 기본적으로 제공하는 기능이니 기술적인 부분에서는 별로 고민할 것이 없습니다.</p>
 
-<p><img src="/assets/images/design/3step-ab-test/05.jpg" alt="Notes for when traffic diverges" title="분기 시 주의점" /></p>
+<p><img src="https://cdn.jsdelivr.net/gh/dewberry9/dewberry9.github.io/assets/images/design/3step-ab-test/05.jpg" alt="Notes for when traffic diverges" title="분기 시 주의점" /></p>
 
 <p>AB 테스트를 하려고 트래픽을 분기할 때 고려해야 하는 가장 중요한 사항은 나누는 트래픽이 해당 실험에 대해 얼마나 순수한지입니다. 가령 위에서 예시로 든 회원가입 퍼널 실험을 진행하는데 회원가입 폼이 나오기 전에 랜딩 페이지가 있다고 해봅시다. 랜딩 페이지에서 회원가입 퍼널 단계로 진입하는 비율과 회원 가입률 역시 개선하기 위해 AB 테스트를 진행하고 있습니다. 이럴 때 회원가입 퍼널 실험까지 동시에 진행하게 되면 결과적인 지표인 회원 가입률의 <strong>데이터가 뒤섞여 어떤 실험의 대안 때문에 회원 가입률이 변했는지 알 수 없어집니다.</strong> 이미 진행하고 있는 랜딩 페이지에서의 실험이 끝난 후에 회원가입 퍼널 실험을 진행하는 것이 맞습니다.</p>
 
@@ -207,7 +207,7 @@
 
 <p><strong>AB 테스트를 처음 진행하는 분이 실수하는 것 중 가장 흔한 일은 AB 테스트를 너무 빨리 끝내는 것입니다.</strong> 위의 예시에서 AB 테스트 시작 후 하루 동안 데이터를 모은 결과 원본 A의 회원 가입률이 40%(20명 중 8명), 대안 B가 20%(25명 중 5명)라고 나왔습니다. 원본 A가 나은 걸까요? 이 시점에서는 확신할 수 없습니다. 마치 똑같은 동전을 각각 10번씩 던졌는데 한번은 앞면이 2번 나오고, 다른 경우에는 8번 나온 경우와 같습니다. 10번이 아니라 100번, 1,000번을 던진다면 앞면이 나오는 횟수는 점차 비슷해질 것입니다. 데이터가 적기 때문에 우연이 적용할 수 있는 시점이라는 의미입니다. 그렇다면 결론을 내릴 때를 어떻게 알 수 있을까요?</p>
 
-<p><img src="/assets/images/design/3step-ab-test/06.jpg" alt="AB Test Calculator" title="AB 테스트 계산기" /></p>
+<p><img src="https://cdn.jsdelivr.net/gh/dewberry9/dewberry9.github.io/assets/images/design/3step-ab-test/06.jpg" alt="AB Test Calculator" title="AB 테스트 계산기" /></p>
 
 <p>AB 테스트 결과의 통계적 유의성을 계산하는 계산기가 웹상에 이미 많이 있습니다. 보통 신뢰구간 90%, 95%, 99% 이렇게 나눠서 어떤 신뢰구간에서 유효한 결과인지 체크해주는데요, 95% 신뢰구간에서 유효한 결과라면 실제로 유의미한 차이가 있는 데이터라고 결론 내리고는 합니다. 통계적 유의성, P값(P-Value)에 관해 설명하려면 글이 너무 길어질 듯싶고, 제대로 설명할 수 있을지나 의문이라서 직접 알아보시는 것을 추천해 드립니다.</p>
 
@@ -382,7 +382,7 @@
             
             <a title="한참 이른 여름맛. 아드벡 10년" href="/ardbeg-for-the-beginning-of-the-summer" class="post-list-item">
                     <div class="post-thumbnail">
-                        <div class="img-source" style="background-image: url('/assets/images/story/02-ardbeg-for-the-beginning-of-the-summer/01.png')"></div>
+                        <div class="img-source" style="background-image: url('/assets/images/daily/01-ardbeg/01.jpg')"></div>
                     </div>
                     <div class="post-description">
                         <span class="post-topic">Whisky</span>
@@ -399,7 +399,7 @@
             
             <a title="4시에 마신다면 3시부터 행복할거야. 글렌피딕 15년" href="/glenfiddich-solera" class="post-list-item">
                     <div class="post-thumbnail">
-                        <div class="img-source" style="background-image: url('/assets/images/daily/02-glenfiddich-solera/01.png')"></div>
+                        <div class="img-source" style="background-image: url('/assets/images/daily/02-glenfiddich-solera/01.jpg')"></div>
                     </div>
                     <div class="post-description">
                         <span class="post-topic">Whisky</span>
@@ -447,10 +447,10 @@ document.getElementById('btn-article').classList.add('nav-item-act');</script>
         <!-- <a href="/about" title="About Me">쓰는 사람</a> -->
     </span>
     <span>
-        <a id="fb-link" href="https://www.facebook.com/magepmat" title="Facebook" target="_blank"><i class='bx bxl-facebook'></i></a>
-        <a id="insta-link" href="https://www.instagram.com/mag_epmat/" title="Instagram" target="_blank"><i class='bx bxl-instagram' ></i></a>
+        <a rel="noreferrer" id="fb-link" href="https://www.facebook.com/magepmat" title="Facebook" target="_blank"><i class='bx bxl-facebook'></i></a>
+        <a rel="noreferrer" id="insta-link" href="https://www.instagram.com/mag_epmat/" title="Instagram" target="_blank"><i class='bx bxl-instagram' ></i></a>
         <a id="mail-link" href="mailto:dewberryneun@gmail.com" title="Email"><i class='bx bx-envelope'></i><span class="link-copy"></span></a>
-        <a id="rss-link" href="/feed.xml" title="RSS" target="_blank"><i class='bx bx-rss'></i><span class="link-copy"></span></a>
+        <a rel="noreferrer" id="rss-link" href="/feed.xml" title="RSS" target="_blank"><i class='bx bx-rss'></i><span class="link-copy"></span></a>
     </span>
 </footer>
 </body>
