@@ -334,9 +334,10 @@ section {
     section.post-content .post-title {
       width: 100%;
       text-align: center;
-      margin: 4rem 0;
+      margin-top: 4rem;
       position: relative;
-      line-height: 1.2; }
+      line-height: 1.2;
+      color: #363059; }
       section.post-content .post-title h1 {
         -webkit-animation: fade-in 0.4s ease;
         animation: fade-in 0.4s ease; }
@@ -353,10 +354,9 @@ section {
         display: block;
         position: absolute;
         left: 50%;
-        transform: translate(-50%, -70%);
-        opacity: 0.6;
-        width: 300px;
-        fill: #ff1c51; }
+        transform: translate(-50%, -50%);
+        width: 250px;
+        fill: #ff1c73; }
     section.post-content div {
       width: 100%;
       font-family: "Nanum Myeongjo"; }
@@ -377,9 +377,11 @@ section {
         padding: 0 calc((100% - 660px) / 2); }
       section.post-content div > p.refer {
         margin-top: 4rem; }
-      section.post-content div > p.full-size {
-        padding: 0;
+      section.post-content div > p.full-size,
+      section.post-content div > p.normal-size {
         text-indent: 0; }
+      section.post-content div > p.full-size {
+        padding: 0; }
       section.post-content div p {
         margin: 1rem 0; }
       section.post-content div a {
@@ -606,7 +608,7 @@ section {
       section.post-content div h2 {
         margin: 1.5rem 0; }
       section.post-content .post-title {
-        margin: 1.5rem 0 1rem; }
+        margin-top: 2rem; }
       section.post-content .post-category {
         margin-bottom: 1rem; }
         section.post-content .post-category .script-font {
