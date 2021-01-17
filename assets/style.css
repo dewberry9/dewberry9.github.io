@@ -54,7 +54,7 @@ h3 {
   font-family: "Nanum Myeongjo"; }
 
 h1 {
-  line-height: 1 !important;
+  line-height: 1;
   font-size: 2.25rem; }
   @media screen and (max-width: 660px) {
     h1 {
@@ -334,8 +334,9 @@ section {
     section.post-content .post-title {
       width: 100%;
       text-align: center;
-      margin: 4rem 0 1rem 0;
-      position: relative; }
+      margin: 4rem 0;
+      position: relative;
+      line-height: 1.2; }
       section.post-content .post-title h1 {
         -webkit-animation: fade-in 0.4s ease;
         animation: fade-in 0.4s ease; }
@@ -605,7 +606,7 @@ section {
       section.post-content div h2 {
         margin: 1.5rem 0; }
       section.post-content .post-title {
-        margin-top: 1.5rem; }
+        margin: 1.5rem 0 1rem; }
       section.post-content .post-category {
         margin-bottom: 1rem; }
         section.post-content .post-category .script-font {
