@@ -241,6 +241,11 @@ code {
       padding: 0.125rem 0.25rem;
       border-radius: 0.125rem; } }
 
+.ads-container-mobile-feedcard {
+  display: none; }
+  .ads-container-mobile-feedcard .infeed {
+    height: 48vw; }
+
 span.block {
   background-color: #363059;
   width: 8px;
@@ -753,6 +758,8 @@ section {
         section .post-list-item .post-thumbnail {
           height: 175px; } }
   @media screen and (max-width: 660px) {
+    section .ads-container-mobile-feedcard {
+      display: block; }
     section .numbering {
       padding-left: 0.5rem;
       margin-bottom: 0.5rem; }
