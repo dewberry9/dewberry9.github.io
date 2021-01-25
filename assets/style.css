@@ -759,7 +759,8 @@ section {
           height: 175px; } }
   @media screen and (max-width: 660px) {
     section .ads-container-mobile-feedcard {
-      display: block; }
+      display: block;
+      width: 100%; }
     section .numbering {
       padding-left: 0.5rem;
       margin-bottom: 0.5rem; }
