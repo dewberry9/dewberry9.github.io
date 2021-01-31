@@ -448,6 +448,7 @@ section {
       section.btn-point .text-content h3 {
         padding-left: 1.25rem; }
       section.btn-point .text-content .btn-list {
+        min-width: 4rem;
         padding-right: 1.25rem;
         color: #514f59;
         font-size: 0.75rem;
@@ -590,17 +591,19 @@ section {
       section.post-content div ul,
       section.post-content div ol {
         padding-left: calc((100% - 660px) / 2 + 1rem); }
-  section .post-list-item {
+  section .post-list-item,
+  section .ads-container-relative-feedcard {
     color: #514f59;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     padding: 1.5rem;
     width: 384px;
+    margin-bottom: 1rem; }
+  section .post-list-item {
     -webkit-transition: 0.3s ease;
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-    margin-bottom: 1rem; }
+    transition: all 0.3s ease; }
     section .post-list-item * {
       -webkit-transition: all 0.3s ease;
       -o-transition: all 0.3s ease;
@@ -710,12 +713,13 @@ section {
     section {
       padding-left: calc((100vw - 960px) / 2);
       padding-right: calc((100vw - 960px) / 2); }
-      section .post-list-item {
+      section .post-list-item,
+      section .ads-container-relative-feedcard {
         width: 320px; }
-        section .post-list-item .post-description h2 {
-          margin-bottom: 0.5rem; }
-        section .post-list-item .post-thumbnail {
-          height: 175px; } }
+      section .post-list-item .post-description h2 {
+        margin-bottom: 0.5rem; }
+      section .post-list-item .post-thumbnail {
+        height: 175px; } }
   @media screen and (max-width: 960px) {
     section {
       padding: 0;
@@ -749,12 +753,13 @@ section {
         -webkit-box-pack: justify;
         -ms-flex-pack: justify;
         justify-content: space-between; }
-      section .post-list-item {
+      section .post-list-item,
+      section .ads-container-relative-feedcard {
         width: 49%; }
-        section .post-list-item .post-description h2 {
-          margin-bottom: 0.5rem; }
-        section .post-list-item .post-thumbnail {
-          height: 175px; } }
+      section .post-list-item .post-description h2 {
+        margin-bottom: 0.5rem; }
+      section .post-list-item .post-thumbnail {
+        height: 175px; } }
   @media screen and (max-width: 660px) {
     section .ads-container-mobile-feedcard {
       display: block;
@@ -863,19 +868,20 @@ section {
       section.post-content div ul,
       section.post-content div ol {
         padding-left: 1rem; }
-    section .post-list-item {
+    section .post-list-item,
+    section .ads-container-relative-feedcard {
       width: 100%;
       padding: 0.5rem;
       margin-bottom: 1rem; }
-      section .post-list-item .post-thumbnail {
-        height: 48vw;
-        margin-bottom: 1rem; }
-      section .post-list-item .post-description .post-intro {
-        margin-left: 0.5rem; }
-        section .post-list-item .post-description .post-intro h2 {
-          margin-bottom: 0.25rem; }
-        section .post-list-item .post-description .post-intro p {
-          font-size: 0.75rem; } }
+    section .post-list-item .post-thumbnail {
+      height: 48vw;
+      margin-bottom: 1rem; }
+    section .post-list-item .post-description .post-intro {
+      margin-left: 0.5rem; }
+      section .post-list-item .post-description .post-intro h2 {
+        margin-bottom: 0.25rem; }
+      section .post-list-item .post-description .post-intro p {
+        font-size: 0.75rem; } }
 
 .top-nav {
   position: fixed;
