@@ -565,6 +565,7 @@ section {
         section.post-content div > p.infor::before {
           content: "*"; }
       section.post-content div > p,
+      section.post-content div table,
       section.post-content div h2,
       section.post-content div ul,
       section.post-content div ol,
@@ -591,6 +592,16 @@ section {
       section.post-content div ul,
       section.post-content div ol {
         padding-left: calc((100% - 660px) / 2 + 1rem); }
+      section.post-content div table {
+        line-height: 2; }
+        section.post-content div table tbody, section.post-content div table thead {
+          vertical-align: top; }
+        section.post-content div table tr th:last-child {
+          font-weight: normal; }
+        section.post-content div table tr td:first-child {
+          font-weight: bold;
+          padding-right: 1rem;
+          white-space: nowrap; }
   section .post-list-item,
   section .ads-container-relative-feedcard {
     color: #514f59;
@@ -748,6 +759,8 @@ section {
         padding-right: 1.5rem; }
       section.post-content {
         padding: 0 1.5rem; }
+        section.post-content table td:first-child {
+          padding-right: .5rem; }
       section.post-list {
         padding: 1.5rem 1.5rem 0 1.5rem;
         -webkit-box-pack: justify;
@@ -840,7 +853,7 @@ section {
     section.post-content {
       padding: 0 1.5rem;
       margin-bottom: 1.5rem; }
-      section.post-content div p {
+      section.post-content div p, section.post-content div table {
         margin: 1rem 0; }
       section.post-content div h2 {
         margin: 1.5rem 0; }
