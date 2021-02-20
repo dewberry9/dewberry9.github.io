@@ -432,6 +432,11 @@ section {
       color: #363059;
       font-weight: bold;
       padding: .5rem 1rem; }
+  section.subscribe.subscribe-post-bottom {
+    margin-top: 1rem;
+    padding: 0 calc((100% - 660px) / 2); }
+    section.subscribe.subscribe-post-bottom .subscribe-container {
+      width: 100%; }
   section.btn-point {
     padding-top: 4rem;
     -webkit-box-orient: vertical;
@@ -819,6 +824,10 @@ section {
         margin-bottom: .5rem; }
       section.subscribe .subscribe-container .btn-subscribe {
         padding: .25rem .5rem; }
+    section.subscribe.subscribe-post-bottom {
+      margin-top: 0; }
+      section.subscribe.subscribe-post-bottom .subscribe-container {
+        width: calc(100% - 4rem); }
     section.btn-point {
       padding-top: 2.5rem; }
       section.btn-point .text-content h3 {
@@ -849,10 +858,11 @@ section {
     section.related-post-list {
       margin-bottom: calc(2rem + 64px); }
       section.related-post-list .related-post-list-top-border {
-        width: calc(100% - 1rem); }
+        width: calc(100% - 1rem);
+        margin-bottom: 2.5rem; }
     section.post-content {
       padding: 0 1.5rem;
-      margin-bottom: 1.5rem; }
+      margin-bottom: .5rem; }
       section.post-content div p, section.post-content div table {
         margin: 1rem 0; }
       section.post-content div h2 {
