@@ -563,12 +563,15 @@ section {
       section.post-content div p {
         text-indent: 0.5rem;
         line-height: 2.5; }
-      section.post-content div > p.infor {
+      section.post-content div > p.infor::before {
+        content: "*"; }
+      section.post-content div > p.right-infor {
+        text-align: right; }
+      section.post-content div > p.infor,
+      section.post-content div > p.right-infor {
         color: #86868a;
         font-size: 0.875rem;
         line-height: 2; }
-        section.post-content div > p.infor::before {
-          content: "*"; }
       section.post-content div > p,
       section.post-content div table,
       section.post-content div h2,
