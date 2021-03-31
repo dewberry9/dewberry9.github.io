@@ -599,7 +599,8 @@ section {
         margin-top: 1rem; }
       section.post-content div ul,
       section.post-content div ol {
-        padding-left: calc((100% - 660px) / 2 + 1rem); }
+        padding-left: calc((100% - 660px) / 2 + 1rem);
+        line-height: 2.5; }
       section.post-content div table {
         line-height: 2; }
         section.post-content div table tbody, section.post-content div table thead {
