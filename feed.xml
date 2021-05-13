@@ -1,4 +1,117 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="https://dewberry9.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dewberry9.github.io/" rel="alternate" type="text/html" /><updated>2021-05-09T10:59:04+00:00</updated><id>https://dewberry9.github.io/feed.xml</id><title type="html">매거진 입맛</title><subtitle>읽을 만한 취향들. 매거진 입맛 - 책, 술, 그밖에 삶의 즐거움 리뷰 / 디자인 / 소설</subtitle><author><name>이준환</name></author><entry><title type="html">알아서 팔리는 제품을 만드는 제품 주도 성장(Product-led Growth) 방법론</title><link href="https://dewberry9.github.io/introduce-product-led-growth" rel="alternate" type="text/html" title="알아서 팔리는 제품을 만드는 제품 주도 성장(Product-led Growth) 방법론" /><published>2021-05-09T00:00:00+00:00</published><updated>2021-05-09T00:00:00+00:00</updated><id>https://dewberry9.github.io/introduce-product-led-growth</id><content type="html" xml:base="https://dewberry9.github.io/introduce-product-led-growth">&lt;p class=&quot;infor&quot;&gt;시리즈로 구성된 글입니다. 이번 글에서는 제품 주도 성장의 등장 배경, 정의, 구조, 장점에 대해 다룹니다. 연이은 글은 제품 주도 성장에 필요한 지표 설정과 실제 제품에 적용할 수 있는 세부 전략에 관한 내용으로 꾸릴 예정입니다.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="https://dewberry9.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dewberry9.github.io/" rel="alternate" type="text/html" /><updated>2021-05-13T11:57:25+00:00</updated><id>https://dewberry9.github.io/feed.xml</id><title type="html">매거진 입맛</title><subtitle>읽을 만한 취향들. 매거진 입맛 - 책, 술, 그밖에 삶의 즐거움 리뷰 / 디자인 / 소설</subtitle><author><name>이준환</name></author><entry><title type="html">팀원, 투자자, 고객을 바꾸는 성공한 제품의 경쟁력. 제품 주도 성장 지표</title><link href="https://dewberry9.github.io/product-led-growth-metrics" rel="alternate" type="text/html" title="팀원, 투자자, 고객을 바꾸는 성공한 제품의 경쟁력. 제품 주도 성장 지표" /><published>2021-05-13T00:00:00+00:00</published><updated>2021-05-13T00:00:00+00:00</updated><id>https://dewberry9.github.io/product-led-growth-metrics</id><content type="html" xml:base="https://dewberry9.github.io/product-led-growth-metrics">&lt;p class=&quot;infor&quot;&gt;시리즈로 구성된 글입니다. &lt;a title=&quot;매거진 입맛 - 알아서 팔리는 제품을 만드는 제품 주도 성장(Product-led Growth) 방법론&quot; href=&quot;/introduce-product-led-growth&quot; target=&quot;_blank&quot;&gt;저번 글에서는 제품 주도 성장의 등장 배경, 정의, 구조, 장점을 설명&lt;/a&gt;했습니다. 이번 글은 제품 주도 성장을 실제로 적용할 때 선행해야할 지표 설정에 대해 다룹니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;조직의-언어-지표&quot;&gt;조직의 언어, 지표&lt;/h2&gt;
+
+&lt;p&gt;저번 글에서 제품 주도 성장을 고객 확보, 확장, 전환, 유지에 이르는 과정을 주도할 수 있는 제품을 목표로 기획, 개발, 마케팅, 영업까지 조직 전체가 관여, 궁극적으로 제품과 조직의 성장을 끌어내는 방법론이라고 정의했습니다. 고객 확보, 확장, 전환, 유지 과정을 주도하는 제품이 어떤 방식으로 성장에 도움이 되는지는 이미 살펴보았습니다. 이번에는 ‘조직 전체가 관여’한다는 부분에 방점을 찍어보겠습니다.&lt;/p&gt;
+
+&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/product-led-growth-metrics/01.jpg&quot; alt=&quot;Communication is Hard&quot; title=&quot;어려운 커뮤니케이션&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;새삼스럽지만 협업은 어려운 일입니다. 자신의 사고를 다른 조직 구성원에게 전할 수 있는 형태로 가공하는 것도, 전달하는 일도, 전달이 잘 됐는지 확인하는 것까지도 전부 상당한 수고를 동반하는 일입니다. 개인이 다른 개인에게 전달한 의사는 어떤 식으로든 변형되기 마련입니다. 이때 필요한 게 조직 공통의 언어, 목표입니다.&lt;/p&gt;
+
+&lt;p&gt;조직원 모두가 어떠한 목표를 달성하기 위해 일을 하고 있는지 알고 있다면 개개인의 의사전달에 의존하는 대신 목표 달성을 위한 방법을 탐색하게 됩니다. 통일된 뉘앙스가 있기에 전달받은 의사를 보다 정확하게 해석할 수 있고 나아가서 더 나은 방식을 찾을 수도 있습니다. 결국, 협업을 위한 협업이 아니라 사업을 위한 협업을 할 수 있는 겁니다.&lt;/p&gt;
+
+&lt;p&gt;제품 주도 성장에서는 조직원 모두가 제품을 위해 일합니다. 개발 따로 하고 홍보 따로 하는 것이 아닙니다. 팀원 모두가 자신이 맡은 업무에서 얻은 인사이트를 활용하여 공통된 방향성을 도출하고, 그 방향성을 다시 업무에 적용합니다. 당연히 제품 주도 성장 이전의 방법보다 의사소통이 늘 수밖에 없습니다. 이런 특성이 있는 제품 주도 성장의 조직에서 지표 설정이 얼마나 중요한지는 더 강조할 필요가 없어 보입니다.&lt;/p&gt;
+
+&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/product-led-growth-metrics/02.jpg&quot; alt=&quot;Waterfall vs Two-way Communication&quot; title=&quot;워터풀 vs 쌍방향 의사소통&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;이제부터 조직 성장의 관점에서, 그리고 제품 사용주기에 맞춰 수익화 구조를 설명한 AARRR 프레임워크의 각 단계에서 도출할 수 있는 지표를 설명하겠습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;제품-주도-성장이-조직을-얼마나-성장시켰는가-자연-성장률nrg&quot;&gt;제품 주도 성장이 조직을 얼마나 성장시켰는가? 자연 성장률(NRG)&lt;/h2&gt;
+
+&lt;p&gt;전 세계의 SaaS 기업에 투자하는 OpenView Venture Partners는 오랜 투자 경험 속에서 SaaS 기업의 성과를 측정하기 위해서는 기존과 다른 지표가 필요하다는 사실을 깨닫습니다. &lt;a title=&quot;FeldThoughts, 2015 - The Rule of 40% For a Healthy SaaS Company&quot; href=&quot;https://feld.com/archives/2015/02/rule-40-healthy-saas-company.html&quot; target=&quot;_blank&quot;&gt;성장률과 수익률의 합이 40% 이상이어야 한다는 40% 규칙&lt;/a&gt;, &lt;a title=&quot;Philippe Botteri, 2008 - Bessemer 5 Cs of SaaS Finance&quot; href=&quot;https://www.slideshare.net/botteri/bessemer-5-cs-of-saa-s-finance-presentation&quot; target=&quot;_blank&quot;&gt;CMRR(신규 유입·이탈 등 변동사항 적용된 월간 반복 수익), Churn(매출 이탈률), Cash(현금), CAC(신규 고객 획득 비용), CLTV(고객 생애 가치)를 뜻하는 SaaS의 5C&lt;/a&gt;, 그리고 &lt;a title=&quot;Neeraj Agrawal, 2015 - The SaaS Adventure&quot; href=&quot;https://techcrunch.com/2015/02/01/the-saas-travel-adventure/&quot; target=&quot;_blank&quot;&gt;기업이 시장 진출에 성공하기까지 ARR(연간 반복 수입)의 성장 단계를 다룬 T2D3 패스&lt;/a&gt;까지. 성장률, 별도의 마케팅 비용이 들지 않는 고객 획득 및 반복 수익에 집중한 프레임워크가 쏟아져 나왔습니다. 그러나 OpenView는 이러한 프레임워크에서 사용하는 일부 지표가 제품 주도 성장을 활용하는 기업의 가치를 평가하기에는 부족하다고 이야기합니다. 예를 들면 다음과 같습니다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;ARR 성장률 : &lt;a title=&quot;OpenView Venture Partners - 2020 Expansion SaaS Benchmarks&quot; href=&quot;https://openviewpartners.com/expansion-saas-benchmarks&quot; target=&quot;_blank&quot;&gt;제품 주도 성장 기업의 ARR 성장률은 다른 기업보다 낮다가 ARR이 천만 달러를 넘는 시기에는 더 높아지는 경향이 있습니다.&lt;/a&gt; 단순 ARR 성장률 비교는 초반에 제품 주도 성장 제품의 고성장 동력 설계가 가진 가치를 반영하지 못합니다.&lt;/li&gt;
+  &lt;li&gt;CAC : &lt;a title=&quot;OpenView Venture Partners - Product Led Growth Index&quot; href=&quot;https://openviewpartners.com/product-led-growth-index/&quot; target=&quot;_blank&quot;&gt;제품 주도 성장 기업은 다른 기업보다 R&amp;amp;D 비용을 44% 더 많이 씁니다.&lt;/a&gt; 여기에는 CAC 감소를 위한 온보딩 최적화 및 바이럴 유도 비용도 포함됩니다. 하지만 이러한 비용은 영업·마케팅 비용처럼 따로 계산하기 어려운 항목이기 때문에 CAC를 정확하게 산정할 수 없습니다.&lt;/li&gt;
+  &lt;li&gt;CAC 대비 LTV 비율 : 이 지표는 선형적 제품 사용주기를 가진 제품의 경우에만 유효합니다. 저번 글에서 확인했다시피 제품 주도 성장은 순환하는 원형의 제품 사용주기를 만듭니다. &lt;a title=&quot;Black Bartlett(OpenView Venture Partners), 2016 - Why is LTV:CAC Still a Thing?&quot; href=&quot;https://openviewpartners.com/blog/ltv-cac-ratio/&quot; target=&quot;_blank&quot;&gt;사실상 LTV가 무한해질 수 있다는 의미&lt;/a&gt;입니다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/product-led-growth-metrics/03.jpg&quot; alt=&quot;NRG&quot; title=&quot;자연 성장률&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;위와 같은 문제를 해결하기 위해 OpenView는 NRG(자연 성장률)를 제안합니다. NRG는 제품 주도 성장 기업의 가치를 측정하기에 적합한 지표입니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;NRG = 100 * ARR 성장률 * 전체 가입 수 중 자연적(Organic) 가입 비율 * 전체 ARR 중 추가 지원 없이 제품만으로 전환된 고객 ARR 비율&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;계산식을 보면 알겠지만, NRG는 식을 구성하는 3가지 항목의 수치에 비례해서 높아집니다. 3가지 구성요소를 자세히 살펴보면 다음과 같습니다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;ARR 성장률 : (올해 ARR - 작년 ARR) / 작년 ARR&lt;/li&gt;
+  &lt;li&gt;전체 가입 중 자연적 가입 비율 : 전체 가입 고객 중 유료 마케팅·이벤트를 통하지 않고 스스로 제품에 유입된 고객의 비율&lt;/li&gt;
+  &lt;li&gt;전체 ARR 중 추가 지원 없이 제품만으로 전환된 고객 ARR 비율 : 전체 ARR 중 무료 버전 제품, FAQ나 지원 센터 같은 셀프서비스 등만 쓰고도 결제한 고객의 ARR 비율. 채팅 상담으로 데모 버전을 요청하는 경우처럼 수동으로 무언가를 해야 하는 일회성 지원이 전환 과정에 있다면 비율에 포함하지 않습니다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;결론적으로 NRG는 고객 확보, 확장, 전환, 유지가 얼마나 제품 주도적으로 수익성 있게 이뤄지는가를 측정하는 지표라고 할 수 있겠습니다. 초반에 ARR 성장률이 낮더라도 자연적 가입 비율이나 제품만으로 전환된 고객 ARR 비율이 높다면 고객 확보, 전환, 유지 과정이 단단하며 고객 유입 대비 수익률이 양호할 것을 알 수 있습니다.&lt;/p&gt;
+
+&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/product-led-growth-metrics/04.jpg&quot; alt=&quot;Good - Better - Best NRG&quot; title=&quot;Good - Better - Best NRG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;일반적으로 기업이 성장함에 따라 더 큰 시장 점유율을 차지할 수록 성장률은 떨어집니다. &lt;a title=&quot;Sam Richard(OpenView Venture Partners), 2020 - The New SaaS Metric You Should Be Tracking&quot; href=&quot;https://openviewpartners.com/blog/new-saas-metric/&quot; target=&quot;_blank&quot;&gt;ARR이 5천만 달러가 넘는 기업은 1천만 달러 미만의 기업보다 1/3가량 낮은 NRG를 보였더라도 비슷한 성과를 냈다고 봅니다.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/product-led-growth-metrics/05.jpg&quot; alt=&quot;NRG Comparison of Major SaaS Companies&quot; title=&quot;주요 SaaS 기업 NRG 비교&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;유입된-고객이-수익을-주기까지-aarrr-프레임워크&quot;&gt;유입된 고객이 수익을 주기까지, AARRR 프레임워크.&lt;/h2&gt;
+
+&lt;p&gt;NRG가 조직 전체·매출 측면에서 중요한 거시적 지표였다면 이번에 살펴볼 AARRR 단계별 지표는 좀 더 미시적이고 실무자에게 가까운 지표라고 할 수 있겠습니다.&lt;/p&gt;
+
+&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/product-led-growth-metrics/06.jpg&quot; alt=&quot;AARRR and Flywheel&quot; title=&quot;AARRR과 플라이휠&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a title=&quot;David McClure, 2007 - Product Marketing for Pirates: AARRR! (aka Startup Metrics for Internet Marketing &amp;amp; Product Management)&quot; href=&quot;https://500hats.typepad.com/500blogs/2007/06/internet-market.html&quot; target=&quot;_blank&quot;&gt;AARRR은 미국의 VC인 500 Startups의 창업자 데이빗 맥클루어가 제시한 프레임워크&lt;/a&gt;로 고객의 제품 사용주기를 다음과 같은 5단계로 구분, 각 단계의 전환율을 측정하여 제품 개발과 수익화를 전략적으로 접근할 수 있도록 해줍니다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;획득(Acquisition) : 고객의 유입&lt;/li&gt;
+  &lt;li&gt;활성화(Activation) : 고객의 제품 가치 경험&lt;/li&gt;
+  &lt;li&gt;유지(Retention) : 고객의 재방문·재이용&lt;/li&gt;
+  &lt;li&gt;추천(Referral) : 고객이 다른 사람에게 제품을 추천&lt;/li&gt;
+  &lt;li&gt;매출(Revenue) : 고객의 수익화 행위(결제 등)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;저번 글에서 소개한 제품 주도 성장 플라이휠과는 제품의 사용주기를 재구성했다는 공통점이 있기에 &lt;a title=&quot;OpenView Venture Partners - Product-led growth metrics&quot; href=&quot;https://www.productled.org/foundations/product-led-growth-metrics#Chap2&quot; target=&quot;_blank&quot;&gt;획득~추천에 해당하는 AARRR의 부분이 평가자~옹호자에 해당하는 플라이휠의 부분과 유사하다는 점`&lt;/a&gt;을 알 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;다음은 AARRR의 각 단계에서 측정할 수 있는 대표적인 지표입니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;획득&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;가입률 : 유입된 신규 고객이 제품의 가치를 접할 수 있도록 준비된 단계에 다다르는 과정의 전환율입니다. 이 과정에서 불필요한 마찰은 최소화해야 합니다. 그러나 필수적인 마찰은 수익성 있는 고객을 걸러내는 역할을 수행하기도 합니다. 제품의 특성에 따라서 유동적인 조정이 필요합니다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;활성화&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;TTV(가치 실현 시간) : 신규 고객이 유입된 직후 제품의 가치를 깨닫고 정기적 사용이나 결제와 같은 전환 단계에 도달할 수 있는 준비가 된 상태까지 걸리는 시간입니다. 짧은 TTV는 같은 기간 내 더 많은 활성화 고객을 만듭니다.&lt;/li&gt;
+  &lt;li&gt;PAI(제품 채택 지표) : ‘매직 넘버’로도 불립니다. 고객이 제품을 지속적해서 사용할 것이라는 신호입니다. &lt;a title=&quot;Ramli John(ProductLed), 2021 - The 3 User Onboarding Success Milestones&quot; href=&quot;https://productled.com/the-3-key-onboarding-success-kpis/&quot; target=&quot;_blank&quot;&gt;페이스북의 10일 간 친구 7명 추가, 드롭박스의 1장치, 1폴더, 1파일 추가 규칙 등&lt;/a&gt;이 그 사례입니다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;유지&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;CLTV(고객 생애 가치) : LTV 혹은 CLV. 단일 고객이 제품을 쓰는 동안 얻을 수 있는 예상 수익을 뜻합니다. 기본적으로는 고객이 제품을 사용하는 전 기간에 얻을 수 있는 수익에서 고객을 획득하고 유지하는 비용을 제외하여 계산합니다.&lt;/li&gt;
+  &lt;li&gt;순 이탈 손실액 비율 : (기간 내 이탈 손실액 - 기간 내 추가 및 확장 수익) / 기간 내 전체 수익. 고객의 이탈은 항상 일어나는 일입니다. 순 이탈 손실액 비율을 추적하여 가장 수익성 있는 고객을 위한 솔루션을 준비하면서 그들을 지키고 성장을 계속할 수 있습니다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;추천(제품 초대)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;바이럴리티(Virality) : 초대 수 * 각 초대의 전환율. 제품의 초대 시스템이 몇 명의 고객을 유치시킬지 유추할 수 있습니다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;매출&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;ARR(연간 반복 수익) : MRR(월간 반복 수익)과 함께 자주 사용됩니다. 구독 결제 구조에서 고객은 특별한 일이 없다면 매달 자동 결제합니다. 반복 수익이란 이런 어느 정도 확보되었다고 여겨지는 수익을 뜻합니다.&lt;/li&gt;
+  &lt;li&gt;ARPU(사용자당 평균 수익) : 전체 수익 / 사용자 수. 단일 고객으로부터 예상할 수 있는 평균 수익입니다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;정리&quot;&gt;정리&lt;/h2&gt;
+
+&lt;p&gt;가장 먼저 살펴본 것은 전 조직이 동원되는 제품 주도 성장에서 공통된 목표 설정이 가지는 중요성이었습니다. 통일된 목표는 조직원 개개인의 의사전달에 대한 의존성을 줄이고 목표 달성을 위한 방법을 탐색하게 합니다.&lt;/p&gt;
+
+&lt;p&gt;NRG, 자연 성장률은 조직과 매출 측면에서 활용할 수 있는 제품 주도 성장 지표입니다. NRG는 고객 확보, 확장, 전환, 유지가 얼마나 제품 주도적으로 수익성 있게 이뤄지는가를 측정합니다.&lt;/p&gt;
+
+&lt;p&gt;AARRR 프레임워크는 제품 사용주기를 분석했다는 점에서 제품 주도 성장 플라이휠과 유사한 부분이 많습니다. AARRR의 각 단계에 측정할 수 있는 지표를 알아보았습니다.&lt;/p&gt;
+
+&lt;p&gt;제품 주도 성장 시리즈의 2번째 글은 여기까지입니다. 다음 편부터는 제품 주도 성장 기업이 개발한 제품에 적용된 전략을 온보딩 단계부터 하나씩 살펴보겠습니다.&lt;/p&gt;
+
+&lt;p class=&quot;right-infor&quot;&gt;위시켓의 지원과 함께 제작된 콘텐츠입니다.&lt;/p&gt;</content><author><name>이준환</name></author><category term="design-teatime" /><summary type="html">제품 주도 성장 조직의 성과를 측정하는 NRG(자연 성장률)과 AARRR 프레임워크 단계별 지표로 제품 주도 성장을 모두에게 증명하는 방법입니다.</summary></entry><entry><title type="html">알아서 팔리는 제품을 만드는 제품 주도 성장(Product-led Growth) 방법론</title><link href="https://dewberry9.github.io/introduce-product-led-growth" rel="alternate" type="text/html" title="알아서 팔리는 제품을 만드는 제품 주도 성장(Product-led Growth) 방법론" /><published>2021-05-09T00:00:00+00:00</published><updated>2021-05-09T00:00:00+00:00</updated><id>https://dewberry9.github.io/introduce-product-led-growth</id><content type="html" xml:base="https://dewberry9.github.io/introduce-product-led-growth">&lt;p class=&quot;infor&quot;&gt;시리즈로 구성된 글입니다. 이번 글에서는 제품 주도 성장의 등장 배경, 정의, 구조, 장점에 대해 다룹니다. 연이은 글은 &lt;a title=&quot;매거진 입맛 - 팀원, 투자자, 고객을 바꾸는 성공한 제품의 경쟁력. 제품 주도 성장 지표&quot; href=&quot;/product-led-growth-metrics&quot; target=&quot;_blank&quot;&gt;제품 주도 성장에 필요한 지표 설정&lt;/a&gt;과 실제 제품에 적용할 수 있는 세부 전략에 관한 내용으로 꾸릴 예정입니다.&lt;/p&gt;
 
 &lt;p&gt;페이스북이 유튜브에 밀리기 전에 있었던 일입니다. 페이스북을 보는데 어떤 영상 광고가 제 눈을 끌었습니다. 베개가 너무나 푹신한 나머지 밑에 계란판을 깔아놓고 그 위를 밟아도 달걀이 깨지지 않는 내용이었습니다. 배속 처리된 영상에 큰 자막. 비슷한 포맷의 광고가 줄줄이 나왔습니다. 필터 달린 샤워기는 수도꼭지에 꽂자마자 누레졌고 쭉 짜고 닦았을 뿐인데 새것처럼 하얘지는 곰팡이 제거제도 있었습니다. 그 시기부터 페이스북은 케이스를 끼운 아이폰을 아파트 7층에서 떨어뜨리는 영상과 어떤 향수를 뿌렸더니 무관심했던 이성이 코를 박더라 하는 글을 SNS에서 캡처한 듯한 형태로 제작된 광고로 가득해졌습니다. 얼마 있지 않아 사람들은 시들해졌습니다.&lt;/p&gt;
 
@@ -79,7 +192,7 @@
 
 &lt;p&gt;이런 변화로 기존의 마케팅 주도 성장은 힘을 잃고 있습니다. 여기서 제품 주도 성장이 등장합니다. 제품 주도 성장은 고객 확보, 확장, 전환, 유지에 이르는 과정을 주도할 수 있는 제품을 목표로 합니다. 제품 주도 성장 제품의 사용주기는 4단계로 이뤄진 플라이휠 구조입니다. 제품 주도 성장은 CAC를 낮추고, 생산성을 높이며, 사용자 친화적인 제품을 만듭니다.&lt;/p&gt;
 
-&lt;p&gt;제품 주도 성장 시리즈의 첫 편은 여기까지입니다. 다음 편부터는 제품 주도 성장을 실제로 적용하는데 필요한 요소들을 하나씩 알아보겠습니다. 그 첫 번째는 제품 주도 성장의 구축과 성과 측정을 위한 여러 지표에 대한 내용입니다.&lt;/p&gt;
+&lt;p&gt;제품 주도 성장 시리즈의 첫 편은 여기까지입니다. 다음 편부터는 제품 주도 성장을 실제로 적용하는데 필요한 요소들을 하나씩 알아보겠습니다. 그 첫 번째는 &lt;a title=&quot;매거진 입맛 - 팀원, 투자자, 고객을 바꾸는 성공한 제품의 경쟁력. 제품 주도 성장 지표&quot; href=&quot;/product-led-growth-metrics&quot; target=&quot;_blank&quot;&gt;제품 주도 성장의 구축과 성과 측정을 위한 여러 지표에 대한 내용&lt;/a&gt;입니다.&lt;/p&gt;
 
 &lt;p class=&quot;right-infor&quot;&gt;위시켓의 지원과 함께 제작된 콘텐츠입니다.&lt;/p&gt;</content><author><name>이준환</name></author><category term="design-teatime" /><summary type="html">비싸지는 고객 획득 비용, 높아지는 경쟁률, 변화하는 고객 사이에서 어떻게 성장 동력을 챙길 수 있을까요? 제품 주도 성장이 답입니다.</summary></entry><entry><title type="html">이렇게 맛있는 소주. 화요 41</title><link href="https://dewberry9.github.io/hwayo-41" rel="alternate" type="text/html" title="이렇게 맛있는 소주. 화요 41" /><published>2021-04-30T00:00:00+00:00</published><updated>2021-04-30T00:00:00+00:00</updated><id>https://dewberry9.github.io/hwayo-41</id><content type="html" xml:base="https://dewberry9.github.io/hwayo-41">&lt;p&gt;시끌벅적한 식당 안, 달궈지는 불판 앞에서 송골송골 물방울을 흘리는 찬 초록 병. 소주는 저렴한 가격으로 가장 접하기 쉬운 술 중 하나입니다. 대접하기도 대접받기도 편한 술로써 좋은 사람들과 함께하기도 하고 혼자라도 부담 없이 반병쯤은 마실 수 있습니다.&lt;/p&gt;
 
@@ -662,98 +775,4 @@
 
 &lt;p&gt;상세 페이지는 디지털 프로덕트에서 빠지기 힘든 화면입니다. 그만큼 다양한 분야에서 활용되기에 분야의 특성을 살린 개선 방식이 있을 수 있습니다. 이번 글에서는 그런 점들을 최대한 배제하고 여러 분야에서 보편적으로 사용할 수 있는 팁을 준비했습니다. 하지만 어떤 방식이든 근본이 되는 원리는 같습니다. 전환에 유용한 정보를 가져다주는 것. 상세 페이지를 디자인한다면 항상 이 점을 생각해야 할 것입니다.&lt;/p&gt;
 
-&lt;p class=&quot;right-infor&quot;&gt;위시켓의 지원과 함께 제작된 콘텐츠입니다.&lt;/p&gt;</content><author><name>이준환</name></author><category term="design-teatime" /><summary type="html">상세 페이지는 전환이 발생하는 화면이기에 비즈니스에서 중요합니다. 실제 AB 테스트 사례(Airbnb) 함께 개선 방법 3가지를 알려드립니다.</summary></entry><entry><title type="html">발렌타인의 즐거운 변신. 발렌타인 싱글 몰트 글렌버기 12년</title><link href="https://dewberry9.github.io/glenburgie-12" rel="alternate" type="text/html" title="발렌타인의 즐거운 변신. 발렌타인 싱글 몰트 글렌버기 12년" /><published>2021-02-13T00:00:00+00:00</published><updated>2021-02-13T00:00:00+00:00</updated><id>https://dewberry9.github.io/glenburgie-12</id><content type="html" xml:base="https://dewberry9.github.io/glenburgie-12">&lt;p&gt;양주를 잘 모르는 사람이라도 한 번쯤은 들어봤을 정도로 발렌타인(Ballantine)은 유명한 브랜드입니다. 국내에서는 시바스 리갈(Chivas Regal)과 함께 가장 인지도 있는 위스키로 꼽힙니다.&lt;/p&gt;
-
-&lt;p&gt;발렌타인의 주력 상품은 블렌디드 위스키입니다. 재료가 되는 여러 위스키를 섞어 먹기 편하게 만든 위스키입니다. 최근 몇 해 동안 재료가 되는 위스키, 그중에서도 싱글 몰트 위스키가 관심받게 되었습니다. 자연히 발렌타인도 싱글 몰트 위스키 라인업을 출시하게 됩니다.&lt;/p&gt;
-
-&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/dewberry9/dewberry9.github.io/assets/images/daily/glenburgie-12/01.jpg&quot; alt=&quot;Bottle, Case 1&quot; title=&quot;Bottle, Case 1&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;2017년 발렌타인의 200년 역사에서 처음으로 싱글 몰트 위스키가 발표됐습니다. 밀튼더프(Miltonduff) 15년, 글렌토커스(Glentauchers) 15년, 글렌버기(Glenburgie) 15년입니다. 글렌버기 같은 경우 이후에 12년, 18년이 추가되면서 완전한 시리즈를 이루게 되었습니다.&lt;/p&gt;
-
-&lt;p&gt;오늘 다룰 술이 바로 글렌버기 12년입니다.&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;제품&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;발렌타인 싱글 몰트 글렌버기 12년(750mL)&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;분류&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;싱글 몰트 스카치 위스키&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;생산지&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;스코틀랜드 스페이사이드&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;알코올&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;40%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;가격&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;78,000원(이마트, 선물세트)&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/dewberry9/dewberry9.github.io/assets/images/daily/glenburgie-12/02.jpg&quot; alt=&quot;Bottle, Case 2&quot; title=&quot;Bottle, Case 2&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;글렌버기 12년 선물세트는 티파니의 그것보다 얕은 하늘색 패키지로 구성되어있습니다. 안에 아담한 크기의 온더락 잔 2개가 함께 들어있습니다. 패키지는 흠잡을 데 없이 무난한 마감을 보여줍니다.&lt;/p&gt;
-
-&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/dewberry9/dewberry9.github.io/assets/images/daily/glenburgie-12/03.jpg&quot; alt=&quot;Bottle, Case 3&quot; title=&quot;Bottle, Case 3&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;글렌버기 증류소는 스코틀랜드 스페이사이드(Speyside)에 있습니다. 하이랜드에 둘러싸인 스페이사이드 지역은 스코틀랜드 본토 위스키 산지 중에서 가장 작지만 글렌피딕(Glenfiddich), 맥캘란(Macallan), 글렌리벳(Glenlivet) 등 쟁쟁한 증류소들이 많이 모여있는 지역입니다. 1829년에 설립된 오래된 증류소지만 발렌타인에 쓰일 블렌디드 위스키 재료 위스키를 주로 만들었고 아주 가끔 한정판 형태로 원액이 병입되어 판매됐습니다.&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;연간 생산량&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;420만 리터&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;맥아즙 발효시간&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;54~100시간&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;증류액 알코올&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;69%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;피트&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;없음&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;소유주&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;페르노리카(시바스 브라더스 홀딩스)&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p class=&quot;infor&quot;&gt;증류소 정보 출처 : &lt;a href=&quot;https://scotchwhisky.com/whiskypedia/1851/glenburgie/?__cf_chl_jschl_tk__=e6775b42c20517cdb58b7a2136b4f7c1fcd3707d-1613178834-0-AVN980gUcsBEJ86C0g1kZAZIm3shJUW5SGCNRFoPSf3EsEEOfLsANw02l1zHSskUk-hSNNpVXWcRYZzzVSPqd8LuIv7ba06tU8UN0heRpKg5CCdg0ohY7ciO1E-CJfym0uNFahqqpgg0fpcibPKccZ-fZoCMusS6Q5TwXjsEExBnsLIufr98h4JZMjDSwlBhTiHRp4BvMnjw-Zfu7XpZ_jSTIR1AN3WfC5ADX8DR19l_DgLa3iu4P46q8ciUb7gldeMaVRRC0lXX8_CKx3yn9FbHzKTVz8cvCvS9JJ2gUO7VHO9VJqLrgG8v_wgP0haUd13zX-l-eSXatLzlueg_Aec&quot; title=&quot;Glenburgie Information&quot; target=&quot;_blank&quot;&gt;Scotchwhisky.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;p class=&quot;full-size&quot;&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/dewberry9/dewberry9.github.io/assets/images/daily/glenburgie-12/04.jpg&quot; alt=&quot;Bottle&quot; title=&quot;Bottle&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;라벨은 다른 싱글 몰트 위스키 브랜드에 비해 상대적으로 현대적인 스타일입니다. 라벨은 작은 크기로 투명한 병과 그 속의 내용물을 강조하고 있습니다. 평범한 700mL 술병의 높이에 목은 짧은 편인 비율입니다.&lt;/p&gt;
-
-&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/dewberry9/dewberry9.github.io/assets/images/daily/glenburgie-12/06.jpg&quot; alt=&quot;Bottle, Glass 2&quot; title=&quot;Bottle, Glass 2&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;색&lt;/strong&gt; 글렌버기 12년은 밝은 황금색을 띠고 있습니다. 길지 않은 숙성 연수에 아메리칸 오크통 숙성이 더해져 투명하고 산뜻한 분위기를 냅니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;향&lt;/strong&gt; 잔에 옮겨 담은 글렌버기의 향은 은은합니다. 가볍게 흔들고 코 밑에 가져다 대니 압도적인 부피의 사과 향이 상큼하고 달큰한 향기를 냅니다. 크림, 우유 같은 부드럽고 기름기 있는, 고소한 냄새가 단단하게 향의 밑층을 이루고 있습니다. 아메리칸 오크통을 사용한 탓인지 바닐라 향이 있습니다. 이슬에 젖은 새벽의 풀냄새가 납니다. 전반적인 향의 분위기는 애플파이와 비슷합니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;맛&lt;/strong&gt; 글렌버기가 점성 없이 잔을 타고 미끄러져 입안에 닿습니다. 스파이시가 거의 없고, 향에서 짐작했던 것보다 단 느낌이 덜하고 상큼한 느낌이 강합니다. 사과, 물 많은 자두, 잘 익은 포도가 혀를 열고 나면 눅진한 꿀이 다가옵니다. 그다음은 바닐라인데, 맛이 버번 위스키에 비견될 정도로 셉니다. 커피에 넣는 헤이즐넛 시럽의 달달하고 쌉쌀한 맛도 전반적인 맛의 기저에서 부족함 없는 정체감을 보여줍니다. 맛의 초-중-후반 차이가 상당히 있습니다. 글렌버기 맛의 흐름은 경쾌한 속도로 흘러갑니다.&lt;/p&gt;
-
-&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/dewberry9/dewberry9.github.io/assets/images/daily/glenburgie-12/07.jpg&quot; alt=&quot;Bottle, Glass 3&quot; title=&quot;Bottle, Glass 3&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;피니시&lt;/strong&gt; 바닐라, 커피, 헤이즐넛의 쌉쌀한 부분이 모자람 없이 남아 있습니다. 풍부한 향이 코와 입, 목구멍까지 가득합니다. 입안에 기름기 있는 느낌이 남습니다.&lt;/p&gt;
-
-&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/dewberry9/dewberry9.github.io/assets/images/daily/glenburgie-12/08.jpg&quot; alt=&quot;Bottle, Glass 4&quot; title=&quot;Bottle, Glass 4&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;발렌타인 싱글 몰트 글렌버기 12년은 여러모로 신기한 위스키입니다. 발렌타인이라는 브랜드가 풍기는 엄숙한 분위기와는 대조되는 글렌버기 12년이 보여주는 경쾌하고 발랄한 감각은 매우 이색적입니다. 산미, 무게감은 12년이라는 숙성 연수라면 예상이 갈만한 정도의 것이지만 과일과 바닐라 향은 기대를 훨씬 넘는 화려함을 가지고 있습니다.&lt;/p&gt;
-
-&lt;p&gt;적당한 강도, 상큼한 맛, 발렌타인의 이름 덕에 좋은 접근성까지. 오래된 브랜드의 새로운 측면은 입문자에게도, 애호가에게도 모두 흥미로우리라 생각합니다.&lt;/p&gt;</content><author><name>이준환</name></author><category term="review" /><summary type="html">블렌디드 위스키 주력의 발렌타인이 출시한 싱글 몰트. 이런 변신은 항상 환영입니다! 싱글 몰트 스카치위스키 발렌타인 싱글 몰트 글렌버기 12년 리뷰.</summary></entry></feed>
+&lt;p class=&quot;right-infor&quot;&gt;위시켓의 지원과 함께 제작된 콘텐츠입니다.&lt;/p&gt;</content><author><name>이준환</name></author><category term="design-teatime" /><summary type="html">상세 페이지는 전환이 발생하는 화면이기에 비즈니스에서 중요합니다. 실제 AB 테스트 사례(Airbnb) 함께 개선 방법 3가지를 알려드립니다.</summary></entry></feed>
