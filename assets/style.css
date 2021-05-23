@@ -84,7 +84,7 @@ strong { font-weight: bold; }
 
 ::selection { background: #363059; color: #fff; }
 
-body { font: 400 1em/1.8 "Spoqa Han Sans Neo", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; color: #514f59; background-color: #fff; -webkit-text-size-adjust: 100%; -o-font-feature-settings: "kern" 1; -webkit-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; -webkit-font-kerning: normal; font-kerning: normal; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; width: 100vw; overflow-x: hidden; position: relative; min-height: 100vh; }
+body { font: 400 1em/1.8 "Spoqa Han Sans Neo", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-display: swap; color: #514f59; background-color: #fff; -webkit-text-size-adjust: 100%; -o-font-feature-settings: "kern" 1; -webkit-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; -webkit-font-kerning: normal; font-kerning: normal; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; width: 100vw; overflow-x: hidden; position: relative; min-height: 100vh; }
 
 a { cursor: pointer; color: #86868a; text-decoration: none; -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; }
 
