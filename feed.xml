@@ -1,4 +1,108 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://dewberry9.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dewberry9.github.io/" rel="alternate" type="text/html" /><updated>2021-05-23T05:54:47+00:00</updated><id>https://dewberry9.github.io/feed.xml</id><title type="html">매거진 입맛</title><subtitle>읽을 만한 취향들. 매거진 입맛 - 책, 술, 그밖에 삶의 즐거움 리뷰 / 디자인 / 소설</subtitle><author><name>이준환</name></author><entry><title type="html">고객 10명 중 6명은 한번 쓰고 버린다. 줄줄 새는 제품 온보딩 고치기</title><link href="https://dewberry9.github.io/product-led-growth-onboarding" rel="alternate" type="text/html" title="고객 10명 중 6명은 한번 쓰고 버린다. 줄줄 새는 제품 온보딩 고치기" /><published>2021-05-20T00:00:00+00:00</published><updated>2021-05-20T00:00:00+00:00</updated><id>https://dewberry9.github.io/product-led-growth-onboarding</id><content type="html" xml:base="https://dewberry9.github.io/product-led-growth-onboarding">&lt;p class=&quot;infor&quot;&gt;&lt;a title=&quot;매거진 입맛 - 알아서 팔리는 제품을 만드는 제품 주도 성장(Product-led Growth) 방법론&quot; href=&quot;/introduce-product-led-growth&quot; target=&quot;_blank&quot;&gt;제품 주도 성장의 정의&lt;/a&gt;, &lt;a title=&quot;매거진 입맛 - 팀원, 투자자, 고객을 바꾸는 성공한 제품의 경쟁력. 제품 주도 성장 지표&quot; href=&quot;/product-led-growth-metrics&quot; target=&quot;_blank&quot;&gt;지표 설정하는 방법&lt;/a&gt;에 이어 시리즈로 구성된 글입니다. 이번 글에서는 제품 주도 성장에서 고객 획득과 온보딩이 차지하는 위치, 최적화의 원리와 실무에서 쓰이는 전략에 대해 설명합니다.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://dewberry9.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dewberry9.github.io/" rel="alternate" type="text/html" /><updated>2021-05-24T12:06:48+00:00</updated><id>https://dewberry9.github.io/feed.xml</id><title type="html">매거진 입맛</title><subtitle>읽을 만한 취향들. 매거진 입맛 - 책, 술, 그밖에 삶의 즐거움 리뷰 / 디자인 / 소설</subtitle><author><name>이준환</name></author><entry><title type="html">바이럴 없는 제품은 말라죽을 수밖에 없다</title><link href="https://dewberry9.github.io/product-led-growth-viral" rel="alternate" type="text/html" title="바이럴 없는 제품은 말라죽을 수밖에 없다" /><published>2021-05-24T00:00:00+00:00</published><updated>2021-05-24T00:00:00+00:00</updated><id>https://dewberry9.github.io/product-led-growth-viral</id><content type="html" xml:base="https://dewberry9.github.io/product-led-growth-viral">&lt;p class=&quot;infor&quot;&gt;&lt;a title=&quot;매거진 입맛 - 알아서 팔리는 제품을 만드는 제품 주도 성장(Product-led Growth) 방법론&quot; href=&quot;/introduce-product-led-growth&quot; target=&quot;_blank&quot;&gt;제품 주도 성장의 정의&lt;/a&gt;, &lt;a title=&quot;매거진 입맛 - 팀원, 투자자, 고객을 바꾸는 성공한 제품의 경쟁력. 제품 주도 성장 지표&quot; href=&quot;/product-led-growth-metrics&quot; target=&quot;_blank&quot;&gt;지표 설정하는 방법&lt;/a&gt;, &lt;a title=&quot;매거진 입맛 - 고객 10명 중 6명은 한번 쓰고 버린다. 줄줄 새는 제품 온보딩 고치기&quot; href=&quot;/product-led-growth-onboarding&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;온보딩 전략&lt;/a&gt;에 이어 시리즈로 구성된 글입니다. 이번 글에서는 온보딩과 함께 제품 주도 성장의 큰 축이라고 볼 수 있는 바이럴 전략에 대해 알아봅니다.&lt;/p&gt;
+
+&lt;p&gt;한 SaaS가 있습니다. MVP를 통해 갓 프로덕트 마켓 핏을 증명해낸 클라우드 서비스입니다. 이 제품은 처음에 검색 광고를 중심으로 고객을 모으려고 했습니다. 하지만 관련 키워드는 이미 경쟁률이 높았습니다. 수익과 CAC(고객 획득 비용)의 균형이 맞지 않았습니다. 제품의 팀은 전략을 바꿔 입소문(WoM)과 제품 초대(Referral)에 집중하기로 합니다. 2008년 9월 제품의 고객은 10만 명이었습니다. 2010년 1월, 고객은 400만 명이 되었습니다. &lt;strong&gt;15개월 만에 3,900% 성장&lt;/strong&gt;한 겁니다. 이 제품, &lt;a title=&quot;Apostle Mengoulis(viral loops), 2019 - Dropbox grew 3900% with a simple referral program. Here’s how!&quot; href=&quot;https://viral-loops.com/blog/dropbox-grew-3900-simple-referral-program/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;드롭박스(Dropbox)의 바이럴 전략&lt;/a&gt;은 전설이 되었습니다. 실험과 분석, 이 둘의 반복으로 이뤄진 결과였죠.&lt;/p&gt;
+
+&lt;p&gt;10년도 더 지난 지금, 여전히 드롭박스의 실적은 고무적입니다. 그러나 바이럴 전략에 관해 이야기를 듣자면 아직도 막막하게 다가옵니다. 좋은 건 알겠는데 어디서부터 설계해야 할지 아리송하기만 합니다. 바이럴, 어떻게 해야 할까요?&lt;/p&gt;
+
+&lt;h2 id=&quot;제품-성장의-엔진-바이럴&quot;&gt;제품 성장의 엔진, 바이럴&lt;/h2&gt;
+
+&lt;p&gt;바이럴(Viral)은 마치 바이러스가 사람과 사람을 타고 빠르게 전파되는 것처럼, &lt;a title=&quot;Oji Udezue(OpenView Venture Partners), 2020 - How Calendly Harnesses PLG and Virality for Growth&quot; href=&quot;https://openviewpartners.com/blog/how-calendly-harnesses-plg-and-virality-for-growth/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;고객이 또 다른 고객을 데려오면서 점점 더 많은 사람에게 제품을 노출하는 고객 획득 채널을 만드는 방법론&lt;/a&gt;입니다. 어떤 제품의 고객이 제품에 감명받아 친구 등 지인에게 제품을 소개할 때, 이 제품이 바이럴되었다고 할 수 있습니다. 바이럴 전략은 다음 2가지 방식으로 이와 같은 행동을 유도합니다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;초대하는 고객과 초대받는 고객, 양자에게 이익이 되도록 한다.&lt;/li&gt;
+  &lt;li&gt;초대와 가입, 그리고 이 행위로 인해 보상을 받을 때 생길 수 있는 마찰을 최소화한다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;이렇게 해서 제품이 얻을 수 있는 이득은 뭘까요? 그건 바로 &lt;strong&gt;새 고객을 비교적 저렴하게 활성화할 수 있다는 점&lt;/strong&gt;입니다. 이전에 보여드렸던 제품 주도 성장 플라이휠을 다시 보면서 설명하겠습니다.&lt;/p&gt;
+
+&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/introduce-product-led-growth/03.jpg&quot; alt=&quot;Product-led Growth Flywheel&quot; title=&quot;제품 주도 성장 플라이휠&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;‘옹호자’ 고객군은 ‘평가자’ 고객군을 바이럴합니다. 평가자는 막 제품을 알아가기 시작한 단계로, 제품이 자신의 문제를 해결할 수 있는지와 어떤 가치를 주는지 확인하고 있습니다. 이 과정이 끝나면 고객은 본격적으로 제품을 사용하며 구매를 고려하기 시작합니다. 이를 활성화된다고 표현합니다. 옹호자의 제품 초대는 평가자가 활성화되는 과정에서 드는 비용과 시간을 줄일 수 있습니다. 이 과정에서 가장 큰 고비는 단연 고객이 제품과 처음으로 만나는 유입의 순간입니다. 고객 눈앞에 펼쳐져 있는 수십만 개 제품 중 내 제품을 돋보이게 한다는 것은 굉장히 힘든 일입니다. 바이럴은 이 난관을 개인과 개인, 옹호자와 평가자, 초대자와 초대받는 이의 관계로 해결합니다. 바이럴된 제품은 수많은 제품이 경쟁하는 트랙 위에서 몇 걸음 앞선 출발선을 가질 수 있습니다. 초대자는 단순히 제품을 소개할 뿐만 아니라 앞서 사용한 사람으로서 기능 설명과 제품이 주는 가치를 전달하는 데 도움을 줄 수도 있을 겁니다. 이렇게 활성화된 고객은 다른 고객을 데려오고, 이 고객이 다시 활성화되어 또 다른 고객을 데려오고…. 고객은 무섭게 불어납니다. 평가자의 빠른 활성화는 플라이휠의 빠른 회전, 제품의 높은 성장률이라는 결과로 이어집니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;바이럴의-4가지-메커니즘&quot;&gt;바이럴의 4가지 메커니즘&lt;/h2&gt;
+
+&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/product-led-growth-viral/02.jpg&quot; alt=&quot;Viral Mechanism&quot; title=&quot;바이럴 메커니즘&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a title=&quot;Keith Cline(VentureFizz), 2018 - Business Model Analysis, Part 5: Virality&quot; href=&quot;https://venturefizz.com/stories/boston/business-model-analysis-part-5-virality&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;제품의 바이럴은 크게 다음 4가지 방식으로 이루어집니다.&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;네트워크 효과 : 제품을 쓰는 고객 간의 관계에서 가치가 창출되어 더 많은 고객이 제품을 쓸수록 고객이 받는 가치가 증가할 때 네트워크 효과가 발생했다고 합니다. 고객이 이런 제품의 작동 방식을 잘 이해하고 있을 때, 고객은 바이럴할 수 있습니다. 예를 들어 화상 통화 서비스 줌(Zoom)은 반드시 복수의 고객이 필요하기에 가장 먼저 줌을 쓰기로 마음먹은 고객이 다른 고객을 끌어들입니다.&lt;/li&gt;
+  &lt;li&gt;공유 : 제품을 사용하여 만들어낸 결과물을 공개 혹은 다른 개인에게 전달하는 과정에서 자연스럽게 제품이 노출됩니다. 구글 폼(Google Forms), 타입폼(Typeform)과 같은 설문지 제작 서비스로 설문지를 생성하면 설문 참여자들은 어떤 제품으로 설문지를 만들었는지 알 수 있습니다.&lt;/li&gt;
+  &lt;li&gt;인센티브 제공 : 저번 글에서 FBM(포그 행동 모델)을 설명하며 어떤 행동이 일어나기 위해서는 동기, 난이도, 계기가 중요하다고 했습니다. 바이럴도 똑같습니다. 적절한 인센티브는 바이럴을 위한 충분한 동기가 됩니다. 에어비앤비(Airbnb)는 지인을 호스트로 초대하면 일정 크레딧을 적립해주는 프로그램을 가지고 있습니다.&lt;/li&gt;
+  &lt;li&gt;입소문 : 가장 원시적인 형태의 바이럴입니다. 사회화된 사람이라면 누구나 정보를 제공하고 관계를 유지하고 싶어하기에, 제품을 유용하게 사용한 고객은 주변 사람들에게 제품에 대해 소개할 겁니다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;한 제품에 여러 바이럴 메커니즘이 활용될 수 있습니다. 당장 위에서 예시로 든 드롭박스는 협업을 위한 클라우드 서비스로 네트워크 효과를 갖고 있습니다. 그 유명한 초대 프로그램은 초대에 성공했을 때 초대자와 초대받는 이 모두 추가 저장 용량을 받는다는 인센티브가 있었습니다. 또 드롭박스에 가입하지 않아도 드롭박스에 저장된 파일에 접근할 수 있는 공유 링크를 제공하여 제품이 자연스럽게 노출되도록 했습니다.&lt;/p&gt;
+
+&lt;p&gt;이제 바이럴이 어떻게 작동하는지까지 알아보았으니, 바이럴 성과를 측정하고 개선하는 방법을 알아보겠습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;바이럴을-성공으로-이끄는-2가지-지표&quot;&gt;바이럴을 성공으로 이끄는 2가지 지표&lt;/h2&gt;
+
+&lt;p&gt;다른 제품에도 다 있길래 하나 꽂아 놓은 듯한 초대 프로그램은 잘 작동하는 건지도 의문이지만 아무튼 없는 것보다는 낫다는 생각으로 남겨놓습니다. 제품에 나쁜 바이럴 기능이 있는 까닭은 무관심 밖에는 없습니다. 가입률과 매출을 측정하고 개선하는 수많은 지표가 개발되었지만 바이럴 쪽에서는 그런 시도가 적어 보입니다. 다음은 바이럴의 성과에 큰 영향을 미치는 2가지 지표입니다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;바이럴 계수 K값. K = 1인당 초대 수 * 초대의 전환율&lt;/li&gt;
+  &lt;li&gt;바이럴 주기&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;바이럴 계수 K를 풀어 이야기하자면 고객 1명이 데려오는 신규 고객 수라고 할 수 있습니다. 이 지표가 중요한 이유는 바이럴이 제품의 성장에 얼마나 도움이 되는가를 알려주기 때문입니다. 초기 고객을 10명, 각 고객이 보내는 초대 수를 5건으로 잡고 초대 전환율만 다르게 한 다음의 예시를 봅시다.&lt;/p&gt;
+
+&lt;p class=&quot;full-size&quot;&gt;&lt;img src=&quot;/assets/images/design/product-led-growth-viral/03.jpg&quot; alt=&quot;Viral Growth Rate by K Coefficient&quot; title=&quot;K값별 바이럴 성장률&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;초대 전환율 40%, K = 2 : 바이럴 사이클이 한번 돌 때마다 신규 고객은 20명, 40명, 80명… 배로 증가합니다. 전체 고객 수는 기하급수적으로 늘어납니다.&lt;/li&gt;
+  &lt;li&gt;초대 전환율 20%, K = 1 : 신규 고객은 10명으로 일정하게 증가합니다. 전체 고객 수는 산술급수적으로 늘어납니다.&lt;/li&gt;
+  &lt;li&gt;초대 전환율 10%, K = 0.5 : 신규 고객은 5명, 3명, 1명에 이르러 증가하지 않는 지경에 이릅니다. 바이럴은 초기 성장에만 잠깐 관여합니다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;결국 온전히 바이럴로만 제품을 성장시키고 싶다면 K값을 1 이상으로 만들어야 한다는 결론이 납니다. 물론 쉬운 일은 아닙니다. &lt;strong&gt;바이럴 기능을 계속 실험하면서 다른 고객 획득 채널도 개발하는 유연한 전략이 필요&lt;/strong&gt;합니다.&lt;/p&gt;
+
+&lt;p&gt;다음은 바이럴 주기입니다. 바이럴 주기는 고객이 바이럴한 신규 고객이 유입되고 다시 다른 고객을 바이럴하기 전까지 걸리는 기간을 의미합니다. 바이럴 주기가 짧을수록 같은 기간 동안 더 많은 고객이 유입됩니다. 초기 고객 10명, 각 고객이 보내는 초대 수는 5건, 초대 전환율은 40%, K값은 2로 고정한 다음 예시를 봅시다.&lt;/p&gt;
+
+&lt;p class=&quot;full-size&quot;&gt;&lt;img src=&quot;/assets/images/design/product-led-growth-viral/04.jpg&quot; alt=&quot;Viral Growth Rate by Viral Cycle&quot; title=&quot;바이럴 주기별 바이럴 성장률&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;초대 주기 1일 : 10일째 바이럴 사이클 10회, 총 고객 수 20,470명&lt;/li&gt;
+  &lt;li&gt;초대 주기 2일 : 10일째 바이럴 사이클 5회, 총 고객 수 630명&lt;/li&gt;
+  &lt;li&gt;초대 주기 10일 : 10일째 바이럴 사이클 1회, 총 고객 수 30명&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;이처럼 &lt;strong&gt;초대 주기가 짧으면 짧을 수록 성장률이 극도로 커진다는 걸&lt;/strong&gt; 알 수 있습니다. &lt;a title=&quot;David Skok(For Entrepreneurs), 2017 - Lessons Learned - Viral Marketing&quot; href=&quot;https://www.forentrepreneurs.com/lessons-learnt-viral-marketing/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;바이럴 성장률은 K값을 구성하는 1인당 초대 수나 초대 전환율보다도 초대 주기의 영향이 큽니다.&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;바이럴-사례&quot;&gt;바이럴 사례&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;우버(Uber)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;우버는 공유 경제의 본격적인 시작을 알리기도 했던 승차 공유 서비스입니다. 우버의 생태계는 크게 운전자와 이용자로 나뉘는데, 두 쪽 모두 바이럴 기능이 존재합니다. 둘 다 기본적인 구조는 같습니다. 고객이 신규 고객을 데려오면, 기존 고객과 신규 고객 모두 보상을 줍니다. 운전자는 현금, 이용자는 서비스 내에서 사용 가능한 쿠폰 형식입니다. 우버의 라이벌로는 리프트(Lyft)가 있는데, 한때 우버는 &lt;a title=&quot;Apostle Mengoulis(viral loops), 2020 - Uber referral program : UNLOCKED&quot; href=&quot;https://viral-loops.com/blog/uber-referral-program-case-study/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;리프트에서 떠나 우버에 가입하는 운전자를 위한 보상 프로그램&lt;/a&gt;을 운영했을 정도로 고객을 공격적으로 유치했습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;줌(Zoom)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;화상 통화 서비스 줌의 성장은 판데믹의 여파가 있다지만 그것만으로 설명하기에는 너무 거대합니다. &lt;a title=&quot;Zoom, 2020 - 90-Day Security Plan Progress Report: April 22&quot; href=&quot;https://blog.zoom.us/90-day-security-plan-progress-report-april-22/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;2019년 12월부터 3개월 만에 줌의 하루 평균 회의 참가자 숫자는 1천만 명에서 2억 명 이상으로 20배 늘었습니다.&lt;/a&gt; 줌은 부분 유료화(Freemium) 전략을 사용합니다. 무료 버전에서는 최대 참석자 수와 회의 시간에 제한을 받습니다. 그보다 더 중요한 것은, 무료 버전을 경험하기 위해 어떤 가입 절차도 요구하지 않습니다. 기존에 줌을 사용하던 고객이 화상 통화를 위해 신규 고객에게 회의 초대 링크를 보내면, 링크를 받은 고객은 아무런 마찰 없이 화상 통화하며 줌을 경험할 수 있습니다. 인센티브도 쿠폰 코드도 필요 없습니다. 제품이 형성하는 네트워크 효과와 완벽하게 설계된 온보딩이 모든 보상을 대체합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;로빈후드(Robinhood)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;주식거래 서비스 로빈후드는 투자의 허들을 과감하게 내려 시장을 흔들고 있는 혁신적인 서비스입니다. 로빈후드의 혁신은 앱 탄생 이전부터 있었습니다. 앱이 출시되기 전 1년 동안의 사전 예약 기간에 로빈후드는 1백만 명의 대기자를 유치했습니다. 로빈후드는 소수 얼리어답터에게 서비스의 베타 버전을 제공하면서, 마찬가지로 서비스를 체험하고 싶어 대기자 명단에 이메일 주소를 올려놓은 잠재 고객을 입맛 다시게 했습니다. 대기자 명단은 단지 선착순이 아니었습니다. 대기자는 다른 고객을 초대하여 서비스 체험 우선순위를 높일 수 있었습니다. 대기자들은 경쟁적으로 초대했습니다. 로빈후드는 &lt;a title=&quot;Apostle Mengoulis(viral loops), 2018 - How Robinhood’s referral program brought 1 million users before launch&quot; href=&quot;https://viral-loops.com/blog/robinhood-referral-got-1-million-users/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;한정된 보상을 바이럴에 기여한 순위에 따라 부여함으로써 강력한 초대 프로그램을 만들었습니다.&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;정리&quot;&gt;정리&lt;/h2&gt;
+
+&lt;p&gt;바이럴은 고객이 또 다른 고객을 데려오면서 점점 더 많은 사람에게 제품을 노출하는 고객 획득 채널을 만드는 방법론입니다. 바이럴은 초대자와 초대받는 고객, 양자에게 이익이 되도록 하며, 초대와 가입, 그리고 이 행위로 인해 보상을 받을 때 생길 수 있는 마찰을 최소화하면서 새 고객을 최대한 저렴하게 활성화합니다.&lt;/p&gt;
+
+&lt;p&gt;바이럴에 사용되는 메커니즘은 네트워크 효과, 공유, 인센티브 제공, 입소문이 있으며 복수의 메커니즘이 동시에 활용되기도 합니다.&lt;/p&gt;
+
+&lt;p&gt;바이럴 성과를 측정하고 개선하는 대표적 지표는 2가지입니다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;바이럴 계수 K값. K = 1인당 초대 수 * 초대의 전환율&lt;/li&gt;
+  &lt;li&gt;바이럴 주기&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;특히 바이럴 주기가 짧을수록 성과에 미치는 영향이 컸습니다.&lt;/p&gt;
+
+&lt;p&gt;끝으로 우버, 줌, 로빈후드가 바이럴을 어떻게 활용했는지 그 사례를 보았습니다.&lt;/p&gt;
+
+&lt;p&gt;제품 주도 성장을 주제로 한 4부작 시리즈가 끝났습니다. 광범위한 내용을 다루다 보니 항목 하나하나를 깊게 파기보다는 전체적인 구조를 그리는 데 주력했습니다. 기회가 된다면 각각의 디테일을 들여다보는 글도 써보려고 합니다. 제품 주도 성장 시리즈가 도움이 되는, 고민하게 만드는 글이었다면 좋겠습니다. 여기서 마칩니다.&lt;/p&gt;
+
+&lt;p class=&quot;right-infor&quot;&gt;위시켓의 지원과 함께 제작된 콘텐츠입니다.&lt;/p&gt;</content><author><name>이준환</name></author><category term="design-teatime" /><summary type="html">15개월 만에 3,900% 성장, 3달 만에 1천만 명에서 2억명. 드롭박스와 줌, 시기는 달랐지만 이들의 성장에는 공통점, 바이럴이 있었습니다.</summary></entry><entry><title type="html">고객 10명 중 6명은 한번 쓰고 버린다. 줄줄 새는 제품 온보딩 고치기</title><link href="https://dewberry9.github.io/product-led-growth-onboarding" rel="alternate" type="text/html" title="고객 10명 중 6명은 한번 쓰고 버린다. 줄줄 새는 제품 온보딩 고치기" /><published>2021-05-20T00:00:00+00:00</published><updated>2021-05-20T00:00:00+00:00</updated><id>https://dewberry9.github.io/product-led-growth-onboarding</id><content type="html" xml:base="https://dewberry9.github.io/product-led-growth-onboarding">&lt;p class=&quot;infor&quot;&gt;&lt;a title=&quot;매거진 입맛 - 알아서 팔리는 제품을 만드는 제품 주도 성장(Product-led Growth) 방법론&quot; href=&quot;/introduce-product-led-growth&quot; target=&quot;_blank&quot;&gt;제품 주도 성장의 정의&lt;/a&gt;, &lt;a title=&quot;매거진 입맛 - 팀원, 투자자, 고객을 바꾸는 성공한 제품의 경쟁력. 제품 주도 성장 지표&quot; href=&quot;/product-led-growth-metrics&quot; target=&quot;_blank&quot;&gt;지표 설정하는 방법&lt;/a&gt;에 이어 시리즈로 구성된 글입니다. 이번 글에서는 제품 주도 성장에서 고객 획득과 온보딩이 차지하는 위치, 최적화의 원리와 실무에서 쓰이는 전략에 대해 설명합니다.&lt;/p&gt;
 
 &lt;p&gt;디지털 프로덕트에서 고객 획득과 온보딩이 중요하다는 것은 누구나 아는 상식입니다. 특히나 &lt;a title=&quot;매거진 입맛 - 알아서 팔리는 제품을 만드는 제품 주도 성장(Product-led Growth) 방법론&quot; href=&quot;/introduce-product-led-growth&quot; target=&quot;_blank&quot;&gt;제품 주도 성장 방법론&lt;/a&gt;에서는 영업과 마케팅에 사용되는 리소스 상당분을 제품 개선에 활용하고 플라이휠을 돌리며 성장을 가속하는 구조로 되어 있기 때문에 그 중요도가 각별히 큽니다.&lt;/p&gt;
 
@@ -828,58 +932,4 @@
 
 &lt;p&gt;카페박스는 다양한 로스터리 카페 브랜드를 손쉽게 경험할 수 있다는 관점에서 보면 최고의 서비스입니다. 아직 종류나 편의 옵션에서 부족한 면이 보이기는 하지만 그다지 거슬리는 일은 아니고 시간만 지나면 자연히 보충될 부분이라고 생각합니다.&lt;/p&gt;
 
-&lt;p&gt;다만 300g에 2만 원 대 중반에 해당하는 가격은 다양한 원두를 탐험하고 경험하는 일에 흥미가 없는 사람이라면 납득하기 어려운 가격일 수 있습니다. 그러나 카페박스가 제공하는 큐레이팅의 가치는 여전히 높습니다. 새로운 것이 주는 즐거움은 그만큼 크니까요.&lt;/p&gt;</content><author><name>이준환</name></author><category term="review" /><summary type="html">이번 달은 부산, 다음 달은 성수. 전국 방방곡곡 로스터리 카페 브랜드를 간편하게 경험하는 방법이 있습니다. 커피 구독 서비스 카페박스 리뷰.</summary></entry><entry><title type="html">편의점에서 마티니 좀 사고 올게. GS25 나만의 냉장고 와인25Plus</title><link href="https://dewberry9.github.io/gs25-wine-25-plus" rel="alternate" type="text/html" title="편의점에서 마티니 좀 사고 올게. GS25 나만의 냉장고 와인25Plus" /><published>2021-03-31T00:00:00+00:00</published><updated>2021-03-31T00:00:00+00:00</updated><id>https://dewberry9.github.io/gs25-wine-25-plus</id><content type="html" xml:base="https://dewberry9.github.io/gs25-wine-25-plus">&lt;p&gt;위스키, 와인, 칵테일을 좋아하는 사람들에게 지방은 불모지입니다. 변변찮은 주류매장이나 바를 찾기 힘들고 대형마트에서도 주류 라인업은 상대적으로 빈약합니다. 데일리샷 같은 스마트 오더 앱도 제휴점이 수도권에 몰려있습니다. 서울에 있었을 때부터 짐작하고는 있었지만, 실제로 내려와 보니 정말 뭐가 없다는 게 실감 납니다.🙁&lt;/p&gt;
-
-&lt;p&gt;그렇다고 서울에 산다고 해서 귀찮은 일이 없는가, 하면 그건 아닙니다. 좋은 가격으로 술을 구하려면 남대문 시장, 주류매장에 발품을 팔고 대형마트의 할인 일정도 틈틈이 확인해야 합니다.&lt;/p&gt;
-
-&lt;p&gt;그런데 이번에 집 앞 편의점에서 드라이 베르무트를 사 왔습니다. 가격도 괜찮습니다. GS25 나만의 냉장고 와인25Plus를 사용한 결과입니다.&lt;/p&gt;
-
-&lt;p class=&quot;full-size&quot;&gt;&lt;img src=&quot;/assets/images/daily/gs25-wine25plus/01.jpg&quot; alt=&quot;Home&quot; title=&quot;홈 화면&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;앱스토어에서 GS25 나만의 냉장고 앱을 설치하면 홈 화면 하단 혹은 파란 바탕 흰 동그라미 플로팅 버튼을 눌러 와인25Plus 메뉴에 진입할 수 있습니다. 판매(수령) 점포를 선택하면 점포에서 받아볼 수 있는 주류 라인업이 주르륵 나타납니다. 물론 성인인증이 선행됩니다.&lt;/p&gt;
-
-&lt;p class=&quot;full-size&quot;&gt;&lt;img src=&quot;/assets/images/daily/gs25-wine25plus/02.jpg&quot; alt=&quot;Category&quot; title=&quot;카테고리&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;와인, 위스키, 리큐르, 전통주, 맥주까지 다루는 상품의 범위 자체가 상당합니다. 업데이트 후에는 각 주류별 세부 카테고리도 나눠져서 원하는 술을 찾기 쉬워졌습니다. 신상이 들어오는 기간도 꽤 빈번하고 할인 이벤트도 잦아서 괜찮은 가격이 보일 때도 많습니다.&lt;/p&gt;
-
-&lt;p class=&quot;full-size&quot;&gt;&lt;img src=&quot;/assets/images/daily/gs25-wine25plus/03.jpg&quot; alt=&quot;Add to Cart Funnel&quot; title=&quot;장바구니 담기 퍼널&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;상품을 눌러 수량을 선택하면 술을 수령할 날짜를 고를 수 있습니다. 서울 같은 경우는 당일 수령까지도 가능하다지만 지방인 이곳은 가장 가까운 날짜가 5일 후였습니다.&lt;/p&gt;
-
-&lt;p class=&quot;full-size&quot;&gt;&lt;img src=&quot;/assets/images/daily/gs25-wine25plus/04.jpg&quot; alt=&quot;Cart&quot; title=&quot;장바구니&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;수령 상품과 점포와 날짜를 선택하면 장바구니에 상품이 담깁니다.&lt;/p&gt;
-
-&lt;p class=&quot;full-size&quot;&gt;&lt;img src=&quot;/assets/images/daily/gs25-wine25plus/05.jpg&quot; alt=&quot;Pay&quot; title=&quot;결제&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;상품을 결제합니다. 할인 옵션이 상당히 많습니다. 쿠폰, 통신사 할인, GS&amp;amp;POINT, 각종 상품권까지 결제에 동원할 수 있습니다.&lt;/p&gt;
-
-&lt;p class=&quot;full-size&quot;&gt;&lt;img src=&quot;/assets/images/daily/gs25-wine25plus/06.jpg&quot; alt=&quot;Payment&quot; title=&quot;결제 수단&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;신용카드, 휴대폰 결제, 계좌이체를 지원합니다.&lt;/p&gt;
-
-&lt;p class=&quot;full-size&quot;&gt;&lt;img src=&quot;/assets/images/daily/gs25-wine25plus/07.jpg&quot; alt=&quot;Complete Payment&quot; title=&quot;결제 완료&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;결제까지 마치면 수령일과 수령에 필요한 예약증을 어디서 확인할 수 있는지 알려줍니다.&lt;/p&gt;
-
-&lt;p class=&quot;full-size&quot;&gt;&lt;img src=&quot;/assets/images/daily/gs25-wine25plus/08.jpg&quot; alt=&quot;Reserve&quot; title=&quot;예약증&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;예약증은 홈 화면에서도 볼 수 있습니다. 수령 당일이 되면 또 카카오톡 알림톡이 날아옵니다.&lt;/p&gt;
-
-&lt;p class=&quot;full-size&quot;&gt;&lt;img src=&quot;/assets/images/daily/gs25-wine25plus/09.jpg&quot; alt=&quot;Exchange Manual&quot; title=&quot;교환 방법 안내&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;나만의 냉장고 사용 고객 응대가 편의점 점포의 주된 업무가 아니다 보니 예약증을 들고 점포를 찾아가면 어떻게 하는 건지 모르는 아르바이트 직원이 있을 수 있습니다. 예약증 하단에 사용 방법이 적혀 있으니 참고하면 되겠습니다.&lt;/p&gt;
-
-&lt;p class=&quot;full-size&quot;&gt;&lt;img src=&quot;/assets/images/daily/gs25-wine25plus/10.jpg&quot; alt=&quot;Result&quot; title=&quot;상품 수령&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;여기까지 왔다면 에어 팩에 잘 포장된 술을 받을 수 있습니다.&lt;/p&gt;
-
-&lt;p class=&quot;full-size&quot;&gt;&lt;img src=&quot;/assets/images/daily/gs25-wine25plus/11.jpg&quot; alt=&quot;Membership&quot; title=&quot;프리미엄 멤버십&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;이번 3월 말에 진행된 리뉴얼 후에는 프리미엄 멤버십이라는 제도도 생겼습니다. 가입 자체는 무료로, 와인25Plus로 구매한 주류의 수량과 소비액에 따라 등급이 상향되는 방식입니다. 특정 등급 이상만 구매할 수 있는 상품이나 참여 가능한 이벤트 등을 준비하고 있는 모양입니다.&lt;/p&gt;
-
-&lt;p&gt;GS25 나만의 냉장고가 처음 등장했을 때는 1+1 행사 등으로 예상치 못하게 얻은 공짜 음료 같은 걸 당장 처리하기 힘들 때 보관할 수 있는 컨셉이었습니다. 편의점 프렌차이즈가 다루는 재고가 다 비슷하고, 점포 접근성도 어지간한 시골이 아닌 이상 고만고만한 수준이니 차별점을 만들기 위해 개발한 서비스였을 겁니다. 이제는 예약주문 기능이 붙어 점포에서 재고를 감당하지 않으면서 편의점의 좋은 접근성으로 고객 개개인이 바라는 상품을 제공할 수 있게 되었습니다. 이런 사례를 볼 때마다 오프라인 접근성이 괜찮은 편의점은 뭘 붙여도 될 것 같다는 생각이 듭니다.&lt;/p&gt;
-
-&lt;p&gt;GS25 나만의 냉장고 와인25Plus는 편의점에서는 최초로 시작된 주류 스마트 오더이기도하고, 이마트와 비교해도 주류 라인업으로 보나 UX로 보나 어느 쪽이든 더 우위로 보입니다. 제휴에 의존하고 있는 다른 주류 스마트 오더 서비스보다 접근성이 좋다는 것도 확실한 장점입니다. 이쪽의 선두 주자라고 볼 수 있는 데일리샷도 이제 경상도, 제주도, 대전 지역 서비스를 시작하고 전라도와 강원도는 아직도 준비 중(두 지역은 상반기 중에 업데이트가 예약돼 있습니다)이니까요.&lt;/p&gt;
-
-&lt;p&gt;어찌 되었건 지방 술쟁이는 한숨 돌렸으니, 마티니 섞을 준비나 해야겠습니다.&lt;/p&gt;</content><author><name>이준환</name></author><category term="review" /><summary type="html">위스키, 와인, 칵테일을 좋아하지만 주류매장, 바. 남대문은 너무나도 먼 지방 술쟁이의 희망, 주류 스마트 오더 GS25 와인25Plus 사용법.</summary></entry></feed>
+&lt;p&gt;다만 300g에 2만 원 대 중반에 해당하는 가격은 다양한 원두를 탐험하고 경험하는 일에 흥미가 없는 사람이라면 납득하기 어려운 가격일 수 있습니다. 그러나 카페박스가 제공하는 큐레이팅의 가치는 여전히 높습니다. 새로운 것이 주는 즐거움은 그만큼 크니까요.&lt;/p&gt;</content><author><name>이준환</name></author><category term="review" /><summary type="html">이번 달은 부산, 다음 달은 성수. 전국 방방곡곡 로스터리 카페 브랜드를 간편하게 경험하는 방법이 있습니다. 커피 구독 서비스 카페박스 리뷰.</summary></entry></feed>
