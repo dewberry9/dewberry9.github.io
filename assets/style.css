@@ -178,7 +178,7 @@ section.btn-point { padding-top: 4rem; -webkit-box-orient: vertical; -webkit-box
 
 section.btn-point .text-content { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
 
-section.btn-point .text-content h3 { padding-left: 1.25rem; }
+section.btn-point .text-content h3 { padding-left: 1.25rem; word-break: keep-all; }
 
 section.btn-point .text-content .btn-list { min-width: 4rem; padding-right: 1.25rem; color: #514f59; font-size: 0.75rem; font-family: "Nanum Myeongjo"; }
 
