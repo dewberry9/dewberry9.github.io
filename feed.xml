@@ -1,4 +1,101 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://dewberry9.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dewberry9.github.io/" rel="alternate" type="text/html" /><updated>2021-06-13T09:48:01+00:00</updated><id>https://dewberry9.github.io/feed.xml</id><title type="html">매거진 입맛</title><subtitle>읽을 만한 취향들. 매거진 입맛 - 책, 술, 그밖에 삶의 즐거움 리뷰 / 디자인 / 소설</subtitle><author><name>이준환</name></author><entry><title type="html">핵심만 모은, 메모해놓고 쓰는 6가지 SEO 전략</title><link href="https://dewberry9.github.io/six-seo-tips" rel="alternate" type="text/html" title="핵심만 모은, 메모해놓고 쓰는 6가지 SEO 전략" /><published>2021-06-13T00:00:00+00:00</published><updated>2021-06-13T00:00:00+00:00</updated><id>https://dewberry9.github.io/six-seo-tips</id><content type="html" xml:base="https://dewberry9.github.io/six-seo-tips">&lt;p&gt;디지털 프로덕트에 고객을 유치하는 방법이 몇 가지나 있을까요? 갖가지 전략을 떠올릴 수 있겠지만 고객 획득에 직접 관여하는 방법은 크게 4가지로 나눌 수 있습니다.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://dewberry9.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dewberry9.github.io/" rel="alternate" type="text/html" /><updated>2021-06-20T11:06:13+00:00</updated><id>https://dewberry9.github.io/feed.xml</id><title type="html">매거진 입맛</title><subtitle>읽을 만한 취향들. 매거진 입맛 - 책, 술, 그밖에 삶의 즐거움 리뷰 / 디자인 / 소설</subtitle><author><name>이준환</name></author><entry><title type="html">고객을 결제시키는 3가지 라이브 채팅 전략</title><link href="https://dewberry9.github.io/three-live-chat-tips" rel="alternate" type="text/html" title="고객을 결제시키는 3가지 라이브 채팅 전략" /><published>2021-06-20T00:00:00+00:00</published><updated>2021-06-20T00:00:00+00:00</updated><id>https://dewberry9.github.io/three-live-chat-tips</id><content type="html" xml:base="https://dewberry9.github.io/three-live-chat-tips">&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/three-live-chat-tips/01.jpg&quot; alt=&quot;Live Chat SaaS&quot; title=&quot;라이브 채팅 서비스&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;언제부터인가 흔하게 보이는 플로팅 버튼입니다. 특히 웹 기반 제품에서 자주 보입니다. 디지털 프로덕트에 익숙한 방문객은 대부분은 이 버튼을 보고 같은 경험을 기대할 겁니다. 누르면 채팅창이 열리고, 즉각적으로 상담원과 연결됩니다. 다들 아시다시피 이건 라이브 채팅 소프트웨어입니다.&lt;/p&gt;
+
+&lt;p&gt;모든 고객은 저마다의 입장을 가지고 있습니다. 제품이 모든 입장에 꼭 맞게 만들어질 수는 없습니다. 고객과 제품 1:1 관계로 해결될 수 없는 문제가 생기고 제품 제공자가 개입합니다. 이것이 고객 지원의 구조입니다. 고객 지원은 맞춤 수제 제품이 아닌 이상 많든 적든 어쩔 수 없이 발생하는 일입니다.&lt;/p&gt;
+
+&lt;p&gt;초창기 디지털 프로덕트의 고객 지원은 전화, 이메일 문의와 같은 전통적인 방식을 그대로 따랐습니다. 인력이 부족한 곳에서는 게시판을 통해 비동기·비실시간으로 문의를 처리했습니다. 그랬던 고객 지원 방식이 변화의 흐름을 타고 있습니다. 이 선명한 변화는 이제와서 이야기하기에는 뒷북인 느낌이 들 정도로 완숙한 상황입니다. 오늘날 디지털 프로덕트의 고객 지원에 있어서 라이브 채팅의 채택은 선택보다 필수에 가까워 보입니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;라이브 채팅에 어떤 장점이 있길래 지금의 위치에 오를 수 있었을까요?&lt;/li&gt;
+  &lt;li&gt;숨겨진 단점이 있는 건 아닐까요?&lt;/li&gt;
+  &lt;li&gt;라이브 채팅을 제대로 쓴다는 건 어떤 걸까요?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;라이브-채팅의-이점&quot;&gt;라이브 채팅의 이점&lt;/h2&gt;
+
+&lt;p&gt;채팅(메시징)은 사람들이 즐겨 쓰는 가장 효율적인 의사소통 방법의 하나입니다. 카카오톡과 WeChat 같은 제품이 채팅 앱으로 시작하여, 갖가지 사업 분야에서 성과를 내는 슈퍼 앱으로 성장한 일은 우연이 아닙니다. 이를 고객 지원에 적용한 라이브 채팅은 크게 3가지 이점을 가지고 있습니다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;고객 만족도 증진&lt;/li&gt;
+  &lt;li&gt;전환율, 리텐션 개선&lt;/li&gt;
+  &lt;li&gt;지원 업무 효율 개선&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p class=&quot;full-size&quot;&gt;&lt;img src=&quot;/assets/images/design/three-live-chat-tips/02.jpg&quot; alt=&quot;Satisfaction by CS Media&quot; title=&quot;고객 지원 매체별 만족도&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;고객 지원을 받는 고객에게 있어서 &lt;a title=&quot;Graham Charlton(Econsultancy), 2013 - Consumers prefer live chat for customer service: stats&quot; href=&quot;https://econsultancy.com/consumers-prefer-live-chat-for-customer-service-stats/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;라이브 채팅의 만족도는 이메일, 게시물, SNS, 통화 방식과 비교했을 때 월등&lt;/a&gt;합니다. 실시간으로 답변을 받을 수 없는 이메일 등의 방식이나, 긴 대기시간을 요구하는 통화 방식과 비교해 제품에 내장된 라이브 채팅은 빠른 접근성과 응답성이라는 장점이 있습니다. 대답하는 시간을 다소 자유롭게 조정할 수 있는 채팅 방식은 &lt;a title=&quot;매거진 입맛 - 알아서 팔리는 제품을 만드는 제품 주도 성장(Product-led Growth) 방법론&quot; href=&quot;/introduce-product-led-growth&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;제품 사용에 있어서 주체적인 성향을 띄는 오늘날의 고객&lt;/a&gt;에게 특히 유용합니다.&lt;/p&gt;
+
+&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/three-live-chat-tips/03.jpg&quot; alt=&quot;Live Chat Improve Conversion Rates&quot; title=&quot;라이브 채팅의 지표 개선&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;라이브 채팅이 제품의 주요 지표에 미치는 영향은 더 직설적입니다. 미국 마케팅 협회는 라이브 채팅이 고객의 전환을 막는 장애 요소를 해결함으로써 &lt;a title=&quot;Nancy Pekala, 2016 - How B2B Marketers are Leveraging Live Chat to Increase Sales&quot; href=&quot;https://www.spechy.com/wp-content/uploads/2016/11/how-b2b-marketers-leveraging-live-chat-increase-sales.pdf&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;B2B 제품의 전환율을 20% 개선&lt;/a&gt;한다고 말합니다. WebsiteBuilder.org의 조사에 따르면 라이브 채팅이 제공되는 웹페이지에서 &lt;a title=&quot;WebsiteBuilder, 2021 - 101 Live Chat Statistics on Why You Need to Embrace It&quot; href=&quot;https://websitebuilder.org/blog/live-chat-statistics/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;고객의 구매 가능성은 51%, 리텐션은 48% 증가&lt;/a&gt;합니다.&lt;/p&gt;
+
+&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/three-live-chat-tips/04.jpg&quot; alt=&quot;Cost Effectiveness of Live Chat&quot; title=&quot;라이브 채팅의 비용효율성&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;고객만이 라이브 채팅의 수혜자는 아닙니다. 라이브 채팅을 제공하는 쪽도 상당한 업무 효율 개선 효과를 볼 수 있습니다. 위의 조사에서 이어지는 내용입니다. 라이브 채팅을 이용한 고객 지원 업무 비용은 통화 방식보다 보다 400% 저렴합니다. 평균적으로 1명의 라이브 채팅 상담원이 15명의 이메일 상담원의 일을 할 수 있습니다. 총체적으로 봤을 때 라이브 채팅을 이용한 고객 지원 업무의 ROI(투자수익률)는 300%에 달합니다.&lt;/p&gt;
+
+&lt;p&gt;이처럼 &lt;strong&gt;라이브 채팅은 고객 지원을 비롯한 제품 전반의 수익성을 강화&lt;/strong&gt;합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;라이브-채팅-일단-붙이고-보자&quot;&gt;라이브 채팅, 일단 붙이고 보자?&lt;/h2&gt;
+
+&lt;p&gt;앞서 설명했듯이 라이브 채팅은 수익성을 강화하고 제품 경험을 완성하는 강력한 기능입니다. 여기까지만 읽었다면 라이브 채팅이 제품에 달기만 하면 지표를 올려주는 만능 도구로 여겨질지도 모르겠습니다. 이렇게 생각하고 있는 사람이라면 라이브 채팅이 가입률과 전환율을 감소시켰다는 &lt;a title=&quot;Lars Lofgren, 2015 - How Live Chat Tools Impact Conversions and Why I Launched a Bad Variant&quot; href=&quot;http://larslofgren.com/growth/how-live-chat-tools-impact-conversions&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;AB 테스트 결과&lt;/a&gt;가 있다는 사실에 놀랄 겁니다.&lt;/p&gt;
+
+&lt;p&gt;그렇습니다. 어떤 경우에는 라이브 채팅이 주요 지표에 악영향을 주기도 합니다. 라이브 채팅이 어떤 방식으로 제품에 도움이 되는지 모르고 앞뒤 없이 도입한 경우라면 특히 그러합니다.&lt;/p&gt;
+
+&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/three-live-chat-tips/05.jpg&quot; alt=&quot;Live Chat Distributes the Inflow&quot; title=&quot;라이브 채팅의 퍼널 분산&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;라이브 채팅은 제품을 보조하는 도구이지만 눈에 띄는 플로팅 버튼와 같이 높은 접근성을 가지고 있습니다. 이는 라이브 채팅을 이용할 때는 편리한 요인이지만, 제품과 맞물려 작동하면서 묘한 일이 벌어집니다. 많은 디지털 프로덕트는 유입된 고객을 사업적으로 의미 있는 행동을 취하도록 견인하는 구조로 되어 있습니다. 이런 단계형 구조를 흔히 퍼널(Funnel)이라고 부릅니다. 특정한 상황에서 라이브 채팅의 높은 접근성은 퍼널의 다음 단계로 넘어가는 고객을 분산합니다. 라이브 채팅이 없었다면 별도 비용 없이 제품의 퍼널을 거쳤을 고객이 라이브 채팅을 시도하여 진행하지 않아도 될 상담 과정을 거치게 되는 것입니다. 한 단계가 늘어나는 이 구조는 &lt;a title=&quot;매거진 입맛 - 고객 10명 중 6명은 한번 쓰고 버린다. 줄줄 새는 제품 온보딩 고치기&quot; href=&quot;/product-led-growth-onboarding&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;퍼널 디자인에서는 치명적&lt;/a&gt;입니다. 기존 제품의 경험이 너무나 빈약해 라이브 채팅이 전환율을 끌고 가는 형태라면 이런 상황이 지표를 개선하는 결과로 이어지겠지만, 제품의 경험이 비교적 괜찮거나 라이브 채팅의 경험이 제품 자체보다 떨어지는 상황이라면 결과는 반대가 됩니다. 결국 라이브 채팅을 통해 지표를 개선하려는 목적을 가지고 있다면, &lt;strong&gt;라이브 채팅에 유입된 고객이 그렇지 않은 고객보다 더 큰 가치를 창출하는 구조가 필요하다&lt;/strong&gt;는 전제를 얻을 수 있습니다. 이제 그 구체적인 방법을 설명하겠습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;빠른-응답속도&quot;&gt;빠른 응답속도&lt;/h2&gt;
+
+&lt;p&gt;가장 먼저 생각해야하는 것은 라이브 채팅으로 유입된 고객이 섣불리 제품을 포기하고 이탈하지 않도록 하는 방법입니다. 직감적으로 응답속도를 떠올릴 수 있습니다. 그 직감은 어느 정도 맞는 편입니다. MZ세대 &lt;a title=&quot;Forrester, 2017 - Raising The Bar&quot; href=&quot;https://www.slideshare.net/hoangduy203/amex-forrester-gen-z-research&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;17~20%는 채팅 응답속도가 느리다면 이탈&lt;/a&gt;할 마음을 먹을 것입니다. 고객 지원 방식에 있어서 라이브 채팅의 선호는 라이브 채팅에 기대하는 빠른 속도에 있기도 합니다. 그러니 빠른 응답속도가 라이브 채팅 경험의 질에 얼마나 도움이 되는지는 더 강조할 필요가 없을 정도입니다.&lt;/p&gt;
+
+&lt;p&gt;제품의 크기에 맞춰 라이브 채팅 상담 인원을 차차 늘리는게 응답속도를 개선하는 제일 확실한 방법일 겁니다. 동시에 1명의 상담원이 더 많은 채팅을 처리할 수 있도록 프로세스를 개선하는 노력도 지속해야합니다. 챗봇을 사용해 고객의 문의가 어떤 것인지 상담 전에 미리 파악하고, 이전 상담 데이터를 참고해 상담 한 건에 걸리는 시간을 최대한 단축해야합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;상담-품질&quot;&gt;상담 품질&lt;/h2&gt;
+
+&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/three-live-chat-tips/06.jpg&quot; alt=&quot;Quality over Speed&quot; title=&quot;속도보다 품질&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;빠른 응답속도만큼, 아니 그보다 더 중요한 부분은 상담 품질입니다. 고객 지원 솔루션 기업 &lt;a title=&quot;kayako, 2021 - Live Chat Statistics&quot; href=&quot;https://kayako.com/live-chat-software/statistics/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;kayako의 조사&lt;/a&gt;에 따르면 &lt;strong&gt;95%의 고객은 빠르지만 품질이 낮은 상담을 받을 바에는 느리더라도 개인화되고 전문적인 상담을 원한다&lt;/strong&gt;고 응답했습니다. 심지어 고객 5명 중 1명은 부족한 라이브 채팅 경험을 받았을 때 그 경험을 주변 사람에게 이야기합니다. 유입된 고객을 효과적으로 전환하기 위해 도입한 라이브 채팅이 고객 획득 단계에 악영향을 주는 겁니다. 실시간 상담이 가능한 상태로 표시되었으나 실제로는 상담원이 온라인 상태가 아니라 곧바로 상담할 수 없는 경우, 맥락을 고려하지 않은 자동 답변을 받은 경우, 이전에 입력했지만 연동되지 않아 상담 전 입력폼을 다시 써야하는 경우는 라이브 채팅 경험을 나쁘게 만드는 대표적인 상황입니다.&lt;/p&gt;
+
+&lt;p&gt;다음은 라이브 채팅 상담 품질을 개선할 수 있는 몇 가지 방법입니다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;고객의 상황을 정확히 파악&lt;/strong&gt; : 상담을 신청한 고객이 원하는 것은 일관된 경험이 아니라 신속하고 정확하게 문제를 해결하는 것입니다. 과거 상담 기록과 제품 사용 로그를 참고해 고객이 어떤 상황에 놓여있는지 미리 판단할 수 있는 환경을 구축해야 합니다.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;맥락을 고려한 자동응답&lt;/strong&gt; : 챗봇 등을 활용한 자동응답은 상담의 효율을 높이는 좋은 방법입니다. 잘 만든 챗봇은 상담원의 개입 없이도 훌륭한 상담 경험을 제공할 수 있습니다. 이를 위해서는 고객이 어떤 상황에서 상담을 신청했는지 파악하고 적절한 답을 얻을 수 있도록 설계된 치밀한 기획이 뒷받침되어야 합니다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;crm&quot;&gt;CRM&lt;/h2&gt;
+
+&lt;p&gt;라이브 채팅에 유입된 고객을 보존하는 데 성공했다면 그다음 단계는 해당 고객이 더 많은 가치를 창출할 수 있도록 지원하는 것입니다. 대표적인 방법은 라이브 채팅과 CRM 간의 연동입니다.&lt;/p&gt;
+
+&lt;p&gt;고객 관계 관리, CRM(Customer Relationship Management)은 고객 한명 한명에 대한 데이터를 관리하고 분석하여 고객 확보, 확장, 전환, 유지에 이르는 전 과정에 개인화된 경험을 제공하는 전략을 의미합니다.&lt;/p&gt;
+
+&lt;p&gt;상담 경험을 해치지 않는 선에서, 라이브 채팅에 유입된 고객의 데이터를 수집합니다. 이를 통합 CRM에 연동하고 개인화된 경험을 제공합니다. 성별에 따라서 남성화 대신 여성화 프로모션에 대한 앱 푸시를 보내거나, 애완견을 가진 고객의 화면에 고양이 사료 대신 강아지 사료를 상단 노출할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;이렇게 개인화된 경험을 제공하면서 그에 대한 반응도 확인합니다. 데이터를 쌓고 추적할 만한 지표로 만듭니다. 이전에 밝혔다시피 &lt;a title=&quot;매거진 입맛 - 팀원, 투자자, 고객을 바꾸는 성공한 제품의 경쟁력. 제품 주도 성장 지표&quot; href=&quot;/product-led-growth-metrics&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;지표 설정은 제품을 성장시키기 위한 조직의 언어&lt;/a&gt;입니다. 고객 지원과 CRM이 제품 성장의 다른 한축을 이끌어가기 위해서는 지표 설정이 중요합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;정리&quot;&gt;정리&lt;/h2&gt;
+
+&lt;p&gt;먼저 고객 지원이 발생할 수 밖에 없는 구조를 설명하고, 라이브 채팅이 고객 지원에서 가지고 있는 3가지 이점을 이야기했습니다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;고객 만족도 증진&lt;/li&gt;
+  &lt;li&gt;전환율, 리텐션 개선&lt;/li&gt;
+  &lt;li&gt;지원 업무 효율 개선&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;그런데 몇몇 상황에서 라이브 채팅은 전환율을 악화시킵니다. 이는 제품과 라이브 채팅이라는 유입의 양분 때문에 발생하는 현상이며, 해결책으로는 라이브 채팅에 유입된 고객이 그렇지 않은 고객보다 더 큰 가치를 창출하는 구조를 만드는 전략이 있습니다. 이러한 구조를 만드는 대표적인 방법은 다음과 같습니다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;빠른 응답속도&lt;/li&gt;
+  &lt;li&gt;상담 품질&lt;/li&gt;
+  &lt;li&gt;CRM 연동&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;라이브 채팅을 유행처럼 따라가는 기술로 받아들이지 말고, 전략적으로 접근한다면 제품의 성장에 도움이 될만한 다양한 측면을 확인할 수 있을 겁니다.&lt;/p&gt;
+
+&lt;p class=&quot;right-infor&quot;&gt;위시켓의 지원과 함께 제작된 콘텐츠입니다.&lt;/p&gt;</content><author><name>이준환</name></author><category term="design-teatime" /><summary type="html">라이브 채팅은 만족도가 가장 높은 CS 도구로, 전환율 20%, 리텐션은 48%나 개선합니다. 그러나 악영향을 주는 경우도 있습니다. 어떻게 된 거죠?</summary></entry><entry><title type="html">핵심만 모은, 메모해놓고 쓰는 6가지 SEO 전략</title><link href="https://dewberry9.github.io/six-seo-tips" rel="alternate" type="text/html" title="핵심만 모은, 메모해놓고 쓰는 6가지 SEO 전략" /><published>2021-06-13T00:00:00+00:00</published><updated>2021-06-13T00:00:00+00:00</updated><id>https://dewberry9.github.io/six-seo-tips</id><content type="html" xml:base="https://dewberry9.github.io/six-seo-tips">&lt;p&gt;디지털 프로덕트에 고객을 유치하는 방법이 몇 가지나 있을까요? 갖가지 전략을 떠올릴 수 있겠지만 고객 획득에 직접 관여하는 방법은 크게 4가지로 나눌 수 있습니다.&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;직접 고객을 찾아가 설명하는 &lt;strong&gt;영업&lt;/strong&gt;&lt;/li&gt;
@@ -236,7 +333,7 @@
 &lt;ol&gt;
   &lt;li&gt;온보딩 과정에 동기 부여하기&lt;/li&gt;
   &lt;li&gt;온보딩 난이도 낮추기&lt;/li&gt;
-  &lt;li&gt;온보딩 과정을 수행하는데 필요한 계기 마련하기]&lt;/li&gt;
+  &lt;li&gt;온보딩 과정을 수행하는데 필요한 계기 마련하기&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;strong&gt;온보딩 최적화를 위한 전략은 수없이 많지만, 위의 범주에서 벗어나는 것은 없습니다.&lt;/strong&gt; 이제 온보딩 최적화의 근원이 되는 요소를 알았으니 어떤 전략이 보이면 해석할 수 있고, 또 제품에 맞는 나름의 전략을 짜볼 수도 있을 겁니다.&lt;/p&gt;
@@ -890,91 +987,4 @@
 
 &lt;p&gt;하지만 우리는 이미 알고 있습니다. 더 고민할수록 더 나아진다는 사실을.&lt;/p&gt;
 
-&lt;p class=&quot;right-infor&quot;&gt;위시켓의 지원과 함께 제작된 콘텐츠입니다.&lt;/p&gt;</content><author><name>이준환</name></author><category term="design-teatime" /><summary type="html">어떻게 해야 성장하는 제품을 만들 수 있을까요? 뉴욕타임즈, 디스코드, 클래스패스, 채널톡의 사례를 통해 MLP 4원칙에 대해 알아봅니다.</summary></entry><entry><title type="html">MVP는 방향이 아닌 속도다. MLP로 성장하는 제품 만들기(1/2)</title><link href="https://dewberry9.github.io/mlp-for-growing-product" rel="alternate" type="text/html" title="MVP는 방향이 아닌 속도다. MLP로 성장하는 제품 만들기(1/2)" /><published>2021-04-11T00:00:00+00:00</published><updated>2021-04-11T00:00:00+00:00</updated><id>https://dewberry9.github.io/mlp-for-growing-product</id><content type="html" xml:base="https://dewberry9.github.io/mlp-for-growing-product">&lt;p class=&quot;infor&quot;&gt;이번 글은 2부작으로 구성되어 있습니다. 이번 1부에서는 MLP의 개념, MVP의 한계에 따른 MLP의 필요성과 MVP와 MLP의 차이점을 비교합니다. &lt;a title=&quot;일은 최소로, 효과는 최대로. MLP 4원칙. MLP로 성장하는 제품 만들기(2/2)&quot; href=&quot;/four-principles-of-mlp&quot; target=&quot;_blank&quot;&gt;다음 2부에서는 MLP를 만드는 4원칙과 실무 사례에 대해&lt;/a&gt; 다룹니다.&lt;/p&gt;
-
-&lt;p&gt;근래 스타트업 업계를 중심으로 국내에 그로스 해킹(Growth Hacking) 개념이 들어서면서 애자일, AB 테스트, MVP와 같은 갖가지 방법론도 활발하게 사용되고 있습니다. 특히 MVP(Minimum Viable Product; 최소 기능 제품)는 아무리 작은 조직이라도 사용자에게 맞는 제품을 빠르고 정확하고 경제적으로 구현할 수 있다는 점에서 많은 회사의 선택을 받았습니다. 그러나 성공한 MVP가 늘 성공한 제품이 되는 건 아닙니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;mvp만으로-제품을-만들-수-없는-2가지-이유&quot;&gt;MVP만으로 제품을 만들 수 없는 2가지 이유&lt;/h2&gt;
-
-&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/mlp-for-growing-product/01.jpg&quot; alt=&quot;MVP Circle&quot; title=&quot;MVP 사이클&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;MVP는 가설을 증명하는 도구이지 가설 자체에 대한 방향성을 제공하지 않는다.&lt;/li&gt;
-  &lt;li&gt;MVP는 ‘내 제품’을 사용해야만 하는 이유를 만들지 않는다.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;최소 기능 제품, MVP는 어떤 문제를 해결하는 제품을 만들기 위해 가설을 제시하고 사용자와 시장에서 실제로 작동하는지 확인하고 피드백을 받는 순환과정으로 구성됩니다. 이상적인 방법론입니다. 가설 형식의 제품을 제시하니 제작과 수정이 기민하고, 실제로 써볼 사람들이 방향을 잡아주니 틀릴 일이 없습니다. MVP는 완벽한 것처럼 보입니다. 아이러니하게도 MVP의 큰 특징 중 하나는 불완전성입니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;a title=&quot;Jim Brikman(Y Combinator) - A Minimum Viable Product Is Not a Product, It's a Process&quot; href=&quot;https://www.ycombinator.com/library/4Q-a-minimum-viable-product-is-not-a-product-it-s-a-process&quot; target=&quot;_blank&quot;&gt;‘MVP는 제품 형태일 필요도 없다.’&lt;/a&gt; 이 말은 제품을 구축하는 방법론 MVP의 막강한 경제성을 보여주는 말입니다. 사진, 동영상, 프레젠테이션, 어떤 것이든 사용자가 기능을 이해할 수 있는 형태이기만 하면 됩니다. 그렇게 해서 수용 가능한 제품을 도출해내는 것이 MVP의 역할입니다. 그런데 위 말을 잘못 받아들여 MVP를 부족한 기능의 제품을 단순히 빠르게 내놓는 것으로 해석하는 경우가 많습니다. MVP가 증명해야 하는 건 제품이지 기능이 아닙니다. &lt;a title=&quot;CB Insights, 2019 - The Top 20 Reasons Startups Fail&quot; href=&quot;https://www.cbinsights.com/research/startup-failure-reasons-top/&quot; target=&quot;_blank&quot;&gt;스타트업이 망하는 가장 큰 원인은 자금 문제도, 직원 문제도 아니라 시장에 제품에 대한 니즈가 없는 경우입니다.&lt;/a&gt; 결국 올바른 가설을 갖고 MVP를 사용해야 제대로 된 인사이트를 얻을 수 있는 것입니다. 그러나 이 올바른 가설을 가리키는 방향성은 MVP에서 찾을 수 없습니다. MVP는 가설을 증명하는 방법일 뿐이니까요. 그럼 어디서 찾을 수 있을까요?&lt;/p&gt;
-
-&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/mlp-for-growing-product/02.jpg&quot; alt=&quot;First Mover VS Fast Follower&quot; title=&quot;퍼스트 무버 VS 패스트 팔로워&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;MVP의 구조에서 오는 한계도 있습니다. MVP는 수용할 수 있는 제품을 만듭니다. 그리고 사용자는 수용할 수만 있다면 어떤 제품이든 사용할 수 있습니다. 꼭 내 제품이 아니더라도 말입니다. Facebook, Lime, YouTube. 새로운 제품의 개척자 퍼스트 무버(First Mover)가 아닌 영악한 모방자인 패스트 팔로워(Fast Follower)가 승리자가 되는 구도는 이미 우리에게도 익숙합니다. 사용자가 없다면 제품은 성립하지 않습니다. MVP로 ‘먹히는 어떤 것’을 찾아낼 수는 있지만, ‘내 제품’을 사용해야 하는 이유를 찾아내기에는 부족합니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;제품의-팬을-만드는-mlp&quot;&gt;제품의 팬을 만드는 MLP&lt;/h2&gt;
-
-&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/mlp-for-growing-product/03.jpg&quot; alt=&quot;MLP Circle&quot; title=&quot;MLP 사이클&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;MLP(Minimum Lovable Product)는 어떤 문제를 해결할 뿐만 아니라 사용자에게 애정 받을 수 있는 제품을 만들기 위해 가설을 제시하고 피드백을 받는 순환과정으로 구성된 프로세스입니다. MVP의 유용함(신속성, 정확성, 경제성)을 받아들이고 UX 상의 단점(앞선 문단에서 언급한 한계)을 보완한 방식입니다.&lt;/p&gt;
-
-&lt;p&gt;MLP는 MVP를 포함한 여러 제품 개발 방법론을 포괄하는 상위 호환의 개념입니다. 단지 수용 가능한 제품이 아닌 사용자에게 애정 받는 제품을 목표로 합니다. 구체적으로는 가설 - 증명 사이클의 반복을 위해 빠르고 가벼운 구현 과정을 유지하면서 팬심 있는 사용자를 가진 초기 제품을 만드는 일에 집중합니다. 이 방향성은 MVP에 필요한 가설 수립, 실험을 통해 도출된 인사이트 해석에 적용되면서 실용적인 영향력을 갖습니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;사용자가-사랑할-때---애정의-3단계-10요소&quot;&gt;사용자가 사랑할 때 - 애정의 3단계 10요소&lt;/h2&gt;
-
-&lt;p&gt;사용자에게 애정 받는 제품이라니, 흔하고 두루뭉술한 이야기라고 생각할지 모르겠습니다. 제품에 대한 사용자의 애정, 사랑, 팬심을 정확히 정의하지 않은 상태에서는 그럴 수 있습니다. MLP가 난해한 이유 중 하나는, 사용자의 애정을 추구한다는 누구나 동의할 아이디어를 추상적인 상태로 두어 어떻게 실천할지 모른다는 점입니다.&lt;/p&gt;
-
-&lt;p&gt;로드맵 소프트웨어 개발사 Aha!의 창업자 브라이언(Brian de Haaff)은 자신의 저서 행복해 하는 비즈니스를 만드는 방법&amp;gt;에서 &lt;a title=&quot;Brain De Haaff(Aha!), 2017 - The 10 Building Blocks of Lovability&quot; href=&quot;https://www.aha.io/blog/the-10-building-blocks-of-lovability&quot; target=&quot;_blank&quot;&gt;사용자의 애정을 구성하는 10가지 요소를 3단계 피라미드 구조&lt;/a&gt;로 제시한 바 있습니다.&lt;/p&gt;
-
-&lt;p class=&quot;full-size&quot;&gt;&lt;img src=&quot;/assets/images/design/mlp-for-growing-product/04.jpg&quot; alt=&quot;Lovability Pyramid&quot; title=&quot;애정 피라미드&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;사용자의 애정은 단계별로 다음과 같이 구분할 수 있습니다.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;1단계 : 유용(Utility). 제품이 문제를 해결하는 유용한 것이라는 평가&lt;/li&gt;
-  &lt;li&gt;2단계 : 성장(Growth). 제품이 자신이 하는 일에 도움이 되며 지속적해서 필요하다는 의식&lt;/li&gt;
-  &lt;li&gt;3단계 : 영감(Inspiration). 제품이 자신의 일상·삶에 분명한 변화를 가져다주고 있다는 인식&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;각 단계의 구성이 제대로 갖춰졌을 때 다음 단계로 진입할 수 있습니다. 모든 단계를 구축하고 나면 비로소 사용자의 제품에 대한 애정이 완전하다고 볼 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;단계별 구성 요소를 자세히 살펴보면 이와 같습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;1단계&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;희망(Hope) : 사용자가 문제 해결을 위해 제품 사용을 마음먹은 순간 느끼는 기대감&lt;/li&gt;
-  &lt;li&gt;만족(Satisfaction) : 제품 사용 후 기대가 충족된 감정&lt;/li&gt;
-  &lt;li&gt;관계 형성(Care) : 제품에 대한 문제 해소나 질의에 대한 답변 등으로 제품 - 사용자 사이의 관계가 형성되는 순간&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;2단계&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;자신감(Confidence) : 자신이 제품을 제대로 사용하고 있다는 사용자의 인식&lt;/li&gt;
-  &lt;li&gt;신뢰(Trust) : 제품의 기능뿐만 아니라 제공하는 가치를 믿고 지지하는 상태. 본격적인 팬심&lt;/li&gt;
-  &lt;li&gt;확장(Scale) : 제품의 업데이트, 변화에 불평 없이 따르며 긍정적으로 반응&lt;/li&gt;
-  &lt;li&gt;지속성(Sustainability) : 제품의 세부사항과 제품을 만드는 팀까지 관심을 가지며 이들이 몇 년이 지나도 우수한 경험을 제공할 것이라 믿는 심리&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;3단계&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;동기 부여(Motivation) : 제품이 자신의 일상과 삶을 낫게 해주는 동기라고 여기는 상태&lt;/li&gt;
-  &lt;li&gt;즐거움(Fun) : 제품의 사용이 자신의 희망과 관심사를 달성하는데, 그리고 불편을 해소하는 데 확실한 도움이 된다는 직감&lt;/li&gt;
-  &lt;li&gt;신앙심(Halo; 의역) : 누군가 제품 사용한다는 사실 자체가 긍정적인 인식을 주고 주변인에게 제품 사용을 독려하는 상태&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;성장하는-제품으로-한-걸음&quot;&gt;성장하는 제품으로 한 걸음&lt;/h2&gt;
-
-&lt;p&gt;이제 정리해봅시다. 우선 MVP는 무척 괜찮은 방법론이지만 성공하는 제품으로 성장하기에는 2가지 UX 문제가 있다고 했습니다.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;MVP는 가설을 증명하는 도구이지 가설 자체에 대한 방향성을 제공하지 않는다.&lt;/li&gt;
-  &lt;li&gt;MVP는 ‘내 제품’을 사용해야만 하는 이유를 만들지 않는다.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;MLP는 위 문제를 해결하면서 기존 MVP의 장점은 살린 상위 개념의 방법론입니다. MLP는 수용 가능할 뿐만 아니라 애정 받는 제품을 목표로 합니다. 제품에 대한 사용자의 애정은 유용→성장→영감 3단계로 성장하며 각 단계를 구성하는 요소들이 있습니다. 이 개념이 명확해야 MLP를 효과적으로 실천할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;이번 글에서는 MVP의 한계에 따른 MLP의 필요성과 함께 MLP의 개념, 그리고 MLP에서 목표로 하는 사용자의 애정이라는 것이 무엇인가에 대해 풀어 보았습니다. &lt;a title=&quot;일은 최소로, 효과는 최대로. MLP 4원칙. MLP로 성장하는 제품 만들기(2/2)&quot; href=&quot;/four-principles-of-mlp&quot; target=&quot;_blank&quot;&gt;다음 2부에서는 MLP를 실천하는데 지켜야 할 4원칙과 각종 실무 사례&lt;/a&gt;에 대해 소개하겠습니다.&lt;/p&gt;
-
-&lt;p class=&quot;right-infor&quot;&gt;위시켓의 지원과 함께 제작된 콘텐츠입니다.&lt;/p&gt;</content><author><name>이준환</name></author><category term="design-teatime" /><summary type="html">빠르고 경제적인 MVP의 성공이 늘 제품의 성공인 건 아닙니다. 왜일까요? MVP의 한계를 극복하는 MLP(Minimum Lovable Product)을 알아봅니다.</summary></entry></feed>
+&lt;p class=&quot;right-infor&quot;&gt;위시켓의 지원과 함께 제작된 콘텐츠입니다.&lt;/p&gt;</content><author><name>이준환</name></author><category term="design-teatime" /><summary type="html">어떻게 해야 성장하는 제품을 만들 수 있을까요? 뉴욕타임즈, 디스코드, 클래스패스, 채널톡의 사례를 통해 MLP 4원칙에 대해 알아봅니다.</summary></entry></feed>
