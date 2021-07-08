@@ -1,4 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://dewberry9.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dewberry9.github.io/" rel="alternate" type="text/html" /><updated>2021-07-03T02:07:55+00:00</updated><id>https://dewberry9.github.io/feed.xml</id><title type="html">매거진 입맛</title><subtitle>읽을 만한 취향들. 매거진 입맛 - 책, 술, 그밖에 삶의 즐거움 리뷰 / 디자인 / 소설</subtitle><author><name>이준환</name></author><entry><title type="html">가볍고 밝은 싱글 몰트 위스키의 대표주자. 글렌그란트 12년</title><link href="https://dewberry9.github.io/glengrant-12" rel="alternate" type="text/html" title="가볍고 밝은 싱글 몰트 위스키의 대표주자. 글렌그란트 12년" /><published>2021-07-03T00:00:00+00:00</published><updated>2021-07-03T00:00:00+00:00</updated><id>https://dewberry9.github.io/glengrant-12</id><content type="html" xml:base="https://dewberry9.github.io/glengrant-12">&lt;p&gt;두툼한 고기 한 점에 어울리는 묵직한 술이 필요한 경우도 있지만, 때로는 그냥 홀짝일 수 있는 가벼운 위스키가 손에 필요한 날도 있습니다. 이번에 마신 술은 가벼운 싱글 몰트 위스키의 대표, 글렌그란트(Glen Grant) 12년입니다.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://dewberry9.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dewberry9.github.io/" rel="alternate" type="text/html" /><updated>2021-07-08T10:13:59+00:00</updated><id>https://dewberry9.github.io/feed.xml</id><title type="html">매거진 입맛</title><subtitle>읽을 만한 취향들. 매거진 입맛 - 책, 술, 그밖에 삶의 즐거움 리뷰 / 디자인 / 소설</subtitle><author><name>이준환</name></author><entry><title type="html">프라이버시 트렌드 정리 : 이제 개인 정보는 관리해야 할 리스크입니다.</title><link href="https://dewberry9.github.io/privacy-trend" rel="alternate" type="text/html" title="프라이버시 트렌드 정리 : 이제 개인 정보는 관리해야 할 리스크입니다." /><published>2021-07-08T00:00:00+00:00</published><updated>2021-07-08T00:00:00+00:00</updated><id>https://dewberry9.github.io/privacy-trend</id><content type="html" xml:base="https://dewberry9.github.io/privacy-trend">&lt;p class=&quot;infor&quot;&gt;프라이버시에 대해 다루는 2부작 콘텐츠입니다. 이번 글에서는 프라이버시 트렌드와 그 영향력을 짚어봅니다. 다음 글에서는 프라이버시 리스크 관리에 있어서 제품 설계·운영 상의 주의점에 대해 다룹니다.&lt;/p&gt;
+
+&lt;p&gt;하나의 유령이 시장을 배회하고 있습니다. 프라이버시라는 유령이.&lt;/p&gt;
+
+&lt;p&gt;데이터 중심 의사결정은 작은 스타트업이라는 다윗이 기성 대기업이라는 골리앗과 싸워 유니콘으로 성장하는 데 크게 기여한 전략입니다. 데이터 중심 의사결정은 쉽게 말해 결정권자 개인의 주관 대신 실제 제품과 시장의 데이터가 특정 의사결정의 근거가 되는 구조입니다. 딱히 새로운 방법론이라고 할 수는 없습니다. 그런데 이 낡은 전략은 디지털 프로덕트에 도입되면서 차원이 다른 성능을 내기 시작합니다.&lt;/p&gt;
+
+&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/privacy-trend/01.jpg&quot; alt=&quot;Characteristics of digital products in data-driven decision-making&quot; title=&quot;데이터 중심 의사결정에 있어서 디지털 프로덕트의 특징&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;디지털 프로덕트에서는 이전의 제품보다 더 많은 데이터를 정확하고, 빠르고, 저렴하게 뽑아낼 수 있습니다. 이는 자연히 더 많고, 정확하고, 영향력 있는 인사이트로 이어집니다. 디지털 프로덕트에 있어서 이러한 데이터 중심 의사결정 전략의 특성은, 그로쓰 해킹의 유행 그리고 제품 자체가 자신을 작동시키고 성장시키는 &lt;a title=&quot;매거진 입맛 - 알아서 팔리는 제품을 만드는 제품 주도 성장(Product-led Growth) 방법론&quot; href=&quot;/introduce-product-led-growth&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;제품 주도 성장 방법론&lt;/a&gt;을 개발하는데 이르렀습니다.&lt;/p&gt;
+
+&lt;p&gt;데이터의 위치가 굳건한 이 상황에, 첫 줄에서 언급한 프라이버시라는 유령은 허황한 이야기로 들릴 겁니다. 하지만 변화는 생각 이상으로 빠르고 확실하게 일어나고 있습니다. 이미 우리는 하루에도 몇 번씩이고 쿠키 허용 배너와 앱 추적 허용 팝업을 만납니다. 점점 몸집이 커지고 있는 이 유령을 보자면 지금의 데이터 중심 의사결정이 그대로 작동할 수 있을 지 의문이 듭니다. 그 전에 살아남을 수나 있을까요?&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Apple의 앱 추적 투명성, EU 쿠키 법, Google의 FLoC가 정확히 뭘까요?&lt;/li&gt;
+  &lt;li&gt;위와 같은 정책이 시장에, 제품을 만드는데 어떤 영향을 줄까요?&lt;/li&gt;
+  &lt;li&gt;데이터 중심 마케팅(Data-Driven Marketing)은 이제 정말 끝난 걸까요? 💀&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;애플의-앱-추적-투명성-페이스북과의-대결&quot;&gt;애플의 앱 추적 투명성, 페이스북과의 대결&lt;/h2&gt;
+
+&lt;p&gt;2020년 애플은 iOS 14와 함께 앱 추적 투명성(ATT; App Tracking Transparency) 정책을 발표합니다. 준비 시간이 필요한 앱 개발사의 요청으로 앱 추적 투명성 정책은 2021년 iOS 14.5 업데이트와 함께 본격적으로 실행됩니다.&lt;/p&gt;
+
+&lt;p&gt;앱 추적 투명성은 제품이 IDFA(Identifier for Advertisers)를 비롯한 사용자 식별자를 설정하여 사용 데이터를 수집하기 전에 명시적인 동의를 받는 등, 사용 데이터를 수집하는 제품의 행위에 대해 &lt;a title=&quot;Apple Developer - 사용자 개인정보 보호 및 데이터 사용&quot; href=&quot;https://developer.apple.com/kr/app-store/user-privacy-and-data-use/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;사용자의 권한을 늘려주는 데 초점을 맞춘 정책&lt;/a&gt;입니다.&lt;/p&gt;
+
+&lt;p&gt;IDFA, AdID(안드로이드 앱의 광고 식별자) 등의 광고 식별자는 사용자가 볼 수 없는 앱 생태계의 속살 밑에서 흐르는 피 같은 존재입니다. 광고 식별자는 본래 말 그대로 광고 성과 측정을 위해 만들어졌습니다. 어떤 사용자가 한 앱의 광고를 보고 설치하기 위해 광고에 포함된 링크를 클릭합니다. 이때 사용자가 쓰고 있는 디바이스 ID와 매칭되는 광고 식별자가 발급되고 광고 플랫폼의 광고 네트워크에 이 데이터를 전송합니다. 설치된 앱이 실행될 때 앱에 포함된 SDK가 이 광고 식별자를 확인하면서 이 사용자가 광고를 보고 앱을 설치했다는 사실을 알아냅니다. 사용자가 어떤 광고를 봤는지 알아야 하고, 또 광고의 성과로 보는 행위가 앱 설치나 실행이 아닌 다른 행동일 수도 있기 때문에 광고 식별자는 사용자의 사용 기록을 담기 시작했습니다.&lt;/p&gt;
+
+&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/privacy-trend/02.jpg&quot; alt=&quot;Structure of Advertising Identifier&quot; title=&quot;광고 식별자의 구조&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;광고 식별자는 일단은 사용자가 수정할 수 있지만 그럴 일은 거의 없는 디바이스 ID를 기준으로 생성되기 때문에 웹브라우저의 쿠키보다 수명이 깁니다. 광고 식별자는 동일한 광고 플랫폼을 사용하는 여러 앱과 웹사이트를 넘나들며 사용 데이터를 수집합니다. 사용자에게 개인 정보를 요청한 적은 없지만, 이렇게 데이터가 모이면 개인을 식별하기에 충분한 고유성을 지닌 프로필을 만들 수 있게 됩니다. 이렇게 만든 프로필은 데이터 브로커에게 판매되거나 맞춤 광고에 사용됩니다.&lt;/p&gt;
+
+&lt;p&gt;구체적인 특징을 구분할 수 있는 사용자 프로필 데이터를 가지고 있는 것이 데이터 중심 의사결정에 얼마나 큰 도움을 줄 수 있는지는, 또 얼마나 큰 마케팅 비용을 절감하는 강조할 필요가 없어 보입니다. 꾸준한 업데이트를 제공하는 AppsFlyer의 &lt;a title=&quot;AppsFlyer - The impact of iOS 14 &amp;amp; ATT on the mobile app economy&quot; href=&quot;https://www.appsflyer.com/ios-14-att-dashboard/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;iOS 앱 추적 투명성 분석 자료&lt;/a&gt;에 따르면, iOS 앱에서 앱 추적을 허용하겠느냐고 묻는 팝업이 노출됐을 때 동의한 경우는 42%입니다. 예상보다는 높다고는 해도 사용자 프로필을 구성하는 데이터가 절반 넘게 빈약해졌다는 사실은 여전합니다.&lt;/p&gt;
+
+&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/privacy-trend/03.jpg&quot; alt=&quot;Value Beneficiaries: Advertising Platforms vs. App Market Operators&quot; title=&quot;가치 수혜자 : 광고 플랫폼 vs 앱 마켓 운영사&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;페이스북은 이러한 애플의 정책이 고효율 광고 덕분에 저렴한 비용으로 서비스를 제공해왔던 &lt;a title=&quot;Dan Levy(Facebook), 2021 - Speaking Up for Small Businesses&quot; href=&quot;https://about.fb.com/news/2020/12/speaking-up-for-small-businesses/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;중소기업에 피해를 줄 것이라는 입장&lt;/a&gt;을 밝힌 적 있습니다. 페이스북에 따르면 비개인화된 모바일 앱 설치 광고를 운영했을 때, 개인화된 광고를 운영했을 때보다 &lt;a title=&quot;Facebook For Developers, 2020 - The Value of Personalized Ads to a Thriving App Ecosystem&quot; href=&quot;https://developers.facebook.com/blog/post/2020/06/18/value-of-personalized-ads-thriving-app-ecosystem/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;수익이 50% 감소&lt;/a&gt;합니다. 이를 중소기업을 위한 페이스북의 정의로운 분투로 보기보다는 앱 생태계의 주도권을 놓고 벌이는 앱 마켓 운영사와 광고 플랫폼의 마찰로 보는 게 자연스러울 듯합니다. 지금까지 사용자는 개인 정보를 지불하고 무료 앱을 사용했습니다. 이 과정에서 앱이 창출한 가치는 광고 플랫폼에 돌아갔습니다. 앱 마켓 운영사는 이 가치를 가져오고자 합니다. 인앱 결제에서 오는 15~30%의 수수료가 그 가치가 움직이는 통로입니다. 길도 뚫렸으니 가져오기만 하면 됩니다. 프라이버시 정책으로 광고 효율은 낮아지고 무료 앱은 유료가 됩니다. 사용자는 개인 정보 대신 현금을 지불합니다. 이 구조에서 광고 플랫폼으로 들어갔던 가치는 앱 마켓 운영사로 들어갑니다.&lt;/p&gt;
+
+&lt;p&gt;이 상황을 제품 개발사와는 무관한 큰 회사 간의 분쟁 정도로 생각하고 있으면 안 됩니다. 앱 마켓 운영사가 확실한 주도권을 가질 때까지 제품에 영향을 미치는 프라이버시 정책은 언제든 바뀔 가능성이 있습니다. 앱 생태계에서의 데이터 중심 의사결정에서 얻었던 이점을 유지하고 싶다면 한 발자국 먼저 움직여야 합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;eu-쿠키-법과-투명해지는-웹-사용자&quot;&gt;EU 쿠키 법과 투명해지는 웹 사용자&lt;/h2&gt;
+
+&lt;p&gt;어느 순간부터 쿠키 수집 허용 여부를 묻는 배너가 외국 웹사이트에서 많이 보이기 시작했을 겁니다. 조금만 웹서핑해도 사이트마다 노출되는 배너 때문에 귀찮게 느꼈을지도 모르겠습니다. 사이트 제공자들도 별로 넣고 싶지는 않을 겁니다. 그대로 어쩔 수 없습니다. 법이니까요.&lt;/p&gt;
+
+&lt;p&gt;쿠키에 대한 규정 중 가장 유명한 건 아무래도 EU의 ePrivacy Directive, 일명 쿠키 법이 아닐까 싶습니다. EU는 쿠키 법과 GDPR(일반 개인 정보 보호법)로 웹사이트의 쿠키, 로컬 스토리지(Local Storage) 등을 이용한 &lt;a title=&quot;Richie Koch(GDPR EU), 2019 - Cookies, the GDPR, and the ePrivacy Directive&quot; href=&quot;https://gdpr.eu/cookies/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;개인 정보 수집 정책을 규제&lt;/a&gt;합니다. 제품 사용에 필수적인 쿠키 외 다른 쿠키를 사용할 시 사용자 동의 필요하며, 이에 동의하지 않더라도 제품을 사용할 수 있도록 허용하는 등의 내용을 담고 있습니다. EU 국가는 이 지침에 따라 자국법을 개정해야 합니다. 지침이라고 해서 가벼운 규칙이라고 여기면 안 됩니다. 2014년 쿠키 법을 어겨 &lt;a title=&quot;Nuria Pastor(fieldfisher), 2014 - History in the making: the first 'cookie rule' fines in Europe&quot; href=&quot;https://www.fieldfisher.com/en/services/privacy-security-and-information/privacy-security-and-information-law-blog/history-in-the-making-the-first-cookie-rule-fines-in-europe&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;벌금형을 선고받은 최초의 기업이 스페인에서 나왔습니다.&lt;/a&gt; 2018년 7월부터 2021년 6월까지 집행된 누적 벌금은 공개된 것만  &lt;a title=&quot;GDPR Enforcement Tracker - Fines Statistics&quot; href=&quot;https://www.enforcementtracker.com/?insights&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;290,430,902유로&lt;/a&gt;(한화 약 3천 9백억 원)입니다. EU 7개국에서 200개 이상의 뉴스 웹사이트를 &lt;a title=&quot;Timothy Libert, Lucas Graves and Rasmus Kleis Nielsen(Reuters Institute), 2018 - Changes in Third-Party Content on European News Websites after GDPR&quot; href=&quot;https://reutersinstitute.politics.ox.ac.uk/our-research/changes-third-party-content-european-news-websites-after-gdpr&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;조사한 결과&lt;/a&gt;에 따르면, 2018년 GDPR이 발효된 후 서드파티(Third-Party) 쿠키의 양은 22% 감소했습니다. 대체 무엇 때문에 이런 규제가 생긴 걸까요?&lt;/p&gt;
+
+&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/privacy-trend/04.jpg&quot; alt=&quot;Structure of Third-party Cookies&quot; title=&quot;서드파티 쿠키의 구조&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;쿠키(Cookie)는 브라우저 등에 웹사이트 사용에 필요한 데이터를 저장하는 기술입니다. 새로 고침을 해도 웹사이트의 로그인 상태가 유지되는 것은 쿠키를 활용한 덕분입니다. 그런데 제품에 포함된 쿠키는 제품을 만들고 제공하는 기업만 설정할 수 있는 것이 아니라 다른 기업이 설정할 수도 있습니다. 이를 서드파티 쿠키라고 합니다. 구글 애널리틱스와 같은 분석 도구, SNS의 공유 버튼, 유튜브에서 동영상을 공유하며 딸려온 비디오 플레이어를 웹사이트에 설치할 때, 설치 코드에 관련 기능이 포함되어 있다면 서드파티 쿠키가 설정됩니다. 서드파티 쿠키는 여러 웹사이트에 걸쳐 작동하면서 웹서핑하는 사용자의 사용 데이터를 추적할 수 있습니다. 이를테면 웹사이트 A, B, C에 모두 페이스북 공유 버튼이 들어가 있다면 페이스북은 사용자의 A, B, C 사용 데이터를 수집할 수 있습니다. 이렇게 수집된 데이터는 데이터 브로커에게 판매되거나 맞춤형 광고에 활용됩니다. 선풍기에 대해 구글링하다가 페이스북에 들어가면 선풍기 광고를 볼 수 있는 이유는 여기에 있습니다. 이런 기술 덕분에 구글과 페이스북 등은 기존 광고 매체보다 월등한 광고 효율을 낼 수 있었습니다. 수많은 디지털 프로덕트는 서드파티 쿠키의 혜택을 받으면서 성장했습니다.&lt;/p&gt;
+
+&lt;p&gt;하지만 상황이 바뀌었습니다. 이 마법의 기술을 남용한 탓일까요, 사용자는 서드파티 쿠키를 통한 사용 데이터의 추적에 이점이 아니라 피로와 공포를 느끼기 시작했습니다. 3만 명의 인터넷 사용자를 대상으로 한 &lt;a title=&quot;Mozilla, 2017 - Hackers, Trackers and Snoops: Our Privacy Survey Results&quot; href=&quot;https://medium.com/mozilla-internet-citizen/hackers-trackers-and-snoops-our-privacy-survey-results-1bfa0a728bd5&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Mozilla 재단의 설문&lt;/a&gt;에 따르면, 응답자 1/3이 온라인에서 자신의 개인 정보를 전혀 통제할 수 없다고 여깁니다. 응답자 &lt;strong&gt;61%는 온라인에서 가장 두려운 경험으로 광고주에 의한 데이터 추적을 꼽았습니다.&lt;/strong&gt; 이는 해킹 당하는 경험(80%)에 이어 2번째며, 심지어 온라인상의 괴롭힘(40%)보다 높은 수치입니다. 이제 브라우저는 개인 정보 보호 기능을 제품 홍보의 주안점으로 삼습니다. 웹사이트에 사용 데이터를 추적하지 말아 달라는 의사를 표명하는 기능인 DNT(Do Not Track)는 파이어폭스(Firefox)에서 시작해서 이제 대부분의 주요 브라우저에서 확인할 수 있습니다. 실제 효용성은 둘째치고, 사용자의 인식이 기존의 데이터 수집·활용 환경에 부정적이라는 것을 알 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;웹 생태계에서의 데이터 중심 의사결정 환경은 변하고 있으며, 다시는 예전으로 돌아가지 않을 겁니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;서드파티-쿠키의-죽음과-구글-floc&quot;&gt;서드파티 쿠키의 죽음과 구글 FLoC&lt;/h2&gt;
+
+&lt;p&gt;서드파티 쿠키는 죽었습니다. 파이어폭스와 사파리(Safari) 브라우저는 이미 서드파티 쿠키를 지원하지 않습니다. 하지만 웹브라우저 시장의 점유율 과반을 차지하고 있는 크롬(Chrome)은 상황이 약간 다릅니다. 물론 크롬도 서드파티 쿠키를 배제할 것입니다. 2022년으로 예정되어 있던 서드파티 쿠키 제거 계획은 얼마 전 &lt;a title=&quot;Google, 2021 -  프라이버시 샌드박스 타임라인 업데이트&quot; href=&quot;https://korea.googleblog.com/2021/07/updated-timeline-privacy-sandbox-milestones.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;2023년 후반기로 연기&lt;/a&gt;되었습니다. 이 일에 대해 이해하려면 먼저 FLoC를 알아야 합니다.&lt;/p&gt;
+
+&lt;p&gt;구글은 크롬의 운영사고, 2020년 미국 디지털 광고 시장에서 &lt;a title=&quot;eMarketer, 2020 - Google’s US Ad Revenues to Drop for the First Time&quot; href=&quot;https://www.emarketer.com/newsroom/index.php/google-ad-revenues-to-drop-for-the-first-time/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;29.4%의 점유율&lt;/a&gt;을 가지고 있는 광고 플랫폼 회사이기도 합니다. 또한 구글은 유튜브 등 많은 사용자를 지닌 유명 제품을 다수 운영하고 있습니다. 구글의 &lt;a title=&quot;동아닷컴, 2020 - “역시 유튜브 천하” 구글 트래픽 비중 23.5% 달해…네이버·카카오 1~2%&quot; href=&quot;https://www.donga.com/news/It/article/all/20200909/102851001/1&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;국내 일평균 트래픽 비중은 23.5%&lt;/a&gt;입니다. 서드파티 쿠키로 가장 많은 데이터를 모을 수 있었던 곳은 구글이고, 가장 효율적인 광고를 운영할 수 있었던 곳도 구글입니다. 서드파티 쿠키의 규제가 제도상으로 확실해지니 전과 같은 광고 효율을 유지하려면 다른 방법이 필요했습니다.&lt;/p&gt;
+
+&lt;p&gt;FLoC(Federated Learning of Cohorts)는 서드파티 쿠키 이후의 웹 생태계에서 주도권을 확보하려는 구글의 시도입니다. FLoC는 사실상 개인을 특정할 수 있었던 서드파티 쿠키와는 다르게, 브라우저(크롬)가 주도해서 데이터를 수집하고 유사한 특징을 띄는 사용자끼리 그룹을 지어 광고주에게 제공합니다. 구글의 실험에 따르면 FLoC 방식 광고는 서드파티 쿠키 광고와 비교해 달러당 전환율을 &lt;a title=&quot;Chetna Bindra(Google Ads &amp;amp; Commerce), 2021 - Building a privacy-first future for web advertising&quot; href=&quot;https://blog.google/products/ads-commerce/2021-01-privacy-sandbox/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;최소 95%로 지킬 수 있습니다.&lt;/a&gt; 고객 획득 전략의 뾰족한 전환점 없이 서드파티 쿠키에 의존하고 있던 기업으로서는 만족할 만한 대체제입니다. 그러나 구글이 서드파티 쿠키 이후의 웹 세계를 지배하도록 놔두지 않는 회사가 있습니다. 아마존(Amazon)은 물론, 자포스(Zappos)를 비롯한 아마존 계열 웹사이트에는 이미 &lt;a title=&quot;Kate Kaye(DIGIDAY), 2021 - Amazon is blocking Google's FLoC — and that could seriously weaken the system&quot; href=&quot;https://digiday.com/media/amazon-is-blocking-googles-floc-and-that-could-seriously-weaken-the-fledgling-tracking-system/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;FLoC 차단 코드가 삽입&lt;/a&gt;되었습니다. 마이크로소프트(Microsoft)의 Github에서 운영하는 웹 호스트 서비스 Github Pages는 기본 제공 도메인인 github.io를 사용하는 모든 Github Pages 사이트에 &lt;a title=&quot;Github, 2021 - GitHub Pages: Permissions-Policy: interest-cohort=() Header added to all pages sites&quot; href=&quot;https://github.blog/changelog/2021-04-27-github-pages-permissions-policy-interest-cohort-header-added-to-all-pages-sites/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;FLoC 차단 코드를 삽입&lt;/a&gt;했다고 발표했습니다. 이런 상황에서 크롬의 서드파티 쿠키 제거 계획이 연기된 것입니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;관리해야-할-리스크-프라이버시&quot;&gt;관리해야 할 리스크, 프라이버시&lt;/h2&gt;
+
+&lt;p&gt;지금까지 오늘날의 프라이버시 트렌드를 알아보았습니다. 사용자는 개인 정보 보호에 더욱 민감해졌고, 빅 테크 기업은 그것을 이용해 시장에서의 영향력을 키우려고 합니다. 데이터에 기반하여 마케팅의 성과를 판단하고 광고 집행 방향성을 결정하는 전략, 데이터 중심 마케팅은 이런 상황에서도 살아남을 것입니다. 빅 테크 기업이 바꿔놓은 규칙에 적응하며 나름의 방법을 찾을 것입니다. 문제는 제품입니다. 이제 제품 개발은 거대 기업이 정해놓은 규칙에 정신없이 끌려다닐 미래밖에 남지 않은 걸까요? 프라이버시 이슈를 관리해야 할 리스크로 보고, 한 수 앞서 움직인다면 그렇지 않아도 됩니다. 구체적인 전략에 대해서는 다음 2부에서 알아보겠습니다.&lt;/p&gt;
+
+&lt;p class=&quot;right-infor&quot;&gt;위시켓의 지원과 함께 제작된 콘텐츠입니다.&lt;/p&gt;</content><author><name>이준환</name></author><category term="design-teatime" /><summary type="html">Apple의 앱 추적 투명성, EU 쿠키 법, Google의 FLoC... 사용자가, 시장의 규칙이 바뀌고 있습니다. 프라이버시 트렌드에 대해 정리합니다.</summary></entry><entry><title type="html">가볍고 밝은 싱글 몰트 위스키의 대표주자. 글렌그란트 12년</title><link href="https://dewberry9.github.io/glengrant-12" rel="alternate" type="text/html" title="가볍고 밝은 싱글 몰트 위스키의 대표주자. 글렌그란트 12년" /><published>2021-07-03T00:00:00+00:00</published><updated>2021-07-03T00:00:00+00:00</updated><id>https://dewberry9.github.io/glengrant-12</id><content type="html" xml:base="https://dewberry9.github.io/glengrant-12">&lt;p&gt;두툼한 고기 한 점에 어울리는 묵직한 술이 필요한 경우도 있지만, 때로는 그냥 홀짝일 수 있는 가벼운 위스키가 손에 필요한 날도 있습니다. 이번에 마신 술은 가벼운 싱글 몰트 위스키의 대표, 글렌그란트(Glen Grant) 12년입니다.&lt;/p&gt;
 
 &lt;p class=&quot;full-size&quot;&gt;&lt;img src=&quot;/assets/images/daily/glengrant-12/01.jpg&quot; alt=&quot;Bottle and Box&quot; title=&quot;Bottle and Box&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
 
@@ -981,79 +1045,4 @@
 
 &lt;p&gt;제품 주도 성장 시리즈의 첫 편은 여기까지입니다. 다음 편부터는 제품 주도 성장을 실제로 적용하는데 필요한 요소들을 하나씩 알아보겠습니다. 그 첫 번째는 &lt;a title=&quot;매거진 입맛 - 팀원, 투자자, 고객을 바꾸는 성공한 제품의 경쟁력. 제품 주도 성장 지표&quot; href=&quot;/product-led-growth-metrics&quot; target=&quot;_blank&quot;&gt;제품 주도 성장의 구축과 성과 측정을 위한 여러 지표에 대한 내용&lt;/a&gt;입니다.&lt;/p&gt;
 
-&lt;p class=&quot;right-infor&quot;&gt;위시켓의 지원과 함께 제작된 콘텐츠입니다.&lt;/p&gt;</content><author><name>이준환</name></author><category term="design-teatime" /><summary type="html">비싸지는 고객 획득 비용, 높아지는 경쟁률, 변화하는 고객 사이에서 어떻게 성장 동력을 챙길 수 있을까요? 제품 주도 성장이 답입니다.</summary></entry><entry><title type="html">이렇게 맛있는 소주. 화요 41</title><link href="https://dewberry9.github.io/hwayo-41" rel="alternate" type="text/html" title="이렇게 맛있는 소주. 화요 41" /><published>2021-04-30T00:00:00+00:00</published><updated>2021-04-30T00:00:00+00:00</updated><id>https://dewberry9.github.io/hwayo-41</id><content type="html" xml:base="https://dewberry9.github.io/hwayo-41">&lt;p&gt;시끌벅적한 식당 안, 달궈지는 불판 앞에서 송골송골 물방울을 흘리는 찬 초록 병. 소주는 저렴한 가격으로 가장 접하기 쉬운 술 중 하나입니다. 대접하기도 대접받기도 편한 술로써 좋은 사람들과 함께하기도 하고 혼자라도 부담 없이 반병쯤은 마실 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;이런 초록 병의 소주가 다른 어느 것보다 가까운 술일 수는 있어도 가장 맛있는 술이라고 한다면 망설여집니다. 여기 묵직한 암갈색 병의 소주는 어떨까요? 재밌게도 이 소주는 맛있습니다.&lt;/p&gt;
-
-&lt;p class=&quot;full-size&quot;&gt;&lt;img src=&quot;/assets/images/daily/hwayo-41/01.jpg&quot; alt=&quot;Bottle 1&quot; title=&quot;Bottle 1&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;제품&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;화요 41(375mL)&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;분류&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;소주&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;생산지&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;대한민국 경기도 여주시&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;알코올&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;41%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;가격&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;20,800원(이마트)&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&quot;증류식-소주&quot;&gt;증류식 소주&lt;/h2&gt;
-
-&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/daily/hwayo-41/02.jpg&quot; alt=&quot;Bottle 2&quot; title=&quot;Bottle 2&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;화요 41은 증류식 소주입니다. 한국의 소주는 조주 방식에 따라 크게 2가지로 구분할 수 있습니다. 처음처럼, 참이슬, 진로로 대표되는 희석식 소주와 안동 소주와 같은 증류식 소주입니다.&lt;/p&gt;
-
-&lt;p&gt;위스키, 브랜디, 증류식 소주 등의 증류주는 맥주, 와인, 막걸리와 같은 발효주를 증류하는 방식을 기원으로 하고 있습니다. 증류를 거듭할수록 알코올의 순도는 높아지고 원재료의 특성은 줄어듭니다. 그래서 원재료의 풍미를 중요하게 여기는 증류주에서는 한 두 번의 증류만 합니다. 증류식 소주도 마찬가지로, 익힌 곡물을 누룩 등으로 발효시킨 후 증류해서 만듭니다.&lt;/p&gt;
-
-&lt;p&gt;희석식 소주도 증류식 소주의 조주 방식과 같은 순서로 만들어집니다. 다만 희석식 소주는 연속식 증류기를 사용한 수백 번의 증류로 85도 이상의 고순도 알코올을 생성, 증류식 소주보다 더 많은 비율로 감미료와 물을 희석하기에 원재료의 풍미는 없다고 해도 무방합니다. 재료의 맛이 차지하는 비중이 크지 않기 때문에 값싼 재료를 사용해도 차이가 없습니다. 희석식 소주의 저렴한 가격은 이런 공정상의 특징에서 비롯됩니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;화요&quot;&gt;화요&lt;/h2&gt;
-
-&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/daily/hwayo-41/03.jpg&quot; alt=&quot;Bottle 3&quot; title=&quot;Bottle 3&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;화요의 모회사 광주요는 도자 식기를 만드는 기업입니다. 광주요 그룹은 한국 전통 식문화에 관련된 사업을 합니다. 한식 파인 디너 브랜드도 가지고 있습니다. 그런 광주요가 2004년 보해양조 ‘옛향’의 개발자 박찬영과 진로 참이슬 개발자 김호영, 한국주류업계의 두 원로를 고문으로 출범한 브랜드가 화요입니다. 알코올 도수별로 나뉘는 4가지 제품, 화요 17, 25, 41, 53과 5년 넘게 오크통에 숙성시킨 싱글 라이스 위스키 화요 X.P. 이렇게 다섯 가지 제품으로 라인업이 구성되어 있습니다.&lt;/p&gt;
-
-&lt;p&gt;오로지 국산 쌀만을 사용해 만드는 화요는 조주 공정 상에서 주목할 만한 3가지 특징이 있습니다.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;발효에 전통 누룩 대신 인공배양 효모를 사용해 누룩취 등의 잡내가 없습니다.&lt;/li&gt;
-  &lt;li&gt;감압증류 방식. 에탄올은 상압에서 78도에서 기화되므로 보통 이 이상의 온도로 증류하는데, 이때 술맛을 내는 몇몇 성분이 사라질 수 있습니다. 화요는 높은 압력에서 비교적 낮은 온도(섭씨 25~40도)로 증류하는 감압증류 방식을 사용합니다. 이 방식을 극한까지 밀어붙인 예시로는 무려 &lt;a title=&quot;Gin Foundry - Oxley&quot; href=&quot;https://www.ginfoundry.com/gin/oxley-gin/&quot; target=&quot;_blank&quot;&gt;영하 5도에서 증류하는 옥슬리 진(Oxley Gin)&lt;/a&gt;이 있습니다.&lt;/li&gt;
-  &lt;li&gt;증류를 마치면 3개월 동안 옹기에서 숙성됩니다. 실제로 알코올 부즈를 줄이는 효과가 있다고 합니다.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;화요-41&quot;&gt;화요 41&lt;/h2&gt;
-
-&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/daily/hwayo-41/04.jpg&quot; alt=&quot;Glass&quot; title=&quot;Glass&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;화요 41은 화요 25와 함께 화요의 시작을 알린 핵심 제품입니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;외관&lt;/strong&gt; 화이트 스피릿인 만큼 맑고 투명한 색을 띱니다. 꽤 점도가 있는 모양인지 잔 표면에 남는 레그가 넓고 얕습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;향&lt;/strong&gt; 막걸리에서 맡을 수 있는 달달한 쌀 냄새가 첫인상을 남깁니다. 슬쩍 시큼한 느낌도 있습니다. 말린 대추 냄새, 한약의 단내가 납니다. 에어링을 할수록 조청처럼 꾸덕꾸덕한 뉘앙스가 진해집니다. 전체적으로 부드러운 향입니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;맛&lt;/strong&gt; 새콤달콤한 쌀 발효주의 풍미가 향긋하게 올라옵니다. 그러다 쌉싸름하고 담백한 쌀 맛이 덜컥 떨어집니다. 뒤로 갈수록 기름진 느낌이 강해집니다. 고소한 맛과 스파이시함이 잠깐 스쳐 지나갑니다. 풍성하지는 않지만 아담하고 밀도가 높다는 인상을 줍니다. 향과 맛이 매우 닮았습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;피니쉬&lt;/strong&gt; ‘나 41도야!’ 간신히 보여주려는 듯한 스파이시함이 혀에 남아 느긋하게 점멸합니다. 부드럽고 무게감이 식도에서 미끄러지는 동안 담백한 맛이 오래도록 남아 있습니다. 어쩐지 한 모금만으로도 배부른 느낌입니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;저녁-식사가-기다려지는-술&quot;&gt;저녁 식사가 기다려지는 술&lt;/h2&gt;
-
-&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/daily/hwayo-41/05.jpg&quot; alt=&quot;Bottle 4&quot; title=&quot;Bottle 4&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;화요 41은 화려한 술은 아닙니다. 여러 풍미를 아낌없이 흩뿌리는 그런 스타일이 아닙니다. 오히려 작고 단단하고 아늑한 술입니다. 그렇기에 매운 양념과 기름진 고기반찬이 있는 풍성한 저녁 식탁의 디테일을 채우는 데 화요는 만족할 수밖에 없는 선택지가 될 것입니다. 이 부드럽고 겸손한, 맛있는 소주는 정말이지 저녁 반주로 완벽합니다.&lt;/p&gt;</content><author><name>이준환</name></author><category term="review" /><summary type="html">41도짜리 소주. 암갈색 병의 소주. 도자기 회사에서 만든 소주. 그리고 맛있는 소주. 이 소주의 수식어는 하나 같이 낯섭니다. 증류식 소주 화요 41 리뷰.</summary></entry></feed>
+&lt;p class=&quot;right-infor&quot;&gt;위시켓의 지원과 함께 제작된 콘텐츠입니다.&lt;/p&gt;</content><author><name>이준환</name></author><category term="design-teatime" /><summary type="html">비싸지는 고객 획득 비용, 높아지는 경쟁률, 변화하는 고객 사이에서 어떻게 성장 동력을 챙길 수 있을까요? 제품 주도 성장이 답입니다.</summary></entry></feed>

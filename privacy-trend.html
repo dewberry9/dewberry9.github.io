@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="ko"><head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134698276-1"></script>
+    <script async>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-134698276-1');
+    </script>
+    <!-- Meta Tag for Basic Setting -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="locale" content="ko_KR">
+    <meta name="google-site-verification" content="Q1Gkv54gFGh2MxaT7ehKmua6BROtBIJR_ki_z_1_EwE" />
+    <meta name="naver-site-verification" content="d9a8213816d39cd0b58123c579fb50704ab632a8"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="referrer" content="always">
+    <!-- Open Graph -->
+    <meta property="og:title" content="프라이버시 트렌드 정리 : 이제 개인 정보는 관리해야 할 리스크입니다. | 매거진 입맛">
+    <meta property="og:url" content="https://dewberry9.github.io/privacy-trend">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="매거진 입맛">
+    <meta property="og:description" content="Apple의 앱 추적 투명성, EU 쿠키 법, Google의 FLoC... 사용자가, 시장의 규칙이 바뀌고 있습니다. 프라이버시 트렌드에 대해 정리합니다.">
+    <meta property="og:image" content='https://dewberry9.github.io/assets/images/design/privacy-trend/00.jpg'>
+    <meta name="by" content="이준환">
+    <!-- Twitter -->
+    <meta name="twitter:title" content="프라이버시 트렌드 정리 : 이제 개인 정보는 관리해야 할 리스크입니다. | 매거진 입맛">
+    <meta name="twitter:description" content="Apple의 앱 추적 투명성, EU 쿠키 법, Google의 FLoC... 사용자가, 시장의 규칙이 바뀌고 있습니다. 프라이버시 트렌드에 대해 정리합니다.">
+    <meta name="twitter:image" content='https://dewberry9.github.io/assets/images/design/privacy-trend/00.jpg'>
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="https://dewberry9.github.io/privacy-trend">
+    <meta name="twitter:site" content="매거진 입맛">
+    <!-- Other Basic Meta Tag -->
+    <meta name="title" content="프라이버시 트렌드 정리 : 이제 개인 정보는 관리해야 할 리스크입니다. | 매거진 입맛">
+    <meta name="description" content="Apple의 앱 추적 투명성, EU 쿠키 법, Google의 FLoC... 사용자가, 시장의 규칙이 바뀌고 있습니다. 프라이버시 트렌드에 대해 정리합니다.">
+    <meta name="author" content="이준환">
+    <meta name="article:media_name" content="매거진 입맛">
+    <meta property="article:mobile_url" content="https://dewberry9.github.io/privacy-trend">
+    <meta property="article:pc_url" content="https://dewberry9.github.io/privacy-trend">
+    <meta property="article:mobile_view_url" content="https://dewberry9.github.io/privacy-trend">
+    <meta property="article:pc_view_url" content="https://dewberry9.github.io/privacy-trend">
+    <meta property="article:talk_channel_view_url" content="https://dewberry9.github.io/privacy-trend">
+    <meta property="article:pc_service_home" content="https://dewberry9.github.io">
+    <meta property="article:mobile_service_home" content="https://dewberry9.github.io">
+    <!-- Post Date Tag -->
+    
+    <meta property="article:published_time" content="2021-07-08T00:00:00+00:00">
+    <meta property="article:modified_time" content="2021-07-08T00:00:00+00:00">
+    <meta property="og:regDate" content="20210708000000">
+    
+    <!-- JSON-LD -->
+    <script type="application/ld+json">
+      
+        {
+          "@context":"https://schema.org/",
+          "@type":"BlogPosting",
+          "mainEntityOfPage":{
+            "@id":"https://dewberry9.github.io/privacy-trend"
+          },
+          "url":"https://dewberry9.github.io/privacy-trend",
+          "headline":"프라이버시 트렌드 정리 : 이제 개인 정보는 관리해야 할 리스크입니다. | 매거진 입맛",
+          "description":"Apple의 앱 추적 투명성, EU 쿠키 법, Google의 FLoC... 사용자가, 시장의 규칙이 바뀌고 있습니다. 프라이버시 트렌드에 대해 정리합니다.",
+          "author":{
+            "@type":"Person",
+            "name":"이준환"
+          },
+          "publisher":{
+            "@type":"Organization",
+            "name":"매거진 입맛",
+            "logo":{
+              "@type":"ImageObject",
+              "url":"https://dewberry9.github.io/assets/images/logo.png"
+            }
+          },
+          "image":{
+            "@type":"ImageObject",
+            "url":"https://dewberry9.github.io/assets/images/design/privacy-trend/00.jpg"
+          },
+          "datePublished":"2021-07-08T00:00:00+00:00",
+          "dateModified":"2021-07-08T00:00:00+00:00"
+        }
+      
+    </script>
+    <!-- Links -->
+    <link rel="canonical" href="https://dewberry9.github.io/privacy-trend">
+    <link rel="alternate" href="https://dewberry9.github.io/feed.xml" type="application/atom+xml" title="Atom 0.3">
+    <link rel="preload" as="style" href='/assets/style.css'>
+    <link rel="stylesheet" href='/assets/style.css'>
+    <link rel="preload" as="style" href='/assets/fonts/naaummyeongjo.css'>
+    <link href='/assets/fonts/naaummyeongjo.css' rel='stylesheet' type='text/css'>
+    <link rel="preload" as="style" href='https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css'>
+    <link href='https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
+    <link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#363059">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <title>프라이버시 트렌드 정리 : 이제 개인 정보는 관리해야 할 리스크입니다. | 매거진 입맛</title>
+
+    <script data-ad-client="ca-pub-7525347021497850" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    
+</head><body>
+    <header class="top-nav" id="nav">
+    <nav>
+        <a href="/" title="Magazine Epmat" class="logo">
+            <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M5.538 2.77H4.154v.84l1.384.123v-.964zm0 17.482l-1.384.139v.84h1.384v-.979zm.924.979h12.347l-.049-5.116h-1.384l-1.137 4.152h-5.56c-.05-2.57-.05-5.19-.05-7.933v-.075h3.386l.346 2.62h1.236V8.627H14.36l-.37 2.743h-3.362c0-2.62 0-5.165.05-7.637h5.016l1.137 3.954h1.434l.024-4.918H6.462v18.462z"/></svg>
+            <span class="nosvg">매거진 입맛</span>
+        </a>
+        <div class="dynamic-nav">
+            <ul>
+                <li>
+                    <a id="btn-starting" href="/" title="Starting Point" class="op75">처음</a>
+                </li>
+                <li>
+                    <a id="btn-article" href="/article" title="Design Teatime" class="op75">디자인</a>
+                </li>
+                <li>
+                    <a id="btn-daily" href="/review" title="Daily" class="op75">입맛리뷰</a>
+                </li>
+                <li>
+                    <a id="btn-story" href="/story" title="Story" class="op75">소설</a>
+                </li>
+                <!--
+                <li>
+                    <a id="btn-about" href="/about" title="Starting Point" class="op75">쓰는 사람<span class="num-square">4</span></a>
+                </li>
+                -->
+            </ul>
+        </div>
+    </nav>
+</header>
+    <div id="content">
+        <script>
+    document.getElementById('nav').classList.add('show')
+</script>
+<section class="post-content">
+    <h1 class="post-title">프라이버시 트렌드 정리 : 이제 개인 정보는 관리해야 할 리스크입니다.</h1>
+    <span class="post-category">
+        
+        <svg class="script-font" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50"><path d="M58.44 32.05v.07l.06-.12a.24.24 0 00-.06.05zM81.93 32.8h-.01v.03l.01-.03zM93.33 17.27a1.09 1.09 0 00.7 0c.17 0 .39-.08.64-.15l.94-.28H95.84l.17-.05.17-.05c.52-.16 1-.29 1.43-.4l1.16-.3h.27l.94-.25a3.86 3.86 0 00.65-.25.91.91 0 00.35-.31.54.54 0 000-.42.63.63 0 00-.16-.33.3.3 0 00-.2-.1.45.45 0 00-.23 0 1.51 1.51 0 00-.22.11h-.16l-.2.1a3.77 3.77 0 01-.44.16c-.19.07-.46.15-.79.24l-1.27.32-1.67.38-1.1.21a6.05 6.05 0 01-.75.11 1.57 1.57 0 01-.29 0 .33.33 0 00-.1 0 .42.42 0 00-.32.26.73.73 0 000 .53.63.63 0 00.25.47z"/><path d="M153.67 11.93a.41.41 0 00-.13-.23.55.55 0 00-.52-.15 1.15 1.15 0 00-.32.12 1.09 1.09 0 00-.29.24l-.18.18-.16.18c-.07.09-.16.2-.28.33l-.41.44-.57.6c-.23.23-.52.5-.86.82-.33.28-.74.62-1.23 1a16.23 16.23 0 01-1.79 1.22c-.39.21-.8.41-1.21.6a12.3 12.3 0 01-1.21.46l-.36.1-.34.07a7.5 7.5 0 01-1.77.06 5.06 5.06 0 01-1.11-.24 5.7 5.7 0 01-.81-.32c-.23-.12-.45-.25-.65-.37l-.54-.39-.43-.34c-.3-.27-.55-.51-.77-.73s-.42-.45-.63-.7a.25.25 0 01-.05-.07.25.25 0 01-.05-.07s-.05-.06-.05-.08l-.73-.23-.09.11-.06.05h.09l-.27.16-.27.2a6.11 6.11 0 00-.55.45l-.61.52-.71.61c-.26.22-.53.46-.82.73l-.15.13-.15.14-.08.07-.09.07-.19.18-.2.18-.56.51-.61.55-.58.48q-.31.26-.63.48l-.6.43a5.78 5.78 0 01-.54.32 4 4 0 01-1 .33h-.08l.09-.38.12-.39c.08-.25.16-.48.24-.71a3.89 3.89 0 01.16-.41l.16-.36a.2.2 0 010-.08.14.14 0 000-.07.14.14 0 000-.06.16.16 0 010-.06c.15-.38.28-.67.37-.87l.21-.44a.53.53 0 00.08-.15.77.77 0 00.06-.15.7.7 0 00.08-.27.64.64 0 00.08-.14.66.66 0 00.07-.33.39.39 0 00-.09-.26.53.53 0 00-.55-.16h-.09a.67.67 0 00-.29.1.87.87 0 00-.15.13 2.49 2.49 0 00-.3.19l-.15.13-.15.13a4.32 4.32 0 01-.39.34l-.46.41-.38.35-.18.17-.19.18-1 .89-1.39 1.29c-.54.5-1.16 1.1-1.87 1.78s-1.53 1.49-2.45 2.42c-.54.57-1 1.1-1.52 1.61s-1 1-1.42 1.58c-.25.27-.51.57-.8.91s-.59.7-.89 1.08v.05l-.33.41-.36.44v-.12V30.1v-.17-.21c.06-.36.11-.74.17-1.16s.11-.83.15-1.25.1-.82.14-1.22.07-.76.09-1.1 0-.65.06-1 0-.68 0-1a1.69 1.69 0 010-.23v-.56a1.69 1.69 0 000-.23 1.48 1.48 0 010-.21v-.5l-.34-.1H113.69l-.14.12V21.45l-.49.48a5.94 5.94 0 01-.48.39 2.6 2.6 0 01-.43.23 1 1 0 01-.41.07.36.36 0 01-.22-.07.75.75 0 01-.19-.17.63.63 0 01-.19-.39 1.13 1.13 0 01.09-.45 2.28 2.28 0 01.17-.35l.2-.27.21-.23.21-.2.15-.14.07-.07a2.79 2.79 0 00.28-.32.91.91 0 00.31-.44.57.57 0 00-.08-.54.6.6 0 00-.44-.25.81.81 0 00-.56.12l-.21.13-.21.15-.38.29c-.16.13-.4.29-.71.51l-1 .68-1.48.93-1 .6-1.23.71c-.44.26-.9.52-1.39.78s-1 .54-1.49.79l-1 .49-1 .47-1 .42c-.32.13-.63.24-.91.34s-.78.26-1.16.36a8.72 8.72 0 01-1 .25 5.89 5.89 0 01-.91.1 2.91 2.91 0 01-1.12-.11 2.1 2.1 0 01-.4-.18 1.43 1.43 0 01-.29-.24 1.2 1.2 0 01-.16-.27 1.81 1.81 0 01-.09-.31 1.87 1.87 0 010-.32V25a4.08 4.08 0 01.06-.53c0-.16.06-.3.09-.43a2.69 2.69 0 01.09-.32 1.94 1.94 0 01.07-.22l.09-.2a.53.53 0 00.06-.14v-.14a.49.49 0 000-.12.59.59 0 00.06-.14.74.74 0 000-.29.54.54 0 00-.09-.25.65.65 0 00-.61-.21 1.25 1.25 0 00-.61.32l-.31.28-.32.34-.28.27-.35.36c-.17.18-.39.42-.67.7s-.6.61-1 1l-1.27 1.22L87 28.1a3 3 0 01-.25.25l-.24.24-.34.34a2.57 2.57 0 00-.33.33l-.23.23-.22.23-.53.53-.19.2-.2.19-.25.26a3.44 3.44 0 00-.27.27l-.85.83-1 1.09-.12.13a1 1 0 010-.24.25.25 0 010-.18.17.17 0 010-.07v-.08-.58-.56-.37-.36-.68-1.89-1.22a5.86 5.86 0 01.09-.77 3.91 3.91 0 01.12-.47l.13-.12.13-.13a.9.9 0 00.17-.3.79.79 0 000-.34.71.71 0 00-.22-.38.58.58 0 00-.26-.13H82a.69.69 0 00-.46.05 1.05 1.05 0 00-.3.22 1.34 1.34 0 00-.22.31 2.23 2.23 0 00-.09.23l-.51.57c-.15.16-.33.36-.55.57s-.47.48-.78.76-.62.57-1 .87-.79.63-1.25 1c-.47.33-.88.59-1.24.8s-.69.38-1 .52c-.25.12-.47.22-.69.3s-.42.16-.62.23l-.52.18-.54.14h-.11l-.62-.1c-.23.06-.49.11-.79.16a9.57 9.57 0 01-2.75.07 3 3 0 01-.54-.11 2.78 2.78 0 01-.51-.17 1.34 1.34 0 01-.63-.47 2.13 2.13 0 01-.26-.41 1.69 1.69 0 01-.13-.4.86.86 0 010-.16.81.81 0 010-.15 1.07 1.07 0 01.16-.41 1.13 1.13 0 00.1-.13l.13-.06.58-.3h.07l.09-.05h.07l.14-.07h.08a2.63 2.63 0 00.51-.39.81.81 0 00.44-.62.94.94 0 00.06-.15.4.4 0 000-.29.48.48 0 00-.36-.14h-.06a.78.78 0 00-.58 0l-.21.1-.21.11-.25.15-.36.23-.39.32-.52.29c-.23.14-.51.29-.84.47s-.71.36-1.13.55l-1.08.47c-.43.18-.93.37-1.5.58.15-.37.29-.74.42-1.12s.25-.72.35-1c.16-.55.3-1.08.41-1.58a13.43 13.43 0 00.24-1.46 12.45 12.45 0 00.1-1.34 8.47 8.47 0 000-1.25v-.23-.23a6 6 0 00-.27-1 3.66 3.66 0 00-.54-.95 3.1 3.1 0 00-.55-.53 2.82 2.82 0 00-.68-.37 2.64 2.64 0 00-.77-.19 4.39 4.39 0 00-.81 0h-.43a5.66 5.66 0 00-1.46.48 8.85 8.85 0 00-1.46.88 14 14 0 00-1.64 1.5 20.77 20.77 0 00-1.64 1.95c-.29.39-.57.79-.85 1.2s-.56.85-.84 1.32a.5.5 0 000-.12v-.1a.5.5 0 010 .12v-.08-.21c0-.08 0-.18.05-.29a2.56 2.56 0 010-.27l.06-.27.06-.24a1.24 1.24 0 010-.22l.36-1.81c.09-.47.17-.84.22-1.12s.1-.49.13-.63.05-.27.07-.38a3.21 3.21 0 00.06-.6 2.53 2.53 0 000-.5 1 1 0 00-.16-.42.39.39 0 00-.29-.2.36.36 0 00-.29.08 1 1 0 00-.27.31 2.82 2.82 0 00-.23.49 3.62 3.62 0 00-.16.61v.09a.3.3 0 000 .1v.12c0 .04-.07.37-.12.69s-.12.68-.19 1.12-.16.92-.26 1.46-.21 1.12-.32 1.73l-.27 1.39c-.1.51-.2 1-.32 1.58V29a.31.31 0 010 .08c0 .15-.06.3-.09.47s-.06.32-.1.48c-.18.38-.36.78-.54 1.21s-.36.82-.5 1.18-.22.55-.32.83-.19.56-.27.82a3 3 0 00-.1.32l-.09.34a.2.2 0 000 .07.25.25 0 010 .07c0 .1 0 .17-.06.22s0 .1 0 .14v.32a.76.76 0 000 .15 1.58 1.58 0 00.06.23 1.3 1.3 0 00.1.15.7.7 0 00.18.12.43.43 0 00.18.06h.19l.11-.05.1-.11a.68.68 0 00.12-.12l.14-.2a1.61 1.61 0 00.12-.23 2.69 2.69 0 00.17-.34l.16-.37c.1-.24.19-.48.26-.71a.63.63 0 00.12.1 4.9 4.9 0 00.76.5 13.36 13.36 0 001.49.64 12.18 12.18 0 001.6.44c.29.06.59.1.89.14a6 6 0 001 .06h.66a5.13 5.13 0 00.74-.09l.39-.08a3.29 3.29 0 00.37-.1h.06l.25-.08a1.82 1.82 0 00.3-.13 1.91 1.91 0 00.32-.17l.26-.18a4.08 4.08 0 00.49-.45l.47-.53a14.65 14.65 0 001.6-2.49.25.25 0 010-.07.41.41 0 01.05-.09h.1a.13.13 0 00.08 0c1.1-.36 2-.7 2.83-1 .6-.24 1.11-.46 1.55-.65a2.23 2.23 0 000 .33 3.06 3.06 0 00.2.63 3.47 3.47 0 00.37.6 2.47 2.47 0 00.4.44 3.41 3.41 0 00.44.3 3.67 3.67 0 00.44.21l.45.17a8.56 8.56 0 001.14.26 7.76 7.76 0 001.49.1h.74l.65-.08.35-.07.32-.08c.25-.07.49-.14.7-.22s.42-.14.61-.21l.69-.31.88-.42 1.14-.61c.43-.24.94-.55 1.53-.94s1.14-.8 1.58-1.16.83-.68 1.15-1l.47-.41v1.52c0 .39 0 .71.07 1.13v.6a.57.57 0 000 .13v.14a.92.92 0 000 .16v.16c0 .33 0 .69.07 1.08s0 .79 0 1.18V34.87a9.33 9.33 0 00-.65.73c-.18.21-.35.43-.52.64s-.52.64-.75 1-.43.61-.62.9v.07a.33.33 0 010 .06l-.28.51c-.1.19-.19.38-.28.57s0 .13-.07.2l-.06.25a1.2 1.2 0 000 .33.79.79 0 00.13.37.68.68 0 00.32.31 1.15 1.15 0 00.41.08h.54a4.25 4.25 0 00.54-.18 5.68 5.68 0 00.55-.28 2.53 2.53 0 00.5-.43 4.69 4.69 0 00.42-.55 5.61 5.61 0 00.56-1.36 12.91 12.91 0 00.31-1.64v-.36-.35c.54-.6 1.08-1.19 1.61-1.79l1.46-1.61c.51-.55 1-1.06 1.42-1.52s.86-.89 1.27-1.28c.75-.73 1.41-1.36 2-1.9l1.48-1.39 1.05-.95.18-.17v.59a3.23 3.23 0 00.11.84 2.72 2.72 0 00.19.47 3.74 3.74 0 00.32.49 2.54 2.54 0 001 .69 3.56 3.56 0 001.27.2 7.43 7.43 0 001.38-.14 18.06 18.06 0 003-.91c1.07-.42 2.23-.95 3.48-1.58s2.31-1.2 3.2-1.72l2.32-1.33 1.24-.73a1.84 1.84 0 000 .25 1.65 1.65 0 000 .54 1.75 1.75 0 00.19.54 2.34 2.34 0 00.36.51l.25.23.31.19a1.52 1.52 0 00.78.15 1.86 1.86 0 00.7-.14 3.13 3.13 0 00.65-.35l.19-.13.2-.14c0 .89 0 1.89-.13 3s-.22 2.29-.4 3.53c-.09.55-.17 1.06-.26 1.53s-.18.92-.27 1.36a20.36 20.36 0 00-1.4 2.38 14 14 0 00-.77 1.92 8.06 8.06 0 00-.31 1.76 5 5 0 00.06 1.1 4 4 0 00.29 1c.1.21.22.33.34.35a.36.36 0 00.35-.14 2.13 2.13 0 00.31-.47 4 4 0 00.26-.6 3 3 0 00.15-.57 6.37 6.37 0 01.28-1c.12-.36.25-.76.37-1.2a.3.3 0 010-.1.13.13 0 000-.06.14.14 0 010-.06V37.17c.12-.45.25-.92.38-1.43s.26-1.06.4-1.67l.44-.69c.14-.22.29-.44.45-.67.33-.49.67-1 1-1.41s.67-.88 1-1.29c.64-.79 1.28-1.55 1.92-2.26s1.23-1.35 1.8-1.93c1.06-1.06 2-2 2.83-2.72l2.15-2c.63-.54 1.14-1 1.56-1.34l.61-.51-.21.6-.22.7a5.91 5.91 0 00-.2.85 1.93 1.93 0 000 .27 1 1 0 000 .31v.13a.75.75 0 000 .16.58.58 0 00.1.22v.06a1.05 1.05 0 00.27.21l.19.06h.17a1.4 1.4 0 00.35 0 2.46 2.46 0 00.37 0 3 3 0 00.54-.15 3.29 3.29 0 00.54-.26 6.16 6.16 0 00.55-.33 12.5 12.5 0 001-.75l1-.88c.13-.12.25-.23.39-.34s.25-.23.36-.34l.11-.1.12-.1c.4-.37.78-.73 1.15-1.06l1-.86q.49-.44.93-.75l.77-.55.22.3.25.3c.23.26.51.56.83.87a7.5 7.5 0 001.21.95 6.38 6.38 0 001.27.59 6.71 6.71 0 001.3.33 5.7 5.7 0 001.24.07 7.77 7.77 0 001.14-.13 9.94 9.94 0 001-.25c.33-.11.64-.22.93-.35s.58-.25.85-.39l.74-.38a13.33 13.33 0 001.21-.74l1-.69c.3-.22.57-.43.82-.64l.67-.56.83-.75c.25-.22.45-.4.61-.56l.13-.12c0-.05.05-.06 0 0l.36-.34c.11-.08.2-.16.28-.23h.06l.05-.05.08-.07v-.05a1.27 1.27 0 00.18-.29 1.92 1.92 0 00.09-.32.93.93 0 00.35-.92zM48.75 33.4zm9.79-1.5l-.06.11v.06c-.3.45-.59.86-.87 1.22a3.7 3.7 0 01-.84.84l-.18.1-.2.1h-.08l-.47.15-.23.05h-.87a9 9 0 01-2.14-.16 12.29 12.29 0 01-2-.56l-.42-.18a3.84 3.84 0 01-.45-.23l.82-.14.75-.12.72-.13c1.37-.24 2.61-.49 3.72-.74s2.11-.5 3-.75a2.28 2.28 0 00-.2.38zm1.88-4.52c-.15.53-.33 1-.51 1.52s-.38 1-.57 1.4H59.13c-1 .31-2.15.63-3.49 1s-2.9.7-4.64 1l-.85.15-.68.12c-.24 0-.46.09-.66.14h-.11c.1-.34.18-.67.26-1s.16-.62.24-.91l.12-.53a1.33 1.33 0 000-.19v-.2a.51.51 0 000-.09.29.29 0 000-.09v-.05a.13.13 0 010-.06v-.09a.31.31 0 00.05-.1v-.05c0-.05 0 0 0 0v-.11c.46-.94.91-1.79 1.36-2.56s.9-1.48 1.34-2.11a20 20 0 011.3-1.71 16.39 16.39 0 011.63-1.3 8.77 8.77 0 012.32-1.63c.19-.08.37-.14.55-.2a3.48 3.48 0 01.49-.12 3.09 3.09 0 01.5-.06 3.3 3.3 0 01.45 0 1.66 1.66 0 01.73.2 1.73 1.73 0 01.56.48 2.27 2.27 0 01.39.74 4.72 4.72 0 01.2.88A6.58 6.58 0 0161.2 23a9.57 9.57 0 01-.09 1.26c-.06.45-.14.94-.24 1.46s-.26 1.06-.45 1.66zm20.08 9.93a5.59 5.59 0 01-.27.73 2.39 2.39 0 01-.47.67 2.68 2.68 0 01-.55.43 1.85 1.85 0 01-.57.15.49.49 0 010-.11v-.11c.16-.27.32-.52.48-.74s.33-.45.52-.69l.41-.51.48-.56a5 5 0 01-.03.74z"/></svg>
+        
+    </span>
+    <div>
+        <p class="infor">프라이버시에 대해 다루는 2부작 콘텐츠입니다. 이번 글에서는 프라이버시 트렌드와 그 영향력을 짚어봅니다. 다음 글에서는 프라이버시 리스크 관리에 있어서 제품 설계·운영 상의 주의점에 대해 다룹니다.</p>
+
+<p>하나의 유령이 시장을 배회하고 있습니다. 프라이버시라는 유령이.</p>
+
+<p>데이터 중심 의사결정은 작은 스타트업이라는 다윗이 기성 대기업이라는 골리앗과 싸워 유니콘으로 성장하는 데 크게 기여한 전략입니다. 데이터 중심 의사결정은 쉽게 말해 결정권자 개인의 주관 대신 실제 제품과 시장의 데이터가 특정 의사결정의 근거가 되는 구조입니다. 딱히 새로운 방법론이라고 할 수는 없습니다. 그런데 이 낡은 전략은 디지털 프로덕트에 도입되면서 차원이 다른 성능을 내기 시작합니다.</p>
+
+<p class="normal-size"><img src="/assets/images/design/privacy-trend/01.jpg" alt="Characteristics of digital products in data-driven decision-making" title="데이터 중심 의사결정에 있어서 디지털 프로덕트의 특징" loading="lazy" /></p>
+
+<p>디지털 프로덕트에서는 이전의 제품보다 더 많은 데이터를 정확하고, 빠르고, 저렴하게 뽑아낼 수 있습니다. 이는 자연히 더 많고, 정확하고, 영향력 있는 인사이트로 이어집니다. 디지털 프로덕트에 있어서 이러한 데이터 중심 의사결정 전략의 특성은, 그로쓰 해킹의 유행 그리고 제품 자체가 자신을 작동시키고 성장시키는 <a title="매거진 입맛 - 알아서 팔리는 제품을 만드는 제품 주도 성장(Product-led Growth) 방법론" href="/introduce-product-led-growth" target="_blank" rel="noopener">제품 주도 성장 방법론</a>을 개발하는데 이르렀습니다.</p>
+
+<p>데이터의 위치가 굳건한 이 상황에, 첫 줄에서 언급한 프라이버시라는 유령은 허황한 이야기로 들릴 겁니다. 하지만 변화는 생각 이상으로 빠르고 확실하게 일어나고 있습니다. 이미 우리는 하루에도 몇 번씩이고 쿠키 허용 배너와 앱 추적 허용 팝업을 만납니다. 점점 몸집이 커지고 있는 이 유령을 보자면 지금의 데이터 중심 의사결정이 그대로 작동할 수 있을 지 의문이 듭니다. 그 전에 살아남을 수나 있을까요?</p>
+
+<ul>
+  <li>Apple의 앱 추적 투명성, EU 쿠키 법, Google의 FLoC가 정확히 뭘까요?</li>
+  <li>위와 같은 정책이 시장에, 제품을 만드는데 어떤 영향을 줄까요?</li>
+  <li>데이터 중심 마케팅(Data-Driven Marketing)은 이제 정말 끝난 걸까요? 💀</li>
+</ul>
+
+<h2 id="애플의-앱-추적-투명성-페이스북과의-대결">애플의 앱 추적 투명성, 페이스북과의 대결</h2>
+
+<p>2020년 애플은 iOS 14와 함께 앱 추적 투명성(ATT; App Tracking Transparency) 정책을 발표합니다. 준비 시간이 필요한 앱 개발사의 요청으로 앱 추적 투명성 정책은 2021년 iOS 14.5 업데이트와 함께 본격적으로 실행됩니다.</p>
+
+<p>앱 추적 투명성은 제품이 IDFA(Identifier for Advertisers)를 비롯한 사용자 식별자를 설정하여 사용 데이터를 수집하기 전에 명시적인 동의를 받는 등, 사용 데이터를 수집하는 제품의 행위에 대해 <a title="Apple Developer - 사용자 개인정보 보호 및 데이터 사용" href="https://developer.apple.com/kr/app-store/user-privacy-and-data-use/" target="_blank" rel="noopener">사용자의 권한을 늘려주는 데 초점을 맞춘 정책</a>입니다.</p>
+
+<p>IDFA, AdID(안드로이드 앱의 광고 식별자) 등의 광고 식별자는 사용자가 볼 수 없는 앱 생태계의 속살 밑에서 흐르는 피 같은 존재입니다. 광고 식별자는 본래 말 그대로 광고 성과 측정을 위해 만들어졌습니다. 어떤 사용자가 한 앱의 광고를 보고 설치하기 위해 광고에 포함된 링크를 클릭합니다. 이때 사용자가 쓰고 있는 디바이스 ID와 매칭되는 광고 식별자가 발급되고 광고 플랫폼의 광고 네트워크에 이 데이터를 전송합니다. 설치된 앱이 실행될 때 앱에 포함된 SDK가 이 광고 식별자를 확인하면서 이 사용자가 광고를 보고 앱을 설치했다는 사실을 알아냅니다. 사용자가 어떤 광고를 봤는지 알아야 하고, 또 광고의 성과로 보는 행위가 앱 설치나 실행이 아닌 다른 행동일 수도 있기 때문에 광고 식별자는 사용자의 사용 기록을 담기 시작했습니다.</p>
+
+<p class="normal-size"><img src="/assets/images/design/privacy-trend/02.jpg" alt="Structure of Advertising Identifier" title="광고 식별자의 구조" loading="lazy" /></p>
+
+<p>광고 식별자는 일단은 사용자가 수정할 수 있지만 그럴 일은 거의 없는 디바이스 ID를 기준으로 생성되기 때문에 웹브라우저의 쿠키보다 수명이 깁니다. 광고 식별자는 동일한 광고 플랫폼을 사용하는 여러 앱과 웹사이트를 넘나들며 사용 데이터를 수집합니다. 사용자에게 개인 정보를 요청한 적은 없지만, 이렇게 데이터가 모이면 개인을 식별하기에 충분한 고유성을 지닌 프로필을 만들 수 있게 됩니다. 이렇게 만든 프로필은 데이터 브로커에게 판매되거나 맞춤 광고에 사용됩니다.</p>
+
+<p>구체적인 특징을 구분할 수 있는 사용자 프로필 데이터를 가지고 있는 것이 데이터 중심 의사결정에 얼마나 큰 도움을 줄 수 있는지는, 또 얼마나 큰 마케팅 비용을 절감하는 강조할 필요가 없어 보입니다. 꾸준한 업데이트를 제공하는 AppsFlyer의 <a title="AppsFlyer - The impact of iOS 14 &amp; ATT on the mobile app economy" href="https://www.appsflyer.com/ios-14-att-dashboard/" target="_blank" rel="noopener">iOS 앱 추적 투명성 분석 자료</a>에 따르면, iOS 앱에서 앱 추적을 허용하겠느냐고 묻는 팝업이 노출됐을 때 동의한 경우는 42%입니다. 예상보다는 높다고는 해도 사용자 프로필을 구성하는 데이터가 절반 넘게 빈약해졌다는 사실은 여전합니다.</p>
+
+<p class="normal-size"><img src="/assets/images/design/privacy-trend/03.jpg" alt="Value Beneficiaries: Advertising Platforms vs. App Market Operators" title="가치 수혜자 : 광고 플랫폼 vs 앱 마켓 운영사" loading="lazy" /></p>
+
+<p>페이스북은 이러한 애플의 정책이 고효율 광고 덕분에 저렴한 비용으로 서비스를 제공해왔던 <a title="Dan Levy(Facebook), 2021 - Speaking Up for Small Businesses" href="https://about.fb.com/news/2020/12/speaking-up-for-small-businesses/" target="_blank" rel="noopener">중소기업에 피해를 줄 것이라는 입장</a>을 밝힌 적 있습니다. 페이스북에 따르면 비개인화된 모바일 앱 설치 광고를 운영했을 때, 개인화된 광고를 운영했을 때보다 <a title="Facebook For Developers, 2020 - The Value of Personalized Ads to a Thriving App Ecosystem" href="https://developers.facebook.com/blog/post/2020/06/18/value-of-personalized-ads-thriving-app-ecosystem/" target="_blank" rel="noopener">수익이 50% 감소</a>합니다. 이를 중소기업을 위한 페이스북의 정의로운 분투로 보기보다는 앱 생태계의 주도권을 놓고 벌이는 앱 마켓 운영사와 광고 플랫폼의 마찰로 보는 게 자연스러울 듯합니다. 지금까지 사용자는 개인 정보를 지불하고 무료 앱을 사용했습니다. 이 과정에서 앱이 창출한 가치는 광고 플랫폼에 돌아갔습니다. 앱 마켓 운영사는 이 가치를 가져오고자 합니다. 인앱 결제에서 오는 15~30%의 수수료가 그 가치가 움직이는 통로입니다. 길도 뚫렸으니 가져오기만 하면 됩니다. 프라이버시 정책으로 광고 효율은 낮아지고 무료 앱은 유료가 됩니다. 사용자는 개인 정보 대신 현금을 지불합니다. 이 구조에서 광고 플랫폼으로 들어갔던 가치는 앱 마켓 운영사로 들어갑니다.</p>
+
+<p>이 상황을 제품 개발사와는 무관한 큰 회사 간의 분쟁 정도로 생각하고 있으면 안 됩니다. 앱 마켓 운영사가 확실한 주도권을 가질 때까지 제품에 영향을 미치는 프라이버시 정책은 언제든 바뀔 가능성이 있습니다. 앱 생태계에서의 데이터 중심 의사결정에서 얻었던 이점을 유지하고 싶다면 한 발자국 먼저 움직여야 합니다.</p>
+
+<h2 id="eu-쿠키-법과-투명해지는-웹-사용자">EU 쿠키 법과 투명해지는 웹 사용자</h2>
+
+<p>어느 순간부터 쿠키 수집 허용 여부를 묻는 배너가 외국 웹사이트에서 많이 보이기 시작했을 겁니다. 조금만 웹서핑해도 사이트마다 노출되는 배너 때문에 귀찮게 느꼈을지도 모르겠습니다. 사이트 제공자들도 별로 넣고 싶지는 않을 겁니다. 그대로 어쩔 수 없습니다. 법이니까요.</p>
+
+<p>쿠키에 대한 규정 중 가장 유명한 건 아무래도 EU의 ePrivacy Directive, 일명 쿠키 법이 아닐까 싶습니다. EU는 쿠키 법과 GDPR(일반 개인 정보 보호법)로 웹사이트의 쿠키, 로컬 스토리지(Local Storage) 등을 이용한 <a title="Richie Koch(GDPR EU), 2019 - Cookies, the GDPR, and the ePrivacy Directive" href="https://gdpr.eu/cookies/" target="_blank" rel="noopener">개인 정보 수집 정책을 규제</a>합니다. 제품 사용에 필수적인 쿠키 외 다른 쿠키를 사용할 시 사용자 동의 필요하며, 이에 동의하지 않더라도 제품을 사용할 수 있도록 허용하는 등의 내용을 담고 있습니다. EU 국가는 이 지침에 따라 자국법을 개정해야 합니다. 지침이라고 해서 가벼운 규칙이라고 여기면 안 됩니다. 2014년 쿠키 법을 어겨 <a title="Nuria Pastor(fieldfisher), 2014 - History in the making: the first 'cookie rule' fines in Europe" href="https://www.fieldfisher.com/en/services/privacy-security-and-information/privacy-security-and-information-law-blog/history-in-the-making-the-first-cookie-rule-fines-in-europe" target="_blank" rel="noopener">벌금형을 선고받은 최초의 기업이 스페인에서 나왔습니다.</a> 2018년 7월부터 2021년 6월까지 집행된 누적 벌금은 공개된 것만  <a title="GDPR Enforcement Tracker - Fines Statistics" href="https://www.enforcementtracker.com/?insights" target="_blank" rel="noopener">290,430,902유로</a>(한화 약 3천 9백억 원)입니다. EU 7개국에서 200개 이상의 뉴스 웹사이트를 <a title="Timothy Libert, Lucas Graves and Rasmus Kleis Nielsen(Reuters Institute), 2018 - Changes in Third-Party Content on European News Websites after GDPR" href="https://reutersinstitute.politics.ox.ac.uk/our-research/changes-third-party-content-european-news-websites-after-gdpr" target="_blank" rel="noopener">조사한 결과</a>에 따르면, 2018년 GDPR이 발효된 후 서드파티(Third-Party) 쿠키의 양은 22% 감소했습니다. 대체 무엇 때문에 이런 규제가 생긴 걸까요?</p>
+
+<p class="normal-size"><img src="/assets/images/design/privacy-trend/04.jpg" alt="Structure of Third-party Cookies" title="서드파티 쿠키의 구조" loading="lazy" /></p>
+
+<p>쿠키(Cookie)는 브라우저 등에 웹사이트 사용에 필요한 데이터를 저장하는 기술입니다. 새로 고침을 해도 웹사이트의 로그인 상태가 유지되는 것은 쿠키를 활용한 덕분입니다. 그런데 제품에 포함된 쿠키는 제품을 만들고 제공하는 기업만 설정할 수 있는 것이 아니라 다른 기업이 설정할 수도 있습니다. 이를 서드파티 쿠키라고 합니다. 구글 애널리틱스와 같은 분석 도구, SNS의 공유 버튼, 유튜브에서 동영상을 공유하며 딸려온 비디오 플레이어를 웹사이트에 설치할 때, 설치 코드에 관련 기능이 포함되어 있다면 서드파티 쿠키가 설정됩니다. 서드파티 쿠키는 여러 웹사이트에 걸쳐 작동하면서 웹서핑하는 사용자의 사용 데이터를 추적할 수 있습니다. 이를테면 웹사이트 A, B, C에 모두 페이스북 공유 버튼이 들어가 있다면 페이스북은 사용자의 A, B, C 사용 데이터를 수집할 수 있습니다. 이렇게 수집된 데이터는 데이터 브로커에게 판매되거나 맞춤형 광고에 활용됩니다. 선풍기에 대해 구글링하다가 페이스북에 들어가면 선풍기 광고를 볼 수 있는 이유는 여기에 있습니다. 이런 기술 덕분에 구글과 페이스북 등은 기존 광고 매체보다 월등한 광고 효율을 낼 수 있었습니다. 수많은 디지털 프로덕트는 서드파티 쿠키의 혜택을 받으면서 성장했습니다.</p>
+
+<p>하지만 상황이 바뀌었습니다. 이 마법의 기술을 남용한 탓일까요, 사용자는 서드파티 쿠키를 통한 사용 데이터의 추적에 이점이 아니라 피로와 공포를 느끼기 시작했습니다. 3만 명의 인터넷 사용자를 대상으로 한 <a title="Mozilla, 2017 - Hackers, Trackers and Snoops: Our Privacy Survey Results" href="https://medium.com/mozilla-internet-citizen/hackers-trackers-and-snoops-our-privacy-survey-results-1bfa0a728bd5" target="_blank" rel="noopener">Mozilla 재단의 설문</a>에 따르면, 응답자 1/3이 온라인에서 자신의 개인 정보를 전혀 통제할 수 없다고 여깁니다. 응답자 <strong>61%는 온라인에서 가장 두려운 경험으로 광고주에 의한 데이터 추적을 꼽았습니다.</strong> 이는 해킹 당하는 경험(80%)에 이어 2번째며, 심지어 온라인상의 괴롭힘(40%)보다 높은 수치입니다. 이제 브라우저는 개인 정보 보호 기능을 제품 홍보의 주안점으로 삼습니다. 웹사이트에 사용 데이터를 추적하지 말아 달라는 의사를 표명하는 기능인 DNT(Do Not Track)는 파이어폭스(Firefox)에서 시작해서 이제 대부분의 주요 브라우저에서 확인할 수 있습니다. 실제 효용성은 둘째치고, 사용자의 인식이 기존의 데이터 수집·활용 환경에 부정적이라는 것을 알 수 있습니다.</p>
+
+<p>웹 생태계에서의 데이터 중심 의사결정 환경은 변하고 있으며, 다시는 예전으로 돌아가지 않을 겁니다.</p>
+
+<h2 id="서드파티-쿠키의-죽음과-구글-floc">서드파티 쿠키의 죽음과 구글 FLoC</h2>
+
+<p>서드파티 쿠키는 죽었습니다. 파이어폭스와 사파리(Safari) 브라우저는 이미 서드파티 쿠키를 지원하지 않습니다. 하지만 웹브라우저 시장의 점유율 과반을 차지하고 있는 크롬(Chrome)은 상황이 약간 다릅니다. 물론 크롬도 서드파티 쿠키를 배제할 것입니다. 2022년으로 예정되어 있던 서드파티 쿠키 제거 계획은 얼마 전 <a title="Google, 2021 -  프라이버시 샌드박스 타임라인 업데이트" href="https://korea.googleblog.com/2021/07/updated-timeline-privacy-sandbox-milestones.html" target="_blank" rel="noopener">2023년 후반기로 연기</a>되었습니다. 이 일에 대해 이해하려면 먼저 FLoC를 알아야 합니다.</p>
+
+<p>구글은 크롬의 운영사고, 2020년 미국 디지털 광고 시장에서 <a title="eMarketer, 2020 - Google’s US Ad Revenues to Drop for the First Time" href="https://www.emarketer.com/newsroom/index.php/google-ad-revenues-to-drop-for-the-first-time/" target="_blank" rel="noopener">29.4%의 점유율</a>을 가지고 있는 광고 플랫폼 회사이기도 합니다. 또한 구글은 유튜브 등 많은 사용자를 지닌 유명 제품을 다수 운영하고 있습니다. 구글의 <a title="동아닷컴, 2020 - “역시 유튜브 천하” 구글 트래픽 비중 23.5% 달해…네이버·카카오 1~2%" href="https://www.donga.com/news/It/article/all/20200909/102851001/1" target="_blank" rel="noopener">국내 일평균 트래픽 비중은 23.5%</a>입니다. 서드파티 쿠키로 가장 많은 데이터를 모을 수 있었던 곳은 구글이고, 가장 효율적인 광고를 운영할 수 있었던 곳도 구글입니다. 서드파티 쿠키의 규제가 제도상으로 확실해지니 전과 같은 광고 효율을 유지하려면 다른 방법이 필요했습니다.</p>
+
+<p>FLoC(Federated Learning of Cohorts)는 서드파티 쿠키 이후의 웹 생태계에서 주도권을 확보하려는 구글의 시도입니다. FLoC는 사실상 개인을 특정할 수 있었던 서드파티 쿠키와는 다르게, 브라우저(크롬)가 주도해서 데이터를 수집하고 유사한 특징을 띄는 사용자끼리 그룹을 지어 광고주에게 제공합니다. 구글의 실험에 따르면 FLoC 방식 광고는 서드파티 쿠키 광고와 비교해 달러당 전환율을 <a title="Chetna Bindra(Google Ads &amp; Commerce), 2021 - Building a privacy-first future for web advertising" href="https://blog.google/products/ads-commerce/2021-01-privacy-sandbox/" target="_blank" rel="noopener">최소 95%로 지킬 수 있습니다.</a> 고객 획득 전략의 뾰족한 전환점 없이 서드파티 쿠키에 의존하고 있던 기업으로서는 만족할 만한 대체제입니다. 그러나 구글이 서드파티 쿠키 이후의 웹 세계를 지배하도록 놔두지 않는 회사가 있습니다. 아마존(Amazon)은 물론, 자포스(Zappos)를 비롯한 아마존 계열 웹사이트에는 이미 <a title="Kate Kaye(DIGIDAY), 2021 - Amazon is blocking Google's FLoC — and that could seriously weaken the system" href="https://digiday.com/media/amazon-is-blocking-googles-floc-and-that-could-seriously-weaken-the-fledgling-tracking-system/" target="_blank" rel="noopener">FLoC 차단 코드가 삽입</a>되었습니다. 마이크로소프트(Microsoft)의 Github에서 운영하는 웹 호스트 서비스 Github Pages는 기본 제공 도메인인 github.io를 사용하는 모든 Github Pages 사이트에 <a title="Github, 2021 - GitHub Pages: Permissions-Policy: interest-cohort=() Header added to all pages sites" href="https://github.blog/changelog/2021-04-27-github-pages-permissions-policy-interest-cohort-header-added-to-all-pages-sites/" target="_blank" rel="noopener">FLoC 차단 코드를 삽입</a>했다고 발표했습니다. 이런 상황에서 크롬의 서드파티 쿠키 제거 계획이 연기된 것입니다.</p>
+
+<h2 id="관리해야-할-리스크-프라이버시">관리해야 할 리스크, 프라이버시</h2>
+
+<p>지금까지 오늘날의 프라이버시 트렌드를 알아보았습니다. 사용자는 개인 정보 보호에 더욱 민감해졌고, 빅 테크 기업은 그것을 이용해 시장에서의 영향력을 키우려고 합니다. 데이터에 기반하여 마케팅의 성과를 판단하고 광고 집행 방향성을 결정하는 전략, 데이터 중심 마케팅은 이런 상황에서도 살아남을 것입니다. 빅 테크 기업이 바꿔놓은 규칙에 적응하며 나름의 방법을 찾을 것입니다. 문제는 제품입니다. 이제 제품 개발은 거대 기업이 정해놓은 규칙에 정신없이 끌려다닐 미래밖에 남지 않은 걸까요? 프라이버시 이슈를 관리해야 할 리스크로 보고, 한 수 앞서 움직인다면 그렇지 않아도 됩니다. 구체적인 전략에 대해서는 다음 2부에서 알아보겠습니다.</p>
+
+<p class="right-infor">위시켓의 지원과 함께 제작된 콘텐츠입니다.</p>
+
+    </div>
+</section>
+
+<section class="subscribe subscribe-post-bottom">
+    <div class="subscribe-container">
+        <p class="subscribe-description">매거진 입맛의 취향들을 더 편하게, 더 빠르게 받아보세요.</p>
+        <a rel="noreferrer" class="btn-subscribe" target="_blank" href="https://forms.gle/wvj73q8MWBv2j44h7" title="Newsletter Subscription">뉴스레터 구독신청</a>
+    </div>
+</section>
+
+<section class="post-list related-post-list">
+    <div class="related-post-list-top-border"></div>
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        <a title="카드로 쌓은 집" href="/build-house-with-cards" class="post-list-item">
+                <div class="post-thumbnail">
+                    <div class="img-source" style="background-image: url('/assets/images/01-build-house-with-cards/02.jpg')"></div>
+                </div>
+                <div class="post-description">
+                    <span class="post-topic">UI Design</span>
+                    <div class="post-intro">
+                        <h2>카드로 쌓은 집</h2>
+                        <p class="post-excerpt">디자이너에게 카드는 좋은 재료입니다. 그러나 카드로 쌓은 집은 과연 온전할까요? 카드를 쓸 때 생각해볼 만한 활용법 3가지를 골라봤습니다.</p>
+                    </div>
+                </div>
+        </a>
+    
+        <a title="머티리얼 디자인의 리모델링" href="/remodeling-of-material-design" class="post-list-item">
+                <div class="post-thumbnail">
+                    <div class="img-source" style="background-image: url('/assets/images/02-remodeling-of-material-design/01.jpg')"></div>
+                </div>
+                <div class="post-description">
+                    <span class="post-topic">Design System</span>
+                    <div class="post-intro">
+                        <h2>머티리얼 디자인의 리모델링</h2>
+                        <p class="post-excerpt">2018년 5월, 머티리얼 디자인의 새로운 모습이 공개되었습니다. 많은 부분에서 수정과 개선이 이뤄졌습니다. 이제 머티리얼 디자인은 브랜드 친화적인 디자인을 지향합니다.</p>
+                    </div>
+                </div>
+        </a>
+    
+        <a title="우리의 디자인에는 항상 공백이 부족하다" href="/divider-and-whitespace" class="post-list-item">
+                <div class="post-thumbnail">
+                    <div class="img-source" style="background-image: url('/assets/images/03-divider-and-whitespace/01.jpg')"></div>
+                </div>
+                <div class="post-description">
+                    <span class="post-topic">UI Design</span>
+                    <div class="post-intro">
+                        <h2>우리의 디자인에는 항상 공백이 부족하다</h2>
+                        <p class="post-excerpt">인터랙션 디자인에서 구분선과 공백은 요소와 요소, 콘텐츠와 콘텐츠를 분리하는 대표적인 도구입니다. 같은 듯 다른 이 두 가지를 비교해봅시다.</p>
+                    </div>
+                </div>
+        </a>
+    
+    <div class="ads-container ads-container-mobile-feedcard">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <ins class="adsbygoogle infeed"
+            style="display:block"
+            data-ad-format="fluid"
+            data-ad-layout-key="-68+cn+0-3b+gj"
+            data-ad-client="ca-pub-7525347021497850"
+            data-ad-slot="9019438848"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+            
+            
+            
+            <a title="한참 이른 여름맛. 아드벡 10년" href="/ardbeg-for-the-beginning-of-the-summer" class="post-list-item">
+                    <div class="post-thumbnail">
+                        <div class="img-source" style="background-image: url('/assets/images/daily/01-ardbeg/01.jpg')"></div>
+                    </div>
+                    <div class="post-description">
+                        <span class="post-topic">Whisky</span>
+                        <div class="post-intro">
+                            <h2>한참 이른 여름맛. 아드벡 10년</h2>
+                            <p class="post-excerpt">피트향 가득, 쾌청한 풍미의 싱글 몰트 아일라 위스키 아드벡 10년 리뷰.</p>
+                        </div>
+                    </div>
+            </a>
+        
+    
+            
+            
+            
+            <a title="4시에 마신다면 3시부터 행복할거야. 글렌피딕 15년" href="/glenfiddich-solera" class="post-list-item">
+                    <div class="post-thumbnail">
+                        <div class="img-source" style="background-image: url('/assets/images/daily/02-glenfiddich-solera/01.jpg')"></div>
+                    </div>
+                    <div class="post-description">
+                        <span class="post-topic">Whisky</span>
+                        <div class="post-intro">
+                            <h2>4시에 마신다면 3시부터 행복할거야. 글렌피딕 15년</h2>
+                            <p class="post-excerpt">여전히 발랄한 향, 한층 느긋해진 맛. 스페이사이드 싱글 몰트 위스키 글렌피딕 15년 리뷰.</p>
+                        </div>
+                    </div>
+            </a>
+        
+    
+            
+            
+                
+    <div class="ads-container ads-container-relative-feedcard">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <ins class="adsbygoogle infeed"
+            style="display:block"
+            data-ad-format="fluid"
+            data-ad-layout-key="-68+cn+0-3b+gj"
+            data-ad-client="ca-pub-7525347021497850"
+            data-ad-slot="9019438848"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+</section>
+
+
+<script>document.getElementById('btn-article').classList.remove('op75');
+document.getElementById('btn-article').classList.add('nav-item-act');</script>
+
+    </div>
+    <footer id="footer">
+    <span>
+        <a id="home-page" href='/' title="Main">매거진 입맛</a>
+        <a href="/review" title="Reviews">리뷰</a>
+        <a href="/article" title="Articles">디자인</a>
+        <a href="/story" title="Stories">소설</a>
+        <!-- <a href="/about" title="About Me">쓰는 사람</a> -->
+    </span>
+    <span>
+        <a rel="noreferrer" id="fb-link" href="https://www.facebook.com/magepmat" title="Facebook" target="_blank"><i class='bx bxl-facebook'></i></a>
+        <a rel="noreferrer" id="insta-link" href="https://www.instagram.com/mag_epmat/" title="Instagram" target="_blank"><i class='bx bxl-instagram' ></i></a>
+        <a id="mail-link" href="mailto:dewberryneun@gmail.com" title="Email"><i class='bx bx-envelope'></i><span class="link-copy"></span></a>
+        <a rel="noreferrer" id="rss-link" href="/feed.xml" title="RSS" target="_blank"><i class='bx bx-rss'></i><span class="link-copy"></span></a>
+    </span>
+</footer>
+</body>
+</html>
