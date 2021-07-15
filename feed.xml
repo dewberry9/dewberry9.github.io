@@ -1,4 +1,63 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://dewberry9.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dewberry9.github.io/" rel="alternate" type="text/html" /><updated>2021-07-08T10:13:59+00:00</updated><id>https://dewberry9.github.io/feed.xml</id><title type="html">매거진 입맛</title><subtitle>읽을 만한 취향들. 매거진 입맛 - 책, 술, 그밖에 삶의 즐거움 리뷰 / 디자인 / 소설</subtitle><author><name>이준환</name></author><entry><title type="html">프라이버시 트렌드 정리 : 이제 개인 정보는 관리해야 할 리스크입니다.</title><link href="https://dewberry9.github.io/privacy-trend" rel="alternate" type="text/html" title="프라이버시 트렌드 정리 : 이제 개인 정보는 관리해야 할 리스크입니다." /><published>2021-07-08T00:00:00+00:00</published><updated>2021-07-08T00:00:00+00:00</updated><id>https://dewberry9.github.io/privacy-trend</id><content type="html" xml:base="https://dewberry9.github.io/privacy-trend">&lt;p class=&quot;infor&quot;&gt;프라이버시에 대해 다루는 2부작 콘텐츠입니다. 이번 글에서는 프라이버시 트렌드와 그 영향력을 짚어봅니다. 다음 글에서는 프라이버시 리스크 관리에 있어서 제품 설계·운영 상의 주의점에 대해 다룹니다.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://dewberry9.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dewberry9.github.io/" rel="alternate" type="text/html" /><updated>2021-07-15T10:54:37+00:00</updated><id>https://dewberry9.github.io/feed.xml</id><title type="html">매거진 입맛</title><subtitle>읽을 만한 취향들. 매거진 입맛 - 책, 술, 그밖에 삶의 즐거움 리뷰 / 디자인 / 소설</subtitle><author><name>이준환</name></author><entry><title type="html">이루다의 논란이 넷플릭스에 없는 이유. 프라이버시 리스크 관리의 3가지 포인트</title><link href="https://dewberry9.github.io/three-points-of-privacy-risk-management" rel="alternate" type="text/html" title="이루다의 논란이 넷플릭스에 없는 이유. 프라이버시 리스크 관리의 3가지 포인트" /><published>2021-07-15T00:00:00+00:00</published><updated>2021-07-15T00:00:00+00:00</updated><id>https://dewberry9.github.io/three-points-of-privacy-risk-management</id><content type="html" xml:base="https://dewberry9.github.io/three-points-of-privacy-risk-management">&lt;p class=&quot;infor&quot;&gt;프라이버시에 대해 다루는 2부작 콘텐츠입니다. &lt;a title=&quot;매거진 입맛 - 프라이버시 트렌드 정리 : 이제 개인 정보는 관리해야 할 리스크입니다.&quot; href=&quot;/privacy-trend&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;저번 글에서는 프라이버시 트렌드와 그 영향력&lt;/a&gt;을 알아보았습니다. 이번 글에서는 프라이버시 리스크 관리에 있어서 제품 설계·운영 상의 주의점 3가지를 짚어봅니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a title=&quot;매거진 입맛 - 프라이버시 트렌드 정리 : 이제 개인 정보는 관리해야 할 리스크입니다.&quot; href=&quot;/privacy-trend&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;지난 글&lt;/a&gt;에서 오늘날의 프라이버시 트렌드를 살펴보았습니다. 고객은 민감해졌고, 빅 테그 기업은 영역 싸움하는 상황에서 프라이버시는 관리해야 할 리스크가 되었습니다. 이번 글에서는 제품 개발자와 운영자가 프라이버시 리스크를 관리하는데 핵심으로 꼽을 만한 3가지 포인트를 간단하게 짚어보려고 합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;팝업-약관-동의-끝&quot;&gt;팝업, 약관 동의. 끝?&lt;/h2&gt;
+
+&lt;p&gt;팝업은 디지털 프로덕트에서 프라이버시 리스크를 해소하기 위해 대표적으로 사용되는 도구입니다. 모바일 앱의 개인 정보 활용에 여론이 민감해지자 모바일 OS는 앱이 개인 정보를 활용할 때 사용자 동의를 받는 방향으로 정책을 수립했습니다. 이 과정에서 활용된 UI 요소가 팝업입니다.&lt;/p&gt;
+
+&lt;p&gt;한순간 화면을 전부 가려버리고 오직 자신만 내보이는 팝업은 강력한 도구입니다. 팝업이라면 프라이버시에 대한 통제권을 고객에게 전부 넘겨주고 리스크를 해소할 수 있을 거라고 여기기 쉽습니다. 하지만 팝업은 프라이버시 리스크를 해결하기에 부족한 도구입니다.&lt;/p&gt;
+
+&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/three-points-of-privacy-risk-management/01.jpg&quot; alt=&quot;Continuous Pop-up&quot; title=&quot;연속 팝업&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;기기 카메라 사용 권한, 위치 데이터 사용 권한, 주소록 접근 권한…. 갖가지 개인 정보 활용에 동의 받기 위해 연달아 팝업이 노출되는 모습은 고객에게 익숙합니다. 권한을 받기 전 개인 정보 활용에 대한 안내 페이지를 보여주거나 팝업에 관련 내용을 담기도 하지만 대부분의 경우 설명은 추상적이고 와닿지 않는 말로 쓰여 있습니다. 고객은 이 상황에 지쳤고, 앱 설치 후 권한 동의 팝업에 기계적으로 응답하는 과정은 일상화되었습니다. 이런 &lt;strong&gt;효용 없는 사전 안내와 동의받기는 프라이버시 리스크 관리에 도움이 되지 않습니다.&lt;/strong&gt; 관련한 문제가 발생했을 때 미리 설명했다, 동의도 받았다 같은 변명은 상황을 바꿀 수 없을 겁니다. 고객은 사전 안내, 동의 여부와 상관없이 문제를 가져올 것이고 빅 테크 기업은 플랫폼의 규칙을 바꿀 것입니다. 큰 플랫폼에 종속된 제품 개발사는 형식적인 개인 정보 활용 동의 팝업만 믿고 있다가 변화의 파도에 휩쓸려 갈 것입니다.&lt;/p&gt;
+
+&lt;p&gt;같은 맥락에서 개인 정보 보호 정책(Privacy Policy) 설명글과 서비스 약관(Terms of Service) 동의 체크 박스도 프라이버시 리스크를 해결하기에 부족한 도구입니다. 약관 동의 절차는 법적 문제를 해결하는 가장 깔끔한 방법입니다. 어려운 용어로 길게 쓰여 있는 제품 약관은 아무도 보지 않습니다. 많은 제품은 온보딩 단계에서 약관 동의를 체크하기 쉽게 만들거나 제품 사용 단계로 넘어가면 약관 동의로 간주한다는 작은 문구를 삽입함으로써 낡은 규제망을 회피합니다. 실제로 74%의 고객은 개인 정보 보호 정책 설명글을 &lt;a title=&quot;Jonathan A. Obar &amp;amp; Anne Oeldorf-Hirsch, 2017 - The biggest lie on the Internet: ignoring the privacy policies and terms of service policies of social networking services&quot; href=&quot;https://www.tandfonline.com/doi/abs/10.1080/1369118X.2018.1486870&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;제대로 읽지 않고 넘깁니다.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;위와 같은 내용에서 법과 시장 환경의 규제에 수동적으로 대처하는 방법으로는 프라이버시 리스크에 효과적으로 대응할 수 없다는 결론을 내릴 수 있습니다. 더 나은 설계, 더 적극적인 전략이 필요합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;리스크-메트릭스--이루다와-넷플릭스&quot;&gt;리스크 메트릭스 : 이루다와 넷플릭스&lt;/h2&gt;
+
+&lt;p&gt;지난해 연재한 AB 테스트 시리즈의 시작으로, &lt;a title=&quot;매거진 입맛 - 인간 VS AI 카피라이팅 대결&quot; href=&quot;/human-vs-ai-copywriting-competition&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;인간 VS AI 카피라이팅 대결&lt;/a&gt;이라는 글을 쓴 적 있습니다. AB 테스트 플랫폼 VWO에서 딥러닝 자연어 생성 모델 GPT-3을 사용해 인간이 만든 카피와 GPT-3가 만든 카피, 둘 중 어느 쪽이 더 좋은 전환율을 보이는지 알아봤던 이벤트를 그 글에서 소개했습니다. 무승부 3회, 인간 1승에 AI 3승의 충격적인 결과가 나왔습니다. 글을 쓸 때까지만 해도 AI와 함께 일할 날도 얼마 남지 않았다고 생각했습니다. 이 생각은 몇 달 안 가서 바뀌게 됩니다. 그때쯤 이루다 사태가 벌어졌습니다.&lt;/p&gt;
+
+&lt;p&gt;이루다는 일상적 이야기를 나누는 목적으로 개발된 AI 챗봇입니다. 6개월간의 베타 테스트 후에 출시됐지만 소수자 혐오·차별 발언, 그리고 구체적인 주소 정보가 노출되는 등의 개인 정보 보호 문제로 공개 3주 만에 서비스 종료됐습니다. 이번에는 이루다의 개인 정보 보호 문제에 대해 살펴보려고 합니다. 이루다 개발사 스캐터랩(SCATTER LAB) 연애 관련 콘텐츠 서비스인 연애의 과학을 운영하고 있습니다. 연애의 과학에서는 연인과 나눈 카카오톡 대화로 감정 분석을 하는 서비스를 이용할 수 있습니다. 스캐터랩은 여기서 나온 문장 데이터를 재료로 이루다를 만들었습니다. 문장 데이터에 들어 있는 이름 등의 개인 정보는 제거했지만, 알고리즘이 잡아내지 못한 개인 정보 다수가 그대로 이루다에 녹아들었습니다. 개인정보보호위원회 및 한국인터넷진흥원(KISA)에서 조사 끝에 이루다는 서비스 종료되고 딥러닝 대화 모델은 폐기되었습니다.&lt;/p&gt;
+
+&lt;p&gt;이루다를 옹호하고 싶은 마음은 없지만 스캐터랩이 고객의 정보를 활용한 방식은 여타 디지털 프로덕트에서 사용된 방식과 크게 다를 게 없다는 사실을 알아야 합니다. 오늘날 수많은 제품은 개인 정보를 수집하고, 이 정보는 더 큰 부가가치를 내는 제품을 만드는 데 사용됩니다. 가령 많이 알려진 &lt;a title=&quot;Ashok Chandrashekar, Fernando Amat, Justin Basilico and Tony Jebara(Netflix), 2017 - Artwork Personalization at Netflix&quot; href=&quot;https://netflixtechblog.com/artwork-personalization-c589f074ad76&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;넷플릭스의 썸네일 개인화 시스템&lt;/a&gt;은 무수히 많은 시청 데이터 위에서 구축되었습니다. 그럼 무엇이 다르기에 한쪽은 서비스 종료에 이르렀고 다른 쪽은 그로쓰 해킹의 교과서적인 사례가 되었을까요? 바로 아래의 2가지입니다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;활용한 개인 정보의 &lt;strong&gt;종류&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;개인 정보를 활용한 &lt;strong&gt;방식&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;위 사례에서 넷플릭스가 사용한 데이터는 고객의 영상 시청 데이터입니다. 사람에 따라 충분히 중요하다고 여길 수 있지만, 주소, 계좌번호와 개인 메신저에서 나눈 연인과의 대화만큼은 아닙니다. 또한 넷플릭스는 수집한 개인 정보를 AB 테스트의 성과 측정 기준으로만 활용했습니다. 그에 비해 이루다는 제품 자체를 구성하는데 개인 정보가 활용되었습니다. 학습 데이터가 되는 문장 데이터의 필터링, 데이터 정제 과정이 부족했습니다. 애초에 불특정 다수가 접근할 수 있는 대화형 AI는 항상 논란을 불러왔습니다. 마이크로소프트(Microsoft)의 테이(Tay)가 &lt;a title=&quot;Justin Worland(Time), 2016 - Microsoft Takes Chatbot Offline After It Starts Tweeting Racist Messages&quot; href=&quot;https://time.com/4270684/microsoft-tay-chatbot-racism/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;16시간 만에 운영 종료한 사건&lt;/a&gt;은 이미 유명합니다. 이처럼 활용한 개인 정보가 얼마나 민감하느냐, 그리고 개인 정보를 활용한 방식이 얼마나 안전하냐에 따라 프라이버시 리스크를 가늠해볼 수 있습니다.&lt;/p&gt;
+
+&lt;p class=&quot;full-size&quot;&gt;&lt;img src=&quot;/assets/images/design/three-points-of-privacy-risk-management/02.jpg&quot; alt=&quot;Privacy Risk Metrics&quot; title=&quot;프라이버시 리스크 메트릭스&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;고객이 민감하게 여기지 않은 정보를 안전한 방식으로 활용한다면 리스크가 낮을 것입니다. 반대로 민감한 정보를 위험한 방식으로 활용한다면 리스크가 높을 수 밖에 없습니다. 개인 정보를 활용하기 전에 프라이버시 리스크 메트릭스로 위험도를 예측하는 건 프라이버시 리스크 관리를 시작하는 방법입니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;프라이버시-패러독스-활용&quot;&gt;프라이버시 패러독스 활용&lt;/h2&gt;
+
+&lt;p&gt;프라이버시 패러독스(Privacy Paradox)는 디지털 프로덕트 고객이 개인 정보 유출을 우려하면서도 막상 제품을 사용할 때에는 가벼이 개인 정보를 넘기는 현상을 말합니다. 여러 학자들이 이 현상이 왜 일어나는지 파헤치고 있습니다. Procedia Computer Science지에 게시된 &lt;a title=&quot;Ruwan Bandara, Mario Fernando, Shahriar Akter, 2017 - The Privacy Paradox in the Data-Driven Marketplace: The Role of Knowledge Deficiency and Psychological Distance&quot; href=&quot;https://www.sciencedirect.com/science/article/pii/S1877050917322743&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;한 논문&lt;/a&gt;은 프라이버시 패러독스의 원인으로 제한된 정보와 심리적 거리를 꼽습니다. 제품이 개인 정보를 요구하는 상황에 부닥쳤을 때 충분한 정보가 제공되지 않기 때문에 고객은 합리적으로 판단할 수 없습니다. 설사 정보가 충분해도 프라이버시의 가치는 당장 제품이 약속하는 유형적 혜택보다 심리적으로 멀게 느껴집니다. 제품 개발사는 전자를 해결하고 후자를 이용해야 합니다.&lt;/p&gt;
+
+&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/three-points-of-privacy-risk-management/03.jpg&quot; alt=&quot;ATT Pop-up of Facebook and Instagram&quot; title=&quot;페이스북과 인스타그램의 앱 추적 투명성 정책 안내 팝업&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;이전 글에서 설명한 iOS 14.5의 앱 추적 투명성 정책으로 추적 동의 팝업의 내용을 다듬거나 별도의 안내 화면을 노출하는 앱이 늘었습니다. 페이스북과 인스타그램은 대표적인 예시입니다. 두 제품은 갑작스러운 안내 화면의 등장이 iOS 14.5의 정책 때문이며, 광고 개선에 사용할 개인 정보를 제공하고 싶지 않다면 그럴 수 있다고 설명합니다. 안내문의 끝에서 두 제품은 개인 정보가 광고 개인화, 무료 사용, 페이스북·인스타그램 광고에 의존적인 기업 지원에 사용된다며 개인 정보 활용 동의를 유도하고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;전환에 유리한 정보·기능 강조하는 전략은 &lt;a title=&quot;매거진 입맛 - 전환율 높이는 상세 페이지 디자인. 바로 써보는 3가지 방법&quot; href=&quot;/product-page-tips&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;상세 페이지 디자인의 주요 전략&lt;/a&gt;이기도 합니다. 프라이버시에서도 같습니다. 두루뭉술하고 추상적인 표현 대신 개인 정보의 구체적인 사용처와 개인 정보를 요구하게 된 전후 맥락을 밝힌 안내 콘텐츠는 고객의 합리적인 선택을 돕고, 결과적으로 프라이버시 리스크의 감소로 이어집니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;정리&quot;&gt;정리&lt;/h2&gt;
+
+&lt;p&gt;시장의 변화에 한발 앞서 대응하기 위해 프라이버시를 리스크로 보고 관리해야 한다는 것이 지난 편의 결론이었습니다. 이번에는 프라이버시 리스크 관리에 참고할 만한 3가지 포인트를 설명했습니다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;법과 시장 환경의 규제에 수동적으로 대처하는 방법으로는 프라이버시 리스크에 효과적으로 대응할 수 없다.&lt;/li&gt;
+  &lt;li&gt;프라이버시 리스트 메트릭스로 활용할 개인 정보의 민감도, 개인 정보 활용 방식의 안전도를 점검하고 미리 리스크를 파악한다.&lt;/li&gt;
+  &lt;li&gt;개인 정보를 요구할 때 구체적인 사용처와 요구하게 된 전후 맥락, 고객이 받을 수 있는 혜택을 안내한다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;프라이버시는 고객의 권리입니다. 당연한 사실이지만 이것에만 매달려 수집도 활용도 주저하게 된다면 고객과 제품 양쪽에 어떤 도움도 줄 수 없습니다. 그렇기 때문에 발전성과 안전성 사이에서 적절한 선을 찾는 것이 중요합니다. 이는 모든 제품 개발자들의 평생 과제이기도 합니다.&lt;/p&gt;
+
+&lt;p class=&quot;right-infor&quot;&gt;위시켓의 지원과 함께 제작된 콘텐츠입니다.&lt;/p&gt;</content><author><name>이준환</name></author><category term="design-teatime" /><summary type="html">고객과 빅 테크 기업이 바꾼 시장은 프라이버시 리스크 관리를 요구하고 있습니다. 이루다, 넷플릭스, 페이스북의 사례를 통해 핵심을 짚어봅니다.</summary></entry><entry><title type="html">프라이버시 트렌드 정리 : 이제 개인 정보는 관리해야 할 리스크입니다.</title><link href="https://dewberry9.github.io/privacy-trend" rel="alternate" type="text/html" title="프라이버시 트렌드 정리 : 이제 개인 정보는 관리해야 할 리스크입니다." /><published>2021-07-08T00:00:00+00:00</published><updated>2021-07-08T00:00:00+00:00</updated><id>https://dewberry9.github.io/privacy-trend</id><content type="html" xml:base="https://dewberry9.github.io/privacy-trend">&lt;p class=&quot;infor&quot;&gt;프라이버시에 대해 다루는 2부작 콘텐츠입니다. 이번 글에서는 프라이버시 트렌드와 그 영향력을 짚어봅니다. &lt;a title=&quot;매거진 입맛 - 이루다의 논란이 넷플릭스에 없는 이유. 프라이버시 리스크 관리의 3가지 포인트&quot; href=&quot;/three-points-of-privacy-risk-management&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;다음 글에서는 프라이버시 리스크 관리에 있어서 제품 설계·운영 상의 주의점&lt;/a&gt;에 대해 다룹니다.&lt;/p&gt;
 
 &lt;p&gt;하나의 유령이 시장을 배회하고 있습니다. 프라이버시라는 유령이.&lt;/p&gt;
 
@@ -60,7 +119,7 @@
 
 &lt;h2 id=&quot;관리해야-할-리스크-프라이버시&quot;&gt;관리해야 할 리스크, 프라이버시&lt;/h2&gt;
 
-&lt;p&gt;지금까지 오늘날의 프라이버시 트렌드를 알아보았습니다. 사용자는 개인 정보 보호에 더욱 민감해졌고, 빅 테크 기업은 그것을 이용해 시장에서의 영향력을 키우려고 합니다. 데이터에 기반하여 마케팅의 성과를 판단하고 광고 집행 방향성을 결정하는 전략, 데이터 중심 마케팅은 이런 상황에서도 살아남을 것입니다. 빅 테크 기업이 바꿔놓은 규칙에 적응하며 나름의 방법을 찾을 것입니다. 문제는 제품입니다. 이제 제품 개발은 거대 기업이 정해놓은 규칙에 정신없이 끌려다닐 미래밖에 남지 않은 걸까요? 프라이버시 이슈를 관리해야 할 리스크로 보고, 한 수 앞서 움직인다면 그렇지 않아도 됩니다. 구체적인 전략에 대해서는 다음 2부에서 알아보겠습니다.&lt;/p&gt;
+&lt;p&gt;지금까지 오늘날의 프라이버시 트렌드를 알아보았습니다. 사용자는 개인 정보 보호에 더욱 민감해졌고, 빅 테크 기업은 그것을 이용해 시장에서의 영향력을 키우려고 합니다. 데이터에 기반하여 마케팅의 성과를 판단하고 광고 집행 방향성을 결정하는 전략, 데이터 중심 마케팅은 이런 상황에서도 살아남을 것입니다. 빅 테크 기업이 바꿔놓은 규칙에 적응하며 나름의 방법을 찾을 것입니다. 문제는 제품입니다. 이제 제품 개발은 거대 기업이 정해놓은 규칙에 정신없이 끌려다닐 미래밖에 남지 않은 걸까요? 프라이버시 이슈를 관리해야 할 리스크로 보고, 한 수 앞서 움직인다면 그렇지 않아도 됩니다. 구체적인 전략에 대해서는 &lt;a title=&quot;매거진 입맛 - 이루다의 논란이 넷플릭스에 없는 이유. 프라이버시 리스크 관리의 3가지 포인트&quot; href=&quot;/three-points-of-privacy-risk-management&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;다음 2부&lt;/a&gt;에서 알아보겠습니다.&lt;/p&gt;
 
 &lt;p class=&quot;right-infor&quot;&gt;위시켓의 지원과 함께 제작된 콘텐츠입니다.&lt;/p&gt;</content><author><name>이준환</name></author><category term="design-teatime" /><summary type="html">Apple의 앱 추적 투명성, EU 쿠키 법, Google의 FLoC... 사용자가, 시장의 규칙이 바뀌고 있습니다. 프라이버시 트렌드에 대해 정리합니다.</summary></entry><entry><title type="html">가볍고 밝은 싱글 몰트 위스키의 대표주자. 글렌그란트 12년</title><link href="https://dewberry9.github.io/glengrant-12" rel="alternate" type="text/html" title="가볍고 밝은 싱글 몰트 위스키의 대표주자. 글렌그란트 12년" /><published>2021-07-03T00:00:00+00:00</published><updated>2021-07-03T00:00:00+00:00</updated><id>https://dewberry9.github.io/glengrant-12</id><content type="html" xml:base="https://dewberry9.github.io/glengrant-12">&lt;p&gt;두툼한 고기 한 점에 어울리는 묵직한 술이 필요한 경우도 있지만, 때로는 그냥 홀짝일 수 있는 가벼운 위스키가 손에 필요한 날도 있습니다. 이번에 마신 술은 가벼운 싱글 몰트 위스키의 대표, 글렌그란트(Glen Grant) 12년입니다.&lt;/p&gt;
 
@@ -962,87 +1021,4 @@
 
 &lt;p&gt;제품 주도 성장 시리즈의 2번째 글은 여기까지입니다. 다음 편부터는 제품 주도 성장 기업이 개발한 제품에 적용된 전략을 &lt;a title=&quot;매거진 입맛 - 고객 10명 중 6명은 한번 쓰고 버린다. 줄줄 새는 오늘날의 제품.&quot; href=&quot;/product-led-growth-onboarding&quot; target=&quot;_blank&quot;&gt;온보딩 단계&lt;/a&gt;부터 하나씩 살펴보겠습니다.&lt;/p&gt;
 
-&lt;p class=&quot;right-infor&quot;&gt;위시켓의 지원과 함께 제작된 콘텐츠입니다.&lt;/p&gt;</content><author><name>이준환</name></author><category term="design-teatime" /><summary type="html">제품 주도 성장 조직의 성과를 측정하는 NRG(자연 성장률)과 AARRR 프레임워크 단계별 지표로 제품 주도 성장을 모두에게 증명하는 방법입니다.</summary></entry><entry><title type="html">알아서 팔리는 제품을 만드는 제품 주도 성장(Product-led Growth) 방법론</title><link href="https://dewberry9.github.io/introduce-product-led-growth" rel="alternate" type="text/html" title="알아서 팔리는 제품을 만드는 제품 주도 성장(Product-led Growth) 방법론" /><published>2021-05-09T00:00:00+00:00</published><updated>2021-05-09T00:00:00+00:00</updated><id>https://dewberry9.github.io/introduce-product-led-growth</id><content type="html" xml:base="https://dewberry9.github.io/introduce-product-led-growth">&lt;p class=&quot;infor&quot;&gt;시리즈로 구성된 글입니다. 이번 글에서는 제품 주도 성장의 등장 배경, 정의, 구조, 장점에 대해 다룹니다. 연이은 글은 &lt;a title=&quot;매거진 입맛 - 팀원, 투자자, 고객을 바꾸는 성공한 제품의 경쟁력. 제품 주도 성장 지표&quot; href=&quot;/product-led-growth-metrics&quot; target=&quot;_blank&quot;&gt;제품 주도 성장에 필요한 지표 설정&lt;/a&gt;과 실제 제품에 적용할 수 있는 세부 전략에 관한 내용으로 꾸릴 예정입니다.&lt;/p&gt;
-
-&lt;p&gt;페이스북이 유튜브에 밀리기 전에 있었던 일입니다. 페이스북을 보는데 어떤 영상 광고가 제 눈을 끌었습니다. 베개가 너무나 푹신한 나머지 밑에 계란판을 깔아놓고 그 위를 밟아도 달걀이 깨지지 않는 내용이었습니다. 배속 처리된 영상에 큰 자막. 비슷한 포맷의 광고가 줄줄이 나왔습니다. 필터 달린 샤워기는 수도꼭지에 꽂자마자 누레졌고 쭉 짜고 닦았을 뿐인데 새것처럼 하얘지는 곰팡이 제거제도 있었습니다. 그 시기부터 페이스북은 케이스를 끼운 아이폰을 아파트 7층에서 떨어뜨리는 영상과 어떤 향수를 뿌렸더니 무관심했던 이성이 코를 박더라 하는 글을 SNS에서 캡처한 듯한 형태로 제작된 광고로 가득해졌습니다. 얼마 있지 않아 사람들은 시들해졌습니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;비싸지는-성장&quot;&gt;비싸지는 성장&lt;/h2&gt;
-
-&lt;p&gt;위의 이야기는 온라인 마케팅의 지나간 한 때입니다. 그 뒤 이야기는 독자님이 아시는 대로입니다. 지금 사람들은 &lt;a title=&quot;Christina Newberry(Hootsuite), 2021 - 25 YouTube Statistics that May Surprise You: 2021 Edition&quot; href=&quot;https://blog.hootsuite.com/youtube-stats-marketers/&quot; target=&quot;_blank&quot;&gt;페이스북보다 유튜브에서 더 많은 시간을 보냅니다.&lt;/a&gt; 사람들은 광고에서 정보만을 원하지 않습니다. 그들은 이제 재미를 원합니다. 양질의 콘텐츠를 원합니다. 또 오랜 시간 자신의 이미지와 팬 간의 관계를 구축해온 인플루언서, 그들이 주는 신뢰감을 원합니다. 어느 쪽이든 저렴한 방법은 아닙니다.&lt;/p&gt;
-
-&lt;p&gt;마케팅 주도 성장(Marketing-led Growth)는 영업 주도 성장(Sale-led Growth)이 체질이 맞지 않는 수많은 스타트업에 있어서 오랫동안 유효한 전략이었습니다. 구글, 페이스북 등의 IT 기업이 만든 새 미디어는 빠르게 성장했고 디지털 프로덕트를 만드는 스타트업에게 꼭 맞았습니다. 그런데 이 미디어의 효율성은 점점 낮아지고 있습니다.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a title=&quot;H. Tankovska(Statista)  - Number of active advertisers on Facebook from 1st quarter 2016 to 3rd quarter 2020&quot; href=&quot;https://www.statista.com/statistics/778191/active-facebook-advertisers/&quot; target=&quot;_blank&quot;&gt;2016년 3백만이었던 페이스북 활성 광고주 수는 2020년 1천만 명까지 늘었습니다.&lt;/a&gt; 이는 한정된 지면에 광고를 싣는 경쟁 비용이 높아짐을 의미합니다.&lt;/li&gt;
-  &lt;li&gt;&lt;a title=&quot;AdStage - Facebook CPMs Increase 171% In 2017&quot; href=&quot;https://blog.adstage.io/2017/09/18/facebook-cpms-increase-2017&quot; target=&quot;_blank&quot;&gt;2017년 한 해만 페이스북 광고의 CPM(1,000회 노출 당 비용)은 171% 증가&lt;/a&gt;했습니다. 코로나 19로 주춤했던 단가는 빠르게 회복하고 있습니다.&lt;/li&gt;
-  &lt;li&gt;&lt;a title=&quot;Dave Chaffey(Smart Insights), 2021 - Average CTRs display and search advertising – 2021 compilation&quot; href=&quot;https://www.smartinsights.com/internet-advertising/internet-advertising-analytics/display-advertising-clickthrough-rates/&quot; target=&quot;_blank&quot;&gt;2020년 1분기 구글 검색·디스플레이 광고 CTR(클릭률)는 전년 대비 40% 이상 감소&lt;/a&gt;했습니다. CTR 감소 추세는 페이스북, 인스타그램, 트위터 등 거의 모든 매체에서 발생하는 일입니다.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p class=&quot;full-size&quot;&gt;&lt;img src=&quot;/assets/images/design/introduce-product-led-growth/01.jpg&quot; alt=&quot;CAC Graph&quot; title=&quot;CAC 증감 추세&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;고객을 데려오는 데 필요한 비용은 꾸준히 불어나고 있습니다. &lt;a title=&quot;Partrick Campbell(ProfitWell), 2018 - The SaaS Freemium Model: Great for Acquisition, Not for Revenue&quot; href=&quot;https://www.profitwell.com/recur/all/state-of-freemium&quot; target=&quot;_blank&quot;&gt;2013~18년 사이 CAC(신규 고객 획득 비용)는 50% 넘게 증가&lt;/a&gt;했습니다.&lt;/p&gt;
-
-&lt;p&gt;마케팅 비용만 오르는 게 아닙니다. 최근에는 국내에서 유니콘 스타트업과 IT 대기업의 주도로 개발 인력 영입을 위한 연봉 경쟁이 일어나고 있습니다. 작은 스타트업일수록 인력의 유치와 유지에 어려움을 겪고 있습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;결론은 성장 비용이 늘었다는 겁니다.&lt;/strong&gt; 이제 전과 같은 비용으로 고객을 데려올 수 없고, 매출을 내고 투자할 수 없으며, 시장의 점유율을 높일 수 없습니다. 이제 다른 전략이 필요합니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;변화하는-고객&quot;&gt;변화하는 고객&lt;/h2&gt;
-
-&lt;p&gt;시장의 변화는 높아지는 비용뿐만이 아닙니다. 고객도 달라지고 있습니다. 이는 B2C보다 의사 결정이 보수적인 B2B에서도 마찬가지입니다. 회사에 어떤 제품을 도입할 때 영업사원에게 제품에 대한 설명을 듣는 것이 당연한 과정인 시절이 있었습니다. 지금은 다릅니다. &lt;a title=&quot;Andy Hoar(Forrester), 2015 - Death of a (B2B) Salesman&quot; href=&quot;https://go.forrester.com/blogs/15-04-14-death_of_a_b2b_salesman/&quot; target=&quot;_blank&quot;&gt;B2B 고객의 3/4는 이제 영업사원을 통하는 방식보다 앱이나 웹을 통해 제품을 구매하는 방식을 더 선호&lt;/a&gt;합니다. &lt;strong&gt;제품에 대해 학습하고, 제품을 시험하여, 전환을 결정하기에 이르는 모든 과정을 개인이 주체적으로 해결&lt;/strong&gt;하는 행동 양식이 보편화되었습니다.&lt;/p&gt;
-
-&lt;p&gt;제품이 제공하는 경험을 바라보는 시각이 바뀐 것도 주목할 만한 점입니다. &lt;a title=&quot;Epsilon, 2018 - New Epsilon research indicates 80% of consumers are more likely to make a purchase when brands offer personalized experiences&quot; href=&quot;https://www.epsilon.com/us/about-us/pressroom/new-epsilon-research-indicates-80-of-consumers-are-more-likely-to-make-a-purchase-when-brands-offer-personalized-experiences&quot; target=&quot;_blank&quot;&gt;80%의 고객은 개인화된 경험을 제공 받을 경우 해당 제품과 거래할 가능성이 더 높다&lt;/a&gt;고 답합니다. 세일즈포스(Salesforce)의 보고서에 따르면 &lt;a title=&quot;Trailhead(Salesforce) - Understand the Consumer Experience&quot; href=&quot;https://trailhead.salesforce.com/en/content/learn/modules/consumer-interaction-management/understand-consumer-experience&quot; target=&quot;_blank&quot;&gt;B2C 고객 52%가 개인화된 경험을 얻지 못한다고 느낄 경우 사용하는 브랜드를 바꾸겠다&lt;/a&gt;고 말합니다. 디지털 프로덕트의 공급은 차고 넘칩니다. 이제 &lt;strong&gt;고객은 자신에게 꼭 맞는 제품이 있다고 생각하면 얼마든지 제품을 버립니다.&lt;/strong&gt; 이는 &lt;a title=&quot;매거진 입맛 - MVP는 방향이 아닌 속도다. MLP로 성장하는 제품 만들기(1/2)&quot; href=&quot;/mlp-for-growing-product&quot; target=&quot;_blank&quot;&gt;MVP 방법론을 대표로 한 패스트 팔로워(Fast Follower) 방식 그로쓰 해킹의 한계&lt;/a&gt;이기도 합니다. 성장하기 위해서는 다른 방법이 필요합니다.&lt;/p&gt;
-
-&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/introduce-product-led-growth/02.jpg&quot; alt=&quot;Three Problems&quot; title=&quot;3가지 문제&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;이제 디지털 프로덕트 시장에서 발생한 3가지 상황을 정리해볼 수 있습니다.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;고객 획득 비용을 비롯한 성장 비용의 증가&lt;/li&gt;
-  &lt;li&gt;제품 탐색-학습-전환 과정의 주체화&lt;/li&gt;
-  &lt;li&gt;사용자 경험의 고가치화&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;이런 상황을 타개하는 전략이 바로 제품 주도 성장(Product-led Growth)입니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;저절로-팔리는-제품을-만드는-제품-주도-성장&quot;&gt;저절로 팔리는 제품을 만드는 제품 주도 성장&lt;/h2&gt;
-
-&lt;p&gt;제품 주도 성장은 고객 확보, 확장, 전환, 유지에 이르는 과정을 주도할 수 있는 제품을 목표로 기획, 개발, 마케팅, 영업까지 조직 전체가 관여, 궁극적으로 제품과 조직의 성장을 끌어내는 방법론입니다. 드롭박스(Dropbox), 슬랙(Slack), 줌(Zoom)를 비롯한 많은 SaaS 기업이 제품 주도 성장을 사용합니다. 제품 주도 성장의 적극적인 제창자인 OpenView Venture Partners는 &lt;a title=&quot;Sean Fanning(OpenView Venture Partners) - Product Led Growth: The Secret to Becoming a Top Quartile Public Company&quot; href=&quot;https://openviewpartners.com/blog/product-led-growth-the-secret-to-becoming-a-top-quartile-public-company/#.W5s3jegzbXR&quot; target=&quot;_blank&quot;&gt;제품 주도 성장을 활용하는 SaaS 기업이 그렇지 않은 기업보다 29% 더 높은 벨류에이션을 갖는다&lt;/a&gt;는 보고서를 발표하기도 했습니다. 어떻게 그럴 수 있을까요? 이를 알기 위해서는 제품 주도 성장이 어떤 구조 속에서 작동하는지, 그로 인해 어떤 장점을 얻는지 알아봐야 합니다.&lt;/p&gt;
-
-&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/introduce-product-led-growth/03.jpg&quot; alt=&quot;Product-led Growth Flywheel&quot; title=&quot;제품 주도 성장 플라이휠&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Product-Led Growth Collective는 &lt;a title=&quot;Product-Led Growth Collective - The Product-Led Growth Flywheel&quot; href=&quot;https://www.productled.org/foundations/the-product-led-growth-flywheel&quot; target=&quot;_blank&quot;&gt;50개 이상의 SaaS 기업을 인터뷰하고 발견한 일관된 패턴을 반영하여 제품 주도 성장 전략이 적용된 제품을 쓰는 고객의 사용주기, Product-Led Growth Flywheel를 만들었습니다.&lt;/a&gt; 이를 통해 제품 주도 성장이 작동하는 구조를 설명하는 게 좋을 것 같습니다.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;평가자(Evaluators) : 막 제품을 접한 단계입니다. 유입된 고객은 문제에 대한 해결책을 찾고 있습니다. 고객은 이미 경쟁사 제품을 비롯한 다양한 선택지를 비교하고 있습니다. 고객이 제품의 가치를 찾을 때까지 기다리면 안 됩니다. 고객에게 제품을 실제로 경험시키고, 핵심 기능을 이해 시켜 &lt;strong&gt;가치를 실감하도록(Aha 모멘트) 온보딩 경험을 설계&lt;/strong&gt;합니다. 고객은 제품의 가치를 알아보고 더 배워보고 싶다는 생각이 듭니다.(활성화)&lt;/li&gt;
-  &lt;li&gt;초보자(Beginners) : 문제를 푸는 해결책으로써 제품을 신뢰하고 사용 방법을 학습하는 단계입니다. 기존 워크플로우와의 통합, 문제해결의 ROI를 생각합니다. 고객은 처음부터 가장 효과적이고 정확하게 제품을 사용하고 싶어 하기 때문에, &lt;strong&gt;최소한의 마찰로 주요 작업을 마치고(고객 성공) 제품이 또 어떤 기능을 수행할 수 있는지 추가 탐색&lt;/strong&gt;하도록 만들어야 합니다. 이제 고객은 제품을 정기적으로 사용합니다.(채택)&lt;/li&gt;
-  &lt;li&gt;일반 사용자(Regulars) : 제품에 의존성이 생기기 시작합니다. 이 단계의 고객은 제품에 익숙해졌기에 많은 지원을 필요하지 않습니다. &lt;strong&gt;새 기능, 업데이트에 관심이 있지만 사용방식의 큰 변경은 마찰이 될 수 있습니다. 중·고급자용 교육 콘텐츠를 소비&lt;/strong&gt;합니다. 제품 개선에 필요한 인사이트를 가지고 있습니다. 제품 사용을 즐기는 단계에 도달하면(선호) 이러한 인사이트를 제공할 수도 있습니다.&lt;/li&gt;
-  &lt;li&gt;옹호자(Champion) : 이제 고객과 제품, 브랜드의 관계는 정서적인 수준입니다. 고객은 제품의 운영에 관심을 갖고 적극적으로 피드백하며 주변 사람들에게 제품을 알립니다.(바이럴) 고객의 도움을 귀중하게 여기고 특별하게 대한다면 고객의 애착은 깊어질 것입니다. &lt;strong&gt;옹호자 단계의 고객은 다른 고객을 끌어들입니다.&lt;/strong&gt; ‘1. 평가자’부터 플라이휠이 다시 돌기 시작합니다.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;a title=&quot;매거진 입맛 - 손톱만한 카피로 할 수 있는 일&quot; href=&quot;/talk-with-microcopy&quot; target=&quot;_blank&quot;&gt;계기 - 행동 - 보상 - 투자로 구분되는 Hook 모델과 비교한다면&lt;/a&gt; 상당히 유의미한 공통점을 발견할 수 있습니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;제품-주도-성장의-3가지-장점&quot;&gt;제품 주도 성장의 3가지 장점&lt;/h2&gt;
-
-&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/introduce-product-led-growth/04.jpg&quot; alt=&quot;Three Pros of PLG&quot; title=&quot;제품 주도 성장의 3가지 장점&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;CAC 감소 : 제품 주도 성장이 활용된 제품의 사용 주기에서 볼 수 있는 가장 큰 특징은 처음과 끝이 있는 퍼널 구조가 아닌, 순환하는 원형 구조라는 점입니다. 제품을 잘 경험한 고객은 새로운 고객을 유입시킵니다. Freemium 모델 등의 제품 주도 성장 전략이 온보딩 단계의 허들을 낮추면서 유입된 고객은 빠르게 다음 단계로 넘어갑니다. 이는 판매 주기의 가속화에도 영향을 미칩니다.&lt;/li&gt;
-  &lt;li&gt;생산성 향상 : 제품 주도 성장은 각 업무에 분산되어있던 리소스를 제품 개발에 집중하는 방식으로 재할당하고 영업과 마케팅에 쓰이는 비용을 절약하여 RPE(직원당 수익)을 높입니다.&lt;/li&gt;
-  &lt;li&gt;사용자 친화적인 제품 : 제품 주도 성장 제품은 쉽게 사용자가 되어서 바이럴할 수 있도록 설계됩니다. 제품이 고객에게 직관적이고 고품질이라는 의미입니다. 디지털 프로덕트, 특히 SaaS 제품은 한번 팔아서 없어지는 제품이 아닙니다. 플라이휠이 돌수록 피드백이 쌓이고, 제품은 좋아지고, 고객이 늘어나고, 매출이 커집니다. 제품은 말 그대로 기하급수적으로 개선될 것입니다. 이는 고객 만족도, CLV(고객 생애 가치), 신규 고객 유입의 증가로 이어집니다.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;정리&quot;&gt;정리&lt;/h2&gt;
-
-&lt;p&gt;가장 먼저 살펴본 것은 디지털 프로덕트 시장에 불어온 3가지 바람이었습니다.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;고객 획득 비용을 비롯한 성장 비용의 증가&lt;/li&gt;
-  &lt;li&gt;제품 탐색-학습-전환 과정의 주체화&lt;/li&gt;
-  &lt;li&gt;사용자 경험의 고가치화&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;이런 변화로 기존의 마케팅 주도 성장은 힘을 잃고 있습니다. 여기서 제품 주도 성장이 등장합니다. 제품 주도 성장은 고객 확보, 확장, 전환, 유지에 이르는 과정을 주도할 수 있는 제품을 목표로 합니다. 제품 주도 성장 제품의 사용주기는 4단계로 이뤄진 플라이휠 구조입니다. 제품 주도 성장은 CAC를 낮추고, 생산성을 높이며, 사용자 친화적인 제품을 만듭니다.&lt;/p&gt;
-
-&lt;p&gt;제품 주도 성장 시리즈의 첫 편은 여기까지입니다. 다음 편부터는 제품 주도 성장을 실제로 적용하는데 필요한 요소들을 하나씩 알아보겠습니다. 그 첫 번째는 &lt;a title=&quot;매거진 입맛 - 팀원, 투자자, 고객을 바꾸는 성공한 제품의 경쟁력. 제품 주도 성장 지표&quot; href=&quot;/product-led-growth-metrics&quot; target=&quot;_blank&quot;&gt;제품 주도 성장의 구축과 성과 측정을 위한 여러 지표에 대한 내용&lt;/a&gt;입니다.&lt;/p&gt;
-
-&lt;p class=&quot;right-infor&quot;&gt;위시켓의 지원과 함께 제작된 콘텐츠입니다.&lt;/p&gt;</content><author><name>이준환</name></author><category term="design-teatime" /><summary type="html">비싸지는 고객 획득 비용, 높아지는 경쟁률, 변화하는 고객 사이에서 어떻게 성장 동력을 챙길 수 있을까요? 제품 주도 성장이 답입니다.</summary></entry></feed>
+&lt;p class=&quot;right-infor&quot;&gt;위시켓의 지원과 함께 제작된 콘텐츠입니다.&lt;/p&gt;</content><author><name>이준환</name></author><category term="design-teatime" /><summary type="html">제품 주도 성장 조직의 성과를 측정하는 NRG(자연 성장률)과 AARRR 프레임워크 단계별 지표로 제품 주도 성장을 모두에게 증명하는 방법입니다.</summary></entry></feed>
