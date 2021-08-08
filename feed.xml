@@ -1,4 +1,80 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://dewberry9.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dewberry9.github.io/" rel="alternate" type="text/html" /><updated>2021-08-03T10:15:40+00:00</updated><id>https://dewberry9.github.io/feed.xml</id><title type="html">매거진 입맛</title><subtitle>읽을 만한 취향들. 매거진 입맛 - 책, 술, 그밖에 삶의 즐거움 리뷰 / 디자인 / 소설</subtitle><author><name>이준환</name></author><entry><title type="html">당장 활용하는 12가지 AB 테스트 사례</title><link href="https://dewberry9.github.io/12-ab-test-cases" rel="alternate" type="text/html" title="당장 활용하는 12가지 AB 테스트 사례" /><published>2021-08-01T00:00:00+00:00</published><updated>2021-08-01T00:00:00+00:00</updated><id>https://dewberry9.github.io/12-ab-test-cases</id><content type="html" xml:base="https://dewberry9.github.io/12-ab-test-cases">&lt;p&gt;AB 테스트는 &lt;a title=&quot;매거진 입맛 - 매출 만드는 AB 테스트, 시작이 막막한가요? 3단계 가이드&quot; href=&quot;/3step-ab-test&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;가설 수립, 실험 진행, 결과 분석의 3단계로 진행되는 그로쓰 해킹 방법론&lt;/a&gt;입니다. AB 테스트는 제품과 조직의 확실한 성장 엔진으로, 그랩(Grab), 넷플릭스(Netflix), 에어비앤비(Airbnb) 등 데이터 좀 다룬다 싶은 기업은 모두 AB 테스트 성공담 하나는 가지고 있습니다. &lt;a title=&quot;매거진 입맛 - 매출 만드는 AB 테스트, 시작이 막막한가요? 3단계 가이드&quot; href=&quot;/3step-ab-test&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;이전 글&lt;/a&gt;에서 말씀드렸다시피 큰 그로쓰 해킹 팀이나 테스트 문화, 맞춤 툴이 전혀 없는 상황이라도 AB 테스트를 시작하는 데는 아무런 문제가 없습니다. 나름의 가설을 세우고, 동료와 함께 구성하고, 지표를 추적하고, 시행착오를 겪다 보면 어느 정도 요령이 생깁니다.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://dewberry9.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dewberry9.github.io/" rel="alternate" type="text/html" /><updated>2021-08-08T06:41:46+00:00</updated><id>https://dewberry9.github.io/feed.xml</id><title type="html">매거진 입맛</title><subtitle>읽을 만한 취향들. 매거진 입맛 - 책, 술, 그밖에 삶의 즐거움 리뷰 / 디자인 / 소설</subtitle><author><name>이준환</name></author><entry><title type="html">통계로 알아보는, 성과 내는 5가지 폼(Form) 설계 팁</title><link href="https://dewberry9.github.io/5-form-design-tips" rel="alternate" type="text/html" title="통계로 알아보는, 성과 내는 5가지 폼(Form) 설계 팁" /><published>2021-08-08T00:00:00+00:00</published><updated>2021-08-08T00:00:00+00:00</updated><id>https://dewberry9.github.io/5-form-design-tips</id><content type="html" xml:base="https://dewberry9.github.io/5-form-design-tips">&lt;p&gt;디지털 프로덕트에서 폼(Form)이란 고객이 제품 사용에 필요한 정보를 제공하는 도구입니다. 폼은 그 자체로 온보딩 과정이 되기도 하고, 결제라는 결정적인 순간에 등장하기도 합니다. 폼은 고객의 제품 경험뿐만 아니라 제품의 주요 지표에도 큰 영향력을 미칩니다. 한 명이라도 더 전환시키는 폼 설계가 디자이너 사이에서 오랫동안 논의의 주제가 된 것은 당연한 일입니다. 이번 글에서는 실제적인 데이터, 즉 통계를 가지고 폼 전환율을 개선할 수 있는 5가지 팁을 소개하겠습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;페이지-나누기&quot;&gt;페이지 나누기&lt;/h2&gt;
+
+&lt;p&gt;폼에서 요구하는 정보의 개수를 줄이는 것이 전환율에 도움이 된다는 사실은 상식입니다. 하지만 같은 개수의 입력란이 있다면 페이지를 늘리는 것은 오히려 전환율을 높일 것입니다.&lt;/p&gt;
+
+&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/5-form-design-tips/01.jpg&quot; alt=&quot;Single Page vs Multi Page&quot; title=&quot;단일 페이지 vs 다중 페이지&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;66만 5천 명이 넘는 디지털 프로덕트 사용자에게 모바일 폼 경험을 &lt;a title=&quot;formstack, 2015 - The Form Conversion Report&quot; href=&quot;https://www.formstack.com/resources/report-form-conversion&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;설문한 조사&lt;/a&gt;에 따르면, 단일 페이지로 구성된 폼의 평균 전환율은 4.53%, 다중 페이지는 13.85%로 3배 이상 높았습니다.&lt;/p&gt;
+
+&lt;p&gt;폼을 여러 페이지에 나누어 배치하면 개별 입력란이 받는 고객의 집중도가 단일 페이지에 몰아놓았을 때보다 높습니다. 이 특성은 페이지 분리로 입력란의 시인성과 조작성을 개선하고 입력을 유도하는 추가적인 정보를 실을 수 있는 화면이 늘어나면서 강화됩니다.&lt;/p&gt;
+
+&lt;p&gt;하지만 다중 페이지로 구성한 폼에도 여전히 주의할 점이 있습니다. 첫번째는 진행 표시줄(Progress Bar)이나 페이지 번호를 표기하여 폼의 전체 분량을 명시해야 한다는 점입니다. 다중 페이지 폼은 단일 페이지 폼보다 폼의 분량을 직관적으로 느끼기 어렵습니다. 하염없이 계속되는 폼은 고객의 의지를 앗아갈 것입니다. 둘째로 페이지 이동 간 이전에 입력했던 정보가 초기화되지 않도록 기술적 조치를 해야 합니다. 다중 페이지 폼에서 일어나는 입력란 사이의 이동과 수정은 페이지 이동이라는 추가적인 행동을 요구합니다. 거기에 이미 한 번 이상 입력했던 정보가 사라져 다시 입력해야 하는 상황이 닥친다면? 말할 것도 없습니다.&lt;/p&gt;
+
+&lt;p&gt;잘 설계된 폼은 고객의 행동에 부담과 장애가 생기지 않도록 최대한 배려합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;적은-입력란&quot;&gt;적은 입력란&lt;/h2&gt;
+
+&lt;p&gt;입력란의 개수가 적을 수록 해결하기도 쉽고 따라서 전환율도 나을 것이다. 직관적으로 떠올릴 수 있는 생각입니다. 이는 데이터도 증명하는 사실입니다.&lt;/p&gt;
+
+&lt;p class=&quot;full-size&quot;&gt;&lt;img src=&quot;/assets/images/design/5-form-design-tips/02.jpg&quot; alt=&quot;Imaginary Landscape AB Test&quot; title=&quot;Imaginary Landscape AB 테스트&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;이 분야의 가장 고전적인 통계는 웹 에이전시 &lt;a title=&quot;Brian Moloney(Imaginary Landscape), 2008 - Fewer fields in a contact form sharply increases conversions&quot; href=&quot;https://www.imagescape.com/media/filer_public/06/94/0694c7f4-8914-4598-8871-b857fbc12737/form_case_study.pdf&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Imaginary Landscape의 AB 테스트&lt;/a&gt;에서 확인할 수 있습니다. 이 테스트에서 주소, Fax, 유입 채널을 묻는 설문 등 11개짜리 입력란으로 구성된 문의하기 폼은 이름, 전화번호, 이메일 주소, 코멘트의 4가지 항목으로 개편되었습니다. 그 결과 전환율은 5.4%에서 11.9%로 2배 이상 증가했습니다.&lt;/p&gt;
+
+&lt;p class=&quot;full-size&quot;&gt;&lt;img src=&quot;/assets/images/design/5-form-design-tips/03.jpg&quot; alt=&quot;Form Conversion Rate by Number of Fields&quot; title=&quot;입력란 개수별 폼 전환율&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;B2B 마케팅 자동화 솔루션 기업 &lt;a title=&quot;Egan Cheung(Eloqua), 2011 - How Many Fields Belong On Your Landing Pages? [Chart]&quot; href=&quot;https://blogs.oracle.com/marketingcloud/post/how-many-fields-belong-on-your-landing-pages-chart&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Oracle Eloqua의 조사&lt;/a&gt;도 적은 입력란의 효과를 증명합니다. 1,500여개의 폼을 검토한 이 조사는 입력란의 수가 늘어날 수록 전환율이 떨어지는 추세를 보여주고 있습니다. 이전에 소개한 &lt;a title=&quot;매거진 입맛 - 당장 활용하는 12가지 AB 테스트 사례&quot; href=&quot;/12-ab-test-cases&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Netflix 랜딩 페이지의 비밀번호 입력란 추가 AB 테스트&lt;/a&gt;가 실패한 이유도 여기 있습니다.&lt;/p&gt;
+
+&lt;p&gt;폼을 구성하는 입력란의 개수를 줄이는 일은 전환율을 개선하는 확실한 방법 중 하나입니다. 그러나 분별없이 개수만 줄이는 행동은 제품에 도움이 되지 않습니다. 제품의 특성과 특정 폼의 제출로 실행할 수 있는 기능에 따라 필요한 입력란은 다를 수 있습니다. 앞서 언급한 Eloqua의 조사도 이런 점을 설명하고 있습니다. 조사에 따르면 무료 체험판을 받는 과정에서 폼을 입력하는 경우에는 입력란이 8개에 이르러도 전환율이 크게 감소하지 않습니다. 어떤 리소스를 다운로드 받는 경우에는 11개까지도 가능합니다. 하지만 웨비나(Webinar) 이벤트에 등록하는 폼이라면 5개만 넘어도 전환율이 쭉 떨어지기 시작합니다. 제품의 특성과 상황을 고려해서 필수적인 입력란으로만 폼을 구성해야 합니다. 이를 위해서는 폼을 구성하는 각 입력란을 중요도에 따라 줄세울 수 있어야 합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;전환율을-떨어뜨리는-텍스트-박스-드롭다운-피하기&quot;&gt;전환율을 떨어뜨리는 텍스트 박스, 드롭다운 피하기&lt;/h2&gt;
+
+&lt;p&gt;한 줄짜리 텍스트 입력란, 여러 줄을 쓸 수 있는 텍스트 박스, 체크 박스, 라디오 버튼, 드롭다운, 날짜 선택기…. 입력란에는 여러 종류가 있습니다. 그리고 특정 종류의 입력란은 전환율을 떨어뜨릴 수 있습니다.&lt;/p&gt;
+
+&lt;p class=&quot;full-size&quot;&gt;&lt;img src=&quot;/assets/images/design/5-form-design-tips/04.jpg&quot; alt=&quot;Form Conversion Rate by Field Types&quot; title=&quot;입력란 종류별 폼 전환율&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;CRM 솔루션 기업 HubSpot은 4만 개가 넘는 &lt;a title=&quot;Dan Zarrella(HubSpot), 2021 - Which Types of Form Fields Lower Landing Page Conversions?&quot; href=&quot;https://blog.hubspot.com/blog/tabid/6307/bid/6746/Which-Types-of-Form-Fields-Lower-Landing-Page-Conversions.aspx&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;랜딩 페이지를 분석&lt;/a&gt;하여 전환율에 악영향을 주는 형태의 입력란을 찾아냈습니다. 주로 이름, 이메일 주소 등을 받는 데 사용되는 한 줄짜리 텍스트 입력란보다 여러 줄을 입력받는 텍스트 박스 형태 입력란은 개수가 늘어남에 따라 전환율이 감소하는 정도가 큽니다. 드롭다운이 포함된 폼은 기본적으로 전환율이 낮습니다.&lt;/p&gt;
+
+&lt;p&gt;여러 줄을 쓸 수 있는 텍스트 박스는 입력받을 텍스트가 많은 경우에 사용하는 UI로 한 줄짜리 텍스트 입력란보다 크게 구성하는 것이 일반적입니다. 텍스트 박스는 한 줄짜리 텍스트 입력란보다 요구하는 수고가 큽니다. 그 자체로 2~3개의 한 줄짜리 텍스트 입력란의 부담감을 줍니다.&lt;/p&gt;
+
+&lt;p&gt;드롭다운은 제시된 목록 중에 하나를 선택할 수 있는 UI입니다. 라디오 버튼과 같은 방식이지만, 제시된 항목이 많아 제한된 화면에 라디오 버튼처럼 펼쳐놓을 수 없는 경우에 사용합니다. 드롭다운의 태생에서 알 수 있듯 드롭다운은 초기 상태에서 정보를 숨기는 특성이 있습니다. 이런 비직관성에, 제시된 목록 중 선택하는 기능을 수행하기 위해 정보의 숨김-노출 상태를 조작해야 하는 수고까지 요구합니다. 드롭다운이 포함된 폼의 전환율이 낮은 것은 당연해 보입니다.&lt;/p&gt;
+
+&lt;p&gt;이처럼 전환율을 떨어뜨리는 입력란의 형태는 존재합니다. 이와 같은 형태의 입력란을 사용할 때에는 대체할 방법이 있지는 않은지, 꼭 필요한지 검토하는 과정이 필요합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;소셜-프루프로-불안감-없애기&quot;&gt;소셜 프루프로 불안감 없애기&lt;/h2&gt;
+
+&lt;p class=&quot;full-size&quot;&gt;&lt;img src=&quot;/assets/images/design/5-form-design-tips/05.jpg&quot; alt=&quot;Reasons for Giving Up Filling Out the Form&quot; title=&quot;폼 입력 포기 사유&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a title=&quot;Michelle Delgado(THE MANIFEST), 2018 - 6 Steps for Avoiding Online Form Abandonment&quot; href=&quot;https://themanifest.com/web-design/6-steps-avoiding-online-form-abandonment&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;한 조사&lt;/a&gt;에 따르면 폼 입력을 포기하는 이유는 보안에 대한 불안(29%), 너무 긴 폼의 길이(27%), 광고에 활용될 것 같은 예상(11%), 정보 수집 이유가 불분명한 항목(10%) 때문입니다.&lt;/p&gt;
+
+&lt;p&gt;보안에 대한 불안이 폼 입력 포기 사유 1순위라는 것은 놀라운 사실이 아닙니다. 디지털 프로덕트의 고객은 오랫동안 버벅대는 온라인 환경을 경험했습니다. 보안 문제는 폼뿐만 아니라 디지털 프로덕트의 어떤 분야에도 빠지지 않고 등장하는 이슈입니다.&lt;/p&gt;
+
+&lt;p&gt;소셜 프루프(Social Proof)는 한 개인이 어떤 것을 결정할 때 사회적인 정보에 의존하는 경향과, 이를 활용하여 고객의 결정에 영향력을 미치는 방법입니다. 대표적인 소셜 프루프로는 상품 후기를 꼽을 수 있습니다. 고객은 다른 고객의 후기를 참고하여 구매를 결정합니다. 이와 관련해서는 &lt;a title=&quot;매거진 입맛 - 전환율 높이는 상세 페이지 디자인. 바로 써보는 3가지 방법&quot; href=&quot;/product-page-tips&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;상세 페이지 개선법을 다룬 이전 글&lt;/a&gt;에서 자세히 설명한 적이 있습니다. 이미 몇 명이 폼을 입력했다든지 다른 고객이 문제없이 폼을 처리했다는 정보를 보여주는 것은 고객의 불안감을 씻어주는 솔직한 소셜 프루프 해결책 중 하나입니다. 혹은 폼 입력 자체를 한정된 기회로 만들어 고객의 FOMO(Fear Of Missing Out)를 자극하는 것도 방법이 될 수 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;리타게팅-광고-활용하기&quot;&gt;리타게팅 광고 활용하기&lt;/h2&gt;
+
+&lt;p class=&quot;full-size&quot;&gt;&lt;img src=&quot;/assets/images/design/5-form-design-tips/06.jpg&quot; alt=&quot;Actions after Giving Up Filling Out the Form&quot; title=&quot;폼 입력 포기 후 행동&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;바로 위의 조사 자료에서 이어지는 내용입니다. 폼 입력을 포기한 고객 중 67%는 떠나서는 다시 돌아오지 않습니다. 이는 돌아와 폼 입력을 마치거나(13%), 다른 유사 제품을 찾아가거나(10%), 고객 지원 센터에 연락하는 경우(7%)보다 압도적으로 큰 비중을 차지합니다. 이 통계는 폼 입력 도중 문제가 생긴 고객이 문제를 해결하는데 얼마나 수동적인지 보여주는 사례입니다. 하지만 조금만 더 깊게 들어가 보면 새로운 기회가 보일 겁니다. 폼 입력 포기 고객의 사후 관리, 리타겟팅 광고가 바로 그것입니다.&lt;/p&gt;
+
+&lt;p&gt;리타겟팅(Retargeting) 광고는 제품에서 이탈한 고객을 대상으로 하는 마케팅 전략입니다. 고객은 다양한 이유로 제품에서 이탈합니다. 원하는 선택지를 받지 못했을 수도 있고, 더 나은 제품을 찾아 떠나거나 단지 무관심해졌을 수도 있습니다. 중요한 건 그렇게 떠난 고객이 생각보다 쉽게 돌아온다는 점입니다. 방문 고객 4명 중 3명은 리타겟팅 광고를 인지하며, 26%는 리타겟팅 광고로 인해 제품으로 돌아옵니다. 리타겟팅 광고로 돌아온 고객은 그렇지 않은 고객보다 전환율이 상대적으로 70% 더 높습니다. 폼 입력 포기 고객을 대상으로 하는 리타겟팅 광고는 전환율을 늘리는 가장 효과적인 방법이 될 수 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;정리&quot;&gt;정리&lt;/h2&gt;
+
+&lt;p&gt;지금까지 데이터가 증명하는 폼 설계 개선안 5가지를 알아보았습니다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;폼을 다중 페이지로 구성&lt;/li&gt;
+  &lt;li&gt;폼을 구성하는 입력란 줄이기&lt;/li&gt;
+  &lt;li&gt;여러 줄을 쓸 수 있는 텍스트 박스, 드롭다운 피하기&lt;/li&gt;
+  &lt;li&gt;소셜 프루프 요소로 불안감 해소하기&lt;/li&gt;
+  &lt;li&gt;폼 입력 포기 고객 대상으로 리타겟팅 광고 집행하기&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;위 팁을 바탕으로 자신의 제품에 맞는 테스트를 진행한다면 또 다른 인사이트를 얻을 수 있을 것입니다.&lt;/p&gt;
+
+&lt;p class=&quot;right-infor&quot;&gt;위시켓의 지원과 함께 제작된 콘텐츠입니다.&lt;/p&gt;</content><author><name>이준환</name></author><category term="design-teatime" /><summary type="html">디자이너의 오랜 고민거리 폼. 통계 데이터를 바탕으로 폼 전환율을 개선할 수 있는 5가지 팁을 준비했습니다.</summary></entry><entry><title type="html">당장 활용하는 12가지 AB 테스트 사례</title><link href="https://dewberry9.github.io/12-ab-test-cases" rel="alternate" type="text/html" title="당장 활용하는 12가지 AB 테스트 사례" /><published>2021-08-01T00:00:00+00:00</published><updated>2021-08-01T00:00:00+00:00</updated><id>https://dewberry9.github.io/12-ab-test-cases</id><content type="html" xml:base="https://dewberry9.github.io/12-ab-test-cases">&lt;p&gt;AB 테스트는 &lt;a title=&quot;매거진 입맛 - 매출 만드는 AB 테스트, 시작이 막막한가요? 3단계 가이드&quot; href=&quot;/3step-ab-test&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;가설 수립, 실험 진행, 결과 분석의 3단계로 진행되는 그로쓰 해킹 방법론&lt;/a&gt;입니다. AB 테스트는 제품과 조직의 확실한 성장 엔진으로, 그랩(Grab), 넷플릭스(Netflix), 에어비앤비(Airbnb) 등 데이터 좀 다룬다 싶은 기업은 모두 AB 테스트 성공담 하나는 가지고 있습니다. &lt;a title=&quot;매거진 입맛 - 매출 만드는 AB 테스트, 시작이 막막한가요? 3단계 가이드&quot; href=&quot;/3step-ab-test&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;이전 글&lt;/a&gt;에서 말씀드렸다시피 큰 그로쓰 해킹 팀이나 테스트 문화, 맞춤 툴이 전혀 없는 상황이라도 AB 테스트를 시작하는 데는 아무런 문제가 없습니다. 나름의 가설을 세우고, 동료와 함께 구성하고, 지표를 추적하고, 시행착오를 겪다 보면 어느 정도 요령이 생깁니다.&lt;/p&gt;
 
 &lt;p&gt;하지만 AB 테스트 문화를 조직 전반에 퍼뜨리는 것은 또 다른 일입니다. 1명이 제시할 수 있는 아이디어에는 한계가 명확합니다. 더 많은 조직 구성원이 AB 테스트에 참여할수록 만들 수 있는 가설이 늘어납니다. 이는 더 많은 실험, 인사이트, 성장으로 직결됩니다.&lt;/p&gt;
 
@@ -918,99 +994,4 @@
 
 &lt;p&gt;제품 주도 성장 고객 획득·온보딩 전략에 대한 글은 여기까지입니다. 다음 편에서는 제품 주도 성장의 또 다른 축인 제품 &lt;a title=&quot;매거진 입맛 - 바이럴 없는 제품은 말라죽을 수밖에 없다&quot; href=&quot;/product-led-growth-viral&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;바이럴 전략&lt;/a&gt;에 대해 이야기하겠습니다.&lt;/p&gt;
 
-&lt;p class=&quot;right-infor&quot;&gt;위시켓의 지원과 함께 제작된 콘텐츠입니다.&lt;/p&gt;</content><author><name>이준환</name></author><category term="design-teatime" /><summary type="html">좋은 온보딩은 가는 고객을 막을 뿐만 아니라, 돈도 20% 더 쓰게 합니다. 포그 행동 모델과 여러 전략을 살펴보며 좋은 온보딩을 알아봅니다.</summary></entry><entry><title type="html">홈텐딩의 완벽한 시작. 봄베이 사파이어와 아트 오브 칵테일</title><link href="https://dewberry9.github.io/bombay-sapphire" rel="alternate" type="text/html" title="홈텐딩의 완벽한 시작. 봄베이 사파이어와 아트 오브 칵테일" /><published>2021-05-15T00:00:00+00:00</published><updated>2021-05-15T00:00:00+00:00</updated><id>https://dewberry9.github.io/bombay-sapphire</id><content type="html" xml:base="https://dewberry9.github.io/bombay-sapphire">&lt;p class=&quot;full-size&quot;&gt;&lt;img src=&quot;/assets/images/daily/bombay-sapphire/01.jpg&quot; alt=&quot;Bottle 1&quot; title=&quot;Bottle 1&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;각진 파란 병. 이 술의 이미지는 워낙 강해서 양주를 즐기지 않더라도 한 번쯤은 본 적 있을 겁니다. 그런가 하면 술을 좀 아는 사람에게는 익숙해지기 힘든 개성을 가진 진으로 여겨집니다. 어디서든 이 술은 항상 튑니다.&lt;/p&gt;
-
-&lt;p&gt;이번 입맛리뷰의 주제는 항상 눈에 띄는 이 술, 봄베이 사파이어와 아트 오브 칵테일 홈텐딩 키트입니다.&lt;/p&gt;
-
-&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/daily/bombay-sapphire/02.jpg&quot; alt=&quot;Pack&quot; title=&quot;Pack&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;제품&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;봄베이 사파이어(750mL)&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;분류&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;런던 진&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;생산지&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;영국&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;알코올&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;47%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;가격&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;37,500원(이마트, Gin &amp;amp; Tonic Special Pack)&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&quot;봄베이-사파이어&quot;&gt;봄베이 사파이어&lt;/h2&gt;
-
-&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/daily/bombay-sapphire/03.jpg&quot; alt=&quot;Bottle and Highball Glass&quot; title=&quot;Bottle and Highball Glass&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;봄베이 사파이어 Gin &amp;amp; Tonic Special Pack에는 750mL 봄베이 사파이어와 하이볼 잔이 들어있습니다. 잔이 묵직한 게 그럴듯합니다.&lt;/p&gt;
-
-&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/daily/bombay-sapphire/04.jpg&quot; alt=&quot;Year 1761&quot; title=&quot;Year 1761&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;봄베이 사파이어의 역사는 라벨에도 적혀 있는 1761년부터 시작합니다. 토마스 다킨(Thomas Dakin)이 영국 리버풀과 맨체스터 사이에 있는 지역 워링턴에 증류소를 세우고 워링턴 진을 생산했습니다. 몇 가지 개량을 거쳤지만 현재의 봄베이도 그때의 레시피를 시초로 하고 있습니다.&lt;/p&gt;
-
-&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/daily/bombay-sapphire/05.jpg&quot; alt=&quot;Victoria&quot; title=&quot;Victoria&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;워링턴 진이 봄베이의 이름을 갖게된 것은 라벨에 빅토리아 여왕의 초상이 붙은 일과 같은 때 일어났습니다. 씨그램의 직원이었던 앨런 수빈(Allan Subin)은 워링턴 진 증류소의 제품으로 프리미엄 진 브랜드를 론칭합니다. 과거 영국 식민지였던 인도의 대도시 봄베이(현재는 뭄바이) 이름을 가져다 쓰고 여왕의 얼굴을 붙이면서, 빅토리아 시대를 기리는 노스탤지어 분위기로 브랜드를 형성합니다. 1960년대 봄베이 드라이 진이 탄생하면서 봄베이라는 이름이 처음으로 진 시장에 등장합니다. 이후 봄베이는 IDV 산하로 들어가면서, 1986년 기존의 드라이 진 레시피에 멜레게타, 큐베브라는 두 후추 비슷한 향신료를 첨가한 봄베이 사파이어를 내놓게 됩니다.&lt;/p&gt;
-
-&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/daily/bombay-sapphire/06.jpg&quot; alt=&quot;Recipe&quot; title=&quot;Recipe&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;멜레게타와 큐베브를 포함한 봄베이 사파이어의 재료는 10가지로 나머지는 주니퍼 베리, 아몬드, 레몬 필, 감초, 오리스, 안젤리카, 고수, 중국 계피입니다. 경쟁 브랜드에 비해 젊은 축에 속하는 봄베이 사파이어는 다른 진과는 다르게 레시피에 쓰인 재료를 투명하게 공개하며 차별화 마케팅을 하고 있습니다.&lt;/p&gt;
-
-&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/daily/bombay-sapphire/07.jpg&quot; alt=&quot;Bottle and Nosing Glass&quot; title=&quot;Bottle and Nosing Glass&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;향&lt;/strong&gt; 레몬 껍질을 비틀었을 때 풍기는 오일 향이 선명합니다. 라임, 오렌지와 같은 시트러스한 향을 바탕으로 꿉꿉한 느낌의 고수, 쑥, 냄새가 달큰한 계피, 감초 냄새와 함께 안쪽에 응어리져 있습니다. 신선하고 깨끗한 분위기가 향의 전반을 지배합니다. 알코올 냄새가 튀지만 시원한 향기의 일부로 묻히는 경향이 있어 거슬릴 정도는 아닙니다. 개성 있는 향이지만 사람들이 말하는 것처럼 그렇게 호불호가 갈릴 만한 향인지는 잘 모르겠습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;맛&lt;/strong&gt; 향의 시트러스함이 솔직하게 혀에 닿습니다. 청포도, 앵두. 과일 분위기도 있습니다. 가벼운 무게에 47도의 알코올이 탄산음료를 마실 때처럼 입안을 슬쩍 건들고 갑니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;피니쉬&lt;/strong&gt; 입안에서 느꼈던 무게감만큼이나 짧은 피니쉬가 지나갑니다. 뱅쇼처럼 시큼한 과일을 보글보글 끓인 후의 눅진한 쌉싸름함이 스멀스멀 피어오릅니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;아트-오브-칵테일&quot;&gt;아트 오브 칵테일&lt;/h2&gt;
-
-&lt;p&gt;이번에 봄베이 사파이어를 구한 이유는 다름이 아니라 &lt;a title=&quot;Art of Cocktail Instagram&quot; href=&quot;https://www.instagram.com/aoc_art.of.cocktail/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;아트 오브 칵테일&lt;/a&gt;에서 주관하는 칵테일 클래스에 참여하기 위해서였습니다. 아트 오브 칵테일은 바카디, 예거 마이스터, 그레이 구스 등을 수입하는 FJ Korea의 후원으로 무료 홈텐딩 강좌를 개최하고 있는 곳입니다.&lt;/p&gt;
-
-&lt;p&gt;단지 강좌만 보는 게 아니라, 필요한 재료를 한 박스 보내주기까지 합니다. 불시에(보통 금요일에) 인스타그램에 다음 클래스에 쓰일 술을 공지하는데, 최대한 빨리 사서 구매를 인증하는 신청서를 작성하면 됩니다. 이렇게 신청한 선착순 100명에게(신규 신청자 우대) 홈텐딩 키트를 보내줍니다.&lt;/p&gt;
-
-&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/daily/bombay-sapphire/08.jpg&quot; alt=&quot;Package&quot; title=&quot;Package&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;홈텐딩 키트의 구성은 각 클래스의 기주가 되는 술마다 약간씩 달라집니다. 이번에는 레몬, 오렌지, 라임, 올리브, 진저 에일과 탄산수와 같은 재료는 물론 여러 종류의 잔, 스퀴저, 잔 밑에 붙이는 LED, 붓과 식용 페인트, The Art of Cocktail DIY라는 레시피 도서까지 넉넉한 구성입니다.&lt;/p&gt;
-
-&lt;p&gt;이제 미리 공지된 강좌일까지 기다리면 됩니다. 온라인 강좌는 예전에는 인스타그램 라이브로 진행하다가 최근에는 유튜브 라이브로 진행합니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;진-피즈&quot;&gt;진 피즈&lt;/h2&gt;
-
-&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/daily/bombay-sapphire/11.jpg&quot; alt=&quot;Gin Fizz with AOC&quot; title=&quot;Gin Fizz with AOC&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;이번 온라인 강좌는 약 1시간 반 동안 진토닉, 네그로니, 마티니 등 다양한 칵테일을 함께 만들고 마시며 진행됐습니다. 여러 칵테일이 있었지만 진 피즈(Gin Fizz)를 특히나 맛있게 마셨습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;진 피즈 만드는 법&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;셰이커에 3/2oz(약 45mL), 레몬즙 1oz(약 30mL), 설탕 한 티스푼을 넣고 얼음을 채운 뒤 섞습니다.&lt;/li&gt;
-  &lt;li&gt;칠링한 하이볼 잔, 혹은 올드패션드 잔에 얼음을 넣고 섞은 내용물을 붓습니다.&lt;/li&gt;
-  &lt;li&gt;소다수 필업(Fill-up) : 소다수로 나머지 부분을 채웁니다.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/daily/bombay-sapphire/10.jpg&quot; alt=&quot;Paint&quot; title=&quot;Paint&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;함께 온 식용 페인트를 잔에 발라보았습니다. 물엿으로 만든 페인트인데 상큼한 레몬 향이 납니다. 진 피즈의 탄산과 뒤섞인 파란 물감이 보기만 해도 상쾌한 느낌을 줍니다. 새콤달콤한 맛은 시각적 비주얼에서 온 기대감을 여지없이 만족시킵니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;홈텐딩의-완벽한-시작&quot;&gt;홈텐딩의 완벽한 시작&lt;/h2&gt;
-
-&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/daily/bombay-sapphire/09.jpg&quot; alt=&quot;Gin Fizz&quot; title=&quot;Gin Fizz&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;국내에서 바텐딩은 물론 칵테일 자체가 아직 마이너한 위치에 있다는 건 부정할 수 없는 사실입니다. 하지만 그래서 더 매력적인지도 모르겠습니다. 어렵게 찾아내고 배운 만큼 그 결과물은 달게 느껴질 테니까요.&lt;/p&gt;</content><author><name>이준환</name></author><category term="review" /><summary type="html">이 각진 파란 병 진이 뭐가 그렇게 특이할까요? 아트 오브 칵테일의 홈텐딩 키트와 함께 알아봅니다. 런던 드라이 진 봄베이 사파이어 리뷰.</summary></entry></feed>
+&lt;p class=&quot;right-infor&quot;&gt;위시켓의 지원과 함께 제작된 콘텐츠입니다.&lt;/p&gt;</content><author><name>이준환</name></author><category term="design-teatime" /><summary type="html">좋은 온보딩은 가는 고객을 막을 뿐만 아니라, 돈도 20% 더 쓰게 합니다. 포그 행동 모델과 여러 전략을 살펴보며 좋은 온보딩을 알아봅니다.</summary></entry></feed>
