@@ -64,6 +64,10 @@
 
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
 
+a { cursor: pointer; color: #86868a; text-decoration: none; -webkit-transition: color 0.3s ease; -o-transition: color 0.3s ease; transition: color 0.3s ease; }
+
+a:hover { color: #c2c2c2; }
+
 h1, h2, h3 { font-weight: 800; color: #484657; font-family: "Nanum Myeongjo"; }
 
 h1 { line-height: 1; font-size: 2.25rem; }
@@ -85,10 +89,6 @@ strong { font-weight: bold; }
 ::selection { background: #363059; color: #fff; }
 
 body { font: 400 1em/1.8 "Spoqa Han Sans Neo", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-display: swap; color: #514f59; background-color: #fff; -webkit-text-size-adjust: 100%; -o-font-feature-settings: "kern" 1; -webkit-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; -webkit-font-kerning: normal; font-kerning: normal; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; width: 100vw; overflow-x: hidden; position: relative; min-height: 100vh; }
-
-a { cursor: pointer; color: #86868a; text-decoration: none; -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; }
-
-a:hover { color: #c2c2c2; }
 
 blockquote { position: relative; color: #514f59; margin-left: 1rem; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
@@ -264,29 +264,27 @@ section.post-content div table tr td:first-child { font-weight: bold; padding-ri
 
 section .post-list-item, section .ads-container-relative-feedcard { color: #514f59; -webkit-box-sizing: border-box; box-sizing: border-box; padding: 1.5rem; width: 384px; margin-bottom: 1rem; }
 
-section .post-list-item { -webkit-transition: 0.3s ease; -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; }
+section .post-list-item .post-description { font-size: 0.875rem; color: #86868a; display: -webkit-box; display: -ms-flexbox; display: flex; padding-left: 0.25rem; -webkit-transition: opacity 0.3s ease; -o-transition: opacity 0.3s ease; transition: opacity 0.3s ease; }
 
-section .post-list-item * { -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; }
+section .post-list-item .post-description::before { content: ""; position: relative; border-left: 1px solid #c2c2c2; top: -48px; left: 8px; height: 48px; opacity: 0.5; -webkit-transition: height 0.3s ease; -o-transition: height 0.3s ease; transition: height 0.3s ease; }
 
-section .post-list-item .post-description { font-size: 0.875rem; color: #86868a; display: -webkit-box; display: -ms-flexbox; display: flex; padding-left: 0.25rem; }
-
-section .post-list-item .post-description::before { content: ""; position: relative; border-left: 1px solid #c2c2c2; top: -48px; left: 8px; height: 48px; opacity: 0.5; -webkit-transition: all 0.3s ease; transition: all 0.3s ease; -moz-transition: all 0.3s ease; -ms-transition: all 0.3s ease; -o-transition: all 0.3s ease; }
-
-section .post-list-item .post-description time, section .post-list-item .post-description .post-topic { -webkit-box-sizing: border-box; box-sizing: border-box; padding-top: 0.5rem; letter-spacing: 1px; color: #c2c2c2; -webkit-writing-mode: vertical-lr; -ms-writing-mode: tb-lr; writing-mode: vertical-lr; font-size: 0.5rem; }
+section .post-list-item .post-description time, section .post-list-item .post-description .post-topic { -webkit-box-sizing: border-box; box-sizing: border-box; padding-top: 0.5rem; letter-spacing: 1px; color: #c2c2c2; -webkit-writing-mode: vertical-lr; -ms-writing-mode: tb-lr; writing-mode: vertical-lr; font-size: 0.5rem; -webkit-transition: padding-top 0.3s ease; -o-transition: padding-top 0.3s ease; transition: padding-top 0.3s ease; }
 
 section .post-list-item .post-description .post-intro { margin-left: 1rem; }
+
+section .post-list-item .post-description .post-intro * { -webkit-transition: color 0.3s ease; -o-transition: color 0.3s ease; transition: color 0.3s ease; }
 
 section .post-list-item .post-description .post-intro h2 { letter-spacing: -0.2px; margin-bottom: 0.5rem; }
 
 section .post-list-item .post-thumbnail { margin-bottom: 1.5rem; overflow: hidden; width: 100%; height: 215px; }
 
-section .post-list-item .post-thumbnail .img-source { width: 100%; height: 100%; position: relative; background-size: cover; background-position: center center; }
+section .post-list-item .post-thumbnail .img-source { width: 100%; height: 100%; position: relative; background-size: cover; background-position: center center; -webkit-transition: -webkit-transform 0.3s ease; transition: -webkit-transform 0.3s ease; -o-transition: transform 0.3s ease; transition: transform 0.3s ease; transition: transform 0.3s ease, -webkit-transform 0.3s ease; }
 
-section .post-list-item .post-thumbnail .img-source::before { content: ""; background-color: #363059; display: block; opacity: 0; width: 100%; height: 100%; position: relative; top: 0; left: 0; -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; }
+section .post-list-item .post-thumbnail .img-source::before { content: ""; background-color: #363059; display: block; opacity: 0; width: 100%; height: 100%; position: relative; top: 0; left: 0; -webkit-transition: opacity 0.3s ease; -o-transition: opacity 0.3s ease; transition: opacity 0.3s ease; }
 
 section .post-list-item:hover .post-description::before { height: 36px; }
 
-section .post-list-item:hover .post-description time, section .post-list-item:hover .post-description .post-topic { padding: 0; }
+section .post-list-item:hover .post-description time, section .post-list-item:hover .post-description .post-topic { padding-top: 0; }
 
 section .post-list-item:hover .post-description h2 { color: #86868a; }
 
