@@ -1,4 +1,114 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://dewberry9.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dewberry9.github.io/" rel="alternate" type="text/html" /><updated>2021-08-22T10:16:22+00:00</updated><id>https://dewberry9.github.io/feed.xml</id><title type="html">매거진 입맛</title><subtitle>읽을 만한 취향들. 매거진 입맛 - 책, 술, 그밖에 삶의 즐거움 리뷰 / 디자인 / 소설</subtitle><author><name>이준환</name></author><entry><title type="html">DHM 모델로 제품 전략에서 AB 테스트 실무까지</title><link href="https://dewberry9.github.io/dhm-model-strategy-to-ab-test" rel="alternate" type="text/html" title="DHM 모델로 제품 전략에서 AB 테스트 실무까지" /><published>2021-08-22T00:00:00+00:00</published><updated>2021-08-22T00:00:00+00:00</updated><id>https://dewberry9.github.io/dhm-model-strategy-to-ab-test</id><content type="html" xml:base="https://dewberry9.github.io/dhm-model-strategy-to-ab-test">&lt;p class=&quot;infor&quot;&gt;시리즈로 구성된 글입니다. &lt;a title=&quot;매거진 입맛 - 전략을 결정하는 전략. 넷플릭스 DHM 모델&quot; href=&quot;/dhm-model-for-product-strategy&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;저번 글에서는 DHM 모델의 개념과 구성&lt;/a&gt;에 대해 다루었습니다. 이번에는 DHM 모델로 수립된 제품 전략이 실무 레벨까지 단계적으로 구체화되는 과정을 알아봅니다.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://dewberry9.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dewberry9.github.io/" rel="alternate" type="text/html" /><updated>2021-08-30T11:25:52+00:00</updated><id>https://dewberry9.github.io/feed.xml</id><title type="html">매거진 입맛</title><subtitle>읽을 만한 취향들. 매거진 입맛 - 책, 술, 그밖에 삶의 즐거움 리뷰 / 디자인 / 소설</subtitle><author><name>이준환</name></author><entry><title type="html">따라쓰기만 하면 테스트 문화가 만들어진다 - Growth Book</title><link href="https://dewberry9.github.io/growth-book-and-experiment-culture" rel="alternate" type="text/html" title="따라쓰기만 하면 테스트 문화가 만들어진다 - Growth Book" /><published>2021-08-30T00:00:00+00:00</published><updated>2021-08-30T00:00:00+00:00</updated><id>https://dewberry9.github.io/growth-book-and-test-culture</id><content type="html" xml:base="https://dewberry9.github.io/growth-book-and-experiment-culture">&lt;p class=&quot;full-size&quot;&gt;&lt;img src=&quot;/assets/images/design/growth-book-and-experiment-culture/01.jpg&quot; alt=&quot;Growth Book&quot; title=&quot;Growth Book&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;AB 테스트는 제품과 조직에 성장을 안겨다 주는 확실한 전략 중 하나입니다. 그러나 AB 테스트를 한번이라도 직접 해본 사람을 찾는다면 의외로 손에 꼽을 것입니다. 이전에 연재한 &lt;a title=&quot;매거진 입맛 - 매출 만드는 AB 테스트, 시작이 막막한가요? 3단계 가이드&quot; href=&quot;/3step-ab-test&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;AB 테스트 가이드&lt;/a&gt;에서 이야기했듯 AB 테스트는 단 1명이라도 올바른 추진 방법을 알고 실행에 옮길 행동력을 가지고 있다면 할 수 있는 일입니다. 하지만 AB 테스트로 피운 성장 동력이라는 불을 지키고 키우려면 여러 사람이 함께 참여해야 합니다. 참여자의 수가 늘수록 제시되는 가설, 진행되는 실험, 도출되는 인사이트, 그리고 성장량이 같이 커집니다.&lt;/p&gt;
+
+&lt;p&gt;어떤 조직의 구성원이라면 자신이 어느 직무에 있던 데이터에 따라서 의사결정하고, 가설을 내며, 실험을 설계하고, 결과를 분석하는 것. 이와 같은 일련의 과정이 조직 내에 자연스럽게 녹아 있는 모습을 보고 테스트 문화가 잘 자리 잡았다고 말합니다. 테스트 문화의 구조는 조직의 상황에 따라 다른 모양을 가집니다. 테스트 문화로 유명한 조직은 독립적인 그로쓰 해킹 팀이 주도적으로 테스트 문화를 적용하고 개선하는 경우가 많습니다. 조직이 크든 작든 테스트 문화를 만드는데 겪어야 하는 시행착오의 양은 비슷합니다. 테스트 문화를 만드는 업무에 힘을 쏟을 여유가 부족한 소규모 팀이라면 테스트 문화가 자리 잡는데 더 오랜 기간이 걸릴 것입니다.&lt;/p&gt;
+
+&lt;p&gt;잠깐 다른 이야기로, 한 도구는 사람의 행동방식을 바꿀 힘을 가지고 있습니다. 자동차가 보급된 후 얼마나 많은 식당, 집, 도로, 직장, 그리고 도시가 바뀌었습니까? 먹는 법, 쉬는 법, 다른 사람을 만나는 방법은 자동차 등장 전후로 큰 변화를 겪었습니다. 사람이 만든 도구는 사람을 바꿉니다. 조직 내 테스트 문화 보급도 마찬가지 맥락에서 볼 수 있습니다. &lt;strong&gt;어떤 툴은 단지 쓰는 것만으로 테스트 문화를 만들 수 있습니다.&lt;/strong&gt; 이번 글에서 소개하려는 &lt;a title=&quot;Growth Book&quot; href=&quot;https://www.growthbook.io/?ref=매거진입맛&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;AB 플랫폼 Growth Book&lt;/a&gt;이 바로 그 툴입니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Growth Book은 어떤 구조길래 테스트 문화를 만들까요?&lt;/li&gt;
+  &lt;li&gt;Growth Book은 어떻게 사용할까요?&lt;/li&gt;
+  &lt;li&gt;무료로 쓸 수 있나요? 쉬운가요? 😅&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ab-테스트와-시행착오&quot;&gt;AB 테스트와 시행착오&lt;/h2&gt;
+
+&lt;p&gt;AB 테스트는 가설 수립 → 실험 진행 → 결과 분석으로 구분되는 연속적 사이클 위에서 작동합니다. 단순해 보이지만 실제 업무에서는 훨씬 많은 작업이 필요합니다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;가설 수립을 위한 리서치&lt;/li&gt;
+  &lt;li&gt;실험 계획별 우선순위 지정&lt;/li&gt;
+  &lt;li&gt;실험 구현, 지표 추적&lt;/li&gt;
+  &lt;li&gt;결과 분석, 시각화 등 분석자료 공유 작업&lt;/li&gt;
+  &lt;li&gt;결과 문서화, 아카이빙&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;당장 중요하다 싶은 일만 해도 위와 같이 꼽을 수 있습니다. 이런 업무에는 몇 가지 공통점이 있습니다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;여러 직군을 아우르는 팀원의 협력·의견·타협 필요&lt;/li&gt;
+  &lt;li&gt;산출되는 결과물에 있어서 표준적인 형식 없음&lt;/li&gt;
+  &lt;li&gt;각 업무가 균등한 중요도를 가짐(선택과 집중 어려움)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;AB 테스트는 조직의 일입니다. 제품을 가지고 고객을 상대로 벌이는 작업입니다. 어떤 실험을 먼저 혹은 나중에 실행할지, 어떤 방향으로 구현할지, 심지어 실험 결과를 어떤 쪽으로 분석할지까지 조직 구성원 간의 협업과 합의가 요구됩니다. 이런 특성 때문에 AB 테스트 의사결정은 관련된 조직 구성원은 실험에 대해 같은 수준의 이해도를 보여야 합니다. AB 테스트 진행자가 실험 설계, 분석자료, 결과 문서 등의 공유 작업에 공을 들여야 하는 이유가 여기 있습니다. 문제는 이와 같은 공유 자료는 그 형식이 제품·시장·조직의 환경을 많이 타기에 AB 테스트 초보자 처지에서 난감하다는 것입니다. 앞서 언급한 &lt;a title=&quot;매거진 입맛 - 매출 만드는 AB 테스트, 시작이 막막한가요? 3단계 가이드&quot; href=&quot;/3step-ab-test&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;AB 테스트 가이드&lt;/a&gt;에서 &lt;a title=&quot;AB 테스트 리포트 템플릿&quot; href=&quot;https://www.notion.so/dewberry9/AB-bd3ad2cfce654938b50e4e04f915c0c7&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;노션(Notion)으로 만든 테스트 리포트 템플릿`&lt;/a&gt;을 제공한 것도 이런 문제에 대해 도움을 줄 수 있을 것이라 여겼기 때문입니다. 해당 테스트 리포트 템플릿은 &lt;a title=&quot;Paul(Market Fit Lab), 2020 - Culture of Experimentation: 클래스101은 어떻게 AB테스트를 한 달에 100개씩 돌리게 되었나?&quot; href=&quot;https://mfitlab.com/blog/culture-of-experimentation/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;클래스 101의 테스트 리포트&lt;/a&gt;를 참고하여 설계한 것으로, 실험 기획 배경, 가설, 실험 목표, 구현 모습과 결과 분석 항목으로 구성되어 있습니다.&lt;/p&gt;
+
+&lt;p&gt;여러 동료와의 협업, 이를 위한 실험 관련 자료 처리. 이런 업무가 진짜 어려운 이유는 번뜩이는 가설을 내놓고 획기적인 인사이트를 뽑아내는 것과 비교해도 중요도가 떨어지지 않는 데 있습니다. AB 테스트를 하늘의 뜬구름 같은 위치에서 진짜로 하는 어떤 일, 현실로 끌어내리는 실무적인 작업이기 때문입니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;피할 수 없는 시행착오&lt;/strong&gt;. 테스트 문화를 만드는 일의 핵심이 여기 있습니다. 그럼 Growth Book은 이를 어떻게 해결할까요?&lt;/p&gt;
+
+&lt;h2 id=&quot;growth-book-온보딩--데이터-소스-연결-지표-설정&quot;&gt;Growth Book 온보딩 : 데이터 소스 연결, 지표 설정&lt;/h2&gt;
+
+&lt;p&gt;Growth Book은 AB 테스트 가설·계획 기록, 실험 제어와 결과 분석·문서화를 중심으로 조직의 테스트를 관리하는 협업 플랫폼입니다. Growth Book은 위와 같은 작업에 필요한 유연한 형식을 제공하여, 툴이 지원하는 기능을 따라 쓰기만 해도 일정 수준 이상의 테스트 문화가 작동하도록 만들어줍니다.&lt;/p&gt;
+
+&lt;p&gt;이제 온보딩부터 Growth Book의 구조를 살펴보겠습니다.&lt;/p&gt;
+
+&lt;p class=&quot;full-size&quot;&gt;&lt;img src=&quot;/assets/images/design/growth-book-and-experiment-culture/02.jpg&quot; alt=&quot;Growth Book Plan&quot; title=&quot;Growth Book Plan&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;기본적으로 오픈소스이기 때문에 제공되는 Docker를 내려받아 직접 호스팅 할 수 있습니다. 이게 어렵다면 계정만 만들고 Growth Book에서 호스팅하는 서비스를 사용할 수 있습니다. (10개 계정까지 무료) 적은 사용 비용은 Growth Book 입문의 허들을 낮춰줍니다.&lt;/p&gt;
+
+&lt;p class=&quot;full-size&quot;&gt;&lt;img src=&quot;/assets/images/design/growth-book-and-experiment-culture/03.jpg&quot; alt=&quot;Growth Book Onboarding&quot; title=&quot;Growth Book Onboarding&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Growth Book을 시작하면 처음으로 볼 수 있는 온보딩 화면입니다. 데이터 소스 연결 → 지표 설정 → 실험 진행 순으로 사용법을 안내하고 있습니다. 현시점에서 Growth Book이 지원하는 데이터 소스는 Redshift, Snowflake, BigQuery, ClickHouse, AWS Athena, Postgres, MySQL/MariaDB, PrestoDB/Trino, Mixpanel, Google Analytics로 총 10개입니다. &lt;a title=&quot;Growth Book Docs - Data Sources&quot; href=&quot;https://docs.growthbook.io/app/datasources&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;공식 문서&lt;/a&gt;에서 데이터 소스별 연동 방법을 찾아볼 수 있습니다.&lt;/p&gt;
+
+&lt;p class=&quot;full-size&quot;&gt;&lt;img src=&quot;/assets/images/design/growth-book-and-experiment-culture/04.jpg&quot; alt=&quot;Growth Book Metric&quot; title=&quot;Growth Book Metric&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;이렇게 연동한 데이터는 지표를 설정할 때 활용합니다. Growth Book에서 지표는 비율(Binomial), 횟수(Count), 시간(Duration), 수익(Revenue)의 4가지 형식으로 만들 수 있습니다. 지표는 아래에서 설명할 실험 진행에 활용됩니다. 특히 지표에 대한 설명을 적고 코멘트를 달 수 있으며 수정 내역이 기록되는 기능은 유용합니다. AB 테스트를 진행하다 보면 연관성을 가진 여러 지표를 다루게 되는데 다소 비직관적인 지표로 분석 결과를 설명해야 할 때도 생깁니다. 지표의 정의와 각종 변동 사항을 편하게 문서화하여 남길 수 있는 기능은 테스트 문화가 기능하는 데 큰 영향을 줍니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;아이디어&quot;&gt;아이디어&lt;/h2&gt;
+
+&lt;p&gt;사이드바 가장 상단에 있는 페이지입니다. 기능 자체는 단순합니다. 실험 가설을 써서 올릴 수 있습니다. 그러나 다음 3가지 특징 덕분에 아이디어는 강력한 기능이 되었습니다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;마크다운 형식&lt;/li&gt;
+  &lt;li&gt;댓글 기능&lt;/li&gt;
+  &lt;li&gt;태그 기능&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p class=&quot;full-size&quot;&gt;&lt;img src=&quot;/assets/images/design/growth-book-and-experiment-culture/05.jpg&quot; alt=&quot;Growth Book Ideas Content&quot; title=&quot;Growth Book Ideas Content&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Growth Book의 아이디어는 노션처럼 마크다운 형식으로 각 항목을 작성합니다. 제목, 볼드체, 목록, 표, 이미지, 링크 등 마크다운에서 활용하는 여러 요소로 누구나 직관적으로 이해할 수 있는 풍부한 실험 가설 문서를 만들 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;댓글 기능으로는 각 실험 가설에 대한 개선안, 보충안, 반대안과 같은 여러 논의를 독립적으로 보존할 수 있습니다. 예전에 이야기했던 회원가입 퍼널 실험에 대한 우선순위 논의를 찾기 위해 한 달 전 슬랙(Slack)를 뒤질 필요가 없다는 의미입니다.&lt;/p&gt;
+
+&lt;p class=&quot;full-size&quot;&gt;&lt;img src=&quot;/assets/images/design/growth-book-and-experiment-culture/06.jpg&quot; alt=&quot;Growth Book Ideas List&quot; title=&quot;Growth Book Ideas List&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Growth Book에서 태그는 아이디어, 실험, 지표 등 모든 항목에서 아울러 활용할 수 있는 기능입니다. 실험이 적용되는 페이지, 기능, 관련 지표, 작업자, 우선순위, 실험 여부…. 높은 자유도로 무엇이든 유형화해서 아이디어, 실험, 지표를 관리할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;상기한 특징은 실험 가설을 효과적으로 보존하고 조직 구성원의 참여도를 높이는 데 긍정적인 힘을 미칠 것입니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;실험-진행문서화&quot;&gt;실험 진행·문서화&lt;/h2&gt;
+
+&lt;p&gt;아이디어 페이지에서 특정 실험 가설을 바탕으로, 아니면 그냥 실험 화면에서 버튼을 눌러 실험 초안을 만들 수 있습니다. Growth Book에서 실험은 다음 3단계 상태 중 하나를 가집니다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;초안(Draft)&lt;/li&gt;
+  &lt;li&gt;실험 중(Running)&lt;/li&gt;
+  &lt;li&gt;실험 종료(Stopped)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p class=&quot;full-size&quot;&gt;&lt;img src=&quot;/assets/images/design/growth-book-and-experiment-culture/07.jpg&quot; alt=&quot;Growth Book Create Test&quot; title=&quot;Growth Book Create Test&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;실험 초안은 가설과 데이터 소스, 원본 및 대안에 대한 설명과 목표 지표, 참고 지표, 활성화 조건, 실험을 진행할 페이지의 URL 등을 입력해 생성합니다. 실험은 종료할 때 원본과 비교해서 대안이 개선에 성공했는지, 실패했는지, 비등비등했는지 선택할 수 있습니다. 이때 분석한 결과도 기록할 수 있습니다. 많은 요소가 한데 어우러져 다소 복잡할 수 있기 때문에 Growth Book에서는 종료 실험을 살펴볼 수 있게 샘플 데이터 추가 기능을 제공합니다.&lt;/p&gt;
+
+&lt;p class=&quot;full-size&quot;&gt;&lt;img src=&quot;/assets/images/design/growth-book-and-experiment-culture/08.jpg&quot; alt=&quot;Growth Book Experiment Info&quot; title=&quot;Growth Book Experiment Info&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;아이디어를 입력했을 때와 마찬가지 자유도로 실험을 꾸릴 수 있습니다. 가설과 목표 지표, 원본과 대안의 설명 등 실험을 구성하는 항목을 성실하게 채우는 것만으로 보기 좋은 실험 문서가 만들어집니다. 필수적인 항목만 제공하면서도 입력 자체는 최대한의 자유로움을 보장하는 &lt;strong&gt;Growth Book은 상황에 맞게 다룰 수 있는 유연함과 초보자를 위한 가이드 역할까지 부족함 없이 지니고 있습니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p class=&quot;full-size&quot;&gt;&lt;img src=&quot;/assets/images/design/growth-book-and-experiment-culture/09.jpg&quot; alt=&quot;Growth Book Experiment Results&quot; title=&quot;Growth Book Experiment Results&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;실험 결과 페이지에서는 목표 지표별로 그 값과, 특정 대안을 선택했을 때의 위험도, 원본보다 나을 확률, 그리고 바이올린 플롯으로 시각화된 전환율 분포도를 확인할 수 있습니다. 일반적으로 위험도는 1% 미만, 원본보다 나을 확률은 95% 이상에 도달할 때 실험 결과가 의미 있다고 할 수 있습니다. 특히 Growth Book은 원본보다 대안이 나을 확률을 산정할 때 웹상에서 찾을 수 있는 많은 AB 테스트 결과 신뢰 구간 계산기처럼 빈도주의적 통계를 사용하지 않고 &lt;a title=&quot;Jeremy Dorn(Growth Book), 2021 - Growth Book Bayesian Statistics Engine&quot; href=&quot;https://www.growthbook.io/docs/GrowthBookStatsEngine.pdf&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;베이지안 통계 방식을 활용&lt;/a&gt;합니다. AB 테스트 결과 통계 해석에 대해서는 차후 다른 글에서 자세히 이야기해보겠습니다. 결론은 Growth Book이 훨씬 받아들이기 자연스러운 통계를 제공한다는 것입니다.&lt;/p&gt;
+
+&lt;p&gt;아이디어와 마찬가지로 각 실험 문서에 대한 의견, 수정 기록은 독립적으로 보존됩니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;정리&quot;&gt;정리&lt;/h2&gt;
+
+&lt;p&gt;AB 테스트 가설·계획 기록, 실험 제어와 결과 분석·문서화를 중심으로 조직의 테스트를 관리하는 오픈소스 협업 플랫폼, Growth Book은 다방면의 데이터 소스를 쉽게 연동하여 지표를 설정할 수 있습니다. 이는 여러 조직 구성원이 함께 실험 가설을 제시하고 실험을 설계하는데 단단한 기반이 됩니다. 협업하는데 필수적인 항목을 제공해 초보자에게도 문제없는 테스트 문화를 형성하고, 한편으로 그 안에서 최대한의 자유도를 보장하는 유연함을 갖췄습니다.&lt;/p&gt;
+
+&lt;p&gt;AB 테스트는 시작했지만 아직 이렇다 할 문화가 자리 잡지 못했다면 Growth Book은 좋은 선택이 될 것입니다.&lt;/p&gt;
+
+&lt;p class=&quot;right-infor&quot;&gt;위시켓의 지원과 함께 제작된 콘텐츠입니다.&lt;/p&gt;</content><author><name>이준환</name></author><category term="design-teatime" /><summary type="html">AB 테스트는 조직에 함께하는 문화가 자리잡을 때 곱절의 성능을 발휘합니다. 테스트 문화 구현에 적합한 오픈소스 AB 테스트 플랫폼을 소개합니다.</summary></entry><entry><title type="html">DHM 모델로 제품 전략에서 AB 테스트 실무까지</title><link href="https://dewberry9.github.io/dhm-model-strategy-to-ab-test" rel="alternate" type="text/html" title="DHM 모델로 제품 전략에서 AB 테스트 실무까지" /><published>2021-08-22T00:00:00+00:00</published><updated>2021-08-22T00:00:00+00:00</updated><id>https://dewberry9.github.io/dhm-model-strategy-to-ab-test</id><content type="html" xml:base="https://dewberry9.github.io/dhm-model-strategy-to-ab-test">&lt;p class=&quot;infor&quot;&gt;시리즈로 구성된 글입니다. &lt;a title=&quot;매거진 입맛 - 전략을 결정하는 전략. 넷플릭스 DHM 모델&quot; href=&quot;/dhm-model-for-product-strategy&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;저번 글에서는 DHM 모델의 개념과 구성&lt;/a&gt;에 대해 다루었습니다. 이번에는 DHM 모델로 수립된 제품 전략이 실무 레벨까지 단계적으로 구체화되는 과정을 알아봅니다.&lt;/p&gt;
 
 &lt;p&gt;무엇이 고객에게 만족을 주는가(Delight Customers), 무엇이 제품을 복제하기 어렵게 만드는가(Hard to Copy), 그리고 무엇이 수익성을 개선하는가(Margin Enhancing). 이전 편에서 설명했듯이 DHM 모델은 위 3가지 질문을 바탕으로 제품 전략을 짜는 방법론입니다. DHM 모델은 제품 전략을 수립하고 평가할 때 핵심적인 부분에 초점을 맞추도록 도와줍니다. DHM 모델은 제품을 발전적인 방향으로 바로 세웁니다.&lt;/p&gt;
 
@@ -866,101 +976,4 @@
 
 &lt;p&gt;라이브 채팅을 유행처럼 따라가는 기술로 받아들이지 말고, 전략적으로 접근한다면 제품의 성장에 도움이 될만한 다양한 측면을 확인할 수 있을 겁니다.&lt;/p&gt;
 
-&lt;p class=&quot;right-infor&quot;&gt;위시켓의 지원과 함께 제작된 콘텐츠입니다.&lt;/p&gt;</content><author><name>이준환</name></author><category term="design-teatime" /><summary type="html">라이브 채팅은 만족도가 가장 높은 CS 도구로, 전환율 20%, 리텐션은 48%나 개선합니다. 그러나 악영향을 주는 경우도 있습니다. 어떻게 된 거죠?</summary></entry><entry><title type="html">핵심만 모은, 메모해놓고 쓰는 6가지 SEO 전략</title><link href="https://dewberry9.github.io/six-seo-tips" rel="alternate" type="text/html" title="핵심만 모은, 메모해놓고 쓰는 6가지 SEO 전략" /><published>2021-06-13T00:00:00+00:00</published><updated>2021-06-13T00:00:00+00:00</updated><id>https://dewberry9.github.io/six-seo-tips</id><content type="html" xml:base="https://dewberry9.github.io/six-seo-tips">&lt;p&gt;디지털 프로덕트에 고객을 유치하는 방법이 몇 가지나 있을까요? 갖가지 전략을 떠올릴 수 있겠지만 고객 획득에 직접 관여하는 방법은 크게 4가지로 나눌 수 있습니다.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;직접 고객을 찾아가 설명하는 &lt;strong&gt;영업&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;기존 고객이 신규 고객을 끌어들이는 &lt;strong&gt;바이럴&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Facebook, Google처럼 고객이 쓰는 서비스에 광고를 올리는 &lt;strong&gt;퍼포먼스 마케팅&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;고객이 보는 콘텐츠에 제품과 접점을 만드는 &lt;strong&gt;콘텐츠 노출&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/six-seo-tips/01.jpg&quot; alt=&quot;Four Ways to Acquire Customers&quot; title=&quot;고객 획득의 4가지 방법&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;모든 방식이 장단점이 있습니다. 영업과 &lt;a title=&quot;매거진 입맛 - 바이럴 없는 제품은 말라죽을 수밖에 없다&quot; href=&quot;/product-led-growth-viral&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;바이럴&lt;/a&gt;은 별도의 매체에 올라타는 비용 없이 제품 자체만 있으면 되지만, 영업은 일반적으로 더 긴 과정과 더 큰 비용을 수반하고 바이럴은 신규 고객을 데려오는 ‘기존’ 고객이 준비되어 있어야 합니다. 애초에 위와 같은 매체, Facebook이나 Google 같은 IT 거인의 어깨 위에 타기 위해 비용을 지불하는 것은 딸랑 제품만 가지고 고객을 유치하는 것보다 더 효율적인 경우가 많습니다. 퍼포먼스 마케팅이야말로 이러한 매체의 영향력과 기술력을 유감없이 활용하는 방식입니다. 하지만 &lt;a title=&quot;매거진 입맛 - 알아서 팔리는 제품을 만드는 제품 주도 성장(Product-led Growth) 방법론&quot; href=&quot;/introduce-product-led-growth&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;이전 글에서도 밝힌바 퍼포먼스 마케팅의 경쟁률과 비용은 늘고 있습니다.&lt;/a&gt; 매체들은 더 많은 콘텐츠를 확보하려고 하기에 오늘날 콘텐츠는 글이든 영상이든 대부분 무료로 게시할 수 있습니다. 하지만 그게 고객이 접할 수 있을 만한 위치에 노출되어 실제적인 영향을 주는 건 또 다른 일이죠. 이 기술이 바로 SEO(Search Engine Optimization), 검색 엔진 최적화입니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;seo란&quot;&gt;SEO란?&lt;/h2&gt;
-
-&lt;p&gt;우선 기초적인 사실 몇 가지만 짚어보겠습니다. 고객 획득의 기본 법칙은 유입되는 입구가 많을수록 유입되는 고객도 많아진다는 것입니다. SEO는 이런 입구를 검색 결과 페이지, SERP(Search Engine Results  마련합니다. SEO는 되도록 많은 고객이 몰리는 키워드의 SERP 다수에서 제품으로 유입되는 입구를 노출하는 전략입니다. 이 입구에는 제품의 랜딩 페이지부터 시작해서 구직 서비스의 회사 정보 페이지, 고객이 쓴 후기, 블로그까지 다양한 콘텐츠가 활용됩니다.&lt;/p&gt;
-
-&lt;p&gt;가장 먼저 봐야 할 것은 구글 검색엔진 최적화 가이드와 같은 검색엔진의 SEO 문서겠지만, SEO에 처음 도전한다거나 지금까지 주먹구구식으로 SEO에 대응해왔다면 난해한 게 사실입니다. 그래서 이 글에서는 다음과 같은 분류를 통해 총 6가지 SEO 전략을 소개하려고 합니다.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;제품 내부 개선&lt;/li&gt;
-  &lt;li&gt;제품 외부에서의 작업&lt;/li&gt;
-  &lt;li&gt;콘텐츠와 관련된 작업&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;제품-내부-개선---내부-링크망-구축&quot;&gt;제품 내부 개선 - 내부 링크망 구축&lt;/h2&gt;
-
-&lt;p&gt;대부분의 SEO의 목표가 될 구글을 예로 한 웹페이지가 SERP에 게시되는 과정을  따라가 보겠습니다. Googlebot이라는 스파이더가 웹페이지를 &lt;strong&gt;크롤링&lt;/strong&gt;하고, 그 결과를 &lt;strong&gt;색인 생성&lt;/strong&gt;하여 저장하고, 검색어와의 연관성과 웹페이지의 품질 등을 검토해서 일정 순위를 매긴 채 SERP에 &lt;strong&gt;게재&lt;/strong&gt;하는 것이 큰 틀입니다. 이 중 크롤링 단계를 좀 더 들여다보면 웹페이지에 내부 링크망을 구축해야 하는 이유를 알 수 있습니다.&lt;/p&gt;
-
-&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/six-seo-tips/02.jpg&quot; alt=&quot;Search Exposure Process of Google&quot; title=&quot;구글 검색 노출 과정&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;크롤링이 시작되면 Googlebot은 웹페이지에 있는 텍스트, 이미지, 비디오 등 갖가지 콘텐츠를 읽어 들이고 목록화합니다. 이때 웹페이지에 포함된 링크도 함께 읽습니다. Googlebot은 이렇게 읽어 들인 링크를 통해 다음 웹페이지에 접속합니다. 이전 웹페이지에서 했던 것처럼 크롤링을 진행합니다. 결국 한 웹페이지에 내 사이트의 다른 웹페이지로 이동하는 내부 링크망을 구축하는 일은 크롤링하는 스파이더의 접근성을 높여주는 일입니다. 더 많은 웹페이지가 더 빨리 크롤링 되도록 환경을 만드는 것입니다.&lt;/p&gt;
-
-&lt;p&gt;가장 기본적인 내부 링크는 &lt;strong&gt;헤더&lt;/strong&gt;와 &lt;strong&gt;푸터&lt;/strong&gt;와 같은 고정 내비게이션입니다. 홈페이지나 카테고리 페이지 등 여러 웹페이지와 연결된 페이지를 사이트 내 웹페이지에 공통으로 구성된 내비게이션에 편성하여, 스파이더가 어느 웹페이지를 방문하더라도 홈페이지나 카테고리 페이지로 유입될 수 있도록 유도합니다.&lt;/p&gt;
-
-&lt;p&gt;온라인 설문조사 플랫폼 Typeform은 내부 링크망 구축 후 목표로 한 웹페이지의 트래픽 증가를 확인한 후 &lt;a title=&quot;Jake Stainer(ProductLed.), 2021 - 6 SEO Secrets from My Time at Typeform&quot; href=&quot;https://productled.com/blog/6-seo-secrets-typeform/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;내부 링크 구축 프로세스&lt;/a&gt;를 만들었습니다. 처음에 Typeform은 일주일에 한 번 ‘Internal Linking Party’를 열고 목표 웹페이지의 링크망을 구축하는 시간을 보냈습니다. 이것은 이후 콘텐츠 게시 프로세스로 대체되었습니다. Typeform은 콘텐츠를 게시할 때 일단 5개가량 내부 링크를 추가하는 것으로 프로세스를 시작해보라고 제안합니다. 초반에는 별 영향력이 없을 수 있지만, 시간이 지나고 콘텐츠가 늘면 끈끈하게 연결된 내부 링크망은 굴러가는 스노우볼이 될 것입니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;제품-내부-개선---사용자-생성-콘텐츠와-콘텐츠-루프&quot;&gt;제품 내부 개선 - 사용자 생성 콘텐츠와 콘텐츠 루프&lt;/h2&gt;
-
-&lt;p&gt;유입되는 입구가 많을수록 유입되는 고객도 많다. 앞에서 이야기했듯 SEO의 기본적인 법칙입니다. 그렇지만 괜찮은 인사이트와 적절한 편집으로 구성된 콘텐츠를 대량으로 내놓는 일은 만만치 않은 시간과 비용이 들어갑니다.&lt;/p&gt;
-
-&lt;p&gt;사용자 생성 콘텐츠는 위의 문제를 해결하는 대표적인 방법입니다. 구직 서비스의 회사 정보 페이지, 온라인 강좌 서비스의 강좌 페이지, 숙소 예약 서비스의 숙소 페이지와 고객 후기까지, 사용자 생성 콘텐츠의 폭은 넓습니다. 사용자 생성 콘텐츠는 필요한 정보를 제품을 사용하는 고객에게서 가져오는 구조에서 만들어집니다. 이렇게 만들어진 사용자 생성 콘텐츠는 대량으로 배포하는데 비용이 저렴할 뿐만 아니라 실제로 고객이 찾는 정보를 포함하고 있습니다.&lt;/p&gt;
-
-&lt;p&gt;이미지 스크랩 중심 SNS 핀터레스트(Pinterest)의 콘텐츠 루프는 사용자 생성 콘텐츠가 보여줄 수 있는 가장 극적인 예시입니다. 핀터레스트 콘텐츠 루프는 4천만 활성 사용자를 가지고 있던 핀터레스트의 규모를 &lt;a title=&quot;First Round Review - Pinterest and Grubhub’s Former Growth Lead on Building Content Loops&quot; href=&quot;https://review.firstround.com/pinterest-and-grubhubs-former-growth-lead-on-building-content-loops&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;2억 명이 넘는 사용자와 120억 달러 벨류에이션으로 성장시키는데 주요한 역할&lt;/a&gt;을 했습니다. 핀터레스트는 핀 기능(상대방이 게시한 이미지 등을 자신의 저장소에 보관하는 기능)이 중심인 서비스인데, 과거에는 핀 할 때마다 연동된 페이스북 계정의 피드에 핀한 콘텐츠가 공유되면서 핀터레스트로의 유입을 유도하고 있었습니다. 이 구조는 핀터레스트가 크게 성장할 수 있도록 도와주고 있었지만 2013년 말부터 페이스북이 권한 요청 없이 자동 공유 기능을 사용할 수 없도록 정책을 바꾸면서 효과가 떨어졌습니다. 핀터레스트는 이 상황을 SEO로 돌파했습니다.&lt;/p&gt;
-
-&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/six-seo-tips/03.jpg&quot; alt=&quot;Pinterest Content Loop&quot; title=&quot;핀터레스트 콘텐츠 루프&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;핀터레스트는 몇몇 고객이 자신의 저장소를 최고 품질의 콘텐츠로 채워 넣으려고 애쓰는 모습을 발견하게 됩니다. 핀터레스트는 이러한 사용자 생성 저장소를 구글 SERP에 노출되도록 개발하고 검색 노출 순위를 측정합니다. 이런 과정을 통해 검색 노출 순위가 높은 콘텐츠를 특정하고 이런 콘텐츠로만 구성된 저장소를 만들어 다시 검색 노출합니다. 이와 같은 콘텐츠로 유입된 고객은 자신의 저장소를 만들고 이는 높은 검색 노출 순위의 콘텐츠를 만드는 데 활용됩니다. 콘텐츠 루프가 돌수록 검색 노출 순위를 분석할 콘텐츠는 많아지고, 콘텐츠의 품질은 높아지며, 유입되는 고객은 늘어납니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;제품-외부-작업---사이트-외부에-링크-유치&quot;&gt;제품 외부 작업 - 사이트 외부에 링크 유치&lt;/h2&gt;
-&lt;p&gt;다른 사이트에서 자신의 웹페이지로 연결되는 링크인 외부 링크 혹은 백링크는 내부 링크만큼이나 중요합니다. 내부 링크가 빠르고 효과적인 크롤링을 위해 필요하다면 외부 링크는 크롤링 자체를 시작하는데 트리거가 됩니다. 영향력을 가진 사이트에 연결된다면 검색 노출 순위를 높이는 데 도움이 되기도 합니다.&lt;/p&gt;
-
-&lt;p&gt;단순하게는 제품이나 브랜드를 언급하거나, 자사 콘텐츠의 내용이나 이미지 등 자료를 인용한 타 사이트 콘텐츠에 링크 설정을 부탁하는 방법이 있습니다.&lt;/p&gt;
-
-&lt;p&gt;제품의 고객이 적극적으로 외부 링크를 생성하도록 만들 수도 있습니다. 프로토타이핑 및 디자인 협업 툴 &lt;a title=&quot;Jake Stainer(skale), 2021 - The complete SaaS link building guide : 21 strategies for 2021&quot; href=&quot;https://skale.so/saas-seo/link-building/#section-7&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;InVision은 고객이 만든 프로토타입을 공유하도록 링크를 제공&lt;/a&gt;합니다. 이렇게 제공된 공유 링크 30%는 어도비(Adobe), 드리블(Dribble), 서베이몽키(Survey Monkey)와 같은 유명 제품의 고객이 해당 제품 안에서 콘텐츠를 생성할 때 활용되며, 결과적으로 외부 링크를 이름 있는 도메인의 웹페이지에 남기게 되는 역할을 합니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;제품-외부-작업---배지와-워터마크&quot;&gt;제품 외부 작업 - 배지와 워터마크&lt;/h2&gt;
-
-&lt;p&gt;위의 외부 링크 구축 작업을 보다 자동화된 형태로 만들 수도 있습니다. 특히 웹 기술을 이용한 SaaS가 이 방법을 적용하기에 유리합니다.&lt;/p&gt;
-
-&lt;p&gt;애널리틱스 서비스 믹스패널(Mixpanel)은 부분 유료화와 종량제 과금 정책을 활용하고 있습니다. 매달 지급되는 데이터 포인트만큼 사용자 행동 분석에 필요한 데이터를 얻을 수 있습니다. 믹스패널은 무료 플랜을 사용하는 고객을 대상으로 믹스패널 파트너 프로그램을 제안합니다. 파트너가 되면 무료 플랜에서 얻었던 데이터 포인트의 7배에 달하는 포인트를 매달 추가로 받을 수 있습니다. 파트너가 되는 법도 어렵지 않습니다. 랜딩 페이지에 믹스패널 로고와 링크로 구성된 배지를 추가하기만 하면 됩니다. 믹스패널은 이 방법으로 많은 외부 링크를 확보했고 &lt;a title=&quot;Stéphane Moracchini, 2013 - Badges for SEO, A Smart Growth Hack By Mixpanel&quot; href=&quot;https://medium.com/@smorac/badges-for-seo-a-smart-growth-hack-by-mixpanel-7b480b73dfe2&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;검색 노출 순위에서 상당한 우위를 지킬 수 있었습니다.&lt;/a&gt;&lt;/p&gt;
-
-&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/six-seo-tips/04.jpg&quot; alt=&quot;Wix Watermark Banner&quot; title=&quot;Wix 워터마크 배너&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;제품의 기능 자체가 웹페이지 제작이라면 일은 더 쉬워집니다. 웹페이지 제작 서비스 Wix는 역시 부분 유료화 정책을 활용합니다. 무료 플랜을 사용하는 고객이 웹페이지를 만들어 배포하면 상단에 해당 웹페이지가 Wix로 만들어졌다는 내용의 배너가 링크와 함께 나타납니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;콘텐츠-작업---키워드-분석&quot;&gt;콘텐츠 작업 - 키워드 분석&lt;/h2&gt;
-
-&lt;p&gt;SEO를 위한 콘텐츠는 철저한 키워드 분석 이후에 제작되고 발행되어야 합니다. 제품에 따라 다르지만 발행한 콘텐츠가 검색 노출 순위에서 최상단에 있더라도 해당 검색어의 검색량이 적다면 효과가 작을 수 밖에 없습니다. 무턱대고 검색량이 많은 검색어를 목표로 잡았다가 같은 목적으로 콘텐츠를 발행한 다른 제품에 밀려 몇 페이지 뒤에나 노출될 수도 있습니다.&lt;/p&gt;
-
-&lt;p&gt;시장에는 Googls Ads의 키워드 플래너를 비롯한 여러 검색어 분석 서비스가 나와 있습니다. 검색어 분석 서비스를 사용하면 제품과 관련된 검색어를 찾고 검색량과 경쟁률은 얼마나 되는지 알 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;고객과 지역 전문가를 연결하는 마켓 플레이스 Thumbtack은 초기 성장에 SEO를 활용했습니다. &lt;a title=&quot;Dan Hockenmaier(First Round Review) - Drive Growth by Picking the Right Lane — A Customer Acquisition Playbook for Consumer Startups&quot; href=&quot;https://review.firstround.com/drive-growth-by-picking-the-right-lane-a-customer-acquisition-playbook-for-consumer-startups&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Thumbtack은 키워드 분석을 통해 지역 전문가를 찾는 검색어가 충분하고 해당 검색어를 이용하는 경쟁자도 지역별로 분산되어 괜찮다는 사실을 확인한 후 초기 성장 전략으로 SEO를 채택&lt;/a&gt;했습니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;콘텐츠-작업---벤치마킹&quot;&gt;콘텐츠 작업 - 벤치마킹&lt;/h2&gt;
-
-&lt;p&gt;개성 있는 콘텐츠에 대한 관심은 어떤 콘텐츠 제작자든 가진 열의입니다. 하지만 SEO 콘텐츠를 만들 때만큼은 독자성보다는 발빠른 벤치마킹이 더 중요합니다.&lt;/p&gt;
-
-&lt;p&gt;앞서 소개한 Typeform 사례에서 이어지는 이야기입니다. Typeform은 결과를 얻는 질문에 대한 주제로 SEO 콘텐츠를 발행했습니다. 키워드 분석과 SEO에 적합한 사이트 개선이 선행된 후였습니다. 그러나 콘텐츠는 효과를 내지 못했습니다. Typeform은 해당 주제에 대해 구글 SERP 상위에 노출된 10개의 콘텐츠를 분석했습니다. Typeform은 거기서 질문의 유형별 정의 - 설명 - 예시로 이어지는 일관된 패턴을 콘텐츠에서 발견했습니다. Typeform은 발견한 패턴대로 콘텐츠를 재구성했습니다. 수정된 콘텐츠는 구글에 재평가를 요구하고 나서 30분 만에 SERP 첫 페이지에 노출되었습니다. Typeform은 몇몇 다른 주제에 대해서도 같은 수정 작업을 진행했고 증가한 트래픽을 얻었습니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;사막에서-우물을-파는-과정-seo&quot;&gt;사막에서 우물을 파는 과정, SEO&lt;/h2&gt;
-
-&lt;p&gt;이제 정리해봅시다. 첫 부분에서 고객 획득의 4가지 방법인 영업, 바이럴, 퍼포먼스 마케팅, SEO에 대해 알아보았고 SEO가 다른 방식과 비교해 가지는 장점에 대해 살펴보았습니다.&lt;/p&gt;
-
-&lt;p&gt;다음으로는  제품 내부 개선, 제품 외부에서의 작업, 콘텐츠와 관련된 작업으로 분류된 6가지 SEO 전략을 설명했습니다. 각각 다음과 같습니다.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;내부 링크망 구축&lt;/li&gt;
-  &lt;li&gt;사용자 생성 콘텐츠와 콘텐츠 루프&lt;/li&gt;
-  &lt;li&gt;사이트 외부에 링크 유치&lt;/li&gt;
-  &lt;li&gt;배지와 워터마크&lt;/li&gt;
-  &lt;li&gt;키워드 분석&lt;/li&gt;
-  &lt;li&gt;벤치마킹&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;SEO는 작업 결과가 즉각적으로 나타나는 종류의 기술이 아닙니다. 눈에 보이는 결과가 나오기까지는 보통 3개월, 그 이상도 걸릴 수 있습니다. 그럼에도 검색 경험이 디지털 프로덕트 시장에서 얼마나 큰 비중을 차지하고 있는지 잘 알고 있기 때문에 SEO를 포기하지 않는 것입니다. 전략을 이해하고, 연구하고, 실험하고, 도전하는 것도 물론 중요하겠지만, 그보다는 참고 충분히 관찰한 끝에 결정을 내리는 것이 SEO에서만큼은 가장 중요해 보입니다.&lt;/p&gt;
-
-&lt;p class=&quot;right-infor&quot;&gt;위시켓의 지원과 함께 제작된 콘텐츠입니다.&lt;/p&gt;</content><author><name>이준환</name></author><category term="design-teatime" /><summary type="html">SEO는 고객 획득 전략 중에서도 유독 성과가 갈립니다. 어떻게 성공시킬까요? 핀터레스트, Typeform 등 사례와 핵심 전략을 살펴봅니다.</summary></entry></feed>
+&lt;p class=&quot;right-infor&quot;&gt;위시켓의 지원과 함께 제작된 콘텐츠입니다.&lt;/p&gt;</content><author><name>이준환</name></author><category term="design-teatime" /><summary type="html">라이브 채팅은 만족도가 가장 높은 CS 도구로, 전환율 20%, 리텐션은 48%나 개선합니다. 그러나 악영향을 주는 경우도 있습니다. 어떻게 된 거죠?</summary></entry></feed>

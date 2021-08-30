@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="ko"><head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134698276-1"></script>
+    <script async>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-134698276-1');
+    </script>
+    <!-- Meta Tag for Basic Setting -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="locale" content="ko_KR">
+    <meta name="google-site-verification" content="Q1Gkv54gFGh2MxaT7ehKmua6BROtBIJR_ki_z_1_EwE" />
+    <meta name="naver-site-verification" content="d9a8213816d39cd0b58123c579fb50704ab632a8"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="referrer" content="always">
+    <!-- Open Graph -->
+    <meta property="og:title" content="따라쓰기만 하면 테스트 문화가 만들어진다 - Growth Book | 매거진 입맛">
+    <meta property="og:url" content="https://dewberry9.github.io/growth-book-and-experiment-culture">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="매거진 입맛">
+    <meta property="og:description" content="AB 테스트는 조직에 함께하는 문화가 자리잡을 때 곱절의 성능을 발휘합니다. 테스트 문화 구현에 적합한 오픈소스 AB 테스트 플랫폼을 소개합니다.">
+    <meta property="og:image" content='https://dewberry9.github.io/assets/images/design/growth-book-and-experiment-culture/00.jpg'>
+    <meta name="by" content="이준환">
+    <!-- Twitter -->
+    <meta name="twitter:title" content="따라쓰기만 하면 테스트 문화가 만들어진다 - Growth Book | 매거진 입맛">
+    <meta name="twitter:description" content="AB 테스트는 조직에 함께하는 문화가 자리잡을 때 곱절의 성능을 발휘합니다. 테스트 문화 구현에 적합한 오픈소스 AB 테스트 플랫폼을 소개합니다.">
+    <meta name="twitter:image" content='https://dewberry9.github.io/assets/images/design/growth-book-and-experiment-culture/00.jpg'>
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="https://dewberry9.github.io/growth-book-and-experiment-culture">
+    <meta name="twitter:site" content="매거진 입맛">
+    <!-- Other Basic Meta Tag -->
+    <meta name="title" content="따라쓰기만 하면 테스트 문화가 만들어진다 - Growth Book | 매거진 입맛">
+    <meta name="description" content="AB 테스트는 조직에 함께하는 문화가 자리잡을 때 곱절의 성능을 발휘합니다. 테스트 문화 구현에 적합한 오픈소스 AB 테스트 플랫폼을 소개합니다.">
+    <meta name="author" content="이준환">
+    <meta name="article:media_name" content="매거진 입맛">
+    <meta property="article:mobile_url" content="https://dewberry9.github.io/growth-book-and-experiment-culture">
+    <meta property="article:pc_url" content="https://dewberry9.github.io/growth-book-and-experiment-culture">
+    <meta property="article:mobile_view_url" content="https://dewberry9.github.io/growth-book-and-experiment-culture">
+    <meta property="article:pc_view_url" content="https://dewberry9.github.io/growth-book-and-experiment-culture">
+    <meta property="article:talk_channel_view_url" content="https://dewberry9.github.io/growth-book-and-experiment-culture">
+    <meta property="article:pc_service_home" content="https://dewberry9.github.io">
+    <meta property="article:mobile_service_home" content="https://dewberry9.github.io">
+    <!-- Post Date Tag -->
+    
+    <meta property="article:published_time" content="2021-08-30T00:00:00+00:00">
+    <meta property="article:modified_time" content="2021-08-30T00:00:00+00:00">
+    <meta property="og:regDate" content="20210830000000">
+    
+    <!-- JSON-LD -->
+    <script type="application/ld+json">
+      
+        {
+          "@context":"https://schema.org/",
+          "@type":"BlogPosting",
+          "mainEntityOfPage":{
+            "@id":"https://dewberry9.github.io/growth-book-and-experiment-culture"
+          },
+          "url":"https://dewberry9.github.io/growth-book-and-experiment-culture",
+          "headline":"따라쓰기만 하면 테스트 문화가 만들어진다 - Growth Book | 매거진 입맛",
+          "description":"AB 테스트는 조직에 함께하는 문화가 자리잡을 때 곱절의 성능을 발휘합니다. 테스트 문화 구현에 적합한 오픈소스 AB 테스트 플랫폼을 소개합니다.",
+          "author":{
+            "@type":"Person",
+            "name":"이준환"
+          },
+          "publisher":{
+            "@type":"Organization",
+            "name":"매거진 입맛",
+            "logo":{
+              "@type":"ImageObject",
+              "url":"https://dewberry9.github.io/assets/images/logo.png"
+            }
+          },
+          "image":{
+            "@type":"ImageObject",
+            "url":"https://dewberry9.github.io/assets/images/design/growth-book-and-experiment-culture/00.jpg"
+          },
+          "datePublished":"2021-08-30T00:00:00+00:00",
+          "dateModified":"2021-08-30T00:00:00+00:00"
+        }
+      
+    </script>
+    <!-- Links -->
+    <link rel="canonical" href="https://dewberry9.github.io/growth-book-and-experiment-culture">
+    <link rel="alternate" href="https://dewberry9.github.io/feed.xml" type="application/atom+xml" title="Atom 0.3">
+    <link rel="preload" as="style" href='/assets/style.css'>
+    <link rel="stylesheet" href='/assets/style.css'>
+    <link rel="preload" as="style" href='/assets/fonts/naaummyeongjo.css'>
+    <link href='/assets/fonts/naaummyeongjo.css' rel='stylesheet' type='text/css'>
+    <link rel="preload" as="style" href='https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css'>
+    <link href='https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
+    <link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#363059">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <title>따라쓰기만 하면 테스트 문화가 만들어진다 - Growth Book | 매거진 입맛</title>
+
+    <script data-ad-client="ca-pub-7525347021497850" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    
+</head><body>
+    <header class="top-nav" id="nav">
+    <nav>
+        <a href="/" title="Magazine Epmat" class="logo">
+            <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M5.538 2.77H4.154v.84l1.384.123v-.964zm0 17.482l-1.384.139v.84h1.384v-.979zm.924.979h12.347l-.049-5.116h-1.384l-1.137 4.152h-5.56c-.05-2.57-.05-5.19-.05-7.933v-.075h3.386l.346 2.62h1.236V8.627H14.36l-.37 2.743h-3.362c0-2.62 0-5.165.05-7.637h5.016l1.137 3.954h1.434l.024-4.918H6.462v18.462z"/></svg>
+            <span class="nosvg">매거진 입맛</span>
+        </a>
+        <div class="dynamic-nav">
+            <ul>
+                <li>
+                    <a id="btn-starting" href="/" title="Starting Point" class="op75">처음</a>
+                </li>
+                <li>
+                    <a id="btn-article" href="/article" title="Design Teatime" class="op75">디자인</a>
+                </li>
+                <li>
+                    <a id="btn-daily" href="/review" title="Daily" class="op75">입맛리뷰</a>
+                </li>
+                <li>
+                    <a id="btn-story" href="/story" title="Story" class="op75">소설</a>
+                </li>
+                <!--
+                <li>
+                    <a id="btn-about" href="/about" title="Starting Point" class="op75">쓰는 사람<span class="num-square">4</span></a>
+                </li>
+                -->
+            </ul>
+        </div>
+    </nav>
+</header>
+    <div id="content">
+        <script>
+    document.getElementById('nav').classList.add('show')
+</script>
+<section class="post-content">
+    <h1 class="post-title">따라쓰기만 하면 테스트 문화가 만들어진다 - Growth Book</h1>
+    <span class="post-category">
+        
+        <svg class="script-font" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50"><path d="M58.44 32.05v.07l.06-.12a.24.24 0 00-.06.05zM81.93 32.8h-.01v.03l.01-.03zM93.33 17.27a1.09 1.09 0 00.7 0c.17 0 .39-.08.64-.15l.94-.28H95.84l.17-.05.17-.05c.52-.16 1-.29 1.43-.4l1.16-.3h.27l.94-.25a3.86 3.86 0 00.65-.25.91.91 0 00.35-.31.54.54 0 000-.42.63.63 0 00-.16-.33.3.3 0 00-.2-.1.45.45 0 00-.23 0 1.51 1.51 0 00-.22.11h-.16l-.2.1a3.77 3.77 0 01-.44.16c-.19.07-.46.15-.79.24l-1.27.32-1.67.38-1.1.21a6.05 6.05 0 01-.75.11 1.57 1.57 0 01-.29 0 .33.33 0 00-.1 0 .42.42 0 00-.32.26.73.73 0 000 .53.63.63 0 00.25.47z"/><path d="M153.67 11.93a.41.41 0 00-.13-.23.55.55 0 00-.52-.15 1.15 1.15 0 00-.32.12 1.09 1.09 0 00-.29.24l-.18.18-.16.18c-.07.09-.16.2-.28.33l-.41.44-.57.6c-.23.23-.52.5-.86.82-.33.28-.74.62-1.23 1a16.23 16.23 0 01-1.79 1.22c-.39.21-.8.41-1.21.6a12.3 12.3 0 01-1.21.46l-.36.1-.34.07a7.5 7.5 0 01-1.77.06 5.06 5.06 0 01-1.11-.24 5.7 5.7 0 01-.81-.32c-.23-.12-.45-.25-.65-.37l-.54-.39-.43-.34c-.3-.27-.55-.51-.77-.73s-.42-.45-.63-.7a.25.25 0 01-.05-.07.25.25 0 01-.05-.07s-.05-.06-.05-.08l-.73-.23-.09.11-.06.05h.09l-.27.16-.27.2a6.11 6.11 0 00-.55.45l-.61.52-.71.61c-.26.22-.53.46-.82.73l-.15.13-.15.14-.08.07-.09.07-.19.18-.2.18-.56.51-.61.55-.58.48q-.31.26-.63.48l-.6.43a5.78 5.78 0 01-.54.32 4 4 0 01-1 .33h-.08l.09-.38.12-.39c.08-.25.16-.48.24-.71a3.89 3.89 0 01.16-.41l.16-.36a.2.2 0 010-.08.14.14 0 000-.07.14.14 0 000-.06.16.16 0 010-.06c.15-.38.28-.67.37-.87l.21-.44a.53.53 0 00.08-.15.77.77 0 00.06-.15.7.7 0 00.08-.27.64.64 0 00.08-.14.66.66 0 00.07-.33.39.39 0 00-.09-.26.53.53 0 00-.55-.16h-.09a.67.67 0 00-.29.1.87.87 0 00-.15.13 2.49 2.49 0 00-.3.19l-.15.13-.15.13a4.32 4.32 0 01-.39.34l-.46.41-.38.35-.18.17-.19.18-1 .89-1.39 1.29c-.54.5-1.16 1.1-1.87 1.78s-1.53 1.49-2.45 2.42c-.54.57-1 1.1-1.52 1.61s-1 1-1.42 1.58c-.25.27-.51.57-.8.91s-.59.7-.89 1.08v.05l-.33.41-.36.44v-.12V30.1v-.17-.21c.06-.36.11-.74.17-1.16s.11-.83.15-1.25.1-.82.14-1.22.07-.76.09-1.1 0-.65.06-1 0-.68 0-1a1.69 1.69 0 010-.23v-.56a1.69 1.69 0 000-.23 1.48 1.48 0 010-.21v-.5l-.34-.1H113.69l-.14.12V21.45l-.49.48a5.94 5.94 0 01-.48.39 2.6 2.6 0 01-.43.23 1 1 0 01-.41.07.36.36 0 01-.22-.07.75.75 0 01-.19-.17.63.63 0 01-.19-.39 1.13 1.13 0 01.09-.45 2.28 2.28 0 01.17-.35l.2-.27.21-.23.21-.2.15-.14.07-.07a2.79 2.79 0 00.28-.32.91.91 0 00.31-.44.57.57 0 00-.08-.54.6.6 0 00-.44-.25.81.81 0 00-.56.12l-.21.13-.21.15-.38.29c-.16.13-.4.29-.71.51l-1 .68-1.48.93-1 .6-1.23.71c-.44.26-.9.52-1.39.78s-1 .54-1.49.79l-1 .49-1 .47-1 .42c-.32.13-.63.24-.91.34s-.78.26-1.16.36a8.72 8.72 0 01-1 .25 5.89 5.89 0 01-.91.1 2.91 2.91 0 01-1.12-.11 2.1 2.1 0 01-.4-.18 1.43 1.43 0 01-.29-.24 1.2 1.2 0 01-.16-.27 1.81 1.81 0 01-.09-.31 1.87 1.87 0 010-.32V25a4.08 4.08 0 01.06-.53c0-.16.06-.3.09-.43a2.69 2.69 0 01.09-.32 1.94 1.94 0 01.07-.22l.09-.2a.53.53 0 00.06-.14v-.14a.49.49 0 000-.12.59.59 0 00.06-.14.74.74 0 000-.29.54.54 0 00-.09-.25.65.65 0 00-.61-.21 1.25 1.25 0 00-.61.32l-.31.28-.32.34-.28.27-.35.36c-.17.18-.39.42-.67.7s-.6.61-1 1l-1.27 1.22L87 28.1a3 3 0 01-.25.25l-.24.24-.34.34a2.57 2.57 0 00-.33.33l-.23.23-.22.23-.53.53-.19.2-.2.19-.25.26a3.44 3.44 0 00-.27.27l-.85.83-1 1.09-.12.13a1 1 0 010-.24.25.25 0 010-.18.17.17 0 010-.07v-.08-.58-.56-.37-.36-.68-1.89-1.22a5.86 5.86 0 01.09-.77 3.91 3.91 0 01.12-.47l.13-.12.13-.13a.9.9 0 00.17-.3.79.79 0 000-.34.71.71 0 00-.22-.38.58.58 0 00-.26-.13H82a.69.69 0 00-.46.05 1.05 1.05 0 00-.3.22 1.34 1.34 0 00-.22.31 2.23 2.23 0 00-.09.23l-.51.57c-.15.16-.33.36-.55.57s-.47.48-.78.76-.62.57-1 .87-.79.63-1.25 1c-.47.33-.88.59-1.24.8s-.69.38-1 .52c-.25.12-.47.22-.69.3s-.42.16-.62.23l-.52.18-.54.14h-.11l-.62-.1c-.23.06-.49.11-.79.16a9.57 9.57 0 01-2.75.07 3 3 0 01-.54-.11 2.78 2.78 0 01-.51-.17 1.34 1.34 0 01-.63-.47 2.13 2.13 0 01-.26-.41 1.69 1.69 0 01-.13-.4.86.86 0 010-.16.81.81 0 010-.15 1.07 1.07 0 01.16-.41 1.13 1.13 0 00.1-.13l.13-.06.58-.3h.07l.09-.05h.07l.14-.07h.08a2.63 2.63 0 00.51-.39.81.81 0 00.44-.62.94.94 0 00.06-.15.4.4 0 000-.29.48.48 0 00-.36-.14h-.06a.78.78 0 00-.58 0l-.21.1-.21.11-.25.15-.36.23-.39.32-.52.29c-.23.14-.51.29-.84.47s-.71.36-1.13.55l-1.08.47c-.43.18-.93.37-1.5.58.15-.37.29-.74.42-1.12s.25-.72.35-1c.16-.55.3-1.08.41-1.58a13.43 13.43 0 00.24-1.46 12.45 12.45 0 00.1-1.34 8.47 8.47 0 000-1.25v-.23-.23a6 6 0 00-.27-1 3.66 3.66 0 00-.54-.95 3.1 3.1 0 00-.55-.53 2.82 2.82 0 00-.68-.37 2.64 2.64 0 00-.77-.19 4.39 4.39 0 00-.81 0h-.43a5.66 5.66 0 00-1.46.48 8.85 8.85 0 00-1.46.88 14 14 0 00-1.64 1.5 20.77 20.77 0 00-1.64 1.95c-.29.39-.57.79-.85 1.2s-.56.85-.84 1.32a.5.5 0 000-.12v-.1a.5.5 0 010 .12v-.08-.21c0-.08 0-.18.05-.29a2.56 2.56 0 010-.27l.06-.27.06-.24a1.24 1.24 0 010-.22l.36-1.81c.09-.47.17-.84.22-1.12s.1-.49.13-.63.05-.27.07-.38a3.21 3.21 0 00.06-.6 2.53 2.53 0 000-.5 1 1 0 00-.16-.42.39.39 0 00-.29-.2.36.36 0 00-.29.08 1 1 0 00-.27.31 2.82 2.82 0 00-.23.49 3.62 3.62 0 00-.16.61v.09a.3.3 0 000 .1v.12c0 .04-.07.37-.12.69s-.12.68-.19 1.12-.16.92-.26 1.46-.21 1.12-.32 1.73l-.27 1.39c-.1.51-.2 1-.32 1.58V29a.31.31 0 010 .08c0 .15-.06.3-.09.47s-.06.32-.1.48c-.18.38-.36.78-.54 1.21s-.36.82-.5 1.18-.22.55-.32.83-.19.56-.27.82a3 3 0 00-.1.32l-.09.34a.2.2 0 000 .07.25.25 0 010 .07c0 .1 0 .17-.06.22s0 .1 0 .14v.32a.76.76 0 000 .15 1.58 1.58 0 00.06.23 1.3 1.3 0 00.1.15.7.7 0 00.18.12.43.43 0 00.18.06h.19l.11-.05.1-.11a.68.68 0 00.12-.12l.14-.2a1.61 1.61 0 00.12-.23 2.69 2.69 0 00.17-.34l.16-.37c.1-.24.19-.48.26-.71a.63.63 0 00.12.1 4.9 4.9 0 00.76.5 13.36 13.36 0 001.49.64 12.18 12.18 0 001.6.44c.29.06.59.1.89.14a6 6 0 001 .06h.66a5.13 5.13 0 00.74-.09l.39-.08a3.29 3.29 0 00.37-.1h.06l.25-.08a1.82 1.82 0 00.3-.13 1.91 1.91 0 00.32-.17l.26-.18a4.08 4.08 0 00.49-.45l.47-.53a14.65 14.65 0 001.6-2.49.25.25 0 010-.07.41.41 0 01.05-.09h.1a.13.13 0 00.08 0c1.1-.36 2-.7 2.83-1 .6-.24 1.11-.46 1.55-.65a2.23 2.23 0 000 .33 3.06 3.06 0 00.2.63 3.47 3.47 0 00.37.6 2.47 2.47 0 00.4.44 3.41 3.41 0 00.44.3 3.67 3.67 0 00.44.21l.45.17a8.56 8.56 0 001.14.26 7.76 7.76 0 001.49.1h.74l.65-.08.35-.07.32-.08c.25-.07.49-.14.7-.22s.42-.14.61-.21l.69-.31.88-.42 1.14-.61c.43-.24.94-.55 1.53-.94s1.14-.8 1.58-1.16.83-.68 1.15-1l.47-.41v1.52c0 .39 0 .71.07 1.13v.6a.57.57 0 000 .13v.14a.92.92 0 000 .16v.16c0 .33 0 .69.07 1.08s0 .79 0 1.18V34.87a9.33 9.33 0 00-.65.73c-.18.21-.35.43-.52.64s-.52.64-.75 1-.43.61-.62.9v.07a.33.33 0 010 .06l-.28.51c-.1.19-.19.38-.28.57s0 .13-.07.2l-.06.25a1.2 1.2 0 000 .33.79.79 0 00.13.37.68.68 0 00.32.31 1.15 1.15 0 00.41.08h.54a4.25 4.25 0 00.54-.18 5.68 5.68 0 00.55-.28 2.53 2.53 0 00.5-.43 4.69 4.69 0 00.42-.55 5.61 5.61 0 00.56-1.36 12.91 12.91 0 00.31-1.64v-.36-.35c.54-.6 1.08-1.19 1.61-1.79l1.46-1.61c.51-.55 1-1.06 1.42-1.52s.86-.89 1.27-1.28c.75-.73 1.41-1.36 2-1.9l1.48-1.39 1.05-.95.18-.17v.59a3.23 3.23 0 00.11.84 2.72 2.72 0 00.19.47 3.74 3.74 0 00.32.49 2.54 2.54 0 001 .69 3.56 3.56 0 001.27.2 7.43 7.43 0 001.38-.14 18.06 18.06 0 003-.91c1.07-.42 2.23-.95 3.48-1.58s2.31-1.2 3.2-1.72l2.32-1.33 1.24-.73a1.84 1.84 0 000 .25 1.65 1.65 0 000 .54 1.75 1.75 0 00.19.54 2.34 2.34 0 00.36.51l.25.23.31.19a1.52 1.52 0 00.78.15 1.86 1.86 0 00.7-.14 3.13 3.13 0 00.65-.35l.19-.13.2-.14c0 .89 0 1.89-.13 3s-.22 2.29-.4 3.53c-.09.55-.17 1.06-.26 1.53s-.18.92-.27 1.36a20.36 20.36 0 00-1.4 2.38 14 14 0 00-.77 1.92 8.06 8.06 0 00-.31 1.76 5 5 0 00.06 1.1 4 4 0 00.29 1c.1.21.22.33.34.35a.36.36 0 00.35-.14 2.13 2.13 0 00.31-.47 4 4 0 00.26-.6 3 3 0 00.15-.57 6.37 6.37 0 01.28-1c.12-.36.25-.76.37-1.2a.3.3 0 010-.1.13.13 0 000-.06.14.14 0 010-.06V37.17c.12-.45.25-.92.38-1.43s.26-1.06.4-1.67l.44-.69c.14-.22.29-.44.45-.67.33-.49.67-1 1-1.41s.67-.88 1-1.29c.64-.79 1.28-1.55 1.92-2.26s1.23-1.35 1.8-1.93c1.06-1.06 2-2 2.83-2.72l2.15-2c.63-.54 1.14-1 1.56-1.34l.61-.51-.21.6-.22.7a5.91 5.91 0 00-.2.85 1.93 1.93 0 000 .27 1 1 0 000 .31v.13a.75.75 0 000 .16.58.58 0 00.1.22v.06a1.05 1.05 0 00.27.21l.19.06h.17a1.4 1.4 0 00.35 0 2.46 2.46 0 00.37 0 3 3 0 00.54-.15 3.29 3.29 0 00.54-.26 6.16 6.16 0 00.55-.33 12.5 12.5 0 001-.75l1-.88c.13-.12.25-.23.39-.34s.25-.23.36-.34l.11-.1.12-.1c.4-.37.78-.73 1.15-1.06l1-.86q.49-.44.93-.75l.77-.55.22.3.25.3c.23.26.51.56.83.87a7.5 7.5 0 001.21.95 6.38 6.38 0 001.27.59 6.71 6.71 0 001.3.33 5.7 5.7 0 001.24.07 7.77 7.77 0 001.14-.13 9.94 9.94 0 001-.25c.33-.11.64-.22.93-.35s.58-.25.85-.39l.74-.38a13.33 13.33 0 001.21-.74l1-.69c.3-.22.57-.43.82-.64l.67-.56.83-.75c.25-.22.45-.4.61-.56l.13-.12c0-.05.05-.06 0 0l.36-.34c.11-.08.2-.16.28-.23h.06l.05-.05.08-.07v-.05a1.27 1.27 0 00.18-.29 1.92 1.92 0 00.09-.32.93.93 0 00.35-.92zM48.75 33.4zm9.79-1.5l-.06.11v.06c-.3.45-.59.86-.87 1.22a3.7 3.7 0 01-.84.84l-.18.1-.2.1h-.08l-.47.15-.23.05h-.87a9 9 0 01-2.14-.16 12.29 12.29 0 01-2-.56l-.42-.18a3.84 3.84 0 01-.45-.23l.82-.14.75-.12.72-.13c1.37-.24 2.61-.49 3.72-.74s2.11-.5 3-.75a2.28 2.28 0 00-.2.38zm1.88-4.52c-.15.53-.33 1-.51 1.52s-.38 1-.57 1.4H59.13c-1 .31-2.15.63-3.49 1s-2.9.7-4.64 1l-.85.15-.68.12c-.24 0-.46.09-.66.14h-.11c.1-.34.18-.67.26-1s.16-.62.24-.91l.12-.53a1.33 1.33 0 000-.19v-.2a.51.51 0 000-.09.29.29 0 000-.09v-.05a.13.13 0 010-.06v-.09a.31.31 0 00.05-.1v-.05c0-.05 0 0 0 0v-.11c.46-.94.91-1.79 1.36-2.56s.9-1.48 1.34-2.11a20 20 0 011.3-1.71 16.39 16.39 0 011.63-1.3 8.77 8.77 0 012.32-1.63c.19-.08.37-.14.55-.2a3.48 3.48 0 01.49-.12 3.09 3.09 0 01.5-.06 3.3 3.3 0 01.45 0 1.66 1.66 0 01.73.2 1.73 1.73 0 01.56.48 2.27 2.27 0 01.39.74 4.72 4.72 0 01.2.88A6.58 6.58 0 0161.2 23a9.57 9.57 0 01-.09 1.26c-.06.45-.14.94-.24 1.46s-.26 1.06-.45 1.66zm20.08 9.93a5.59 5.59 0 01-.27.73 2.39 2.39 0 01-.47.67 2.68 2.68 0 01-.55.43 1.85 1.85 0 01-.57.15.49.49 0 010-.11v-.11c.16-.27.32-.52.48-.74s.33-.45.52-.69l.41-.51.48-.56a5 5 0 01-.03.74z"/></svg>
+        
+    </span>
+    <div>
+        <p class="full-size"><img src="/assets/images/design/growth-book-and-experiment-culture/01.jpg" alt="Growth Book" title="Growth Book" loading="lazy" /></p>
+
+<p>AB 테스트는 제품과 조직에 성장을 안겨다 주는 확실한 전략 중 하나입니다. 그러나 AB 테스트를 한번이라도 직접 해본 사람을 찾는다면 의외로 손에 꼽을 것입니다. 이전에 연재한 <a title="매거진 입맛 - 매출 만드는 AB 테스트, 시작이 막막한가요? 3단계 가이드" href="/3step-ab-test" target="_blank" rel="noopener">AB 테스트 가이드</a>에서 이야기했듯 AB 테스트는 단 1명이라도 올바른 추진 방법을 알고 실행에 옮길 행동력을 가지고 있다면 할 수 있는 일입니다. 하지만 AB 테스트로 피운 성장 동력이라는 불을 지키고 키우려면 여러 사람이 함께 참여해야 합니다. 참여자의 수가 늘수록 제시되는 가설, 진행되는 실험, 도출되는 인사이트, 그리고 성장량이 같이 커집니다.</p>
+
+<p>어떤 조직의 구성원이라면 자신이 어느 직무에 있던 데이터에 따라서 의사결정하고, 가설을 내며, 실험을 설계하고, 결과를 분석하는 것. 이와 같은 일련의 과정이 조직 내에 자연스럽게 녹아 있는 모습을 보고 테스트 문화가 잘 자리 잡았다고 말합니다. 테스트 문화의 구조는 조직의 상황에 따라 다른 모양을 가집니다. 테스트 문화로 유명한 조직은 독립적인 그로쓰 해킹 팀이 주도적으로 테스트 문화를 적용하고 개선하는 경우가 많습니다. 조직이 크든 작든 테스트 문화를 만드는데 겪어야 하는 시행착오의 양은 비슷합니다. 테스트 문화를 만드는 업무에 힘을 쏟을 여유가 부족한 소규모 팀이라면 테스트 문화가 자리 잡는데 더 오랜 기간이 걸릴 것입니다.</p>
+
+<p>잠깐 다른 이야기로, 한 도구는 사람의 행동방식을 바꿀 힘을 가지고 있습니다. 자동차가 보급된 후 얼마나 많은 식당, 집, 도로, 직장, 그리고 도시가 바뀌었습니까? 먹는 법, 쉬는 법, 다른 사람을 만나는 방법은 자동차 등장 전후로 큰 변화를 겪었습니다. 사람이 만든 도구는 사람을 바꿉니다. 조직 내 테스트 문화 보급도 마찬가지 맥락에서 볼 수 있습니다. <strong>어떤 툴은 단지 쓰는 것만으로 테스트 문화를 만들 수 있습니다.</strong> 이번 글에서 소개하려는 <a title="Growth Book" href="https://www.growthbook.io/?ref=매거진입맛" target="_blank" rel="noopener">AB 플랫폼 Growth Book</a>이 바로 그 툴입니다.</p>
+
+<ul>
+  <li>Growth Book은 어떤 구조길래 테스트 문화를 만들까요?</li>
+  <li>Growth Book은 어떻게 사용할까요?</li>
+  <li>무료로 쓸 수 있나요? 쉬운가요? 😅</li>
+</ul>
+
+<h2 id="ab-테스트와-시행착오">AB 테스트와 시행착오</h2>
+
+<p>AB 테스트는 가설 수립 → 실험 진행 → 결과 분석으로 구분되는 연속적 사이클 위에서 작동합니다. 단순해 보이지만 실제 업무에서는 훨씬 많은 작업이 필요합니다.</p>
+
+<ol>
+  <li>가설 수립을 위한 리서치</li>
+  <li>실험 계획별 우선순위 지정</li>
+  <li>실험 구현, 지표 추적</li>
+  <li>결과 분석, 시각화 등 분석자료 공유 작업</li>
+  <li>결과 문서화, 아카이빙</li>
+</ol>
+
+<p>당장 중요하다 싶은 일만 해도 위와 같이 꼽을 수 있습니다. 이런 업무에는 몇 가지 공통점이 있습니다.</p>
+
+<ol>
+  <li>여러 직군을 아우르는 팀원의 협력·의견·타협 필요</li>
+  <li>산출되는 결과물에 있어서 표준적인 형식 없음</li>
+  <li>각 업무가 균등한 중요도를 가짐(선택과 집중 어려움)</li>
+</ol>
+
+<p>AB 테스트는 조직의 일입니다. 제품을 가지고 고객을 상대로 벌이는 작업입니다. 어떤 실험을 먼저 혹은 나중에 실행할지, 어떤 방향으로 구현할지, 심지어 실험 결과를 어떤 쪽으로 분석할지까지 조직 구성원 간의 협업과 합의가 요구됩니다. 이런 특성 때문에 AB 테스트 의사결정은 관련된 조직 구성원은 실험에 대해 같은 수준의 이해도를 보여야 합니다. AB 테스트 진행자가 실험 설계, 분석자료, 결과 문서 등의 공유 작업에 공을 들여야 하는 이유가 여기 있습니다. 문제는 이와 같은 공유 자료는 그 형식이 제품·시장·조직의 환경을 많이 타기에 AB 테스트 초보자 처지에서 난감하다는 것입니다. 앞서 언급한 <a title="매거진 입맛 - 매출 만드는 AB 테스트, 시작이 막막한가요? 3단계 가이드" href="/3step-ab-test" target="_blank" rel="noopener">AB 테스트 가이드</a>에서 <a title="AB 테스트 리포트 템플릿" href="https://www.notion.so/dewberry9/AB-bd3ad2cfce654938b50e4e04f915c0c7" target="_blank" rel="noopener">노션(Notion)으로 만든 테스트 리포트 템플릿`</a>을 제공한 것도 이런 문제에 대해 도움을 줄 수 있을 것이라 여겼기 때문입니다. 해당 테스트 리포트 템플릿은 <a title="Paul(Market Fit Lab), 2020 - Culture of Experimentation: 클래스101은 어떻게 AB테스트를 한 달에 100개씩 돌리게 되었나?" href="https://mfitlab.com/blog/culture-of-experimentation/" target="_blank" rel="noopener">클래스 101의 테스트 리포트</a>를 참고하여 설계한 것으로, 실험 기획 배경, 가설, 실험 목표, 구현 모습과 결과 분석 항목으로 구성되어 있습니다.</p>
+
+<p>여러 동료와의 협업, 이를 위한 실험 관련 자료 처리. 이런 업무가 진짜 어려운 이유는 번뜩이는 가설을 내놓고 획기적인 인사이트를 뽑아내는 것과 비교해도 중요도가 떨어지지 않는 데 있습니다. AB 테스트를 하늘의 뜬구름 같은 위치에서 진짜로 하는 어떤 일, 현실로 끌어내리는 실무적인 작업이기 때문입니다.</p>
+
+<p><strong>피할 수 없는 시행착오</strong>. 테스트 문화를 만드는 일의 핵심이 여기 있습니다. 그럼 Growth Book은 이를 어떻게 해결할까요?</p>
+
+<h2 id="growth-book-온보딩--데이터-소스-연결-지표-설정">Growth Book 온보딩 : 데이터 소스 연결, 지표 설정</h2>
+
+<p>Growth Book은 AB 테스트 가설·계획 기록, 실험 제어와 결과 분석·문서화를 중심으로 조직의 테스트를 관리하는 협업 플랫폼입니다. Growth Book은 위와 같은 작업에 필요한 유연한 형식을 제공하여, 툴이 지원하는 기능을 따라 쓰기만 해도 일정 수준 이상의 테스트 문화가 작동하도록 만들어줍니다.</p>
+
+<p>이제 온보딩부터 Growth Book의 구조를 살펴보겠습니다.</p>
+
+<p class="full-size"><img src="/assets/images/design/growth-book-and-experiment-culture/02.jpg" alt="Growth Book Plan" title="Growth Book Plan" loading="lazy" /></p>
+
+<p>기본적으로 오픈소스이기 때문에 제공되는 Docker를 내려받아 직접 호스팅 할 수 있습니다. 이게 어렵다면 계정만 만들고 Growth Book에서 호스팅하는 서비스를 사용할 수 있습니다. (10개 계정까지 무료) 적은 사용 비용은 Growth Book 입문의 허들을 낮춰줍니다.</p>
+
+<p class="full-size"><img src="/assets/images/design/growth-book-and-experiment-culture/03.jpg" alt="Growth Book Onboarding" title="Growth Book Onboarding" loading="lazy" /></p>
+
+<p>Growth Book을 시작하면 처음으로 볼 수 있는 온보딩 화면입니다. 데이터 소스 연결 → 지표 설정 → 실험 진행 순으로 사용법을 안내하고 있습니다. 현시점에서 Growth Book이 지원하는 데이터 소스는 Redshift, Snowflake, BigQuery, ClickHouse, AWS Athena, Postgres, MySQL/MariaDB, PrestoDB/Trino, Mixpanel, Google Analytics로 총 10개입니다. <a title="Growth Book Docs - Data Sources" href="https://docs.growthbook.io/app/datasources" target="_blank" rel="noopener">공식 문서</a>에서 데이터 소스별 연동 방법을 찾아볼 수 있습니다.</p>
+
+<p class="full-size"><img src="/assets/images/design/growth-book-and-experiment-culture/04.jpg" alt="Growth Book Metric" title="Growth Book Metric" loading="lazy" /></p>
+
+<p>이렇게 연동한 데이터는 지표를 설정할 때 활용합니다. Growth Book에서 지표는 비율(Binomial), 횟수(Count), 시간(Duration), 수익(Revenue)의 4가지 형식으로 만들 수 있습니다. 지표는 아래에서 설명할 실험 진행에 활용됩니다. 특히 지표에 대한 설명을 적고 코멘트를 달 수 있으며 수정 내역이 기록되는 기능은 유용합니다. AB 테스트를 진행하다 보면 연관성을 가진 여러 지표를 다루게 되는데 다소 비직관적인 지표로 분석 결과를 설명해야 할 때도 생깁니다. 지표의 정의와 각종 변동 사항을 편하게 문서화하여 남길 수 있는 기능은 테스트 문화가 기능하는 데 큰 영향을 줍니다.</p>
+
+<h2 id="아이디어">아이디어</h2>
+
+<p>사이드바 가장 상단에 있는 페이지입니다. 기능 자체는 단순합니다. 실험 가설을 써서 올릴 수 있습니다. 그러나 다음 3가지 특징 덕분에 아이디어는 강력한 기능이 되었습니다.</p>
+
+<ol>
+  <li>마크다운 형식</li>
+  <li>댓글 기능</li>
+  <li>태그 기능</li>
+</ol>
+
+<p class="full-size"><img src="/assets/images/design/growth-book-and-experiment-culture/05.jpg" alt="Growth Book Ideas Content" title="Growth Book Ideas Content" loading="lazy" /></p>
+
+<p>Growth Book의 아이디어는 노션처럼 마크다운 형식으로 각 항목을 작성합니다. 제목, 볼드체, 목록, 표, 이미지, 링크 등 마크다운에서 활용하는 여러 요소로 누구나 직관적으로 이해할 수 있는 풍부한 실험 가설 문서를 만들 수 있습니다.</p>
+
+<p>댓글 기능으로는 각 실험 가설에 대한 개선안, 보충안, 반대안과 같은 여러 논의를 독립적으로 보존할 수 있습니다. 예전에 이야기했던 회원가입 퍼널 실험에 대한 우선순위 논의를 찾기 위해 한 달 전 슬랙(Slack)를 뒤질 필요가 없다는 의미입니다.</p>
+
+<p class="full-size"><img src="/assets/images/design/growth-book-and-experiment-culture/06.jpg" alt="Growth Book Ideas List" title="Growth Book Ideas List" loading="lazy" /></p>
+
+<p>Growth Book에서 태그는 아이디어, 실험, 지표 등 모든 항목에서 아울러 활용할 수 있는 기능입니다. 실험이 적용되는 페이지, 기능, 관련 지표, 작업자, 우선순위, 실험 여부…. 높은 자유도로 무엇이든 유형화해서 아이디어, 실험, 지표를 관리할 수 있습니다.</p>
+
+<p>상기한 특징은 실험 가설을 효과적으로 보존하고 조직 구성원의 참여도를 높이는 데 긍정적인 힘을 미칠 것입니다.</p>
+
+<h2 id="실험-진행문서화">실험 진행·문서화</h2>
+
+<p>아이디어 페이지에서 특정 실험 가설을 바탕으로, 아니면 그냥 실험 화면에서 버튼을 눌러 실험 초안을 만들 수 있습니다. Growth Book에서 실험은 다음 3단계 상태 중 하나를 가집니다.</p>
+
+<ol>
+  <li>초안(Draft)</li>
+  <li>실험 중(Running)</li>
+  <li>실험 종료(Stopped)</li>
+</ol>
+
+<p class="full-size"><img src="/assets/images/design/growth-book-and-experiment-culture/07.jpg" alt="Growth Book Create Test" title="Growth Book Create Test" loading="lazy" /></p>
+
+<p>실험 초안은 가설과 데이터 소스, 원본 및 대안에 대한 설명과 목표 지표, 참고 지표, 활성화 조건, 실험을 진행할 페이지의 URL 등을 입력해 생성합니다. 실험은 종료할 때 원본과 비교해서 대안이 개선에 성공했는지, 실패했는지, 비등비등했는지 선택할 수 있습니다. 이때 분석한 결과도 기록할 수 있습니다. 많은 요소가 한데 어우러져 다소 복잡할 수 있기 때문에 Growth Book에서는 종료 실험을 살펴볼 수 있게 샘플 데이터 추가 기능을 제공합니다.</p>
+
+<p class="full-size"><img src="/assets/images/design/growth-book-and-experiment-culture/08.jpg" alt="Growth Book Experiment Info" title="Growth Book Experiment Info" loading="lazy" /></p>
+
+<p>아이디어를 입력했을 때와 마찬가지 자유도로 실험을 꾸릴 수 있습니다. 가설과 목표 지표, 원본과 대안의 설명 등 실험을 구성하는 항목을 성실하게 채우는 것만으로 보기 좋은 실험 문서가 만들어집니다. 필수적인 항목만 제공하면서도 입력 자체는 최대한의 자유로움을 보장하는 <strong>Growth Book은 상황에 맞게 다룰 수 있는 유연함과 초보자를 위한 가이드 역할까지 부족함 없이 지니고 있습니다.</strong></p>
+
+<p class="full-size"><img src="/assets/images/design/growth-book-and-experiment-culture/09.jpg" alt="Growth Book Experiment Results" title="Growth Book Experiment Results" loading="lazy" /></p>
+
+<p>실험 결과 페이지에서는 목표 지표별로 그 값과, 특정 대안을 선택했을 때의 위험도, 원본보다 나을 확률, 그리고 바이올린 플롯으로 시각화된 전환율 분포도를 확인할 수 있습니다. 일반적으로 위험도는 1% 미만, 원본보다 나을 확률은 95% 이상에 도달할 때 실험 결과가 의미 있다고 할 수 있습니다. 특히 Growth Book은 원본보다 대안이 나을 확률을 산정할 때 웹상에서 찾을 수 있는 많은 AB 테스트 결과 신뢰 구간 계산기처럼 빈도주의적 통계를 사용하지 않고 <a title="Jeremy Dorn(Growth Book), 2021 - Growth Book Bayesian Statistics Engine" href="https://www.growthbook.io/docs/GrowthBookStatsEngine.pdf" target="_blank" rel="noopener">베이지안 통계 방식을 활용</a>합니다. AB 테스트 결과 통계 해석에 대해서는 차후 다른 글에서 자세히 이야기해보겠습니다. 결론은 Growth Book이 훨씬 받아들이기 자연스러운 통계를 제공한다는 것입니다.</p>
+
+<p>아이디어와 마찬가지로 각 실험 문서에 대한 의견, 수정 기록은 독립적으로 보존됩니다.</p>
+
+<h2 id="정리">정리</h2>
+
+<p>AB 테스트 가설·계획 기록, 실험 제어와 결과 분석·문서화를 중심으로 조직의 테스트를 관리하는 오픈소스 협업 플랫폼, Growth Book은 다방면의 데이터 소스를 쉽게 연동하여 지표를 설정할 수 있습니다. 이는 여러 조직 구성원이 함께 실험 가설을 제시하고 실험을 설계하는데 단단한 기반이 됩니다. 협업하는데 필수적인 항목을 제공해 초보자에게도 문제없는 테스트 문화를 형성하고, 한편으로 그 안에서 최대한의 자유도를 보장하는 유연함을 갖췄습니다.</p>
+
+<p>AB 테스트는 시작했지만 아직 이렇다 할 문화가 자리 잡지 못했다면 Growth Book은 좋은 선택이 될 것입니다.</p>
+
+<p class="right-infor">위시켓의 지원과 함께 제작된 콘텐츠입니다.</p>
+
+    </div>
+</section>
+
+<section class="subscribe subscribe-post-bottom">
+    <div class="subscribe-container">
+        <p class="subscribe-description">매거진 입맛의 취향들을 더 편하게, 더 빠르게 받아보세요.</p>
+        <a rel="noreferrer" class="btn-subscribe" target="_blank" href="https://forms.gle/wvj73q8MWBv2j44h7" title="Newsletter Subscription">뉴스레터 구독신청</a>
+    </div>
+</section>
+
+<section class="post-list related-post-list">
+    <div class="related-post-list-top-border"></div>
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        <a title="카드로 쌓은 집" href="/build-house-with-cards" class="post-list-item">
+                <div class="post-thumbnail">
+                    <div class="img-source" style="background-image: url('/assets/images/01-build-house-with-cards/02.jpg')"></div>
+                </div>
+                <div class="post-description">
+                    <span class="post-topic">UI Design</span>
+                    <div class="post-intro">
+                        <h2>카드로 쌓은 집</h2>
+                        <p class="post-excerpt">디자이너에게 카드는 좋은 재료입니다. 그러나 카드로 쌓은 집은 과연 온전할까요? 카드를 쓸 때 생각해볼 만한 활용법 3가지를 골라봤습니다.</p>
+                    </div>
+                </div>
+        </a>
+    
+        <a title="머티리얼 디자인의 리모델링" href="/remodeling-of-material-design" class="post-list-item">
+                <div class="post-thumbnail">
+                    <div class="img-source" style="background-image: url('/assets/images/02-remodeling-of-material-design/01.jpg')"></div>
+                </div>
+                <div class="post-description">
+                    <span class="post-topic">Design System</span>
+                    <div class="post-intro">
+                        <h2>머티리얼 디자인의 리모델링</h2>
+                        <p class="post-excerpt">2018년 5월, 머티리얼 디자인의 새로운 모습이 공개되었습니다. 많은 부분에서 수정과 개선이 이뤄졌습니다. 이제 머티리얼 디자인은 브랜드 친화적인 디자인을 지향합니다.</p>
+                    </div>
+                </div>
+        </a>
+    
+        <a title="우리의 디자인에는 항상 공백이 부족하다" href="/divider-and-whitespace" class="post-list-item">
+                <div class="post-thumbnail">
+                    <div class="img-source" style="background-image: url('/assets/images/03-divider-and-whitespace/01.jpg')"></div>
+                </div>
+                <div class="post-description">
+                    <span class="post-topic">UI Design</span>
+                    <div class="post-intro">
+                        <h2>우리의 디자인에는 항상 공백이 부족하다</h2>
+                        <p class="post-excerpt">인터랙션 디자인에서 구분선과 공백은 요소와 요소, 콘텐츠와 콘텐츠를 분리하는 대표적인 도구입니다. 같은 듯 다른 이 두 가지를 비교해봅시다.</p>
+                    </div>
+                </div>
+        </a>
+    
+    <div class="ads-container ads-container-mobile-feedcard">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <ins class="adsbygoogle infeed"
+            style="display:block"
+            data-ad-format="fluid"
+            data-ad-layout-key="-68+cn+0-3b+gj"
+            data-ad-client="ca-pub-7525347021497850"
+            data-ad-slot="9019438848"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+            
+            
+            
+            <a title="한참 이른 여름맛. 아드벡 10년" href="/ardbeg-for-the-beginning-of-the-summer" class="post-list-item">
+                    <div class="post-thumbnail">
+                        <div class="img-source" style="background-image: url('/assets/images/daily/01-ardbeg/01.jpg')"></div>
+                    </div>
+                    <div class="post-description">
+                        <span class="post-topic">Whisky</span>
+                        <div class="post-intro">
+                            <h2>한참 이른 여름맛. 아드벡 10년</h2>
+                            <p class="post-excerpt">피트향 가득, 쾌청한 풍미의 싱글 몰트 아일라 위스키 아드벡 10년 리뷰.</p>
+                        </div>
+                    </div>
+            </a>
+        
+    
+            
+            
+            
+            <a title="4시에 마신다면 3시부터 행복할거야. 글렌피딕 15년" href="/glenfiddich-solera" class="post-list-item">
+                    <div class="post-thumbnail">
+                        <div class="img-source" style="background-image: url('/assets/images/daily/02-glenfiddich-solera/01.jpg')"></div>
+                    </div>
+                    <div class="post-description">
+                        <span class="post-topic">Whisky</span>
+                        <div class="post-intro">
+                            <h2>4시에 마신다면 3시부터 행복할거야. 글렌피딕 15년</h2>
+                            <p class="post-excerpt">여전히 발랄한 향, 한층 느긋해진 맛. 스페이사이드 싱글 몰트 위스키 글렌피딕 15년 리뷰.</p>
+                        </div>
+                    </div>
+            </a>
+        
+    
+            
+            
+                
+    <div class="ads-container ads-container-relative-feedcard">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <ins class="adsbygoogle infeed"
+            style="display:block"
+            data-ad-format="fluid"
+            data-ad-layout-key="-68+cn+0-3b+gj"
+            data-ad-client="ca-pub-7525347021497850"
+            data-ad-slot="9019438848"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+</section>
+
+
+<script>document.getElementById('btn-article').classList.remove('op75');
+document.getElementById('btn-article').classList.add('nav-item-act');</script>
+
+    </div>
+    <footer id="footer">
+    <span>
+        <a id="home-page" href='/' title="Main">매거진 입맛</a>
+        <a href="/review" title="Reviews">리뷰</a>
+        <a href="/article" title="Articles">디자인</a>
+        <a href="/story" title="Stories">소설</a>
+        <!-- <a href="/about" title="About Me">쓰는 사람</a> -->
+    </span>
+    <span>
+        <a rel="noreferrer" id="fb-link" href="https://www.facebook.com/magepmat" title="Facebook" target="_blank"><i class='bx bxl-facebook'></i></a>
+        <a rel="noreferrer" id="insta-link" href="https://www.instagram.com/mag_epmat/" title="Instagram" target="_blank"><i class='bx bxl-instagram' ></i></a>
+        <a id="mail-link" href="mailto:dewberryneun@gmail.com" title="Email"><i class='bx bx-envelope'></i><span class="link-copy"></span></a>
+        <a rel="noreferrer" id="rss-link" href="/feed.xml" title="RSS" target="_blank"><i class='bx bx-rss'></i><span class="link-copy"></span></a>
+    </span>
+</footer>
+</body>
+</html>
