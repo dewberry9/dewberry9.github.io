@@ -1,4 +1,134 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://dewberry9.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dewberry9.github.io/" rel="alternate" type="text/html" /><updated>2021-09-04T05:43:34+00:00</updated><id>https://dewberry9.github.io/feed.xml</id><title type="html">매거진 입맛</title><subtitle>읽을 만한 취향들. 매거진 입맛 - 책, 술, 그밖에 삶의 즐거움 리뷰 / 디자인 / 소설</subtitle><author><name>이준환</name></author><entry><title type="html">따라쓰기만 하면 테스트 문화가 만들어진다 - Growth Book</title><link href="https://dewberry9.github.io/growth-book-and-experiment-culture" rel="alternate" type="text/html" title="따라쓰기만 하면 테스트 문화가 만들어진다 - Growth Book" /><published>2021-08-30T00:00:00+00:00</published><updated>2021-08-30T00:00:00+00:00</updated><id>https://dewberry9.github.io/growth-book-and-test-culture</id><content type="html" xml:base="https://dewberry9.github.io/growth-book-and-experiment-culture">&lt;p class=&quot;full-size&quot;&gt;&lt;img src=&quot;/assets/images/design/growth-book-and-experiment-culture/01.jpg&quot; alt=&quot;Growth Book&quot; title=&quot;Growth Book&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://dewberry9.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dewberry9.github.io/" rel="alternate" type="text/html" /><updated>2021-09-13T10:07:57+00:00</updated><id>https://dewberry9.github.io/feed.xml</id><title type="html">매거진 입맛</title><subtitle>읽을 만한 취향들. 매거진 입맛 - 책, 술, 그밖에 삶의 즐거움 리뷰 / 디자인 / 소설</subtitle><author><name>이준환</name></author><entry><title type="html">그 AB 테스트 결과는 우연일지도 모릅니다.</title><link href="https://dewberry9.github.io/ab-test-frequentist-statistical-analysis" rel="alternate" type="text/html" title="그 AB 테스트 결과는 우연일지도 모릅니다." /><published>2021-09-13T00:00:00+00:00</published><updated>2021-09-13T00:00:00+00:00</updated><id>https://dewberry9.github.io/ab-test-frequentist-statistical-analysis</id><content type="html" xml:base="https://dewberry9.github.io/ab-test-frequentist-statistical-analysis">&lt;p class=&quot;infor&quot;&gt;시리즈로 구성된 글입니다. 이번 글에서는 AB 테스트를 결과를 분석하는 빈도주의 통계적 가설 검정에 대해 다룹니다. 다음 편에서는 베이지안 통계 방식에 입각한 가설 검정을 살펴봅니다.&lt;/p&gt;
+
+&lt;p&gt;이전에 연재한 &lt;strong&gt;&lt;a title=&quot;매거진 입맛 - 매출 만드는 AB 테스트, 시작이 막막한가요? 3단계 가이드&quot; href=&quot;/3step-ab-test&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;AB 테스트 가이드&lt;/a&gt;&lt;/strong&gt;에서 실행한 AB 테스트의 결과 분석은 실험의 결실을 거두는 일종의 수확이라고 비유한 적 있습니다. AB 테스트의 모든 과정이 결과를 위해 존재하고, 그렇게 도출된 결과는 인사이트화되어 제품과 조직의 성장, 그리고 또 다른 AB 테스트에 기여하는 사이클에 있어서 필수적인 부분이기 때문입니다.&lt;/p&gt;
+
+&lt;p&gt;한번이라도 AB 테스트를 돌려본다면 결과 분석이 생각보다 어려운 일임을 깨닫게 됩니다. 뻔히 눈에 보이는 결과, 수치인데 매번 해석하기가 난감합니다.&lt;/p&gt;
+
+&lt;p class=&quot;full-size&quot;&gt;&lt;img src=&quot;/assets/images/design/ab-test-frequentist-statistical-analysis/01.jpg&quot; alt=&quot;AB Test Calculator&quot; title=&quot;AB Test Calculator&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;위와 같이 AB 테스트 결과의 통계적 유의성을 알려주는 계산기를 몇 번 소개한 적이 있습니다. 이런 복잡한 계산기가 필요한 이유는 ‘이 AB 테스트 결과를 믿을 것인가’를 결정하기 위해서입니다. 원본 A의 전환율이 10건 중 2건으로 20%, 대안 B의 전환율이 10건 중 6건으로 60%가 나왔다면, 대안 B가 3배의 성과를 거뒀으니 실험을 종료하고 대안 B로 고정하자고 이야기할 수 있을까요? 10건 중 6건은 우연일 수 있으니 데이터를 좀 더 모아야 한다는 의견은 충분히 상식적입니다. 그렇다면 데이터를 얼마나 더 모아야 할까요? 1천? 1만? 그 이유는 무엇인가요? 여기서부터 AB 테스트 결과 분석이 어려워집니다. 구글링을 통해 p값, 신뢰구간, 통계적 유의성에 대한 정보를 알게 됩니다. 이해는 안 되지만 아무튼 계산기도 발견합니다. 반신반의하면서도 계산기를 사용해 결과를 분석합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a title=&quot;매거진 입맛 - 따라쓰기만 하면 테스트 문화가 만들어진다 - Growth Book&quot; href=&quot;/growth-book-and-experiment-culture&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;AB 테스트는 문화가 되었을 때 최대의 효과를 내는 전략&lt;/a&gt;&lt;/strong&gt;입니다. 어떤 테스트에 대한 결론을 내리면서 그 이유를 동료에게 설명할 수 없다면 테스트 문화를 만들 수 있을까요? 그전에 ‘AB 테스트 결과가 이렇게 나왔으니 제품에 적용하자’라는 주장이 설득력을 얻을 수 있을까요?&lt;/p&gt;
+
+&lt;p&gt;이런 태도가 별다른 문제가 되지 않을 수도 있습니다. 결국 AB 테스트는 제품과 조직을 위한 도구일 뿐입니다. 보닛 아래서 무슨 일이 일어나는지 정확히 설명할 수는 없어도 자동차를 모는 데 문제는 없습니다. 그러나 그 신뢰는 자동차가 지난 몇 세기 동안 굴러다녔다는 사실에서 비롯되었습니다. AB 테스트는 사정이 다릅니다. 좋다고는 하는데 내 제품과 조직에 맞을지는 알 수 없습니다. AB 테스트는 이유 있는 제품을 만듭니다. 어떤 테스트에 대한 결론을 내리면서 그 이유를 설명할 수 없다면 난센스일 것입니다. 이번 글을 통해 풀어내고자 하는 내용이 바로 그것입니다. &lt;strong&gt;이 시리즈를 통해 어떤 AB 테스트 결과를 통계적으로 분석하는 법에 대해 이해하게 될 것입니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;AB 테스트 결과를 결론 내리는 통계학적 과정은 무엇일까요?&lt;/li&gt;
+  &lt;li&gt;통계적 유의성, p값, 신뢰구간, Z 점수…. 이런 용어는 뭘 의미할까요?&lt;/li&gt;
+  &lt;li&gt;이제 이해하면서 계산기를 쓸 수 있을까요?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ab-테스트의-원리---모집단과-표본&quot;&gt;AB 테스트의 원리 - 모집단과 표본&lt;/h2&gt;
+
+&lt;p&gt;좀 멀리 돌아가는 것처럼 보이기도 하지만, AB 테스트의 원리가 뭘까요? 원본과 대안에 각각 10,000명의 고객을 투입하여 2배의 전환율 개선을 이끌어낸 테스트가 있었다고 가정합시다. 이 테스트 결과가 의미하는 바는 제품을 대안으로 개선하면 제품의 전환율이 2배가 된다는 것입니다. 그런데 이게 말이 되나요? 실험에 참여한 고객 10,000명이 2배의 전환율을 보였다고 어떻게 앞으로 제품의 전환율이 2배가 된다고 말할 수 있나요?&lt;/p&gt;
+
+&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/ab-test-frequentist-statistical-analysis/02.jpg&quot; alt=&quot;Population and Sample&quot; title=&quot;Population and Sample&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;위 사실을 증명하는 게 통계학입니다. 미국 성인 1,000명을 조사해 600명이 매일 1잔 이상 커피를 마신다는 조사 결과는 ‘미국 성인 60%가 하루 한 잔 이상 커피를 마신다’라는 결론을 내릴 수 있지만, ‘한국 학생 60%가 하루 한 잔 이상 커피를 마신다’라는 결론은 내릴 수 없습니다. 이는 ‘미국 성인 1,000명’이 ‘미국 성인 전체’를 대표할 만한 유사성이 있다고 판단했기 때문입니다. AB 테스트에서도 마찬가지로, ‘실험에 참여한 고객’이 &lt;a title=&quot;Jacob McMillen, 2016 - A/B Testing Statistics: An Intuitive Guide For Non-Mathematicians&quot; href=&quot;https://conversionsciences.com/ab-testing-statistics/?refer=mag_epmat#attachment_35211&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;‘앞으로 제품을 사용할 고객 전체’를 대표&lt;/a&gt;합니다. 통계학에서는 전자를 표본(Sample), 후자를 모집단(Population)이라고 합니다.&lt;/p&gt;
+
+&lt;p&gt;이상적인 표본은 모집단을 완벽하게 반영합니다. 그러나 현실은 다릅니다. 미국 성인 60%가 하루 한 잔 이상 커피를 마시지만, 10명짜리 표본을 추출했더니 우연히 전부 카페인에 약해 한잔의 커피도 마시지 않을 수 있습니다. 반대로 다른 표본에서는 전부 커피 애호가일 수도 있습니다. 첫 번째 표본은 0%, 두 번째 표본은 100%가 하루 한 잔 이상 커피를 마십니다. 모집단의 비율과 큰 차이를 보입니다. 그런데 두 표본을 합치면 50%로, 그 전보다 모집단과의 차이가 훨씬 줄어들게 됩니다. 이처럼 &lt;strong&gt;표본이 규모를 키우면 점점 모집단을 더 잘 반영하게 됩니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;다시 말해, 충분히 큰 표본은 어느 정도 모집단을 대표할 수 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;실험-결과가-정말-의미-있나---통계적-가설-검정&quot;&gt;실험 결과가 정말 의미 있나? - 통계적 가설 검정&lt;/h2&gt;
+
+&lt;p&gt;충분히 큰 표본이 어느 정도 모집단을 대표하는 성질을 이용하면 표본을 가지고 모집단에 대한 어떤 가설이 맞는지 아닌지 추론할 수 있습니다. 이를 &lt;a title=&quot;Wikipedia - Statistical hypothesis testing&quot; href=&quot;https://en.wikipedia.org/wiki/Statistical_hypothesis_testing?refer=mag_epmat&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;통계적 가설 검정(Statistical Hypothesis Testing)&lt;/a&gt;라고 합니다. 통계적 가설 검정은 &lt;a title=&quot;Khan Academy, 2010 - Hypothesis testing and p-values | Inferential statistics | Probability and Statistics&quot; href=&quot;https://www.youtube.com/watch?v=-FtlH4svqx4&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;다음 3단계&lt;/a&gt;로 진행됩니다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;귀무가설, 대립가설, 유의 수준 설정&lt;/li&gt;
+  &lt;li&gt;귀무가설이 참인 상황에서, 표본에서 관측된 통계치와 같거나 더 극단적인 값이 관측될 확률 계산&lt;/li&gt;
+  &lt;li&gt;과정 2의 확률이 유의 수준 이하라면 귀무가설 기각, 대립가설 채택&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p class=&quot;full-size&quot;&gt;&lt;img src=&quot;/assets/images/design/ab-test-frequentist-statistical-analysis/03.jpg&quot; alt=&quot;AB Test&quot; title=&quot;AB Test&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;예시와 함께 그 뜻을 살펴보도록 하겠습니다. 상품 구매 페이지에서 AB 테스트를 하나 진행합니다. 원본 A는 배송비가 별도 표기되고, 대안 B는 배송비가 상품가에 포함되어 배송비는 별도로 표기되지 않습니다. 각 안에 참가한 고객 수는 1,000명이고, 원본 A는 300명이 구매하여 구매율은 30%, 대안 B는 350명이 구매하여 구매율이 35%로 집계되었습니다.&lt;/p&gt;
+
+&lt;p&gt;결론부터 이야기하자면 위 예시에서 원본 A와 대안 B 사이 유의미한 차이가 없다고 가정했을 때 대안 B의 구매율 35%가 관측될 확률이 매우 희박하기 때문에, 원본 A와 대안 B는 통계적으로 유의미한 차이를 가지고 있습니다. 왜 그런지 용어 개념부터 하나씩 살펴보죠.&lt;/p&gt;
+
+&lt;p class=&quot;full-size&quot;&gt;&lt;img src=&quot;/assets/images/design/ab-test-frequentist-statistical-analysis/04.jpg&quot; alt=&quot;Null Hypothesis and Alternative Hypothesis&quot; title=&quot;Null Hypothesis and Alternative Hypothesis&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;⏸️귀무가설(Null hypothesis)&lt;/strong&gt;&lt;br /&gt;
+알아내고자 하는 가설을 확인하기 위해 &lt;a title=&quot;Wikipedia - Null Hypothesis&quot; href=&quot;https://en.wikipedia.org/wiki/Null_hypothesis?refer=mag_epmat&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;기각되는 용도로 세워지는 가설&lt;/a&gt;입니다. 따라서 귀무가설은 항상 알아내고자 하는 가설에 반대편에 있는, 가설 제시 이전의 현상태를 반영합니다. 잘 알려진 비유로 무죄 추정의 원칙과 비슷합니다. 피고인은 결정적 증거로 유죄가 확정되기 전까지 항상 무죄입니다.&lt;/p&gt;
+
+&lt;p&gt;언급한 예시에서 귀무가설은 ‘대안 B(별도 배송지 미표시)가 적용돼도 구매율은 30%이다.’ 즉, 대안 B가 효과가 없다고 세울 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;🔀대립가설(Alternative Hypothesis)&lt;/strong&gt;&lt;br /&gt;
+귀무가설에 맞서는 가설로 알아내고자 하는 가설과 방향이 같습니다. 예시에서 대립가설은 ‘대안 B가 적용되면 구매율이 30%가 아니다.’ 즉, 대안 B가 효과가 있는 겁니다. 이때 ‘구매율이 30%가 아니다.’는 ‘구매율이 30%보다 낮다.’ 그리고 ‘구매율이 30%보다 크다.’의 합성입니다. 이를 제1형 대립가설이라고 합니다. 더 낮은 통계치를 알아보려는 경우를 제2형, 더 큰 통계치를 알아보려는 경우는 제3형이라고 합니다.&lt;/p&gt;
+
+&lt;p&gt;과정 2을 따라 귀무가설을 참으로 가정합니다. 즉, 대안 B가 적용돼도 구매율은 똑같이 30%입니다. 이 상황에서 실험 결과처럼 구매율이 35%인 경우와 그보다 극단적인 경우가 발생할 확률을 구합니다. 이 상황을 이해하기 쉽도록 표본 분포를 그려볼 수 있습니다. 1,000명이 참가한 실험에 구매율이 30%인 상황은 독립된 1,000번의 시행에서 각 시행의 확률이 30%인 이산 확률 분포, 곧 이항 분포로 나타낼 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;쉽게 생각해보면 1,000명이 실험에 참여해 300명이 구매한 상황이 실험마다 나올 수는 없을 겁니다. 실험을 반복할 때마다 구매 고객 수는 290, 310, 심하면 그보다 더 극단적인 값이 나오면서 구매율도 29%, 31%, 더 크고 작은 구매율이 집계될 것입니다. 다만 이러한 반복 실험 결과의 평균 구매율은 30%로 분포도는 30%에서 멀어질수록 줄어드는 형상일 것입니다.&lt;/p&gt;
+
+&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/ab-test-frequentist-statistical-analysis/05.jpg&quot; alt=&quot;Normal Distribution, Mean = 0.3&quot; title=&quot;Normal Distribution, Mean = 0.3&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;시행 확률이 30%에 가까워질수록 예상 가능한 시행 횟수가 늘어나고 멀어질수록 예상 가능한 시행 횟수가 줄어듭니다. 이제 이 표본 분포에서 구매율이 35%이거나 그보다 더 극단적인 경우의 확률을 찾아야 합니다. 이 과정은 2단계로 나눠집니다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;30%에서 35%까지 얼마만큼의 표준오차가 있는지(Z 점수) 계산&lt;/li&gt;
+  &lt;li&gt;위의 계산을 이용, 35%와 같거나 그보다 극단적인 결과가 관측될 확률 계산&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;몇 가지 새로운 용어가 보입니다. 이를 설명하면서 계속하겠습니다.&lt;/p&gt;
+
+&lt;p class=&quot;full-size&quot;&gt;&lt;img src=&quot;/assets/images/design/ab-test-frequentist-statistical-analysis/06.jpg&quot; alt=&quot;Standard Error&quot; title=&quot;Standard Error&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;표준오차(Standard Error)&lt;/strong&gt;&lt;br /&gt;
+앞서 설명했듯 같은 실험을 반복하더라도 매번 30%의 구매율이 나오지는 않으며 반복 실험 결과의 평균이 30%일 뿐입니다. 어떤 실험에서 28%의 구매율이 나왔다면, 평균과의 차이가 -2%라고 말할 수 있습니다. 이렇게 수행하는 실험은 모집단에서 특정 표본을 표집한 것과 같으며, 각각의 실험에서 관측된 구매율은 표본평균, 이들의 평균인 구매율 30%는 표본평균의 평균으로 모평균입니다. 그리고 각 실험의 구매율과 이들의 평균 사이의 차이(오차)를 전부 모았을 때 계산할 수 있는 평균, 즉 표본평균의 표준편차를 표준오차라고 합니다. 표준오차를 계산하는 식은 다음과 같습니다.&lt;/p&gt;
+
+&lt;p&gt;표준오차 = (표준편차) / √(시행 횟수)&lt;/p&gt;
+
+&lt;p&gt;여기서 표준편차는 √(표본의 분산) 이므로 (표준편차) / √(시행 횟수) = √{ (표본의 분산) / (시행 횟수) } 으로 표현할 수 있습니다. 그런데 이항 분포에서 표본 분산은 (시행 확률) * { 1 - (시행 확률) } 입니다. 따라서 아래와 같이 정리할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;표준오차 = √[ (시행 확률) * { 1 - (시행 확률) } / (시행 횟수) ]&lt;/p&gt;
+
+&lt;p&gt;예시의 원본 A의 표준 오차를 계산하면 √{0.3 * (1 - 0.3) / 1000}이므로 0.0145(소수점 다섯째 자리에서 반올림) 정도가 됩니다. 같은 식으로 대안 B의 표준오차는 0.0151입니다. 위의 과정 1에서 필요한 표준 오차는 두 표본의 평균 차이의 표준오차입니다. 두 표본의 평균 차이의 분산은 각 평균 분산을 합한 값이므로,&lt;/p&gt;
+
+&lt;p&gt;두 표본의 평균 차이의 표준오차 = √{ (A의 표준오차)²+ (B의 표준오차)²}&lt;/p&gt;
+
+&lt;p&gt;원본 A와 대안 B 평균 시행 확률 차이의 표준오차는 0.0209입니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Z 점수(Z score; 표준 점수)&lt;/strong&gt;&lt;br /&gt;
+Z 점수는 정규분포에서 특정 통계치가 표본의 평균에서 &lt;a title=&quot;David Kindness(Investopedia), 2021 - Z-Score&quot; href=&quot;https://www.investopedia.com/terms/z/zscore.asp?refer=mag_epmat&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;얼마의 표준편차만큼 떨어져 있는지 나타낸 값&lt;/a&gt;입니다.&lt;/p&gt;
+
+&lt;p&gt;Z = { (특정 통계치) - (표본의 평균) } / 표준편차&lt;/p&gt;
+
+&lt;p&gt;과정 1을 위 식에 그대로 대입합니다. 표준편차 대신 원본 A와 대안 B 평균 차이의 표준오차를 사용합니다. Z = (0.35 - 0.30) / 0.0209 = 2.3923. 다시 말해 대안 B의 평균 35%는 원본 A의 평균 30%에서 두 평균 차이의 표준오차의 2.3923배 떨어져 있습니다.&lt;/p&gt;
+
+&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/ab-test-frequentist-statistical-analysis/07.jpg&quot; alt=&quot;Normal Distribution with Two-sided Test&quot; title=&quot;Normal Distribution with Two-sided Test&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;이로써 귀무가설이 참일 때 35%와 같거나 그보다 극단적인 결과가 관측될 영역을 특정했습니다. 이 영역의 넓이가 곧 해당 결과가 관측될 확률입니다. 대략적인 값을 Z Table, &lt;a title=&quot;Wikipedia - Standard normal table&quot; href=&quot;https://en.wikipedia.org/wiki/Standard_normal_table?refer=mag_epmat&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;표준정규분포표&lt;/a&gt;에서 확인할 수 있습니다.&lt;/p&gt;
+
+&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/ab-test-frequentist-statistical-analysis/08.jpg&quot; alt=&quot;Z-Table&quot; title=&quot;Z-Table&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Z = 2.39에서 누적 분포 함수 값은 0.99158이므로 귀무가설이 참일 때 35%와 같거나 그보다 극단적인 결과가 관측될 확률은 0.00842, 즉 0.842%입니다. 이 확률이 바로 p값(Probability Value)입니다.&lt;/p&gt;
+
+&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/ab-test-frequentist-statistical-analysis/09.jpg&quot; alt=&quot;Three Types of Test&quot; title=&quot;Three Types of Test&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;0.842%의 p값은 제1형 대립가설을 검정하는 양측 검정(Two-sided Test)입니다. 평균 시행 확률이 30%인 표본에서 최소 35%만큼 극단적인 결과가 관측될 확률로, 30%에서 음의 방향으로 35%만큼 극단적인 25% 이하의 값이 나타날 확률도 포함합니다. 실제로 업무에 활용한다고 생각했을 때 전환율이 저하됐을 경우의 확률까지 포함해서 검정할 필요성은 없을 듯합니다. 그러므로 대립가설을 제3형 가설, ‘대안 B가 적용되면 구매율이 30%보다 크다.’로 수정합니다. 이렇게 수정된 대립가설을 검정하는 것을 단측 검정(One-sided Test) 중 &lt;a title=&quot;Khan Academy, 2010 - One-tailed and two-tailed tests | Inferential statistics | Probability and Statistics&quot; href=&quot;https://www.youtube.com/watch?v=mvye6X_0upA&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;우측 검정(Upper Tailed Test)&lt;/a&gt;라고 합니다. 이때 p값은 양측 검정 때의 절반, 0.421%가 됩니다.&lt;/p&gt;
+
+&lt;p&gt;이제 이 확률, p값이 귀무가설을 기각할 만큼 낮은 건지 아닌지 기준을 잡아 알아보아야 합니다. 이 기준이 유의 수준입니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;유의 수준(Significance Level)&lt;/strong&gt;&lt;br /&gt;
+유의 수준은 특정 통계치가 특정 범위 안에 있는 비율입니다. 유의 수준보다 p값이 낮다면 귀무가설을 참으로 가정했을 때 극단적 통계치가 관측될 확률이 충분히 낮다고 판단하여, 귀무가설을 기각하고 대립가설을 채택합니다. 유의 수준의 값은 관습적으로 1%, 10%, 특히 5%가 자주 사용되나 의료계에서는 0.1% 수준으로 검정 기준의 &lt;a title=&quot;Andrew N. Philips, George Davey Smith, 1993 - The design of prospective epidemiological studies: More subjects or better measurements?&quot; href=&quot;https://www.sciencedirect.com/science/article/abs/pii/089543569390120P&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;허들을 더 높여야 한다는 주장&lt;/a&gt;도 제기된 바 있습니다. 그러나 이는 정도의 차이이므로 AB 테스트를 진행하는 조직 구성원끼리 합의를 통해 결정하면 될 일입니다. 35% 구매율이 우연히 관측될 확률이 0.421%라는데, 깐깐하게 보는 것도 좋지만 비즈니스의 필요에 따라 유연하게 채택할 필요가 있습니다.&lt;/p&gt;
+
+&lt;p&gt;유사한 지표로 신뢰구간이 있습니다. 단순히 1에서 유의 수준 값을 빼면 됩니다. 유의 수준이 5%일 때 신뢰구간은 95%입니다. 만약 누군가 이러한 과정을 통해 ‘이 실험의 결과는 95% 신뢰구간에서 유효하다.’고 한다면, 실험 결과가 &lt;strong&gt;95%만큼 믿을 만하다는 뜻이 아니라 결과가 유효하지 않았다면 해당 실험 결과가 나올 확률이 5% 이하라는 뜻&lt;/strong&gt;입니다. 그만큼 실험 결과가 유효하지 않을 가능성이 희박하다는 것입니다.&lt;/p&gt;
+
+&lt;p&gt;이상의 과정처럼 통계적 가설을 검정하는 접근법을 빈도주의 통계(Frequentist Statistics) 방식이라고 말합니다. 이는 알려지지 않은 모집단의 통계치를 추정하기 위해 여러 표본의 값을 비교·분석하는 방식입니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;정리&quot;&gt;정리&lt;/h2&gt;
+
+&lt;p&gt;여기까지 이해하고 계산기를 켠다면 달리 보이는 부분이 많을 겁니다. AB 테스트 결과 통계적 가설 검정 과정을 다시 한번 짚어보겠습니다.&lt;/p&gt;
+
+&lt;p&gt;AB 테스트는 ‘앞으로 제품을 사용할 고객’이라는 모집단을 대표하는 표본인 ‘실험 참여 고객’을 통해 전환율을 개선합니다.&lt;/p&gt;
+
+&lt;p&gt;빈도주의 통계적 가설 검정은 귀무가설, 대립가설, 유의 수준을 설정해 귀무가설이 참인 상황에서, 표본에서 관측된 통계치와 같거나 더 극단적인 값이 관측될 확률인 p값을 계산합니다. 이 확률이 유의 수준 이하라면 귀무가설 기각하고 대립가설을 채택합니다.&lt;/p&gt;
+
+&lt;p&gt;이제 AB 테스트 결과 분석 계산기에 나타난 여러 수치가 무얼 뜻하는지 알게 되었습니다.&lt;/p&gt;
+
+&lt;p&gt;그런데 최근에는 빈도주의 통계로 접근한 계산기가 아니라 다른 방식으로 결과를 분석하는 계산기도 종종 보입니다. 베이지안 통계(Bayesian Statistics) 방식의 계산기가 그것입니다. 베이지안 통계는 빈도주의적 통계의 라이벌이라고 할 수 있는 접근법입니다. 다음 편에서는 베이지안 통계 방식의 AB 테스트 결과 분석과, 빈도주의 통계가 갖는 한계를 베이지안 통계 방식이 어떻게 해결하는지 알아보겠습니다.&lt;/p&gt;
+
+&lt;p class=&quot;right-infor&quot;&gt;위시켓의 지원과 함께 제작된 콘텐츠입니다.&lt;/p&gt;</content><author><name>이준환</name></author><category term="design-teatime" /><summary type="html">통계적 유의성, p값, 신뢰구간, Z 점수…. 무슨 말일까요? AB 테스트 결과를 분석하는 빈도주의 통계적 가설 감정에 대해 알아봅니다.</summary></entry><entry><title type="html">따라쓰기만 하면 테스트 문화가 만들어진다 - Growth Book</title><link href="https://dewberry9.github.io/growth-book-and-experiment-culture" rel="alternate" type="text/html" title="따라쓰기만 하면 테스트 문화가 만들어진다 - Growth Book" /><published>2021-08-30T00:00:00+00:00</published><updated>2021-08-30T00:00:00+00:00</updated><id>https://dewberry9.github.io/growth-book-and-test-culture</id><content type="html" xml:base="https://dewberry9.github.io/growth-book-and-experiment-culture">&lt;p class=&quot;full-size&quot;&gt;&lt;img src=&quot;/assets/images/design/growth-book-and-experiment-culture/01.jpg&quot; alt=&quot;Growth Book&quot; title=&quot;Growth Book&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;AB 테스트는 제품과 조직에 성장을 안겨다 주는 확실한 전략 중 하나입니다. 그러나 AB 테스트를 한번이라도 직접 해본 사람을 찾는다면 의외로 손에 꼽을 것입니다. 이전에 연재한 &lt;a title=&quot;매거진 입맛 - 매출 만드는 AB 테스트, 시작이 막막한가요? 3단계 가이드&quot; href=&quot;/3step-ab-test&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;AB 테스트 가이드&lt;/a&gt;에서 이야기했듯 AB 테스트는 단 1명이라도 올바른 추진 방법을 알고 실행에 옮길 행동력을 가지고 있다면 할 수 있는 일입니다. 하지만 AB 테스트로 피운 성장 동력이라는 불을 지키고 키우려면 여러 사람이 함께 참여해야 합니다. 참여자의 수가 늘수록 제시되는 가설, 진행되는 실험, 도출되는 인사이트, 그리고 성장량이 같이 커집니다.&lt;/p&gt;
 
@@ -879,101 +1009,4 @@
 
 &lt;p&gt;결국, 어떤 모델이라도 자세히 분석한 상태에서 제품의 상황에 맞게 적용해야 효과를 낸다는 결론을 내릴 수 있겠습니다.&lt;/p&gt;
 
-&lt;p class=&quot;right-infor&quot;&gt;위시켓의 지원과 함께 제작된 콘텐츠입니다.&lt;/p&gt;</content><author><name>이준환</name></author><category term="design-teatime" /><summary type="html">부분 유료화, 무료 체험판 모델을 쓰지 않는 SaaS는 찾기 힘들지만, 성능에 대해서는 말이 많습니다. 부분 유료화, 무료 체험판 모델을 비교분석합니다.</summary></entry><entry><title type="html">고객을 결제시키는 3가지 라이브 채팅 전략</title><link href="https://dewberry9.github.io/three-live-chat-tips" rel="alternate" type="text/html" title="고객을 결제시키는 3가지 라이브 채팅 전략" /><published>2021-06-20T00:00:00+00:00</published><updated>2021-06-20T00:00:00+00:00</updated><id>https://dewberry9.github.io/three-live-chat-tips</id><content type="html" xml:base="https://dewberry9.github.io/three-live-chat-tips">&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/three-live-chat-tips/01.jpg&quot; alt=&quot;Live Chat SaaS&quot; title=&quot;라이브 채팅 서비스&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;언제부터인가 흔하게 보이는 플로팅 버튼입니다. 특히 웹 기반 제품에서 자주 보입니다. 디지털 프로덕트에 익숙한 방문객은 대부분은 이 버튼을 보고 같은 경험을 기대할 겁니다. 누르면 채팅창이 열리고, 즉각적으로 상담원과 연결됩니다. 다들 아시다시피 이건 라이브 채팅 소프트웨어입니다.&lt;/p&gt;
-
-&lt;p&gt;모든 고객은 저마다의 입장을 가지고 있습니다. 제품이 모든 입장에 꼭 맞게 만들어질 수는 없습니다. 고객과 제품 1:1 관계로 해결될 수 없는 문제가 생기고 제품 제공자가 개입합니다. 이것이 고객 지원의 구조입니다. 고객 지원은 맞춤 수제 제품이 아닌 이상 많든 적든 어쩔 수 없이 발생하는 일입니다.&lt;/p&gt;
-
-&lt;p&gt;초창기 디지털 프로덕트의 고객 지원은 전화, 이메일 문의와 같은 전통적인 방식을 그대로 따랐습니다. 인력이 부족한 곳에서는 게시판을 통해 비동기·비실시간으로 문의를 처리했습니다. 그랬던 고객 지원 방식이 변화의 흐름을 타고 있습니다. 이 선명한 변화는 이제와서 이야기하기에는 뒷북인 느낌이 들 정도로 완숙한 상황입니다. 오늘날 디지털 프로덕트의 고객 지원에 있어서 라이브 채팅의 채택은 선택보다 필수에 가까워 보입니다.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;라이브 채팅에 어떤 장점이 있길래 지금의 위치에 오를 수 있었을까요?&lt;/li&gt;
-  &lt;li&gt;숨겨진 단점이 있는 건 아닐까요?&lt;/li&gt;
-  &lt;li&gt;라이브 채팅을 제대로 쓴다는 건 어떤 걸까요?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;라이브-채팅의-이점&quot;&gt;라이브 채팅의 이점&lt;/h2&gt;
-
-&lt;p&gt;채팅(메시징)은 사람들이 즐겨 쓰는 가장 효율적인 의사소통 방법의 하나입니다. 카카오톡과 WeChat 같은 제품이 채팅 앱으로 시작하여, 갖가지 사업 분야에서 성과를 내는 슈퍼 앱으로 성장한 일은 우연이 아닙니다. 이를 고객 지원에 적용한 라이브 채팅은 크게 3가지 이점을 가지고 있습니다.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;고객 만족도 증진&lt;/li&gt;
-  &lt;li&gt;전환율, 리텐션 개선&lt;/li&gt;
-  &lt;li&gt;지원 업무 효율 개선&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p class=&quot;full-size&quot;&gt;&lt;img src=&quot;/assets/images/design/three-live-chat-tips/02.jpg&quot; alt=&quot;Satisfaction by CS Media&quot; title=&quot;고객 지원 매체별 만족도&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;고객 지원을 받는 고객에게 있어서 &lt;a title=&quot;Graham Charlton(Econsultancy), 2013 - Consumers prefer live chat for customer service: stats&quot; href=&quot;https://econsultancy.com/consumers-prefer-live-chat-for-customer-service-stats/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;라이브 채팅의 만족도는 이메일, 게시물, SNS, 통화 방식과 비교했을 때 월등&lt;/a&gt;합니다. 실시간으로 답변을 받을 수 없는 이메일 등의 방식이나, 긴 대기시간을 요구하는 통화 방식과 비교해 제품에 내장된 라이브 채팅은 빠른 접근성과 응답성이라는 장점이 있습니다. 대답하는 시간을 다소 자유롭게 조정할 수 있는 채팅 방식은 &lt;a title=&quot;매거진 입맛 - 알아서 팔리는 제품을 만드는 제품 주도 성장(Product-led Growth) 방법론&quot; href=&quot;/introduce-product-led-growth&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;제품 사용에 있어서 주체적인 성향을 띄는 오늘날의 고객&lt;/a&gt;에게 특히 유용합니다.&lt;/p&gt;
-
-&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/three-live-chat-tips/03.jpg&quot; alt=&quot;Live Chat Improve Conversion Rates&quot; title=&quot;라이브 채팅의 지표 개선&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;라이브 채팅이 제품의 주요 지표에 미치는 영향은 더 직설적입니다. 미국 마케팅 협회는 라이브 채팅이 고객의 전환을 막는 장애 요소를 해결함으로써 &lt;a title=&quot;Nancy Pekala, 2016 - How B2B Marketers are Leveraging Live Chat to Increase Sales&quot; href=&quot;https://www.spechy.com/wp-content/uploads/2016/11/how-b2b-marketers-leveraging-live-chat-increase-sales.pdf&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;B2B 제품의 전환율을 20% 개선&lt;/a&gt;한다고 말합니다. WebsiteBuilder.org의 조사에 따르면 라이브 채팅이 제공되는 웹페이지에서 &lt;a title=&quot;WebsiteBuilder, 2021 - 101 Live Chat Statistics on Why You Need to Embrace It&quot; href=&quot;https://websitebuilder.org/blog/live-chat-statistics/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;고객의 구매 가능성은 51%, 리텐션은 48% 증가&lt;/a&gt;합니다.&lt;/p&gt;
-
-&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/three-live-chat-tips/04.jpg&quot; alt=&quot;Cost Effectiveness of Live Chat&quot; title=&quot;라이브 채팅의 비용효율성&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;고객만이 라이브 채팅의 수혜자는 아닙니다. 라이브 채팅을 제공하는 쪽도 상당한 업무 효율 개선 효과를 볼 수 있습니다. 위의 조사에서 이어지는 내용입니다. 라이브 채팅을 이용한 고객 지원 업무 비용은 통화 방식보다 보다 400% 저렴합니다. 평균적으로 1명의 라이브 채팅 상담원이 15명의 이메일 상담원의 일을 할 수 있습니다. 총체적으로 봤을 때 라이브 채팅을 이용한 고객 지원 업무의 ROI(투자수익률)는 300%에 달합니다.&lt;/p&gt;
-
-&lt;p&gt;이처럼 &lt;strong&gt;라이브 채팅은 고객 지원을 비롯한 제품 전반의 수익성을 강화&lt;/strong&gt;합니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;라이브-채팅-일단-붙이고-보자&quot;&gt;라이브 채팅, 일단 붙이고 보자?&lt;/h2&gt;
-
-&lt;p&gt;앞서 설명했듯이 라이브 채팅은 수익성을 강화하고 제품 경험을 완성하는 강력한 기능입니다. 여기까지만 읽었다면 라이브 채팅이 제품에 달기만 하면 지표를 올려주는 만능 도구로 여겨질지도 모르겠습니다. 이렇게 생각하고 있는 사람이라면 라이브 채팅이 가입률과 전환율을 감소시켰다는 &lt;a title=&quot;Lars Lofgren, 2015 - How Live Chat Tools Impact Conversions and Why I Launched a Bad Variant&quot; href=&quot;http://larslofgren.com/growth/how-live-chat-tools-impact-conversions&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;AB 테스트 결과&lt;/a&gt;가 있다는 사실에 놀랄 겁니다.&lt;/p&gt;
-
-&lt;p&gt;그렇습니다. 어떤 경우에는 라이브 채팅이 주요 지표에 악영향을 주기도 합니다. 라이브 채팅이 어떤 방식으로 제품에 도움이 되는지 모르고 앞뒤 없이 도입한 경우라면 특히 그러합니다.&lt;/p&gt;
-
-&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/three-live-chat-tips/05.jpg&quot; alt=&quot;Live Chat Distributes the Inflow&quot; title=&quot;라이브 채팅의 퍼널 분산&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;라이브 채팅은 제품을 보조하는 도구이지만 눈에 띄는 플로팅 버튼와 같이 높은 접근성을 가지고 있습니다. 이는 라이브 채팅을 이용할 때는 편리한 요인이지만, 제품과 맞물려 작동하면서 묘한 일이 벌어집니다. 많은 디지털 프로덕트는 유입된 고객을 사업적으로 의미 있는 행동을 취하도록 견인하는 구조로 되어 있습니다. 이런 단계형 구조를 흔히 퍼널(Funnel)이라고 부릅니다. 특정한 상황에서 라이브 채팅의 높은 접근성은 퍼널의 다음 단계로 넘어가는 고객을 분산합니다. 라이브 채팅이 없었다면 별도 비용 없이 제품의 퍼널을 거쳤을 고객이 라이브 채팅을 시도하여 진행하지 않아도 될 상담 과정을 거치게 되는 것입니다. 한 단계가 늘어나는 이 구조는 &lt;a title=&quot;매거진 입맛 - 고객 10명 중 6명은 한번 쓰고 버린다. 줄줄 새는 제품 온보딩 고치기&quot; href=&quot;/product-led-growth-onboarding&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;퍼널 디자인에서는 치명적&lt;/a&gt;입니다. 기존 제품의 경험이 너무나 빈약해 라이브 채팅이 전환율을 끌고 가는 형태라면 이런 상황이 지표를 개선하는 결과로 이어지겠지만, 제품의 경험이 비교적 괜찮거나 라이브 채팅의 경험이 제품 자체보다 떨어지는 상황이라면 결과는 반대가 됩니다. 결국 라이브 채팅을 통해 지표를 개선하려는 목적을 가지고 있다면, &lt;strong&gt;라이브 채팅에 유입된 고객이 그렇지 않은 고객보다 더 큰 가치를 창출하는 구조가 필요하다&lt;/strong&gt;는 전제를 얻을 수 있습니다. 이제 그 구체적인 방법을 설명하겠습니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;빠른-응답속도&quot;&gt;빠른 응답속도&lt;/h2&gt;
-
-&lt;p&gt;가장 먼저 생각해야하는 것은 라이브 채팅으로 유입된 고객이 섣불리 제품을 포기하고 이탈하지 않도록 하는 방법입니다. 직감적으로 응답속도를 떠올릴 수 있습니다. 그 직감은 어느 정도 맞는 편입니다. MZ세대 &lt;a title=&quot;Forrester, 2017 - Raising The Bar&quot; href=&quot;https://www.slideshare.net/hoangduy203/amex-forrester-gen-z-research&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;17~20%는 채팅 응답속도가 느리다면 이탈&lt;/a&gt;할 마음을 먹을 것입니다. 고객 지원 방식에 있어서 라이브 채팅의 선호는 라이브 채팅에 기대하는 빠른 속도에 있기도 합니다. 그러니 빠른 응답속도가 라이브 채팅 경험의 질에 얼마나 도움이 되는지는 더 강조할 필요가 없을 정도입니다.&lt;/p&gt;
-
-&lt;p&gt;제품의 크기에 맞춰 라이브 채팅 상담 인원을 차차 늘리는게 응답속도를 개선하는 제일 확실한 방법일 겁니다. 동시에 1명의 상담원이 더 많은 채팅을 처리할 수 있도록 프로세스를 개선하는 노력도 지속해야합니다. 챗봇을 사용해 고객의 문의가 어떤 것인지 상담 전에 미리 파악하고, 이전 상담 데이터를 참고해 상담 한 건에 걸리는 시간을 최대한 단축해야합니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;상담-품질&quot;&gt;상담 품질&lt;/h2&gt;
-
-&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/three-live-chat-tips/06.jpg&quot; alt=&quot;Quality over Speed&quot; title=&quot;속도보다 품질&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;빠른 응답속도만큼, 아니 그보다 더 중요한 부분은 상담 품질입니다. 고객 지원 솔루션 기업 &lt;a title=&quot;kayako, 2021 - Live Chat Statistics&quot; href=&quot;https://kayako.com/live-chat-software/statistics/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;kayako의 조사&lt;/a&gt;에 따르면 &lt;strong&gt;95%의 고객은 빠르지만 품질이 낮은 상담을 받을 바에는 느리더라도 개인화되고 전문적인 상담을 원한다&lt;/strong&gt;고 응답했습니다. 심지어 고객 5명 중 1명은 부족한 라이브 채팅 경험을 받았을 때 그 경험을 주변 사람에게 이야기합니다. 유입된 고객을 효과적으로 전환하기 위해 도입한 라이브 채팅이 고객 획득 단계에 악영향을 주는 겁니다. 실시간 상담이 가능한 상태로 표시되었으나 실제로는 상담원이 온라인 상태가 아니라 곧바로 상담할 수 없는 경우, 맥락을 고려하지 않은 자동 답변을 받은 경우, 이전에 입력했지만 연동되지 않아 상담 전 입력폼을 다시 써야하는 경우는 라이브 채팅 경험을 나쁘게 만드는 대표적인 상황입니다.&lt;/p&gt;
-
-&lt;p&gt;다음은 라이브 채팅 상담 품질을 개선할 수 있는 몇 가지 방법입니다.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;고객의 상황을 정확히 파악&lt;/strong&gt; : 상담을 신청한 고객이 원하는 것은 일관된 경험이 아니라 신속하고 정확하게 문제를 해결하는 것입니다. 과거 상담 기록과 제품 사용 로그를 참고해 고객이 어떤 상황에 놓여있는지 미리 판단할 수 있는 환경을 구축해야 합니다.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;맥락을 고려한 자동응답&lt;/strong&gt; : 챗봇 등을 활용한 자동응답은 상담의 효율을 높이는 좋은 방법입니다. 잘 만든 챗봇은 상담원의 개입 없이도 훌륭한 상담 경험을 제공할 수 있습니다. 이를 위해서는 고객이 어떤 상황에서 상담을 신청했는지 파악하고 적절한 답을 얻을 수 있도록 설계된 치밀한 기획이 뒷받침되어야 합니다.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;crm&quot;&gt;CRM&lt;/h2&gt;
-
-&lt;p&gt;라이브 채팅에 유입된 고객을 보존하는 데 성공했다면 그다음 단계는 해당 고객이 더 많은 가치를 창출할 수 있도록 지원하는 것입니다. 대표적인 방법은 라이브 채팅과 CRM 간의 연동입니다.&lt;/p&gt;
-
-&lt;p&gt;고객 관계 관리, CRM(Customer Relationship Management)은 고객 한명 한명에 대한 데이터를 관리하고 분석하여 고객 확보, 확장, 전환, 유지에 이르는 전 과정에 개인화된 경험을 제공하는 전략을 의미합니다.&lt;/p&gt;
-
-&lt;p&gt;상담 경험을 해치지 않는 선에서, 라이브 채팅에 유입된 고객의 데이터를 수집합니다. 이를 통합 CRM에 연동하고 개인화된 경험을 제공합니다. 성별에 따라서 남성화 대신 여성화 프로모션에 대한 앱 푸시를 보내거나, 애완견을 가진 고객의 화면에 고양이 사료 대신 강아지 사료를 상단 노출할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;이렇게 개인화된 경험을 제공하면서 그에 대한 반응도 확인합니다. 데이터를 쌓고 추적할 만한 지표로 만듭니다. 이전에 밝혔다시피 &lt;a title=&quot;매거진 입맛 - 팀원, 투자자, 고객을 바꾸는 성공한 제품의 경쟁력. 제품 주도 성장 지표&quot; href=&quot;/product-led-growth-metrics&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;지표 설정은 제품을 성장시키기 위한 조직의 언어&lt;/a&gt;입니다. 고객 지원과 CRM이 제품 성장의 다른 한축을 이끌어가기 위해서는 지표 설정이 중요합니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;정리&quot;&gt;정리&lt;/h2&gt;
-
-&lt;p&gt;먼저 고객 지원이 발생할 수 밖에 없는 구조를 설명하고, 라이브 채팅이 고객 지원에서 가지고 있는 3가지 이점을 이야기했습니다.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;고객 만족도 증진&lt;/li&gt;
-  &lt;li&gt;전환율, 리텐션 개선&lt;/li&gt;
-  &lt;li&gt;지원 업무 효율 개선&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;그런데 몇몇 상황에서 라이브 채팅은 전환율을 악화시킵니다. 이는 제품과 라이브 채팅이라는 유입의 양분 때문에 발생하는 현상이며, 해결책으로는 라이브 채팅에 유입된 고객이 그렇지 않은 고객보다 더 큰 가치를 창출하는 구조를 만드는 전략이 있습니다. 이러한 구조를 만드는 대표적인 방법은 다음과 같습니다.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;빠른 응답속도&lt;/li&gt;
-  &lt;li&gt;상담 품질&lt;/li&gt;
-  &lt;li&gt;CRM 연동&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;라이브 채팅을 유행처럼 따라가는 기술로 받아들이지 말고, 전략적으로 접근한다면 제품의 성장에 도움이 될만한 다양한 측면을 확인할 수 있을 겁니다.&lt;/p&gt;
-
-&lt;p class=&quot;right-infor&quot;&gt;위시켓의 지원과 함께 제작된 콘텐츠입니다.&lt;/p&gt;</content><author><name>이준환</name></author><category term="design-teatime" /><summary type="html">라이브 채팅은 만족도가 가장 높은 CS 도구로, 전환율 20%, 리텐션은 48%나 개선합니다. 그러나 악영향을 주는 경우도 있습니다. 어떻게 된 거죠?</summary></entry></feed>
+&lt;p class=&quot;right-infor&quot;&gt;위시켓의 지원과 함께 제작된 콘텐츠입니다.&lt;/p&gt;</content><author><name>이준환</name></author><category term="design-teatime" /><summary type="html">부분 유료화, 무료 체험판 모델을 쓰지 않는 SaaS는 찾기 힘들지만, 성능에 대해서는 말이 많습니다. 부분 유료화, 무료 체험판 모델을 비교분석합니다.</summary></entry></feed>
