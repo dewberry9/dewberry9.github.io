@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="ko"><head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134698276-1"></script>
+    <script async>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-134698276-1');
+    </script>
+    <!-- Meta Tag for Basic Setting -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="locale" content="ko_KR">
+    <meta name="google-site-verification" content="Q1Gkv54gFGh2MxaT7ehKmua6BROtBIJR_ki_z_1_EwE" />
+    <meta name="naver-site-verification" content="d9a8213816d39cd0b58123c579fb50704ab632a8"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="referrer" content="always">
+    <!-- Open Graph -->
+    <meta property="og:title" content="AB 테스트 인사이트의 수준이 달라지는 베이지안 분석 | 매거진 입맛">
+    <meta property="og:url" content="https://dewberry9.github.io/ab-test-bayesian-statistical-analysis">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="매거진 입맛">
+    <meta property="og:description" content="‘대안의 결과가 원본보다 나을 확률’, ‘대안을 선택했을 때 예상 손실’. 빈도주의 분석으로 알 수 없는 인사이트를 어떻게 얻을 수 있을까요?">
+    <meta property="og:image" content='https://dewberry9.github.io/assets/images/design/ab-test-bayesian-statistical-analysis/00.jpg'>
+    <meta name="by" content="이준환">
+    <!-- Twitter -->
+    <meta name="twitter:title" content="AB 테스트 인사이트의 수준이 달라지는 베이지안 분석 | 매거진 입맛">
+    <meta name="twitter:description" content="‘대안의 결과가 원본보다 나을 확률’, ‘대안을 선택했을 때 예상 손실’. 빈도주의 분석으로 알 수 없는 인사이트를 어떻게 얻을 수 있을까요?">
+    <meta name="twitter:image" content='https://dewberry9.github.io/assets/images/design/ab-test-bayesian-statistical-analysis/00.jpg'>
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="https://dewberry9.github.io/ab-test-bayesian-statistical-analysis">
+    <meta name="twitter:site" content="매거진 입맛">
+    <!-- Other Basic Meta Tag -->
+    <meta name="title" content="AB 테스트 인사이트의 수준이 달라지는 베이지안 분석 | 매거진 입맛">
+    <meta name="description" content="‘대안의 결과가 원본보다 나을 확률’, ‘대안을 선택했을 때 예상 손실’. 빈도주의 분석으로 알 수 없는 인사이트를 어떻게 얻을 수 있을까요?">
+    <meta name="author" content="이준환">
+    <meta name="article:media_name" content="매거진 입맛">
+    <meta property="article:mobile_url" content="https://dewberry9.github.io/ab-test-bayesian-statistical-analysis">
+    <meta property="article:pc_url" content="https://dewberry9.github.io/ab-test-bayesian-statistical-analysis">
+    <meta property="article:mobile_view_url" content="https://dewberry9.github.io/ab-test-bayesian-statistical-analysis">
+    <meta property="article:pc_view_url" content="https://dewberry9.github.io/ab-test-bayesian-statistical-analysis">
+    <meta property="article:talk_channel_view_url" content="https://dewberry9.github.io/ab-test-bayesian-statistical-analysis">
+    <meta property="article:pc_service_home" content="https://dewberry9.github.io">
+    <meta property="article:mobile_service_home" content="https://dewberry9.github.io">
+    <!-- Post Date Tag -->
+    
+    <meta property="article:published_time" content="2021-09-22T00:00:00+00:00">
+    <meta property="article:modified_time" content="2021-09-22T00:00:00+00:00">
+    <meta property="og:regDate" content="20210922000000">
+    
+    <!-- JSON-LD -->
+    <script type="application/ld+json">
+      
+        {
+          "@context":"https://schema.org/",
+          "@type":"BlogPosting",
+          "mainEntityOfPage":{
+            "@id":"https://dewberry9.github.io/ab-test-bayesian-statistical-analysis"
+          },
+          "url":"https://dewberry9.github.io/ab-test-bayesian-statistical-analysis",
+          "headline":"AB 테스트 인사이트의 수준이 달라지는 베이지안 분석 | 매거진 입맛",
+          "description":"‘대안의 결과가 원본보다 나을 확률’, ‘대안을 선택했을 때 예상 손실’. 빈도주의 분석으로 알 수 없는 인사이트를 어떻게 얻을 수 있을까요?",
+          "author":{
+            "@type":"Person",
+            "name":"이준환"
+          },
+          "publisher":{
+            "@type":"Organization",
+            "name":"매거진 입맛",
+            "logo":{
+              "@type":"ImageObject",
+              "url":"https://dewberry9.github.io/assets/images/logo.png"
+            }
+          },
+          "image":{
+            "@type":"ImageObject",
+            "url":"https://dewberry9.github.io/assets/images/design/ab-test-bayesian-statistical-analysis/00.jpg"
+          },
+          "datePublished":"2021-09-22T00:00:00+00:00",
+          "dateModified":"2021-09-22T00:00:00+00:00"
+        }
+      
+    </script>
+    <!-- Links -->
+    <link rel="canonical" href="https://dewberry9.github.io/ab-test-bayesian-statistical-analysis">
+    <link rel="alternate" href="https://dewberry9.github.io/feed.xml" type="application/atom+xml" title="Atom 0.3">
+    <link rel="preload" as="style" href='/assets/style.css'>
+    <link rel="stylesheet" href='/assets/style.css'>
+    <link rel="preload" as="style" href='/assets/fonts/naaummyeongjo.css'>
+    <link href='/assets/fonts/naaummyeongjo.css' rel='stylesheet' type='text/css'>
+    <link rel="preload" as="style" href='https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css'>
+    <link href='https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
+    <link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#363059">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <title>AB 테스트 인사이트의 수준이 달라지는 베이지안 분석 | 매거진 입맛</title>
+
+    <script data-ad-client="ca-pub-7525347021497850" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    
+</head><body>
+    <header class="top-nav" id="nav">
+    <nav>
+        <a href="/" title="Magazine Epmat" class="logo">
+            <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M5.538 2.77H4.154v.84l1.384.123v-.964zm0 17.482l-1.384.139v.84h1.384v-.979zm.924.979h12.347l-.049-5.116h-1.384l-1.137 4.152h-5.56c-.05-2.57-.05-5.19-.05-7.933v-.075h3.386l.346 2.62h1.236V8.627H14.36l-.37 2.743h-3.362c0-2.62 0-5.165.05-7.637h5.016l1.137 3.954h1.434l.024-4.918H6.462v18.462z"/></svg>
+            <span class="nosvg">매거진 입맛</span>
+        </a>
+        <div class="dynamic-nav">
+            <ul>
+                <li>
+                    <a id="btn-starting" href="/" title="Starting Point" class="op75">처음</a>
+                </li>
+                <li>
+                    <a id="btn-article" href="/article" title="Design Teatime" class="op75">디자인</a>
+                </li>
+                <li>
+                    <a id="btn-daily" href="/review" title="Daily" class="op75">입맛리뷰</a>
+                </li>
+                <li>
+                    <a id="btn-story" href="/story" title="Story" class="op75">소설</a>
+                </li>
+                <!--
+                <li>
+                    <a id="btn-about" href="/about" title="Starting Point" class="op75">쓰는 사람<span class="num-square">4</span></a>
+                </li>
+                -->
+            </ul>
+        </div>
+    </nav>
+</header>
+    <div id="content">
+        <script>
+    document.getElementById('nav').classList.add('show')
+</script>
+<section class="post-content">
+    <h1 class="post-title">AB 테스트 인사이트의 수준이 달라지는 베이지안 분석</h1>
+    <span class="post-category">
+        
+        <svg class="script-font" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50"><path d="M58.44 32.05v.07l.06-.12a.24.24 0 00-.06.05zM81.93 32.8h-.01v.03l.01-.03zM93.33 17.27a1.09 1.09 0 00.7 0c.17 0 .39-.08.64-.15l.94-.28H95.84l.17-.05.17-.05c.52-.16 1-.29 1.43-.4l1.16-.3h.27l.94-.25a3.86 3.86 0 00.65-.25.91.91 0 00.35-.31.54.54 0 000-.42.63.63 0 00-.16-.33.3.3 0 00-.2-.1.45.45 0 00-.23 0 1.51 1.51 0 00-.22.11h-.16l-.2.1a3.77 3.77 0 01-.44.16c-.19.07-.46.15-.79.24l-1.27.32-1.67.38-1.1.21a6.05 6.05 0 01-.75.11 1.57 1.57 0 01-.29 0 .33.33 0 00-.1 0 .42.42 0 00-.32.26.73.73 0 000 .53.63.63 0 00.25.47z"/><path d="M153.67 11.93a.41.41 0 00-.13-.23.55.55 0 00-.52-.15 1.15 1.15 0 00-.32.12 1.09 1.09 0 00-.29.24l-.18.18-.16.18c-.07.09-.16.2-.28.33l-.41.44-.57.6c-.23.23-.52.5-.86.82-.33.28-.74.62-1.23 1a16.23 16.23 0 01-1.79 1.22c-.39.21-.8.41-1.21.6a12.3 12.3 0 01-1.21.46l-.36.1-.34.07a7.5 7.5 0 01-1.77.06 5.06 5.06 0 01-1.11-.24 5.7 5.7 0 01-.81-.32c-.23-.12-.45-.25-.65-.37l-.54-.39-.43-.34c-.3-.27-.55-.51-.77-.73s-.42-.45-.63-.7a.25.25 0 01-.05-.07.25.25 0 01-.05-.07s-.05-.06-.05-.08l-.73-.23-.09.11-.06.05h.09l-.27.16-.27.2a6.11 6.11 0 00-.55.45l-.61.52-.71.61c-.26.22-.53.46-.82.73l-.15.13-.15.14-.08.07-.09.07-.19.18-.2.18-.56.51-.61.55-.58.48q-.31.26-.63.48l-.6.43a5.78 5.78 0 01-.54.32 4 4 0 01-1 .33h-.08l.09-.38.12-.39c.08-.25.16-.48.24-.71a3.89 3.89 0 01.16-.41l.16-.36a.2.2 0 010-.08.14.14 0 000-.07.14.14 0 000-.06.16.16 0 010-.06c.15-.38.28-.67.37-.87l.21-.44a.53.53 0 00.08-.15.77.77 0 00.06-.15.7.7 0 00.08-.27.64.64 0 00.08-.14.66.66 0 00.07-.33.39.39 0 00-.09-.26.53.53 0 00-.55-.16h-.09a.67.67 0 00-.29.1.87.87 0 00-.15.13 2.49 2.49 0 00-.3.19l-.15.13-.15.13a4.32 4.32 0 01-.39.34l-.46.41-.38.35-.18.17-.19.18-1 .89-1.39 1.29c-.54.5-1.16 1.1-1.87 1.78s-1.53 1.49-2.45 2.42c-.54.57-1 1.1-1.52 1.61s-1 1-1.42 1.58c-.25.27-.51.57-.8.91s-.59.7-.89 1.08v.05l-.33.41-.36.44v-.12V30.1v-.17-.21c.06-.36.11-.74.17-1.16s.11-.83.15-1.25.1-.82.14-1.22.07-.76.09-1.1 0-.65.06-1 0-.68 0-1a1.69 1.69 0 010-.23v-.56a1.69 1.69 0 000-.23 1.48 1.48 0 010-.21v-.5l-.34-.1H113.69l-.14.12V21.45l-.49.48a5.94 5.94 0 01-.48.39 2.6 2.6 0 01-.43.23 1 1 0 01-.41.07.36.36 0 01-.22-.07.75.75 0 01-.19-.17.63.63 0 01-.19-.39 1.13 1.13 0 01.09-.45 2.28 2.28 0 01.17-.35l.2-.27.21-.23.21-.2.15-.14.07-.07a2.79 2.79 0 00.28-.32.91.91 0 00.31-.44.57.57 0 00-.08-.54.6.6 0 00-.44-.25.81.81 0 00-.56.12l-.21.13-.21.15-.38.29c-.16.13-.4.29-.71.51l-1 .68-1.48.93-1 .6-1.23.71c-.44.26-.9.52-1.39.78s-1 .54-1.49.79l-1 .49-1 .47-1 .42c-.32.13-.63.24-.91.34s-.78.26-1.16.36a8.72 8.72 0 01-1 .25 5.89 5.89 0 01-.91.1 2.91 2.91 0 01-1.12-.11 2.1 2.1 0 01-.4-.18 1.43 1.43 0 01-.29-.24 1.2 1.2 0 01-.16-.27 1.81 1.81 0 01-.09-.31 1.87 1.87 0 010-.32V25a4.08 4.08 0 01.06-.53c0-.16.06-.3.09-.43a2.69 2.69 0 01.09-.32 1.94 1.94 0 01.07-.22l.09-.2a.53.53 0 00.06-.14v-.14a.49.49 0 000-.12.59.59 0 00.06-.14.74.74 0 000-.29.54.54 0 00-.09-.25.65.65 0 00-.61-.21 1.25 1.25 0 00-.61.32l-.31.28-.32.34-.28.27-.35.36c-.17.18-.39.42-.67.7s-.6.61-1 1l-1.27 1.22L87 28.1a3 3 0 01-.25.25l-.24.24-.34.34a2.57 2.57 0 00-.33.33l-.23.23-.22.23-.53.53-.19.2-.2.19-.25.26a3.44 3.44 0 00-.27.27l-.85.83-1 1.09-.12.13a1 1 0 010-.24.25.25 0 010-.18.17.17 0 010-.07v-.08-.58-.56-.37-.36-.68-1.89-1.22a5.86 5.86 0 01.09-.77 3.91 3.91 0 01.12-.47l.13-.12.13-.13a.9.9 0 00.17-.3.79.79 0 000-.34.71.71 0 00-.22-.38.58.58 0 00-.26-.13H82a.69.69 0 00-.46.05 1.05 1.05 0 00-.3.22 1.34 1.34 0 00-.22.31 2.23 2.23 0 00-.09.23l-.51.57c-.15.16-.33.36-.55.57s-.47.48-.78.76-.62.57-1 .87-.79.63-1.25 1c-.47.33-.88.59-1.24.8s-.69.38-1 .52c-.25.12-.47.22-.69.3s-.42.16-.62.23l-.52.18-.54.14h-.11l-.62-.1c-.23.06-.49.11-.79.16a9.57 9.57 0 01-2.75.07 3 3 0 01-.54-.11 2.78 2.78 0 01-.51-.17 1.34 1.34 0 01-.63-.47 2.13 2.13 0 01-.26-.41 1.69 1.69 0 01-.13-.4.86.86 0 010-.16.81.81 0 010-.15 1.07 1.07 0 01.16-.41 1.13 1.13 0 00.1-.13l.13-.06.58-.3h.07l.09-.05h.07l.14-.07h.08a2.63 2.63 0 00.51-.39.81.81 0 00.44-.62.94.94 0 00.06-.15.4.4 0 000-.29.48.48 0 00-.36-.14h-.06a.78.78 0 00-.58 0l-.21.1-.21.11-.25.15-.36.23-.39.32-.52.29c-.23.14-.51.29-.84.47s-.71.36-1.13.55l-1.08.47c-.43.18-.93.37-1.5.58.15-.37.29-.74.42-1.12s.25-.72.35-1c.16-.55.3-1.08.41-1.58a13.43 13.43 0 00.24-1.46 12.45 12.45 0 00.1-1.34 8.47 8.47 0 000-1.25v-.23-.23a6 6 0 00-.27-1 3.66 3.66 0 00-.54-.95 3.1 3.1 0 00-.55-.53 2.82 2.82 0 00-.68-.37 2.64 2.64 0 00-.77-.19 4.39 4.39 0 00-.81 0h-.43a5.66 5.66 0 00-1.46.48 8.85 8.85 0 00-1.46.88 14 14 0 00-1.64 1.5 20.77 20.77 0 00-1.64 1.95c-.29.39-.57.79-.85 1.2s-.56.85-.84 1.32a.5.5 0 000-.12v-.1a.5.5 0 010 .12v-.08-.21c0-.08 0-.18.05-.29a2.56 2.56 0 010-.27l.06-.27.06-.24a1.24 1.24 0 010-.22l.36-1.81c.09-.47.17-.84.22-1.12s.1-.49.13-.63.05-.27.07-.38a3.21 3.21 0 00.06-.6 2.53 2.53 0 000-.5 1 1 0 00-.16-.42.39.39 0 00-.29-.2.36.36 0 00-.29.08 1 1 0 00-.27.31 2.82 2.82 0 00-.23.49 3.62 3.62 0 00-.16.61v.09a.3.3 0 000 .1v.12c0 .04-.07.37-.12.69s-.12.68-.19 1.12-.16.92-.26 1.46-.21 1.12-.32 1.73l-.27 1.39c-.1.51-.2 1-.32 1.58V29a.31.31 0 010 .08c0 .15-.06.3-.09.47s-.06.32-.1.48c-.18.38-.36.78-.54 1.21s-.36.82-.5 1.18-.22.55-.32.83-.19.56-.27.82a3 3 0 00-.1.32l-.09.34a.2.2 0 000 .07.25.25 0 010 .07c0 .1 0 .17-.06.22s0 .1 0 .14v.32a.76.76 0 000 .15 1.58 1.58 0 00.06.23 1.3 1.3 0 00.1.15.7.7 0 00.18.12.43.43 0 00.18.06h.19l.11-.05.1-.11a.68.68 0 00.12-.12l.14-.2a1.61 1.61 0 00.12-.23 2.69 2.69 0 00.17-.34l.16-.37c.1-.24.19-.48.26-.71a.63.63 0 00.12.1 4.9 4.9 0 00.76.5 13.36 13.36 0 001.49.64 12.18 12.18 0 001.6.44c.29.06.59.1.89.14a6 6 0 001 .06h.66a5.13 5.13 0 00.74-.09l.39-.08a3.29 3.29 0 00.37-.1h.06l.25-.08a1.82 1.82 0 00.3-.13 1.91 1.91 0 00.32-.17l.26-.18a4.08 4.08 0 00.49-.45l.47-.53a14.65 14.65 0 001.6-2.49.25.25 0 010-.07.41.41 0 01.05-.09h.1a.13.13 0 00.08 0c1.1-.36 2-.7 2.83-1 .6-.24 1.11-.46 1.55-.65a2.23 2.23 0 000 .33 3.06 3.06 0 00.2.63 3.47 3.47 0 00.37.6 2.47 2.47 0 00.4.44 3.41 3.41 0 00.44.3 3.67 3.67 0 00.44.21l.45.17a8.56 8.56 0 001.14.26 7.76 7.76 0 001.49.1h.74l.65-.08.35-.07.32-.08c.25-.07.49-.14.7-.22s.42-.14.61-.21l.69-.31.88-.42 1.14-.61c.43-.24.94-.55 1.53-.94s1.14-.8 1.58-1.16.83-.68 1.15-1l.47-.41v1.52c0 .39 0 .71.07 1.13v.6a.57.57 0 000 .13v.14a.92.92 0 000 .16v.16c0 .33 0 .69.07 1.08s0 .79 0 1.18V34.87a9.33 9.33 0 00-.65.73c-.18.21-.35.43-.52.64s-.52.64-.75 1-.43.61-.62.9v.07a.33.33 0 010 .06l-.28.51c-.1.19-.19.38-.28.57s0 .13-.07.2l-.06.25a1.2 1.2 0 000 .33.79.79 0 00.13.37.68.68 0 00.32.31 1.15 1.15 0 00.41.08h.54a4.25 4.25 0 00.54-.18 5.68 5.68 0 00.55-.28 2.53 2.53 0 00.5-.43 4.69 4.69 0 00.42-.55 5.61 5.61 0 00.56-1.36 12.91 12.91 0 00.31-1.64v-.36-.35c.54-.6 1.08-1.19 1.61-1.79l1.46-1.61c.51-.55 1-1.06 1.42-1.52s.86-.89 1.27-1.28c.75-.73 1.41-1.36 2-1.9l1.48-1.39 1.05-.95.18-.17v.59a3.23 3.23 0 00.11.84 2.72 2.72 0 00.19.47 3.74 3.74 0 00.32.49 2.54 2.54 0 001 .69 3.56 3.56 0 001.27.2 7.43 7.43 0 001.38-.14 18.06 18.06 0 003-.91c1.07-.42 2.23-.95 3.48-1.58s2.31-1.2 3.2-1.72l2.32-1.33 1.24-.73a1.84 1.84 0 000 .25 1.65 1.65 0 000 .54 1.75 1.75 0 00.19.54 2.34 2.34 0 00.36.51l.25.23.31.19a1.52 1.52 0 00.78.15 1.86 1.86 0 00.7-.14 3.13 3.13 0 00.65-.35l.19-.13.2-.14c0 .89 0 1.89-.13 3s-.22 2.29-.4 3.53c-.09.55-.17 1.06-.26 1.53s-.18.92-.27 1.36a20.36 20.36 0 00-1.4 2.38 14 14 0 00-.77 1.92 8.06 8.06 0 00-.31 1.76 5 5 0 00.06 1.1 4 4 0 00.29 1c.1.21.22.33.34.35a.36.36 0 00.35-.14 2.13 2.13 0 00.31-.47 4 4 0 00.26-.6 3 3 0 00.15-.57 6.37 6.37 0 01.28-1c.12-.36.25-.76.37-1.2a.3.3 0 010-.1.13.13 0 000-.06.14.14 0 010-.06V37.17c.12-.45.25-.92.38-1.43s.26-1.06.4-1.67l.44-.69c.14-.22.29-.44.45-.67.33-.49.67-1 1-1.41s.67-.88 1-1.29c.64-.79 1.28-1.55 1.92-2.26s1.23-1.35 1.8-1.93c1.06-1.06 2-2 2.83-2.72l2.15-2c.63-.54 1.14-1 1.56-1.34l.61-.51-.21.6-.22.7a5.91 5.91 0 00-.2.85 1.93 1.93 0 000 .27 1 1 0 000 .31v.13a.75.75 0 000 .16.58.58 0 00.1.22v.06a1.05 1.05 0 00.27.21l.19.06h.17a1.4 1.4 0 00.35 0 2.46 2.46 0 00.37 0 3 3 0 00.54-.15 3.29 3.29 0 00.54-.26 6.16 6.16 0 00.55-.33 12.5 12.5 0 001-.75l1-.88c.13-.12.25-.23.39-.34s.25-.23.36-.34l.11-.1.12-.1c.4-.37.78-.73 1.15-1.06l1-.86q.49-.44.93-.75l.77-.55.22.3.25.3c.23.26.51.56.83.87a7.5 7.5 0 001.21.95 6.38 6.38 0 001.27.59 6.71 6.71 0 001.3.33 5.7 5.7 0 001.24.07 7.77 7.77 0 001.14-.13 9.94 9.94 0 001-.25c.33-.11.64-.22.93-.35s.58-.25.85-.39l.74-.38a13.33 13.33 0 001.21-.74l1-.69c.3-.22.57-.43.82-.64l.67-.56.83-.75c.25-.22.45-.4.61-.56l.13-.12c0-.05.05-.06 0 0l.36-.34c.11-.08.2-.16.28-.23h.06l.05-.05.08-.07v-.05a1.27 1.27 0 00.18-.29 1.92 1.92 0 00.09-.32.93.93 0 00.35-.92zM48.75 33.4zm9.79-1.5l-.06.11v.06c-.3.45-.59.86-.87 1.22a3.7 3.7 0 01-.84.84l-.18.1-.2.1h-.08l-.47.15-.23.05h-.87a9 9 0 01-2.14-.16 12.29 12.29 0 01-2-.56l-.42-.18a3.84 3.84 0 01-.45-.23l.82-.14.75-.12.72-.13c1.37-.24 2.61-.49 3.72-.74s2.11-.5 3-.75a2.28 2.28 0 00-.2.38zm1.88-4.52c-.15.53-.33 1-.51 1.52s-.38 1-.57 1.4H59.13c-1 .31-2.15.63-3.49 1s-2.9.7-4.64 1l-.85.15-.68.12c-.24 0-.46.09-.66.14h-.11c.1-.34.18-.67.26-1s.16-.62.24-.91l.12-.53a1.33 1.33 0 000-.19v-.2a.51.51 0 000-.09.29.29 0 000-.09v-.05a.13.13 0 010-.06v-.09a.31.31 0 00.05-.1v-.05c0-.05 0 0 0 0v-.11c.46-.94.91-1.79 1.36-2.56s.9-1.48 1.34-2.11a20 20 0 011.3-1.71 16.39 16.39 0 011.63-1.3 8.77 8.77 0 012.32-1.63c.19-.08.37-.14.55-.2a3.48 3.48 0 01.49-.12 3.09 3.09 0 01.5-.06 3.3 3.3 0 01.45 0 1.66 1.66 0 01.73.2 1.73 1.73 0 01.56.48 2.27 2.27 0 01.39.74 4.72 4.72 0 01.2.88A6.58 6.58 0 0161.2 23a9.57 9.57 0 01-.09 1.26c-.06.45-.14.94-.24 1.46s-.26 1.06-.45 1.66zm20.08 9.93a5.59 5.59 0 01-.27.73 2.39 2.39 0 01-.47.67 2.68 2.68 0 01-.55.43 1.85 1.85 0 01-.57.15.49.49 0 010-.11v-.11c.16-.27.32-.52.48-.74s.33-.45.52-.69l.41-.51.48-.56a5 5 0 01-.03.74z"/></svg>
+        
+    </span>
+    <div>
+        <p class="infor">시리즈로 구성된 글입니다. <a title="매거진 입맛 - 그 AB 테스트 결과는 우연일지도 모릅니다." href="/ab-test-frequentist-statistical-analysis" target="_blank" rel="noopener">저번 글</a>에서는 AB 테스트를 결과를 분석하는 빈도주의 통계적 가설 검정에 대해 다뤘습니다. 이번 편에서는 베이지안 통계 방식에 입각한 가설 검정을 살펴봅니다.</p>
+
+<p>대안의 전환율 개선이 95% 신뢰구간에서 통계적으로 유효하다는 말은, 대안이 무의미하다고 가정하면 해당 전환율이 관측될 확률이 5% 이하로 희박하니 대안의 전환율 개선을 유의미하다고 봐야 한다는 뜻입니다. AB 테스트 결과를 빈도주의 통계적 가설 검정으로 분석하는 과정을 설명한 <a title="매거진 입맛 - 그 AB 테스트 결과는 우연일지도 모릅니다." href="/ab-test-frequentist-statistical-analysis" target="_blank" rel="noopener">저번 편</a>의 결론이었습니다.</p>
+
+<p>AB 테스트를 하고 결과를 공유할 때면 ‘대안이 원본보다 나을 확률’에 관해 물어보는 사람이 꼭 한 명쯤은 생깁니다. 단순한 지표 비교를 넘어서, AB 테스트로 얻은 결과가 정말로 의미 있는지 묻는 간단한 질문이지만 빈도주의 접근법으로는 답할 수가 없습니다. 신뢰구간, p값에 대해 설명하고 이 결과를 무효로 돌리기에는 너무 확률이 적다고 이야기합니다. 적당히 수긍하는 듯한 반응이 되돌아오고 회의에는 다음 논제가 들어섭니다. 통계학적 난해함이 AB 테스트가 전사적 문화로 발전하는 과정에서 걸림돌이 되는 상황입니다. 해결책이 필요합니다. <a title="매거진 입맛 - 그 AB 테스트 결과는 우연일지도 모릅니다." href="/ab-test-frequentist-statistical-analysis" target="_blank" rel="noopener">빈도주의 통계학</a>은 들쭉날쭉한 이해도를 가진 조직 구성원 사이에서 AB 테스트로 협업하는데 적절한 언어를 제공하지 않습니다. AB 테스트 설계자는 이제 3가지 선택을 강요받습니다. 첫째, 가설 검정에 대해서는 ‘그냥 그런가 보다’하고 넘어가도록 하기. 몇몇 상황에서 해석 문제가 생길 수 있습니다. AB 테스트는 결국 과정을 이해하는 소수의 전유물이 될 것입니다. AB 테스트를 <a title="매거진 입맛 - 따라쓰기만 하면 테스트 문화가 만들어진다 - Growth Book" href="/growth-book-and-experiment-culture" target="_blank" rel="noopener">문화로 만드려는 목적</a> 아래서는 고려할만한 선택지가 아닙니다. 둘째, 전 조직원이 빈도주의 통계학을 익히기. 어려운 일일뿐더러 아래서 설명할 빈도주의의 한계를 해결할 수는 없습니다. 셋째, ‘그냥 그런가 보다’하고 넘어가도 문제없는 협업이 가능한 접근법을 사용하기. 이번 글에서 설명할 내용은 마지막 선택지, 베이지안 통계학(Bayesian Statistics)대한 것입니다.</p>
+
+<ul>
+  <li>빈도주의 통계적 가설 검정에 또 어떤 문제가 있을까요?</li>
+  <li>베이지안 통계학은 어떤 과정으로 AB 테스트 결과를 분석할까요?</li>
+  <li>그래서 둘 중 뭘 써야 하나요?</li>
+</ul>
+
+<h2 id="빈도주의의-한계">빈도주의의 한계</h2>
+
+<p>AB 테스트를 실행하고 언제 결과를 체크하나요? 하루? 이틀? 실험 종료는? 1천명의 고객이 다녀간 후에? 아니면 2천명? AB 테스트 초보자라면 난데없는 위의 질문에 고개를 갸우뚱할 수도 있을 겁니다. 짬짬이 결과를 보다 통계적 유의성이 달성된 순간에 종료하면 그만 아니었나요? 예시를 보며 어떤 상황이 벌어질 수 있는지 확인해보겠습니다.</p>
+
+<p class="normal-size"><img src="/assets/images/design/ab-test-bayesian-statistical-analysis/01.jpg" alt="Statistical results of frequentism according to test period" title="Statistical results of frequentism according to test period" loading="lazy" /></p>
+
+<p>예시는 4개의 상황에서 각각 1천 명과 2천 명의 고객이 실험에 참여했을 때 95% 신뢰구간에서 통계적 가설 검정을 시도한 결과입니다. 처음부터 끝까지 통계적으로 무의미하거나 유의미한 경우, 처음에는 무의미했다가 나중에 유의미해진 경우, 반대로 처음에 유의미했다가 나중에 무의미해진 경우가 있습니다. 마지막 상황이 중요합니다. 1천명의 고객이 실험에 참여한 결과만을 보고 실험을 종료하여, <strong>데이터가 좀 더 모였을 때 통계적으로 무의미해지는 사실을 모르고 지나갈 수 있다</strong>는 겁니다.</p>
+
+<p>대립가설을 지지하는 데이터가 실험 초반에 몰려 <a title="Evan Miller, 2020 - How Not To Run an A/B Test" href="https://www.evanmiller.org/how-not-to-run-an-ab-test.html?refer=mag_epmat" target="_blank" rel="noopener">발생하는 사고</a>입니다. 이를 제1종 오류(Type I Error)라고 합니다. 반대로 실제로는 유의미한 차이가 있지만 대립가설에 반하는 데이터가 몰려 AB 테스트를 일찍 단념할 수도 있습니다. 이를 <a title="Shubhi Ahluwalia(VWO), 2021 - Type I and Type II Errors in A/B Testing and How to Avoid Them" href="https://vwo.com/blog/errors-in-ab-testing?refer=mag_epmat" target="_blank" rel="noopener">제2종 오류(Type II Error)</a>라고 합니다. 두 오류는 충분한 양의 데이터를 관측하기로 정해서 그 이전에 섣부르게 실험 종료하지 않겠다고 합의한다면 해결할 수 있습니다. 그런데 얼마나 더 많이 모아야 할까요? 통계적 가설 검정을 도입하기 전에 생겼던 문제가 다시 일어나고 있습니다.</p>
+
+<p>빈도주의가 비즈니스적 필요를 만족시키기 어렵다는 것도 문제입니다. AB 테스트는 실험이 진행되는 기간의 수익 일부를 탐색비용으로 지불하여 더 큰 가치를 찾아내는 일입니다. 따라서 AB 테스트의 결과가 어느 정도의 손익을 가져다주는지 알 필요가 있습니다. 저번 글을 읽었다면 알겠지만, 같은 10%p 전환율 개선이라도 90% 신뢰구간을 간신히 만족했을 경우와 99% 신뢰구간에서 넉넉하게 유의미한 경우의 예상 손익은 다를 것입니다. 하지만 빈도주의 통계는 실험 결과가 어느 범위 내에서 확실한가, 그렇지 않은가만을 알려주기 때문에 위와 같은 문제에서 도움이 되지 않습니다. 대안 B의 전환율이 원본 A보다 10%p 더 높지만 그 차이가 유의미할 확률이 50%, 차이가 없을 확률이 50%로 같다고 가정해봅시다. 이 상황에서 대안 B를 채택하는 일은 현명한 비즈니스 결정입니다. 통계적으로 유의미한 결과는 아니지만, 대안 B는 분명 더 나은 선택입니다. AB 테스트, 전환율 최적화는 과학 논문 출판보다 <a title="Chris Stucchio, 2021 - VWO SmartStats: Testing for Truth Versus Maximizing Revenue" href="https://vwo.com/blog/smartstats-testing-for-truth?refer=mag_epmat" target="_blank" rel="noopener">주식 거래에 가까운 일</a>입니다. AB 테스트에서 대안의 승리는 바람직하지만 필수적인 것은 아니며, 비긴 결과도 허용됩니다. 다만 패배만을 필수로 피해야 할 뿐입니다.</p>
+
+<h2 id="베이지안-통계학이-주는-것">베이지안 통계학이 주는 것</h2>
+
+<p>베이지안 통계학 또는 베이즈 통계학은 확률을 해당 사건이 일어날 믿음의 정도(Degree of Belief)로 보는 베이지안 확률론에서 비롯된 <a title="위키백과 - 베이즈 확률론" href="https://ko.wikipedia.org/wiki/%EB%B2%A0%EC%9D%B4%EC%A6%88_%ED%99%95%EB%A5%A0%EB%A1%A0" target="_blank" rel="noopener">통계적 접근법</a>입니다. 확률에 대한 해석은 빈도주의 방식과 비교해보면 명료해집니다.</p>
+
+<p class="full-size"><img src="/assets/images/design/ab-test-bayesian-statistical-analysis/02.jpg" alt="Comparison of frequentist and Bayesian conclusions in the AB test" title="Comparison of frequentist and Bayesian conclusions in the AB test" loading="lazy" /></p>
+
+<p>AB 테스트에서 베이지안 통계로 얻을 수 있는 결론은 ‘특정 기준에 만족하므로 대안의 결과는 유의미’가 아니라 ‘대안의 결과가 원본보다 나을 확률은 몇 퍼센트’, 그리고 ‘대안을 선택했을 때 예상 손실은 몇 퍼센트’입니다. 빈도주의 통계는 유의미 혹은 무의미, 양자택일의 명료한 결과만을 돌려주지만, 베이지안 통계는 비즈니스에 있어서 훨씬 도움이 되는 인사이트를 만들어 줍니다. <a title="Optimize Resource Hub - General methodology" href="https://support.google.com/optimize/answer/7405543?hl=en#zippy=%2Cin-this-article%refer=mag_epmat" target="_blank" rel="noopener">구글 옵티마이즈</a>, <a title="VWO - SmartStats For Smarter Business Decisions" href="https://vwo.com/why-us/technology/bayesian-statistics/?refer=mag_epmat" target="_blank" rel="noopener">VWO</a>, 그리고 이전에 소개했던 <a title="매거진 입맛 - 따라쓰기만 하면 테스트 문화가 만들어진다 - Growth Book" href="/growth-book-and-experiment-culture" target="_blank" rel="noopener">Growth Book</a>과 같은 AB 테스트 플랫폼이 베이지안 통계를 활용하는 이유가 여기 있습니다.</p>
+
+<h2 id="베이지안-통계의-원리">베이지안 통계의 원리</h2>
+
+<p>베이지안 통계가 가지고 있는 기본 원리는 베이즈 정리(Bayes’s Theorem)입니다. 내용은 다음과 같습니다.</p>
+
+<p><strong>(어떤 데이터가 주어졌을 때 가설이 참일 확률)</strong><br />
+<strong>= {(가설이 참일 때 어떤 데이터가 주어질 확률) * (가설이 참일 확률)} / (어떤 데이터가 주어질 확률)</strong></p>
+
+<p>이를 도식화하면 다음과 같습니다.</p>
+
+<p><i><strong>P(H|d) = { P(d|H)·P(H) } / P(d)</strong></i></p>
+
+<p>어떻게 쓰이는 식인지 감이 잘 잡히지 않을 겁니다. 어느 날 갑자기 바이러스 X가 유행한 상황을 가정해봅시다. 바이러스 X 확진 검사가 빠르게 개발되었습니다. 확진자에게 이 검사를 시행하면 99% 확률로 확진 사실을 알아맞히고, 비확진자에게 검사하면 99% 확률로 확진되지 않았다는 사실을 알아냅니다. 한 마을의 전체 주민 1%가 바이러스 X에 확진되었을 때, 이 검사로 확진자라는 판단을 받은 주민은 얼마의 확률로 진짜 확진자일까요? 베이즈 정리를 활용해서 이 문제를 풀면 <a title="shurain(Personal Perspective), 2018 - Properties of Probabilitys" href="https://shurain.net/personal-perspective/properties-of-probability/?refer=mag_epmat" target="_blank" rel="noopener">재미있는 결과</a>가 나옵니다.</p>
+
+<p>(검사에서 확진 판단 받았을 때, 확진자일 확률)<br />
+= {(확진자가 검사에서 확진 판단 받을 확률) * (확진자일 확률)} / (검사에서 확진 판단 받을 확률)<br />
+= (0.99 * 0.01) / (확진자가 검사에서 확진 판단 받을 확률) * (확진자일 확률) + (비확진자가 검사에서 확진 판단 받을 확률) * (비확진자일 확률)<br />
+= (0.99 * 0.01) / (0.99 * 0.01 + 0.01 * 0.99)<br />
+= 0.5</p>
+
+<p>베이즈 정리에 따르면 검사에서 확진 판단 받은 주민이 정말 확진자일 확률은 50%입니다. 직관적인 생각과 매우 다른 결과가 나오죠. 확진 검사의 민감도(Sensitivity)와 특이도(Specificity) 정보가 더해지면서 전체 주민 중 1%가 바이러스 X에 확진되었다는 사실의 확실성은 절반이 되었습니다. 이때 전체 주민 1%가 확진되었다는 주어진 확률을 <strong>사전 확률(Prior Probability)</strong>, 검사 정보를 받아들인 후 절반이 된 확률을 <strong>사후 확률(Posterior Probability)</strong>이라고 합니다.</p>
+
+<h2 id="베이지안-통계와-ab-테스트">베이지안 통계와 AB 테스트</h2>
+
+<p class="normal-size"><img src="/assets/images/design/ab-test-bayesian-statistical-analysis/03.jpg" alt="Bayesian AB Test Calculator" title="Bayesian AB Test Calculator" loading="lazy" /></p>
+
+<p>일반적인 형태의 베이지안 통계 AB 테스트 결과 분석 계산기입니다. 특정 대안이 원본을 포함한 다른 안보다 나을 확률, 해당 대안을 채택했을 때 예상 전환율 손실률이 계산됩니다. 베이지안 통계의 특성상 이 두 값은 단어 그대로 받아들이면 되지만, 어떻게 이 값이 나왔는지 알려면 베이지안 통계를 AB 테스트 결과 분석에 적용하는 과정을 이해해야 합니다. 이 과정은 크게 봤을 때 다음 3단계로 이뤄집니다.</p>
+
+<ol>
+  <li>AB 테스트 결과에서 사후 확률 계산</li>
+  <li>정해놓은 기준에 따라 사후 확률 판단</li>
+  <li>판단 여부에 따라 실험 종료 혹은 계속</li>
+</ol>
+
+<p class="normal-size"><img src="/assets/images/design/ab-test-bayesian-statistical-analysis/04.jpg" alt="AB Test Results Bayesian Analysis Process" title="AB Test Results Bayesian Analysis Process" loading="lazy" /></p>
+
+<p>AB 테스트 결과 분석을 목적으로 베이지안 통계를 적용하려는 입문자에게 헷갈릴 만한 일은, 사후 확률을 계산하고 판단하는 <a title="Marginalia, 2017 - Bayesian A/B Testing: a step-by-step guide" href="http://www.claudiobellei.com/2017/11/02/bayesian-AB-testing/" target="_blank" rel="noopener">방식이 여러 가지라는 것</a>입니다. AB 테스트 결과에서 사후 확률을 계산하는 방법은 대표적으로</p>
+
+<ol>
+  <li>베타 분포(Beta Distribution)를 활용한 분석적 방식</li>
+  <li>MCMC(Markov Chain Monte Carlo; 마르코프 연쇄 몬테카를로 방법)를 활용한 표본 시뮬레이션 방식</li>
+</ol>
+
+<p>이 있습니다. 이렇게 계산된 사후 확률이 특정 기준에 해당되면 실험을 종료하거나 계속하는 의사결정을 내려야 합니다. 여기에도 크게 2가지 방식이 사용됩니다.</p>
+
+<ol>
+  <li>ROPE(Region of Practical Equivalence; 실현가능성 등가 영역)에 따른 기준</li>
+  <li>예상 손실에 따른 임계값(Threshold of Caring) 설정</li>
+</ol>
+
+<p>이제 하나씩 알아보겠습니다.</p>
+
+<p><strong>베타 분포를 활용한 분석적 사후 확률 계산</strong><br />
+베타 분포는 특정 간격으로 제한된 랜덤 변수를 모델링하는데 사용되는, 구간 [0, 1] 사이의 <a title="Wikipedia - Beta distribution" href="https://en.wikipedia.org/wiki/Beta_distribution?refer=mag_epmat" target="_blank" rel="noopener">연속 확률 분포의 집합</a>입니다. 베타 분포는 랜덤화된 백분율이나 비율을 나타내기에 적합한 모형입니다. AB 테스트 전환율은 이항 분포 형태를 가졌기 때문에 베타 분포를 켤레 사전 분포(Conjugate Prior Distribution)로 활용하기에 알맞습니다. 켤레 사전 분포란 신발의 두 짝처럼 사전 분포와 사후 분포가 같은 분포족에 속할 때 사전 분포 쪽을 뜻합니다.</p>
+
+<p>베타 분포는 식으로 B(α,β)로 표현합니다. α는 전환 수, β는 비전환 수(= 실험 참여자 수 - α)를 넣습니다. 50명이 참가해서 5명이 전환해 전환율이 10%인 경우를 베타 분포로 나타내면 아래와 같습니다.</p>
+
+<p class="normal-size"><img src="/assets/images/design/ab-test-bayesian-statistical-analysis/05.jpg" alt="Beta Distribution 5, 45" title="Beta Distribution 5, 45" loading="lazy" /></p>
+
+<p>다음은 전환율이 10%으로 같지만 실험 참여자가 많은 경우를 살펴보겠습니다.</p>
+
+<p class="normal-size"><img src="/assets/images/design/ab-test-bayesian-statistical-analysis/06.jpg" alt="Beta Distribution 100, 900" title="Beta Distribution 100, 900" loading="lazy" /></p>
+
+<p>실험 참여자가 많아질수록 그래프는 좁고 뾰족해집니다. 더 작은 전환율 범위에서 밀도 있는 모습입니다. <a title="Ian(Locutus of Blog), 2011 - Proportionate A/B testing" href="https://blog.locut.us/2011/09/22/proportionate-ab-testing/?refer=mag_epmat" target="_blank" rel="noopener">더 확실한 전환율</a>을 보여주고 있습니다. 전자를 사전 확률, 후자를 사후 확률이라고 볼 수 있습니다. 예시처럼 정보가 있다면 참고해서 적합한 사전 확률(Informative Prior)을 계산할 수 있겠지만, B(1,1)의 <a title="위키백과 - 사전 확률" href="https://ko.wikipedia.org/wiki/%EC%82%AC%EC%A0%84_%ED%99%95%EB%A5%A0" target="_blank" rel="noopener">무정보적 분포(Uninformative Prior)</a>로 시작하는 것도 방법입니다.</p>
+
+<p>AB 테스트는 여러 안에서 사후 확률이 계산될 것입니다. 결합 사후 분포(Joint Posterior Distribution)는 단순히 각 안의 사후 확률을 곱하는 것으로 완성됩니다.</p>
+
+<p><strong>MCMC를 활용한 표본 시뮬레이션 사후 확률 계산</strong><br />
+MCMC는 임의의 랜덤한 표본에서 시작, 이전 표본을 참고하여 다음 표본을 표집하는 <a title="삼성소프트웨어멤버십, 2019 - Markov Chain Monte Carlo 샘플링의 마법" href="https://www.secmem.org/blog/2019/01/11/mcmc/?refer=mag_epmat" target="_blank" rel="noopener">알고리즘</a>입니다. 저번 편에서도 설명했지만 AB 테스트는 ‘앞으로 제품을 사용할 고객’이라는 모집단을 대표하는 표본인 ‘실험 참여 고객’을 통해 전환율을 개선합니다. 이를 위해서는 표본과 모집단이 최대한 닮아야 합니다. 카메라 구매 예정 고객을 대상으로 카메라별 설명 영상을 제공하는 실험을 진행해놓고, PC 구매 예정 고객에게 영향이 미칠 것을 원한다면 뜬금없겠죠. 모집단을 닮은 표본을 만드는 건 어려운 일입니다. 빠르게 표집하려고 크기를 줄이면 정확도가 낮아지고, 정확하게 표집하려고 크기를 늘리면 표집 속도가 느립니다. MCMC는 이름 그대로 마르코프 연쇄와 몬테카를로 방법, 2가지를 활용해서 이 문제를 해결합니다.</p>
+
+<p>MCMC는 이전 표본에서 다음 표본으로 이동할 때 조건부 확률분포가 주어졌다는 원리를 이용해 나타나는 패턴을 활용, 표본의 크기와 상관없이 모집단과 유사한 확률 분포를 만들어 냅니다.</p>
+
+<p>MCMC는 Python, R 등 여러 프로그래밍 언어에서 라이브러리로 제공되고 있습니다.</p>
+
+<p>베타 분포 혹은 MCMC를 사용해서 AB 테스트를 대표하는 사후 확률을 만들었습니다. 이제 정해놓은 기준에 맞춰 의사결정 하면 됩니다.</p>
+
+<p><strong>ROPE(Region of Practical Equivalence; 실현가능성 등가 영역)에 따른 기준</strong><br />
+ROPE를 활용한 의사결정 방법은 인디애나 대학의 심리학 및 뇌 과학 교수 존 크루슈케(John K. Kruschke)는 논문 <a title="J. Kruschke, 2013 - Bayesian estimation supersedes the t test." href="https://www.semanticscholar.org/paper/Bayesian-estimation-supersedes-the-t-test.-Kruschke/dea60927efbd1f284b4132eae3461ea7ce0fb62a?refer=mag_epmat" target="_blank" rel="noopener">&lt;t-검정을 대체하는 베이지안 추정(Bayesian Estimation Supersedes the t Test; 일명 BEST)&gt;</a>에서 제시된 개념을 기반으로 합니다. BEST 논문의 방식은 대립가설이 채택에 실패해도 귀무가설을 채택할 수 없는 빈도주의 방식과는 다르게, 귀무가설에 대응되는 값을 채택할 수 있어 이를 이용해 AB 테스트의 결과를 분석합니다.</p>
+
+<p class="normal-size"><img src="/assets/images/design/ab-test-bayesian-statistical-analysis/07.jpg" alt="BEST Method" title="BEST Method" loading="lazy" /></p>
+
+<p>BEST 논문의 방식은 두 표본 간 차이에 대한 추정값을 모아 확률 분포를 만든 후, 특정 HPD (Highest Posterior Density) 구간을 기준으로 해당 분포의 평균, 즉 가장 믿을 만한 두 표본의 차이에 대한 추정값이 특정 영역(ROPE)에 위치하는가, 그렇지 않은가에 따라 AB 테스트 결과의 통계적 유의성을 판단하는 순서로 진행됩니다. 여기서 추정값에는 효과 크기(Effect Size)가 흔히 사용됩니다. <a title="남상건, 2015 - 효과크기의 이해(Understanding Effect Sizes)" href="https://www.researchgate.net/publication/276462375_Understanding_Effect_Sizes?refer=mag_epmat" target="_blank" rel="noopener">효과 크기</a>는 비교하는 표본 간 차이 혹은 관계가 어느 정도인지, 즉 연관도가 얼마나 되는가를 나타내는 지표입니다. 효과 크기를 계산하는 방법은 다양하지만 지금처럼 독립된 두 변수를 비교하는 경우에는 두 표본의 평균 차이를 표준편차로 나누어 도출합니다.</p>
+
+<p><strong>HPD</strong><br />
+여기서 <a title="D. Hitchcock - Lecture notes available for the course STAT J535(Introduction to Bayesian Data Analysis, South Carolina University)" href="https://people.stat.sc.edu/Hitchcock/stat535slidesday3.pdf" target="_blank" rel="noopener">HPD</a>는 바로 위에서 언급한 확률 분포에서 가장 밀도 높은 영역을 발라내는 목적을 가지고 선을 그어 해당 영역의 면적을 구한 것입니다. 마치 빈도주의의 p값으로 정한 신뢰구간처럼, HPD로 분포에서 필요한 부분만을 판단에 활용합니다.</p>
+
+<p><strong>ROPE</strong><br />
+ROPE은 빈도주의 통계로 치면 귀무가설, 실제 AB 테스트라면 실험 결과에서 도출된 차이가 통계적으로는 무의미하다는 사실을 대표하는 값(이하 Null 값)이 분포상에서 양과 음의 방향으로 생성하는 일정한 구간입니다. 따라서 두 표본 간 차이에 대한 분포의 평균이 ROPE 내에 위치한다면 해당 AB 테스트 결과의 차이는 무의미한 것으로 판단할 수 있습니다. 많은 경우 ±0.1의 ROPE가 사용됩니다.</p>
+
+<p>AB 테스트 하나를 진행했다고 가정합시다. 서로 다른 3가지 시나리오에 따라 원본 A와 대안 B 간 효과 크기의 확률 분포를 만들었습니다. HPD에 포함된 영역과, 효과 크기 = 0(원본 A와 대안 B 사이에 유의미한 차이가 없는 경우를 나타내는 값)과 해당 지점 좌우로 뻗친 ROPE를 표시하겠습니다.</p>
+
+<p class="full-size"><img src="/assets/images/design/ab-test-bayesian-statistical-analysis/08.jpg" alt="Var B Won" title="Var B Won" loading="lazy" /></p>
+
+<p>시나리오 A에서는 HPD 구간에 분포의 포함된 영역이 ROPE에서 완전히 벗어나 있으며, ROPE를 기준으로 양의 방향에 위치해 있습니다. 원본 A에 대한 대안 B의 효과 크기를 구한 경우, 즉 대안 B의 평균에서 원본 A의 평균을 빼서 계산한 분포라면 시나리오 A는 대안 B의 완전한 승리를 나타냅니다. 효과 크기가 0인 지점을 분포의 전 영역이 우측에 위치해 있으므로 대안 B가 원본 A보다 나을 확률은 100%입니다.</p>
+
+<p class="full-size"><img src="/assets/images/design/ab-test-bayesian-statistical-analysis/09.jpg" alt="A &lt; B about 86%" title="A &lt; B about 86%" loading="lazy" /></p>
+
+<p>시나리오 B에서는 HPD 구간에 포함된 분포의 영역이 ROPE 안에도, 밖에도 있습니다. 결과의 통계적 유의성은 아직 확실하지 않습니다. 그러나 효과 크기가 0인 지점을 기준으로 봤을 때 분포는 양의 방향에 더 많은 영역을 차지하고 있습니다. 대안 B는 해당 영역의 면적만큼 원본 A보다 낫습니다.</p>
+
+<p class="full-size"><img src="/assets/images/design/ab-test-bayesian-statistical-analysis/10.jpg" alt="No statistical significance between A and B" title="No statistical significance between A and B" loading="lazy" /></p>
+
+<p>시나리오 C에서는 HPD 구간에 포함된 분포의 영역이 ROPE 안에만 있습니다. 원본 A와 대안 B 사이의 차이는 무의미합니다. 실험을 종료합니다.</p>
+
+<p><strong>예상 손실에 따른 임계값(Threshold of Caring) 설정</strong><br />
+ROPE 방식이 통계적 유의성에 따라 결과를 판단하는 방식이었다면, 예상 손실 측정 방식은 원본 A나 대안 B 중 하나를 승리 안으로 판단하고 실험을 종료했을 때 발생하는 손실로 실험 결과를 판단합니다. 예상 손실이 매우 작아 비즈니스에 영향을 미치지 않을 정도일 때 실험을 종료하고 더 나은 전환율을 보인 안을 채택합니다. 이 방식은 AB 테스트 플랫폼 VWO의 결과 분석 툴을 만들기도 한 데이터 과학자 <a title="Chris Stucchio, 2015 - Bayesian A/B Testing at VWO" href="https://cdn2.hubspot.net/hubfs/310840/VWO_SmartStats_technical_whitepaper.pdf" target="_blank" rel="noopener">크리스 스투키오(Chris Stucchio)에 의해 고안</a>되었습니다.</p>
+
+<p>우선 두 안의 전환율 차이를 구합니다. 이 값은 0 이상입니다. 식으로 보여드리겠습니다.</p>
+
+<ul>
+  <li>원본 A의 예상 손실을 알고 싶은 경우 : <strong><em>L</em>(λ<sub>A</sub>, λ<sub>B</sub>, <em>A</em>) = <em>max</em>(λ<sub>B</sub>-λ<sub>A</sub>, 0)</strong></li>
+  <li>대안 B의 예상 손실을 알고 싶은 경우 : <strong><em>L</em>(λ<sub>A</sub>, λ<sub>B</sub>, <em>B</em>) = <em>max</em>(λ<sub>A</sub>-λ<sub>B</sub>, 0)</strong></li>
+</ul>
+
+<p>이제 다음 함수로 두 안의 결합 사후 분포의 예상 손실을 구할 수 있습니다.(<em>x</em>에는 예상 손실을 구하고자 하는 안, A 혹은 B를 넣을 수 있습니다.)</p>
+
+<p>손실 함수(Loss Function) : <strong><em>E</em>[<em>L</em>](<em>x</em>) = ∫<sub>0</sub><sup>1</sup>∫<sub>0</sub><sup>1</sup><em>L</em>(λ<sub>A</sub>, λ<sub>B</sub>, <em>x</em>)<em>P</em>(λ<sub>A</sub>, λ<sub>B</sub>)<em>d</em>λ<sub>A</sub><em>d</em>λ<sub>B</sub></strong></p>
+
+<p>이제 원본 A와 대안 B에 채택했을 때의 예상 손실을 매길 수 있습니다. 해당 값이 임계값 이하라면 설사 손실이 나도 비즈니스에 영향이 없을 것으로 보고 실험을 종료합니다. 때문에 임계값은 충분히 낮은 수치로 정해져야 합니다.</p>
+
+<h2 id="정리">정리</h2>
+
+<p>빈도주의 통계적 가설 검정은 AB 테스트 결과 분석으로 활용하는데 2가지 한계가 있습니다.</p>
+
+<ol>
+  <li>데이터 편향으로 일찍 결론을 내리는 오류 가능성</li>
+  <li>비직관적이고 유연하지 않은 분석 결과</li>
+</ol>
+
+<p>베이지안 확률론은 확률을 해당 사건이 일어날 믿음의 정도로 봅니다. 베이지안 통계는 사전 확률에서 데이터를 받아들여 사후 확률을 계산합니다. ‘특정 기준에 만족하므로 대안의 결과는 유의미’가 아니라 ‘대안의 결과가 원본보다 나을 확률은 몇 퍼센트’, 그리고 ‘대안을 선택했을 때 예상 손실은 몇 퍼센트’처럼 제품을 운영하는 데 도움이 되는 인사이트를 얻을 수 있습니다.</p>
+
+<p>AB 테스트 결과가 베이지안 통계적으로 분석되는 과정은 다음 3단계로 이뤄집니다.</p>
+
+<ol>
+  <li>AB 테스트 결과에서 사후 확률 계산(베타 분포, MCMC)</li>
+  <li>정해놓은 기준에 따라 사후 확률 판단(ROPE, 예상 손실)</li>
+  <li>판단 여부에 따라 실험 종료 혹은 계속</li>
+</ol>
+
+<p>AB 테스트 결과 분석에 빈도주의와 베이지안 무엇이 더 나은지에 대해서는 <a title="Alex Birkett(CXL), 2020 - Bayesian vs. Frequentist A/B Testing: What’s the Difference?" href="https://cxl.com/blog/bayesian-frequentist-ab-testing/?refer=mag_epmat" target="_blank" rel="noopener">논란이 많습니다</a>. 시리즈를 읽으면서 두 방식을 모두 알았으니, 같은 실험에서 비교해보는 것도 좋은 방법입니다.</p>
+
+<p class="right-infor">위시켓의 지원과 함께 제작된 콘텐츠입니다.</p>
+
+    </div>
+</section>
+
+<section class="subscribe subscribe-post-bottom">
+    <div class="subscribe-container">
+        <p class="subscribe-description">매거진 입맛의 취향들을 더 편하게, 더 빠르게 받아보세요.</p>
+        <a rel="noreferrer" class="btn-subscribe" target="_blank" href="https://forms.gle/wvj73q8MWBv2j44h7" title="Newsletter Subscription">뉴스레터 구독신청</a>
+    </div>
+</section>
+
+<section class="post-list related-post-list">
+    <div class="related-post-list-top-border"></div>
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        <a title="카드로 쌓은 집" href="/build-house-with-cards" class="post-list-item">
+                <div class="post-thumbnail">
+                    <div class="img-source" style="background-image: url('/assets/images/01-build-house-with-cards/02.jpg')"></div>
+                </div>
+                <div class="post-description">
+                    <span class="post-topic">UI Design</span>
+                    <div class="post-intro">
+                        <h2>카드로 쌓은 집</h2>
+                        <p class="post-excerpt">디자이너에게 카드는 좋은 재료입니다. 그러나 카드로 쌓은 집은 과연 온전할까요? 카드를 쓸 때 생각해볼 만한 활용법 3가지를 골라봤습니다.</p>
+                    </div>
+                </div>
+        </a>
+    
+        <a title="머티리얼 디자인의 리모델링" href="/remodeling-of-material-design" class="post-list-item">
+                <div class="post-thumbnail">
+                    <div class="img-source" style="background-image: url('/assets/images/02-remodeling-of-material-design/01.jpg')"></div>
+                </div>
+                <div class="post-description">
+                    <span class="post-topic">Design System</span>
+                    <div class="post-intro">
+                        <h2>머티리얼 디자인의 리모델링</h2>
+                        <p class="post-excerpt">2018년 5월, 머티리얼 디자인의 새로운 모습이 공개되었습니다. 많은 부분에서 수정과 개선이 이뤄졌습니다. 이제 머티리얼 디자인은 브랜드 친화적인 디자인을 지향합니다.</p>
+                    </div>
+                </div>
+        </a>
+    
+        <a title="우리의 디자인에는 항상 공백이 부족하다" href="/divider-and-whitespace" class="post-list-item">
+                <div class="post-thumbnail">
+                    <div class="img-source" style="background-image: url('/assets/images/03-divider-and-whitespace/01.jpg')"></div>
+                </div>
+                <div class="post-description">
+                    <span class="post-topic">UI Design</span>
+                    <div class="post-intro">
+                        <h2>우리의 디자인에는 항상 공백이 부족하다</h2>
+                        <p class="post-excerpt">인터랙션 디자인에서 구분선과 공백은 요소와 요소, 콘텐츠와 콘텐츠를 분리하는 대표적인 도구입니다. 같은 듯 다른 이 두 가지를 비교해봅시다.</p>
+                    </div>
+                </div>
+        </a>
+    
+    <div class="ads-container ads-container-mobile-feedcard">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <ins class="adsbygoogle infeed"
+            style="display:block"
+            data-ad-format="fluid"
+            data-ad-layout-key="-68+cn+0-3b+gj"
+            data-ad-client="ca-pub-7525347021497850"
+            data-ad-slot="9019438848"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+            
+            
+            
+            <a title="한참 이른 여름맛. 아드벡 10년" href="/ardbeg-for-the-beginning-of-the-summer" class="post-list-item">
+                    <div class="post-thumbnail">
+                        <div class="img-source" style="background-image: url('/assets/images/daily/01-ardbeg/01.jpg')"></div>
+                    </div>
+                    <div class="post-description">
+                        <span class="post-topic">Whisky</span>
+                        <div class="post-intro">
+                            <h2>한참 이른 여름맛. 아드벡 10년</h2>
+                            <p class="post-excerpt">피트향 가득, 쾌청한 풍미의 싱글 몰트 아일라 위스키 아드벡 10년 리뷰.</p>
+                        </div>
+                    </div>
+            </a>
+        
+    
+            
+            
+            
+            <a title="4시에 마신다면 3시부터 행복할거야. 글렌피딕 15년" href="/glenfiddich-solera" class="post-list-item">
+                    <div class="post-thumbnail">
+                        <div class="img-source" style="background-image: url('/assets/images/daily/02-glenfiddich-solera/01.jpg')"></div>
+                    </div>
+                    <div class="post-description">
+                        <span class="post-topic">Whisky</span>
+                        <div class="post-intro">
+                            <h2>4시에 마신다면 3시부터 행복할거야. 글렌피딕 15년</h2>
+                            <p class="post-excerpt">여전히 발랄한 향, 한층 느긋해진 맛. 스페이사이드 싱글 몰트 위스키 글렌피딕 15년 리뷰.</p>
+                        </div>
+                    </div>
+            </a>
+        
+    
+            
+            
+                
+    <div class="ads-container ads-container-relative-feedcard">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <ins class="adsbygoogle infeed"
+            style="display:block"
+            data-ad-format="fluid"
+            data-ad-layout-key="-68+cn+0-3b+gj"
+            data-ad-client="ca-pub-7525347021497850"
+            data-ad-slot="9019438848"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+</section>
+
+
+<script>document.getElementById('btn-article').classList.remove('op75');
+document.getElementById('btn-article').classList.add('nav-item-act');</script>
+
+    </div>
+    <footer id="footer">
+    <span>
+        <a id="home-page" href='/' title="Main">매거진 입맛</a>
+        <a href="/review" title="Reviews">리뷰</a>
+        <a href="/article" title="Articles">디자인</a>
+        <a href="/story" title="Stories">소설</a>
+        <!-- <a href="/about" title="About Me">쓰는 사람</a> -->
+    </span>
+    <span>
+        <a rel="noreferrer" id="fb-link" href="https://www.facebook.com/magepmat" title="Facebook" target="_blank"><i class='bx bxl-facebook'></i></a>
+        <a rel="noreferrer" id="insta-link" href="https://www.instagram.com/mag_epmat/" title="Instagram" target="_blank"><i class='bx bxl-instagram' ></i></a>
+        <a id="mail-link" href="mailto:dewberryneun@gmail.com" title="Email"><i class='bx bx-envelope'></i><span class="link-copy"></span></a>
+        <a rel="noreferrer" id="rss-link" href="/feed.xml" title="RSS" target="_blank"><i class='bx bx-rss'></i><span class="link-copy"></span></a>
+    </span>
+</footer>
+</body>
+</html>
