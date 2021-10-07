@@ -1,4 +1,83 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://dewberry9.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dewberry9.github.io/" rel="alternate" type="text/html" /><updated>2021-10-01T00:16:53+00:00</updated><id>https://dewberry9.github.io/feed.xml</id><title type="html">매거진 입맛</title><subtitle>읽을 만한 취향들. 매거진 입맛 - 책, 술, 그밖에 삶의 즐거움 리뷰 / 디자인 / 소설</subtitle><author><name>이준환</name></author><entry><title type="html">사랑하거나 싫어하거나, 피트의 마술적 매력. 라프로익 10년</title><link href="https://dewberry9.github.io/laphroaig-10" rel="alternate" type="text/html" title="사랑하거나 싫어하거나, 피트의 마술적 매력. 라프로익 10년" /><published>2021-10-01T00:00:00+00:00</published><updated>2021-10-01T00:00:00+00:00</updated><id>https://dewberry9.github.io/laphroaig-10</id><content type="html" xml:base="https://dewberry9.github.io/laphroaig-10">&lt;p&gt;강한 냄새가 나는 피트 위스키는 장르 자체의 호불호가 큽니다. 꽃, 풀, 과일, 바닐라처럼 자연적이지 않고 인공적으로 만든 소독약과 병원을 연상시키는 강렬한 향은 매니아와 그렇지 않은 사람을 확실하게 나눕니다.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://dewberry9.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dewberry9.github.io/" rel="alternate" type="text/html" /><updated>2021-10-07T10:57:33+00:00</updated><id>https://dewberry9.github.io/feed.xml</id><title type="html">매거진 입맛</title><subtitle>읽을 만한 취향들. 매거진 입맛 - 책, 술, 그밖에 삶의 즐거움 리뷰 / 디자인 / 소설</subtitle><author><name>이준환</name></author><entry><title type="html">토스, 에어비앤비로 알아보는 디자인 시스템의 내일</title><link href="https://dewberry9.github.io/future-of-design-system" rel="alternate" type="text/html" title="토스, 에어비앤비로 알아보는 디자인 시스템의 내일" /><published>2021-10-07T00:00:00+00:00</published><updated>2021-10-07T00:00:00+00:00</updated><id>https://dewberry9.github.io/future-of-design-system</id><content type="html" xml:base="https://dewberry9.github.io/future-of-design-system">&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/future-of-design-system/01.jpg&quot; alt=&quot;Design System&quot; title=&quot;Design System&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;디자인 시스템(Design System)은 일관성 있고 효과적인 제품을 만들기 위해 조직 내에서 공용으로 사용하는 도구입니다. 디자인 시스템은 모듈식 UI 컴포넌트, 색상, 서체, 여백과 같은 스타일 가이드, 보이스 톤까지 여러 범주에 속한 요소를 포함합니다. 디자인 시스템은 제품 만드는 과정에 일정한 규칙을 세워 조직 구성원 간 협업의 속도와 확실성을 끌어올립니다. 제품 개발에 필요한 노력은 줄지만 유사하거나 더 나은 품질의 제품이 나옵니다. 더 중요한 일, ‘제품으로 무엇을 하려는가’에 집중할 수 있도록 해줍니다.&lt;/p&gt;
+
+&lt;p&gt;재사용되는 UI 컴포넌트를 라이브러리로 만드는 일, 특정 디자인 규칙을 설계하고 적용하는 아이디어는 디자이너, 개발자, 기획자를 가리지 않고 광범위하게 활용되어 왔습니다. 하지만 그건 자기 일을 조금 편하게 하는 노하우의 영역에 머물러 있었고, 조직화되지 못한 채 흩뿌려져 있었습니다. 조직이 커질수록 한계가 보였습니다. UI 키트에서 컴포넌트를 꺼내 썼는데 구버전이었다던가, 수정된 리소스가 개발단에 넘어가지 않아 혼선이 생겼습니다. 분산된 라이브러리를 통합하려는 시도는 잘못된 구조로 실패하기 일쑤였습니다.&lt;/p&gt;
+
+&lt;p&gt;2013년 &lt;a title=&quot;Brad Frost, 2013 - Atomic Design&quot; href=&quot;https://bradfrost.com/blog/post/atomic-web-design?refer=mag_epmat&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;아토믹 디자인(Atomic Design)&lt;/a&gt;이라는 개념이 디자인 업계에 등장했습니다. 원자로 비유되는 최소단위 디자인 요소들이 모여 버튼 그룹이, 내비게이션 바가, 랜딩 페이지가, 하나의 제품이 됩니다. 아토믹 디자인을 적극 차용한 구글의 &lt;a title=&quot;Racheal Hooks, 2021 - The Evolution of Material Design&quot; href=&quot;https://1brand.design/blog/the-evolution-of-material-design?refer=mag_epmat&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;머티리얼 디자인(Material Design)&lt;/a&gt;이 2014년 발표되었을 때 반응은 뜨거웠습니다. 면과 그림자의 플랫 디자인으로 대표되는 머티리얼 디자인의 통일된 시각 언어는 수많은 디바이스와 플랫폼에서 활용하도록 만들어졌습니다. 마이크로소프트(Microsoft)의 Fluent Design, IBM의 Carbon Design System처럼 대기업은 물론이고 에어비앤비(Airbnb), 메일침프(Mailchimp), 트렐로(Trello) 등 여러 유니콘·스타트업도 그들만의 디자인 시스템을 만들어 공개했습니다. 찬양과 &lt;a title=&quot;Pascal Barry, 2020 - Design System Are Bullsh*t&quot; href=&quot;https://uxplanet.org/design-systems-are-bullsh-t-7ecdb795cc62?refer=mag_epmat&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;비판&lt;/a&gt;, 2010년대 중후반 디자인 업계의 큰 화두는 단연 디자인 시스템이었습니다.&lt;/p&gt;
+
+&lt;p&gt;그렇다면 오늘날은 어떤가요? 트렌드 분석을 통해 디자인 시스템의 지금과 방향성을 3가지 포인트로 알아보겠습니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;툴 안에서 디자인에 참견하는 시스템이 있다고요?&lt;/li&gt;
+  &lt;li&gt;디자인 시스템으로 디자이너가 코딩을 배우게 된다고요?&lt;/li&gt;
+  &lt;li&gt;디자인 시스템이 조직 내 의사결정 민주화에 관여한다고요?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;거저-얻는-일관성---토스-보이스톤-메이커&quot;&gt;거저 얻는 일관성 - 토스 보이스톤 메이커&lt;/h2&gt;
+
+&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/future-of-design-system/02.jpg&quot; alt=&quot;Design Lint&quot; title=&quot;Design Lint&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;토스의 디자인 컨퍼런스 Simplicity 21가 지난 8월 30일부터 9월 2일까지 나흘간 진행됐습니다. Simplicity 21의 마지막 날에 &lt;a title=&quot;Simplicity 21 - 어느 날 토스가 말을 걸기 시작했다.&quot; href=&quot;https://toss.im/simplicity-21/sessions/4-3&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;토스 보이스톤 메이커를 공개&lt;/a&gt;했습니다.&lt;/p&gt;
+
+&lt;p&gt;보이스톤 메이커는 토스 내부에서 활용하는 UX 라이팅 도구입니다. &lt;a title=&quot;김강령(Toss), 2021 - 토스가 보이스톤 메이커를 만들게 된 배경&quot; href=&quot;https://brunch.co.kr/@thinkaboutlove/396?refer=mag_epmat&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;토스의 상황&lt;/a&gt;을 알아보자면, 더 좋은 카피에 대한 고민은 모든 디자이너가 하고 있었지만 가진 경험은 제각각이었습니다. 송금 완료 상황에 사용한 문구만 해도 ‘송금을 완료했어요’, ‘송금합니다’, ‘송금했어요’, ‘보냈어요’ 등 뜻은 같아도 표현의 통일이 이뤄지지 않았습니다. 가이드와 인사이트가 산발적으로 만들어졌지만 공유되고 실제로 적용되는 일은 부족했습니다. 관리되지 않은 UX 라이팅은 제품의 일관성을 해칠 뿐만 아니라 어디선가 더 나은 카피가 쓰일 수 있다는 여지를 남겨두는 것이기도 합니다.&lt;/p&gt;
+
+&lt;p&gt;토스의 모든 프로덕트 디자이너는 현재의 UX 라이팅 상황에 일관성이 절실히 필요하다는 점을 인지했습니다. 처음에는 관련 인원이 해당 디자이너에게 시안을 받아 카피의 수정 제안과 그 수정안이 나올 수 있었던 원리를 설명하는 방법이 실행되었습니다. 그러나 이 방법은 실행자의 부담이 큰, 비영속적인 방식이었을 뿐만 아니라 카피 검수는 토스의 린(Lean)한 제품 개발 프로세스에 맞지 않았습니다.&lt;/p&gt;
+
+&lt;p&gt;두 번째로 디자이너에게 공통된 카피 선정 원칙을 교육, 검수 없이 처음부터 일관성 있는 UX 라이팅이 나오도록 했습니다. 하지만 이는 전 방식의 실행자가 지고 있던 부담을 디자이너에게 넘겨준 것에 불과했습니다.&lt;/p&gt;
+
+&lt;p&gt;제플린(Zeplin) 등에 공유된 디자인 시안을 직접 찾아가 수정 코멘트를 남기는 방법, 구체적 규칙이 명시된 가이드라인을 배포하는 방법도 시도되었으나 모두 특정 조직 구성원의 업무 부담을 키우는 단점을 극복하지 못했습니다.&lt;/p&gt;
+
+&lt;p&gt;방법은 ‘사람 디자이너의 일을 키우지 않는’ 방향으로 전환되었습니다. 디자인 툴 내부에서 실시간으로 카피를 체크해 가이드라인에 맞는 용어를 제안하는 보이스톤 메이커는 그렇게 채택되었습니다. 보이스톤 메이커는 템플릿을 통해 많은 부분을 자동으로 생성한 8천 개 이상의 규칙을 기반으로 작동합니다. 이 빠르고 직관적인 툴은 업무량이나 학습비용의 증가 없이 일관성 있는 제품을 만들도록 도왔습니다. 토스는 이렇게 짜인 일관성 위에서 개성 있고 효과적인 UX 라이팅을 도입할 수 있었습니다.&lt;/p&gt;
+
+&lt;p&gt;UX 라이팅보다 더 단순한 분야, 특정 속성값을 비교하는 수준에서는 이미 디자인 시스템을 적용 툴이 나와 있습니다. Figma의 &lt;a title=&quot;Figma - Design Lint&quot; href=&quot;https://www.figma.com/community/plugin/801195587640428208/Design-Lint&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Design Lint&lt;/a&gt;, Sketch의 &lt;a title=&quot;Saransh Solanki, 2019 - Validate your designs against your defined design guidelines, within seconds&quot; href=&quot;https://uxdesign.cc/sketch-lint-2f292ef87084?refer=mag_epmat&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Lint for Sketch&lt;/a&gt;가 그렇습니다. 디자인 툴 외부에서 독립되어 작동하는 &lt;a title=&quot;Tanner Christensen, 2020 - What design system tools will look like in the future&quot; href=&quot;https://tannerchristensen.com/blog/2020/4/9/what-design-system-tools-will-look-like?refer=mag_epmat&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Superb&lt;/a&gt;는 JSON으로 정리된 가이드라인과 각종 디자인 리소스를 주기적으로 최신화해서 디자이너가 디자인 시스템의 수정사항에 빠르게 대응할 수 있도록 합니다. Superb는 자체 사용 데이터를 축적해서 디자인 시스템을 개선하는데 필요한 유의미한 인사이트를 제공하기도 합니다.&lt;/p&gt;
+
+&lt;p&gt;이처럼 디자인 시스템의 무수한 &lt;strong&gt;가이드라인을 그저 구성하는 데 그치지 않고 실무 적용 단계에서 적극적으로 지원하는 건 디자인 시스템의 명확한 발전 방향&lt;/strong&gt;입니다. 더 쉽고 빨라진 디자인 시스템의 실용은 제품 개발 속도를 극적으로 줄여주고 시스템 자체에 대한 학습도 빠르고 깊게 만들어줍니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;디자이너와-개발자-더-가깝게---airbnb-react-sketch&quot;&gt;디자이너와 개발자, 더 가깝게 - Airbnb React Sketch&lt;/h2&gt;
+
+&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/future-of-design-system/03.jpg&quot; alt=&quot;Code and Component&quot; title=&quot;Code and Component&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;오늘날 대부분의 디지털 프로덕트는 디자이너의 기획과 개발자의 구현으로 만들어집니다. 중요한 협업 관계나 하는 일이 다르기에 제품 개발을 보는 관점이 다른 두 직군의 조화는 어렵습니다.&lt;/p&gt;
+
+&lt;p&gt;디자인 시스템에서도 마찬가지입니다. 디자인 시스템의 주요 기능 중 하나는 동기화입니다. 조직의 디자이너와 개발자는 작업물에 포함된 리소스가 구형이라면 최신 버전으로 쉽게 갱신할 수 있어야 합니다. 이 부분은 세세한 설정을 다룰 수 있는 개발자가 더 유리했습니다. 어떤 디자인 툴에서 버튼 하나를 라이브러리로 만들어 공유했다고 가정합시다. 그다음 크기를 두 배쯤 키운 버전으로 업데이트합니다. 이 버튼이 들어간 카드, 리스트, 배너… 이런 컴포넌트의 레이아웃이 깨지지 않았을 확률이 얼마나 될까요? 보통 엉망진창이 되어있을 겁니다. 물론 세밀하게 상황을 나누어 각 상황에 맞는 컴포넌트를 제작하거나, 컴포넌트의 레이아웃을 자세하게 설정한다면 문제가 없을 수도 있습니다. 그러나 이런 조정이 계속해서 수정되고, 그때마다 개발자가 반영해야 한다면 업무량이 어마어마하게 커집니다. 디자이너와 개발자 모두 더 본질적인 작업에 집중할 시간이 필요합니다.&lt;/p&gt;
+
+&lt;p&gt;에어비앤비도 같은 고민에서 &lt;a title=&quot;Jon Gold(Airbnb) - Painting with Code : Introducing our new open source library React Sketch.app&quot; href=&quot;https://airbnb.design/painting-with-code?refer=mag_epmat&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;React Sketch.app&lt;/a&gt;을 만들었습니다. 디자이너 팀이 합의해서 디자인 시스템을 Sketch 라이브러리로 만들면 개발자가 받아 제품에 반영했습니다. 2가지 문제점이 있었습니다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Sketch에서 업데이트하는 것만으로는 실제 디자인 시스템 요소가 곳곳에 적용된 제품에 어떤 영향을 미칠지 쉽게 알 수 없었습니다.&lt;/li&gt;
+  &lt;li&gt;하나의 컴포넌트가 여러 상태를 가질 수 있는 디지털 프로덕트 특성상 Sketch의 컴포넌트는 실제로 개발된 컴포넌트를 직관적으로 반영하지 못했습니다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;위와 같은 문제는 에어비앤비가 커질수록 심각해졌습니다. 에어비앤비는 이 문제를 디자인 시스템의 원천을 바꾸는 것으로 해결했습니다. 기존에 디자인 시스템이 Sketch 설계를 바탕으로 구현되는 것이었다면, 이미 개발된 디자인 시스템을 바탕으로 Sketch에서 디자인하는 것입니다. 이제 디자이너는 실제 제품에서 사용 중인 컴포넌트를 실시간으로 가져다 디자인하고, 개발자는 수정된 디자인 시스템이 제품에서 완벽하게 작동한다는 확신 위에서 작업할 수 있게 되었습니다.&lt;/p&gt;
+
+&lt;p&gt;협업 효율을 위해 디자이너가 코딩을 배워야 한다는 이야기는 전부터 있었습니다. 디지털 시스템의 보편화로 디자이너의 개발 능력은 더 각별해졌습니다. 개발 지식은 디자이너가 디자인 시스템을 쓰고 고칠 것을 염두에 두며 작업하게 합니다. 이는 디자인 시스템과 협업 자체의 효율을 높입니다. &lt;strong&gt;디자인 시스템의 기반이 개발로 넘어간 것은 이미 트렌드이고, 디자이너의 개발 작업 이해도는 더 중요해질 것&lt;/strong&gt;입니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;결정은-앎에서-비롯하니까---storybook-리소스-센터&quot;&gt;결정은 앎에서 비롯하니까 - Storybook, 리소스 센터&lt;/h2&gt;
+
+&lt;p&gt;디자인 시스템은 사용하고 개선하는 사람이 많아질수록 더 나아지고, 다시 더 많은 사용자를 불러오는 선순환을 가질 수 있습니다. 이를 위해서는 동료를 디자인 시스템에 온보딩하는 과정이 필요합니다. 디자인 시스템을 이해하고 활용하는 사람은 제품을 만들고 디자인 시스템을 개선하는데 더 효과적인 의사결정을 할 수 있게 됩니다. 개방적이고 투명한 디자인 시스템이 &lt;a title=&quot;Jalita Aspelin(Columbia Road), 2018 - The future of design systems&quot; href=&quot;https://www.columbiaroad.com/blog/the-future-of-design-systems?refer=mag_epmat&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;제품과 조직의 기량을 끌어올리는 것&lt;/a&gt;입니다.&lt;/p&gt;
+
+&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/future-of-design-system/04.jpg&quot; alt=&quot;SSOT&quot; title=&quot;SSOT&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;SSOT 구조가 위와 같은 디자인 시스템이 될 수 있습니다. &lt;a title=&quot;Wikipedia - Single source of truth&quot; href=&quot;https://en.wikipedia.org/wiki/Single_source_of_truth&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;SSOT(Single Source of Truth)&lt;/a&gt;는 단일한 원천에서 모든 데이터가 참조되는 것을 의미합니다. 하나의 디자인 시스템 소스가 디자인 파일에, 마케팅 콘텐츠에, 제품 개발 코드에, 디자인 시스템 가이드 문서에 활용됩니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a title=&quot;Storybook: UI component explorer for frontend developers&quot; href=&quot;https://storybook.js.org?refer=mag_epmat&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Storybook&lt;/a&gt;은 디자인 시스템 가이드 문서를 기준으로 SSOT형 디자인 시스템을 구축하는 도구입니다. Storybook에 문서화된 UI는 실제 제품에서 작동하는 형태입니다. 디자이너, 개발자, 기획자, 제품을 만드는 모든 사람은 &lt;strong&gt;공개된 디자인 시스템을 바탕으로 더 나은 의사결정을 할 기회를 평등하게 나눠 갖습니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;디자인-시스템의-내일&quot;&gt;디자인 시스템의 내일&lt;/h2&gt;
+
+&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/future-of-design-system/05.jpg&quot; alt=&quot;Future of Design System&quot; title=&quot;Future of Design System&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;디자인 시스템은 일관성 있고 효과적인 제품을 만들기 위해 조직 내에서 공용으로 사용하는 도구로, 제품 만드는 과정에 일정한 규칙을 세워 조직 구성원 간 협업의 속도와 확실성을 끌어올립니다. 오늘날의 트렌드에서 확인할 수 있는 디자인 시스템의 발전 방향은 다음 3가지로 압축할 수 있습니다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;디자인 시스템 실무 적용 지원 툴&lt;/li&gt;
+  &lt;li&gt;협업 효율 향상을 위한 코드 기반 디자인 시스템&lt;/li&gt;
+  &lt;li&gt;조직 구성원 전체의 효과적 의사결정을 위한 디자인 시스템 개방·투명화&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;고객과 시장이 변하듯 제품과 디자인 시스템도 바뀌고 있습니다. 디자인 시스템이 다음에는 어떤 모습을 가지게 될지 기대가 됩니다.&lt;/p&gt;
+
+&lt;p class=&quot;right-infor&quot;&gt;위시켓의 지원과 함께 제작된 콘텐츠입니다.&lt;/p&gt;</content><author><name>이준환</name></author><category term="design-teatime" /><summary type="html">앞으로 디자인 시스템이 가야할 길은 어디일까요? 지원 툴, 코딩, 의사결정 민주화... 트렌드 분석을 통해 얻은 3가지 방향성을 설명하겠습니다.</summary></entry><entry><title type="html">사랑하거나 싫어하거나, 피트의 마술적 매력. 라프로익 10년</title><link href="https://dewberry9.github.io/laphroaig-10" rel="alternate" type="text/html" title="사랑하거나 싫어하거나, 피트의 마술적 매력. 라프로익 10년" /><published>2021-10-01T00:00:00+00:00</published><updated>2021-10-01T00:00:00+00:00</updated><id>https://dewberry9.github.io/laphroaig-10</id><content type="html" xml:base="https://dewberry9.github.io/laphroaig-10">&lt;p&gt;강한 냄새가 나는 피트 위스키는 장르 자체의 호불호가 큽니다. 꽃, 풀, 과일, 바닐라처럼 자연적이지 않고 인공적으로 만든 소독약과 병원을 연상시키는 강렬한 향은 매니아와 그렇지 않은 사람을 확실하게 나눕니다.&lt;/p&gt;
 
 &lt;p&gt;그런 피트 위스키 중에서도 단연 독보적인 개성, 전설과 악명을 떨치는 위스키가 있습니다. 바로 라프로익(Laphroaig) 10년입니다.&lt;/p&gt;
 
@@ -989,63 +1068,4 @@ Z 점수는 정규분포에서 특정 통계치가 표본의 평균에서 &lt;a 
 
 &lt;p&gt;AB 테스트 사례를 통해서 실험이 어떤 방식으로 인사이트를 도출하는지 알 수 있고, 이는 조직 내의 AB 테스트 문화 확산에 도움이 될 것입니다.&lt;/p&gt;
 
-&lt;p class=&quot;right-infor&quot;&gt;위시켓의 지원과 함께 제작된 콘텐츠입니다.&lt;/p&gt;</content><author><name>이준환</name></author><category term="design-teatime" /><summary type="html">Booking.com, 넷플릭스, Etsy 등, 직관적이고 어렵지 않은 난이도의 AB 테스트 사례 12가지를 보고 인사이트를 가져가세요.</summary></entry><entry><title type="html">이루다의 논란이 넷플릭스에 없는 이유. 프라이버시 리스크 관리의 3가지 포인트</title><link href="https://dewberry9.github.io/three-points-of-privacy-risk-management" rel="alternate" type="text/html" title="이루다의 논란이 넷플릭스에 없는 이유. 프라이버시 리스크 관리의 3가지 포인트" /><published>2021-07-15T00:00:00+00:00</published><updated>2021-07-15T00:00:00+00:00</updated><id>https://dewberry9.github.io/three-points-of-privacy-risk-management</id><content type="html" xml:base="https://dewberry9.github.io/three-points-of-privacy-risk-management">&lt;p class=&quot;infor&quot;&gt;프라이버시에 대해 다루는 2부작 콘텐츠입니다. &lt;a title=&quot;매거진 입맛 - 프라이버시 트렌드 정리 : 이제 개인 정보는 관리해야 할 리스크입니다.&quot; href=&quot;/privacy-trend&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;저번 글에서는 프라이버시 트렌드와 그 영향력&lt;/a&gt;을 알아보았습니다. 이번 글에서는 프라이버시 리스크 관리에 있어서 제품 설계·운영 상의 주의점 3가지를 짚어봅니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;a title=&quot;매거진 입맛 - 프라이버시 트렌드 정리 : 이제 개인 정보는 관리해야 할 리스크입니다.&quot; href=&quot;/privacy-trend&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;지난 글&lt;/a&gt;에서 오늘날의 프라이버시 트렌드를 살펴보았습니다. 고객은 민감해졌고, 빅 테그 기업은 영역 싸움하는 상황에서 프라이버시는 관리해야 할 리스크가 되었습니다. 이번 글에서는 제품 개발자와 운영자가 프라이버시 리스크를 관리하는데 핵심으로 꼽을 만한 3가지 포인트를 간단하게 짚어보려고 합니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;팝업-약관-동의-끝&quot;&gt;팝업, 약관 동의. 끝?&lt;/h2&gt;
-
-&lt;p&gt;팝업은 디지털 프로덕트에서 프라이버시 리스크를 해소하기 위해 대표적으로 사용되는 도구입니다. 모바일 앱의 개인 정보 활용에 여론이 민감해지자 모바일 OS는 앱이 개인 정보를 활용할 때 사용자 동의를 받는 방향으로 정책을 수립했습니다. 이 과정에서 활용된 UI 요소가 팝업입니다.&lt;/p&gt;
-
-&lt;p&gt;한순간 화면을 전부 가려버리고 오직 자신만 내보이는 팝업은 강력한 도구입니다. 팝업이라면 프라이버시에 대한 통제권을 고객에게 전부 넘겨주고 리스크를 해소할 수 있을 거라고 여기기 쉽습니다. 하지만 팝업은 프라이버시 리스크를 해결하기에 부족한 도구입니다.&lt;/p&gt;
-
-&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/three-points-of-privacy-risk-management/01.jpg&quot; alt=&quot;Continuous Pop-up&quot; title=&quot;연속 팝업&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;기기 카메라 사용 권한, 위치 데이터 사용 권한, 주소록 접근 권한…. 갖가지 개인 정보 활용에 동의 받기 위해 연달아 팝업이 노출되는 모습은 고객에게 익숙합니다. 권한을 받기 전 개인 정보 활용에 대한 안내 페이지를 보여주거나 팝업에 관련 내용을 담기도 하지만 대부분의 경우 설명은 추상적이고 와닿지 않는 말로 쓰여 있습니다. 고객은 이 상황에 지쳤고, 앱 설치 후 권한 동의 팝업에 기계적으로 응답하는 과정은 일상화되었습니다. 이런 &lt;strong&gt;효용 없는 사전 안내와 동의받기는 프라이버시 리스크 관리에 도움이 되지 않습니다.&lt;/strong&gt; 관련한 문제가 발생했을 때 미리 설명했다, 동의도 받았다 같은 변명은 상황을 바꿀 수 없을 겁니다. 고객은 사전 안내, 동의 여부와 상관없이 문제를 가져올 것이고 빅 테크 기업은 플랫폼의 규칙을 바꿀 것입니다. 큰 플랫폼에 종속된 제품 개발사는 형식적인 개인 정보 활용 동의 팝업만 믿고 있다가 변화의 파도에 휩쓸려 갈 것입니다.&lt;/p&gt;
-
-&lt;p&gt;같은 맥락에서 개인 정보 보호 정책(Privacy Policy) 설명글과 서비스 약관(Terms of Service) 동의 체크 박스도 프라이버시 리스크를 해결하기에 부족한 도구입니다. 약관 동의 절차는 법적 문제를 해결하는 가장 깔끔한 방법입니다. 어려운 용어로 길게 쓰여 있는 제품 약관은 아무도 보지 않습니다. 많은 제품은 온보딩 단계에서 약관 동의를 체크하기 쉽게 만들거나 제품 사용 단계로 넘어가면 약관 동의로 간주한다는 작은 문구를 삽입함으로써 낡은 규제망을 회피합니다. 실제로 74%의 고객은 개인 정보 보호 정책 설명글을 &lt;a title=&quot;Jonathan A. Obar &amp;amp; Anne Oeldorf-Hirsch, 2017 - The biggest lie on the Internet: ignoring the privacy policies and terms of service policies of social networking services&quot; href=&quot;https://www.tandfonline.com/doi/abs/10.1080/1369118X.2018.1486870&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;제대로 읽지 않고 넘깁니다.&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;위와 같은 내용에서 법과 시장 환경의 규제에 수동적으로 대처하는 방법으로는 프라이버시 리스크에 효과적으로 대응할 수 없다는 결론을 내릴 수 있습니다. 더 나은 설계, 더 적극적인 전략이 필요합니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;리스크-메트릭스--이루다와-넷플릭스&quot;&gt;리스크 메트릭스 : 이루다와 넷플릭스&lt;/h2&gt;
-
-&lt;p&gt;지난해 연재한 AB 테스트 시리즈의 시작으로, &lt;a title=&quot;매거진 입맛 - 인간 VS AI 카피라이팅 대결&quot; href=&quot;/human-vs-ai-copywriting-competition&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;인간 VS AI 카피라이팅 대결&lt;/a&gt;이라는 글을 쓴 적 있습니다. AB 테스트 플랫폼 VWO에서 딥러닝 자연어 생성 모델 GPT-3을 사용해 인간이 만든 카피와 GPT-3가 만든 카피, 둘 중 어느 쪽이 더 좋은 전환율을 보이는지 알아봤던 이벤트를 그 글에서 소개했습니다. 무승부 3회, 인간 1승에 AI 3승의 충격적인 결과가 나왔습니다. 글을 쓸 때까지만 해도 AI와 함께 일할 날도 얼마 남지 않았다고 생각했습니다. 이 생각은 몇 달 안 가서 바뀌게 됩니다. 그때쯤 이루다 사태가 벌어졌습니다.&lt;/p&gt;
-
-&lt;p&gt;이루다는 일상적 이야기를 나누는 목적으로 개발된 AI 챗봇입니다. 6개월간의 베타 테스트 후에 출시됐지만 소수자 혐오·차별 발언, 그리고 구체적인 주소 정보가 노출되는 등의 개인 정보 보호 문제로 공개 3주 만에 서비스 종료됐습니다. 이번에는 이루다의 개인 정보 보호 문제에 대해 살펴보려고 합니다. 이루다 개발사 스캐터랩(SCATTER LAB) 연애 관련 콘텐츠 서비스인 연애의 과학을 운영하고 있습니다. 연애의 과학에서는 연인과 나눈 카카오톡 대화로 감정 분석을 하는 서비스를 이용할 수 있습니다. 스캐터랩은 여기서 나온 문장 데이터를 재료로 이루다를 만들었습니다. 문장 데이터에 들어 있는 이름 등의 개인 정보는 제거했지만, 알고리즘이 잡아내지 못한 개인 정보 다수가 그대로 이루다에 녹아들었습니다. 개인정보보호위원회 및 한국인터넷진흥원(KISA)에서 조사 끝에 이루다는 서비스 종료되고 딥러닝 대화 모델은 폐기되었습니다.&lt;/p&gt;
-
-&lt;p&gt;이루다를 옹호하고 싶은 마음은 없지만 스캐터랩이 고객의 정보를 활용한 방식은 여타 디지털 프로덕트에서 사용된 방식과 크게 다를 게 없다는 사실을 알아야 합니다. 오늘날 수많은 제품은 개인 정보를 수집하고, 이 정보는 더 큰 부가가치를 내는 제품을 만드는 데 사용됩니다. 가령 많이 알려진 &lt;a title=&quot;Ashok Chandrashekar, Fernando Amat, Justin Basilico and Tony Jebara(Netflix), 2017 - Artwork Personalization at Netflix&quot; href=&quot;https://netflixtechblog.com/artwork-personalization-c589f074ad76&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;넷플릭스의 썸네일 개인화 시스템&lt;/a&gt;은 무수히 많은 시청 데이터 위에서 구축되었습니다. 그럼 무엇이 다르기에 한쪽은 서비스 종료에 이르렀고 다른 쪽은 그로쓰 해킹의 교과서적인 사례가 되었을까요? 바로 아래의 2가지입니다.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;활용한 개인 정보의 &lt;strong&gt;종류&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;개인 정보를 활용한 &lt;strong&gt;방식&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;위 사례에서 넷플릭스가 사용한 데이터는 고객의 영상 시청 데이터입니다. 사람에 따라 충분히 중요하다고 여길 수 있지만, 주소, 계좌번호와 개인 메신저에서 나눈 연인과의 대화만큼은 아닙니다. 또한 넷플릭스는 수집한 개인 정보를 AB 테스트의 성과 측정 기준으로만 활용했습니다. 그에 비해 이루다는 제품 자체를 구성하는데 개인 정보가 활용되었습니다. 학습 데이터가 되는 문장 데이터의 필터링, 데이터 정제 과정이 부족했습니다. 애초에 불특정 다수가 접근할 수 있는 대화형 AI는 항상 논란을 불러왔습니다. 마이크로소프트(Microsoft)의 테이(Tay)가 &lt;a title=&quot;Justin Worland(Time), 2016 - Microsoft Takes Chatbot Offline After It Starts Tweeting Racist Messages&quot; href=&quot;https://time.com/4270684/microsoft-tay-chatbot-racism/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;16시간 만에 운영 종료한 사건&lt;/a&gt;은 이미 유명합니다. 이처럼 활용한 개인 정보가 얼마나 민감하느냐, 그리고 개인 정보를 활용한 방식이 얼마나 안전하냐에 따라 프라이버시 리스크를 가늠해볼 수 있습니다.&lt;/p&gt;
-
-&lt;p class=&quot;full-size&quot;&gt;&lt;img src=&quot;/assets/images/design/three-points-of-privacy-risk-management/02.jpg&quot; alt=&quot;Privacy Risk Metrics&quot; title=&quot;프라이버시 리스크 메트릭스&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;고객이 민감하게 여기지 않은 정보를 안전한 방식으로 활용한다면 리스크가 낮을 것입니다. 반대로 민감한 정보를 위험한 방식으로 활용한다면 리스크가 높을 수 밖에 없습니다. 개인 정보를 활용하기 전에 프라이버시 리스크 메트릭스로 위험도를 예측하는 건 프라이버시 리스크 관리를 시작하는 방법입니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;프라이버시-패러독스-활용&quot;&gt;프라이버시 패러독스 활용&lt;/h2&gt;
-
-&lt;p&gt;프라이버시 패러독스(Privacy Paradox)는 디지털 프로덕트 고객이 개인 정보 유출을 우려하면서도 막상 제품을 사용할 때에는 가벼이 개인 정보를 넘기는 현상을 말합니다. 여러 학자들이 이 현상이 왜 일어나는지 파헤치고 있습니다. Procedia Computer Science지에 게시된 &lt;a title=&quot;Ruwan Bandara, Mario Fernando, Shahriar Akter, 2017 - The Privacy Paradox in the Data-Driven Marketplace: The Role of Knowledge Deficiency and Psychological Distance&quot; href=&quot;https://www.sciencedirect.com/science/article/pii/S1877050917322743&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;한 논문&lt;/a&gt;은 프라이버시 패러독스의 원인으로 제한된 정보와 심리적 거리를 꼽습니다. 제품이 개인 정보를 요구하는 상황에 부닥쳤을 때 충분한 정보가 제공되지 않기 때문에 고객은 합리적으로 판단할 수 없습니다. 설사 정보가 충분해도 프라이버시의 가치는 당장 제품이 약속하는 유형적 혜택보다 심리적으로 멀게 느껴집니다. 제품 개발사는 전자를 해결하고 후자를 이용해야 합니다.&lt;/p&gt;
-
-&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/three-points-of-privacy-risk-management/03.jpg&quot; alt=&quot;ATT Pop-up of Facebook and Instagram&quot; title=&quot;페이스북과 인스타그램의 앱 추적 투명성 정책 안내 팝업&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;이전 글에서 설명한 iOS 14.5의 앱 추적 투명성 정책으로 추적 동의 팝업의 내용을 다듬거나 별도의 안내 화면을 노출하는 앱이 늘었습니다. 페이스북과 인스타그램은 대표적인 예시입니다. 두 제품은 갑작스러운 안내 화면의 등장이 iOS 14.5의 정책 때문이며, 광고 개선에 사용할 개인 정보를 제공하고 싶지 않다면 그럴 수 있다고 설명합니다. 안내문의 끝에서 두 제품은 개인 정보가 광고 개인화, 무료 사용, 페이스북·인스타그램 광고에 의존적인 기업 지원에 사용된다며 개인 정보 활용 동의를 유도하고 있습니다.&lt;/p&gt;
-
-&lt;p&gt;전환에 유리한 정보·기능 강조하는 전략은 &lt;a title=&quot;매거진 입맛 - 전환율 높이는 상세 페이지 디자인. 바로 써보는 3가지 방법&quot; href=&quot;/product-page-tips&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;상세 페이지 디자인의 주요 전략&lt;/a&gt;이기도 합니다. 프라이버시에서도 같습니다. 두루뭉술하고 추상적인 표현 대신 개인 정보의 구체적인 사용처와 개인 정보를 요구하게 된 전후 맥락을 밝힌 안내 콘텐츠는 고객의 합리적인 선택을 돕고, 결과적으로 프라이버시 리스크의 감소로 이어집니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;정리&quot;&gt;정리&lt;/h2&gt;
-
-&lt;p&gt;시장의 변화에 한발 앞서 대응하기 위해 프라이버시를 리스크로 보고 관리해야 한다는 것이 지난 편의 결론이었습니다. 이번에는 프라이버시 리스크 관리에 참고할 만한 3가지 포인트를 설명했습니다.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;법과 시장 환경의 규제에 수동적으로 대처하는 방법으로는 프라이버시 리스크에 효과적으로 대응할 수 없다.&lt;/li&gt;
-  &lt;li&gt;프라이버시 리스트 메트릭스로 활용할 개인 정보의 민감도, 개인 정보 활용 방식의 안전도를 점검하고 미리 리스크를 파악한다.&lt;/li&gt;
-  &lt;li&gt;개인 정보를 요구할 때 구체적인 사용처와 요구하게 된 전후 맥락, 고객이 받을 수 있는 혜택을 안내한다.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;프라이버시는 고객의 권리입니다. 당연한 사실이지만 이것에만 매달려 수집도 활용도 주저하게 된다면 고객과 제품 양쪽에 어떤 도움도 줄 수 없습니다. 그렇기 때문에 발전성과 안전성 사이에서 적절한 선을 찾는 것이 중요합니다. 이는 모든 제품 개발자들의 평생 과제이기도 합니다.&lt;/p&gt;
-
-&lt;p class=&quot;right-infor&quot;&gt;위시켓의 지원과 함께 제작된 콘텐츠입니다.&lt;/p&gt;</content><author><name>이준환</name></author><category term="design-teatime" /><summary type="html">고객과 빅 테크 기업이 바꾼 시장은 프라이버시 리스크 관리를 요구하고 있습니다. 이루다, 넷플릭스, 페이스북의 사례를 통해 핵심을 짚어봅니다.</summary></entry></feed>
+&lt;p class=&quot;right-infor&quot;&gt;위시켓의 지원과 함께 제작된 콘텐츠입니다.&lt;/p&gt;</content><author><name>이준환</name></author><category term="design-teatime" /><summary type="html">Booking.com, 넷플릭스, Etsy 등, 직관적이고 어렵지 않은 난이도의 AB 테스트 사례 12가지를 보고 인사이트를 가져가세요.</summary></entry></feed>
