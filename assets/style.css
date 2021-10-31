@@ -230,7 +230,7 @@ section.post-content div { width: 100%; font-family: "Nanum Myeongjo"; }
 
 section.post-content div p { text-indent: 0.5rem; line-height: 2.5; }
 
-section.post-content div > p.infor::before { content: "*"; }
+section.post-content div > p.infor { text-indent: 0; }
 
 section.post-content div > p.right-infor { text-align: right; }
 
