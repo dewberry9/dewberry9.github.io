@@ -1,4 +1,119 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://dewberry9.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dewberry9.github.io/" rel="alternate" type="text/html" /><updated>2021-12-03T21:49:24+09:00</updated><id>https://dewberry9.github.io/feed.xml</id><title type="html">매거진 입맛</title><subtitle>읽을 만한 취향들. 매거진 입맛 - 책, 술, 그밖에 삶의 즐거움 리뷰 / 디자인 / 소설</subtitle><author><name>이준환</name></author><entry><title type="html">노션, 피그마, 오늘의집 커뮤니티 전략 분석</title><link href="https://dewberry9.github.io/product-community-study-cases" rel="alternate" type="text/html" title="노션, 피그마, 오늘의집 커뮤니티 전략 분석" /><published>2021-11-28T00:00:00+09:00</published><updated>2021-11-28T00:00:00+09:00</updated><id>https://dewberry9.github.io/product-community-study-cases</id><content type="html" xml:base="https://dewberry9.github.io/product-community-study-cases">&lt;p class=&quot;infor&quot;&gt;&lt;strong&gt;만능 성장 동력 제품 커뮤니티 시리즈&lt;/strong&gt;&lt;br /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://dewberry9.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dewberry9.github.io/" rel="alternate" type="text/html" /><updated>2021-12-26T10:09:06+09:00</updated><id>https://dewberry9.github.io/feed.xml</id><title type="html">매거진 입맛</title><subtitle>읽을 만한 취향들. 매거진 입맛 - 책, 술, 그밖에 삶의 즐거움 리뷰 / 디자인 / 소설</subtitle><author><name>이준환</name></author><entry><title type="html">결국 가격이 모든 것을 결정한다. 5가지 구독 서비스 가격 책정 전략</title><link href="https://dewberry9.github.io/pricing-strategies" rel="alternate" type="text/html" title="결국 가격이 모든 것을 결정한다. 5가지 구독 서비스 가격 책정 전략" /><published>2021-12-26T00:00:00+09:00</published><updated>2021-12-26T00:00:00+09:00</updated><id>https://dewberry9.github.io/pricing-strategies</id><content type="html" xml:base="https://dewberry9.github.io/pricing-strategies">&lt;p&gt;식품, 의류, 세탁, 위생품, 콘텐츠, 차량 관리…. 오늘날에는 생활의 거의 모든 부분이 디지털 프로덕트를 다리 삼아서 구독 서비스로 제공됩니다. 구독 서비스의 유행은 강력한 고객 유지 특성에서 비롯합니다. 유통 기반이 온라인으로 옮겨져 전보다 노출이 쉬워졌지만, 그만큼 다른 제품도 쉽게 노출되기에 아무리 많은 고객을 유입시켜도 재방문 전략이 없다면 밑 깨진 독에 물 붓는 것이나 다름 없습니다. 재방문 고객은 전환, 제품 학습, &lt;a title=&quot;매거진 입맛 - 전환율, 피드백, 고객지원까지. 어떻게 제품 커뮤니티를 만능 성장 동력으로 만들까?&quot; href=&quot;/product-community-as-a-growth-engine&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;커뮤니티 기여&lt;/a&gt; 등 수많은 분야에서 신규 고객보다 월등한 활동을 보입니다. 실제로 구독 고객은 일회성 고객보다 &lt;a title=&quot;Erin Dorashorst(Salesforce), 2020 - A Subscription Service Can Increase Your Bottom Lines&quot; href=&quot;https://www.salesforce.com/blog/grow-commerce-subscription-service?refer=mag_epmat&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;217% 더 많은 수익&lt;/a&gt;을 가져다줍니다.&lt;/p&gt;
+
+&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/pricing-strategies/01.jpg&quot; alt=&quot;Product Value Based Pricing Ratio by ACV&quot; title=&quot;Product Value Based Pricing Ratio by ACV&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;그런데 구독료는 어떻게 책정해야 할까요? 적당히 경쟁사 따라 정하면 되지 않을까요? 실제로 2,200개의 SaaS 기업을 대상으로 한 &lt;a title=&quot;Kyle Poyar(OpenView Venture), 2021 - Pricing Insights from 2,200 SaaS Companies&quot; href=&quot;https://openviewpartners.com/blog/saas-pricing-insights?refer=mag_epmat&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;설문 조사&lt;/a&gt;에서는 제품 가치 기반으로 가격 책정한 경우(39%) 외에 최선책을 임의로 판단 내린 경우(27%), 경쟁사를 참고한 때(24%)도 상당히 많다는 것을 볼 수 있습니다. 주목해야할 점은 기업의 거래 규모와 제품 가치 기반 가격 책정 사이의 상관관계입니다. 연평균 거래 규모가 5천 달러(한화 약 590만 원) 미만인 기업 중 제품 가치를 기반으로 가격 책정한 곳은 35%뿐이었지만, 10만 달러(한화 약 11억 원)가 넘는 기업 중에서는 51%가 제품 가치 기반으로 가격을 책정했습니다.&lt;/p&gt;
+
+&lt;p&gt;왜 이런 차이가 생길까요? &lt;strong&gt;가격 책정이 가장 영향력 있는 제품 전략 중 하나이기 때문입니다.&lt;/strong&gt; 이번 글에서는 가격 책정의 중요성을 알아보고, 디지털 프로덕트 구독 요금제의 5가지 가격 책정 전략을 살펴보겠습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;넷플릭스-구독료와-파도치는-주가&quot;&gt;넷플릭스 구독료와 파도치는 주가&lt;/h2&gt;
+
+&lt;p&gt;세계 최대 우편 DVD 대여 기업에서 세계 최대 스트리밍 기업이 된 넷플릭스(Netflix)의 피벗은 순탄하지 않았습니다. 2011년, 온라인 스트리밍이 대세가 될 것은 이미 자명했습니다. 넷플릭스는 대대적인 개편을 감행했습니다. 우편 DVD 대여 사업을 다른 브랜드로 분리하고, 스트리밍 구독과 DVD 대여 서비스를 동시에 제공하던 기존 요금제를 나눴습니다. &lt;a title=&quot;Greg Sandoval(cnet), 2012 - Netflix’s lost year: The inside story of the price-hike train wreck&quot; href=&quot;https://www.cnet.com/tech/services-and-software/netflixs-lost-year-the-inside-story-of-the-price-hike-train-wreck?refer=mag_epmat&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;그 결과&lt;/a&gt;, 2011년 3분기 80만 명의 구독자가 넷플릭스에서 빠져나갔습니다. 분사 계획은 3주 만에 철회되었습니다. 다음 1년 동안 주가는 73% 하락했습니다. 무엇이 문제였을까요? 조직의 체급에 맞지 않는 성급한 의사결정, 부족한 시장 조사뿐만 아니라 가격 책정도 꼽을 수 있습니다. 당시 넷플릭스의 가장 인기 있는 요금제는 무제한 스트리밍에 한번에 DVD 1개를 대여할 수 있는 월 9.99달러 요금제였습니다. 이는 개편 후 무제한 스트리밍 전용 요금제와 DVD 대여 전용 요금제로 쪼개졌습니다. 둘 다 월 7.99달러였습니다. 즉, 개편 전처럼 한 가지 요금제로 스트리밍과 DVD 대여 서비스를 누리던 고객은 같은 서비스를 받으려면 최소 15.98달러로 거의 60% 인상된 비용을 내야 했습니다. 물론 DVD 대여 서비스 구독자를 점차 줄이기 위한 의도된 가격 책정이었습니다. 고객과 시장을 고려한 것이 아니라 비즈니스를 위한 독단이었던 가격 책정은 넷플릭스의 성장을 한 해 넘게 정체시켰습니다.&lt;/p&gt;
+
+&lt;p&gt;그러나 넷플릭스가 가격 책정으로 자충수만 둔 것은 아닙니다. 오히려 가격 책정으로 큰 성장을 만들어낸 대표적 기업이라고 할 수 있습니다. 스트리밍 시장의 성장에 가속도가 붙은 2017년, 그해 넷플릭스는 제품도 안정됐고 &amp;lt;기묘한 이야기&amp;gt;와 같은 오리지널 시리즈도 방송하기 시작했습니다. 넷플릭스는 이에 맞춰 스탠다드 플랜의 가격을 월 9.99달러에서 10.99달러로 인상했습니다. 경쟁사보다 20~30% 높은 금액이었지만, 그해 4분기 넷플릭스 수익 성장률은 35%에 달했습니다. 이 성공을 바탕으로 2019년에는 모든 요금제의 가격을 13~18% 인상하기까지 합니다. 구독 해지율은 2017년과 비슷한 데 비해 수익률과 주가는 막대하게 올랐습니다.&lt;/p&gt;
+
+&lt;p&gt;넷플릭스의 사례가 말해주는 바는 분명합니다. 가격 책정은 가장 영향력 있는 제품 전략입니다. &lt;strong&gt;가격은 전환율과 고객 행동 패턴에서 브랜드 이미지와 마케팅에 이르기까지 제품과 관련된 모든 것을 움직이는 힘을 가지고 있습니다.&lt;/strong&gt; 가격 책정 전략을 이해하는 일은 이 힘을 알고 활용하는 것에 기초가 될 것입니다.&lt;/p&gt;
+
+&lt;p&gt;이제부터 5가지 가격 책정 전략에 관해 알아보겠습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;고객-유형-세분화&quot;&gt;고객 유형 세분화&lt;/h2&gt;
+
+&lt;p&gt;하나의 제품에는 여러 유형의 고객이 존재합니다. 음식 배달 플랫폼에는 식당과 손님이, 스트리밍 서비스에는 액션 매니아와 로맨스 매니아가, 뱅킹 앱에는 회사 대표와 학자금 대출 상환자가 있습니다. 다양한 유형의 고객을 대응하는 과정에서 제품은 성장합니다. 가격 책정도 같은 맥락에서 접근해야 합니다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;니즈, 환경, 문제에 따라 제품 고객 유형 세분화&lt;/li&gt;
+  &lt;li&gt;고객 유형별로 제공할 가치·기능과 제공 비용 결정&lt;/li&gt;
+  &lt;li&gt;지나친 세분화로 고객의 결정력이 떨어지지 않는 선에서 유형별 요금제 개설&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;글로벌 가격 책정·세일즈 컨설팅 기업 &lt;a title=&quot;Peak Capital, 2021 - 7 Strategies for SaaS Pricing &amp;amp; Packaging&quot; href=&quot;https://peak.capital/saas-pricing-packaging-lessons-saas-investor?refer=mag_epmat&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Simon-Kucher &amp;amp; Partners의 조사&lt;/a&gt;에 의하면 고객의 사용 패턴이나 니즈 유형에 따라 가격 책정한 기업은 연 매출 증가율이 57%로, 그렇지 않은 기업이 16%에 그치는 것에 비해 큰 성과를 보였습니다.&lt;/p&gt;
+
+&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/pricing-strategies/02.jpg&quot; alt=&quot;LinkedIn Premium Plans&quot; title=&quot;LinkedIn Premium Plans&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;비즈니스 SNS 링크드인(LinkedIn)의 프리미엄 요금제는 고객 유형 세분화를 보여주는 매우 분명한 사례입니다. 사업은 고객, 대표, 직원, 투자자, 협력사와 같이 많은 이해 관계자가 맞물린 움직이는 네트워크입니다. 이들을 한데 모아둔 링크드인에서는 당연히 결이 다른 여러 요구가 발생할 수밖에 없습니다. 링크드인은 고객의 니즈를 구직, 구인, 세일즈, 비즈니스 네트워킹으로 구분하여 각 유형에 특화된 4가지 요금제를 제시합니다. 구인에 특화된 리크루터 라이트 요금제를 쓰면 지원자를 추천해주고, 네트워킹에 특화된 비즈니스 요금제에서는 제안 없이 프로필을 조회할 수 있는 등 링크드인 프리미엄은 각 니즈 유형에 기반한 기능을 제공합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;요금제-구성---리더-필러-킬러&quot;&gt;요금제 구성 - 리더, 필러, 킬러&lt;/h2&gt;
+
+&lt;p&gt;요금제 구성의 핵심은 고객의 선택지를 제약하는 것입니다. 만약 정해진 가격이 없어서 어떤 물건을 살 때마다 협상해야 한다면 번거로울 것입니다. 적절한 가격으로 적절한 기능을 제공하는 요금제를 제안할 때, 고객은 쉽고 빠르게 선택할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;젠데스크(Zendesk)의 초창기 마케터이자 피그마(Figma)의 현 CCO(최고 고객 책임자)인 아만다 클레하(Amanda Kleha)는 효과적인 요금제를 만들기 위해 제공할 기능을 &lt;a title=&quot;Harry Stebbings(SaaStr), 2019 - SaaStr Podcast #209: Amanda Kleha, Chief Customer Officer @ Figma Discusses How To Ensure Successful Cross-Functional Communication&quot; href=&quot;https://www.saastr.com/saastr-podcast-209-amanda-kleha-chief-customer-officer-figma-discusses-how-to-ensure-successful-cross-functional-communication?refer=mag_epmat&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;3가지로 분류하라고 이야기&lt;/a&gt;합니다.&lt;/p&gt;
+
+&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/pricing-strategies/03.jpg&quot; alt=&quot;Leaders, Fillers, and Killers&quot; title=&quot;Leaders, Fillers, and Killers&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;리더(Leader) : 높은 가치와 수용 가능성을 가진 기능입니다. 해당 요금제를 구매할 주요 요인이 됩니다. 각 요금제에는 분명한 리더가 1개 이상 포함되어야 합니다.&lt;/li&gt;
+  &lt;li&gt;필러(Filler) : 수용 가능성은 있지만 리더에 비해 제공 가치가 떨어지는 기능입니다. 리더 기능과 어울리는 필러는 해당 요금제의 가치를 키웁니다.&lt;/li&gt;
+  &lt;li&gt;킬러(Killer) : 낮은 가치와 수용 가능성을 지닌, 구매 의지를 떨어뜨리는 기능입니다. 고객은 킬러 기능이 포함된 요금제를 살 때 불필요한 킬러 기능에도 비용을 들인다고 여기기 때문에 해당 요금제를 구매하지 않을 것입니다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;리더-필러-킬러 프레임워크는 흔히 버거, 콜라, 감자튀김으로 구성된 세트 메뉴로 비유됩니다. 버거는 리더입니다. 메뉴를 구매하는 주된 목적입니다. 콜라와 감자튀김은 필러입니다. 세트 메뉴의 조합이 괜찮아 보이기 때문에, 고객은 버거 단품보다 돈을 약간 더 써서 필러까지 얻습니다. 이 세트 메뉴에 끈적한 초콜릿 케이크가 들어갈 일은 없을 것입니다. 세트 메뉴가 이미 무척 기름지기에 느끼한 케이크는 킬러가 됩니다.&lt;/p&gt;
+
+&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/pricing-strategies/04.jpg&quot; alt=&quot;Channel.io&quot; title=&quot;Channel.io&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;고객 지원용 라이브 채팅 서비스 채널톡은 치밀히 설계된 요금제를 보여주는 대표적 사례입니다. 채널톡은 제품의 핵심 기능인 라이브 채팅과, 자주 쓰는 답변을 지정하는 등 상담에 필수적인 기능은 모두 무료로 제공합니다. 무료와 유료의 차이, 즉 유료 요금제의 리더는 상담 고객의 데이터에 접근하는 기능과 부가서비스입니다. 상담 통계와 챗봇 같은 상담에 집중한 부가서비스, 단체 메시지 전송이나 자동화 캠페인 등 마케팅에 집중한 부가서비스를 유료 요금제 구독 시에만 따로 살 수 있습니다. 두 기능을 모두 제공하는 요금제에서는 상담 특화 기능만 필요한 고객에게 마케팅 특화 기능이 킬러가 되고, 그 반대의 상황도 생길 수 있기 때문입니다.&lt;/p&gt;
+
+&lt;p&gt;이처럼 &lt;strong&gt;요금제에 넣을 기능을 리더-필러-킬러로 분류하고 전략적으로 배치&lt;/strong&gt;해야 합니다. 이렇게 구성한 요금제는 제공한 기능 이상의 부가가치를 만듭니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;과금-기준-지표&quot;&gt;과금 기준 지표&lt;/h2&gt;
+
+&lt;p&gt;구독 서비스는 시간에 값을 매깁니다. 한번 팔고 끝내는 전통적 판매 방식과 가장 큰 차이를 보이는 부분입니다. 구독 서비스는 한 달, 1년 등 일정 기간의 사용권을 보장하고 정기적으로 계약 관계를 맺습니다. 비용을 청구하는 기준인 ‘사용 시간’은 각 제품 특성에 맞게 다양한 지표로 제시됩니다. 3가지 핵심 방향성을 고려하면 제품 성장에 효과적인 과금 기준 지표를 설정할 수 있습니다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;연관성 : 고객이 요구하고 제품이 제공하는 핵심 가치를 직접적으로 반영해야 합니다.&lt;/li&gt;
+  &lt;li&gt;확장성 : 고객의 필요에 맞춰 탄력적으로 늘릴 수 있는 지표를 설정해야 합니다. 더 큰 규모의 고객과 수익을 획득하는데 기반이 됩니다.&lt;/li&gt;
+  &lt;li&gt;투명·무결성 : 고객이 비용과 결제 방식을 예측할 수 있어 결제 과정에 허들이 없어야 합니다. 또한 계정을 공유하는 등 변칙적 사용법으로 동일한 요금을 내는 고객 간에 제공받는 가치의 불평등이 생기지 않는 구조의 지표를 채택해야 합니다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;다음은 몇 제품의 과금 기준 지표 사례입니다.&lt;/p&gt;
+
+&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/pricing-strategies/05.jpg&quot; alt=&quot;Pricing Benchmark Metrics&quot; title=&quot;Pricing Benchmark Metrics&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;채널톡&lt;/strong&gt;&lt;br /&gt;
+앞선 이미지에서 확인할 수 있듯, MAU(월 활성 사용자 수) 규모에 따라 5가지 유료 요금제를 제공합니다. 상담·분석 대상 고객 수는 제품 규모에 비례하기에 연관성이 높을뿐더러, MAU는 쉽게 파악할 수 있습니다. 요금제도 간단히 확장할 수 있습니다.&lt;/p&gt;
+
+&lt;p class=&quot;normal-size&quot;&gt;&lt;strong&gt;재피어(zapier)&lt;/strong&gt;&lt;br /&gt;
+&lt;img src=&quot;/assets/images/design/pricing-strategies/06.jpg&quot; alt=&quot;zapier Plans&quot; title=&quot;zapier Plans&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;재피어는 앱 연동 및 워크플로우 자동화 서비스입니다. 재피어를 사용하면 구글 폼에서 받은 설문 조사 결과를 에어테이블(Airtable)에 저장하고 그 결과를 슬랙(Slack)에 보고하는 워크플로우를 만들 수 있습니다. 제품 개발·협업에 많은 툴을 사용하고 있는 오늘날 디지털 프로덕트 개발 환경에 생산성을 높여주는 제품이라고 할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;재피어는 제작한 워크플로우의 개수와 워크플로우로 수행한 작업의 수에 따라 요금을 달리합니다. 이는 제품의 핵심 기능을 그대로 반영하며, 재피어 측에서 고객 사용량을 측정할 수 있고, 변칙적으로 사용하기도 어렵습니다.&lt;/p&gt;
+
+&lt;p class=&quot;normal-size&quot;&gt;&lt;strong&gt;스티비&lt;/strong&gt;&lt;br /&gt;
+&lt;img src=&quot;/assets/images/design/pricing-strategies/07.jpg&quot; alt=&quot;Stibee Plans&quot; title=&quot;Stibee Plans&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;스티비는 이메일 뉴스레터 제작·발행 서비스입니다. 고객은 스티비의 노 코드(No-code) 에디터로 콘텐츠를 만들고, 구독 폼과 이전에 발행했던 뉴스레터를 목록으로 확인할 수 있는 웹페이지를 받습니다.&lt;/p&gt;
+
+&lt;p&gt;스티비는 구독자 수, 월 발송 횟수, 이메일 1개당 첨부 이미지 용량을 기준으로 요금제를 구분합니다. 스티비로 더 많은 사람에게 더 자주 뉴스레터를 보낼수록 더 큰 비용을 내는 방식입니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;할인-시스템&quot;&gt;할인 시스템&lt;/h2&gt;
+
+&lt;p&gt;서론에서 인용한 설문 조사에 따르면 ACV가 1천 달러 미만인 기업의 48%는 거의 할인하는 일이 없습니다. 이 비율은 2만 5천 달러 이상의 ACV를 가진 기업 중에서는 19%로 대폭 감소합니다. ACV, 연간 계약 가치는 한 해 동안 발생한 계약 가치의 평균입니다. 다시 말해 제품이 많이 팔리고 규모가 커질수록 가격 할인은 빈번해지는 것입니다. 그런데도 무조건적인 할인이 제품 성장을 보장하는 것은 아닙니다. 계획적이지 않고 극적인 할인은 제품을 정가로 구매하려는 고객의 의지를 약하게 합니다. &lt;strong&gt;할인은 고객이 제품에 기여할 때 그 대가로 주어져야 합니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/pricing-strategies/08.jpg&quot; alt=&quot;Modusign Discount&quot; title=&quot;Modusign Discount&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;전자서명·계약서 관리 서비스 모두싸인처럼 연간 결제했을 때 할인을 제공하는 것이 일반적인 방법입니다. 모두싸인 요금제를 연간 결제할 경우 월간 결제했을 때보다 최대 46% 저렴하게 제품을 사용할 수 있습니다. 이렇게 큰 혜택을 주는 까닭은 사용 기간이 늘고 이탈율이 줄어들어 전반적으로 더 큰 수익을 내기 때문입니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;가격-제시-방법-실험&quot;&gt;가격 제시 방법 실험&lt;/h2&gt;
+
+&lt;p&gt;12가지 AB 테스트 사례를 소개한 글에서 코드카데미(Codecademy)의 요금제 선택 페이지 실험과 100의 법칙(Rule of 100)을 설명한 적 있습니다. 100의 법칙은 어떤 상품의 가격이 100달러 이상이라면 할인율보다 할인가를 보여주는 게 혜택을 더 크게 실감한다는 이론입니다. 이 실험에서 코드카데미의 연간 결제 방식 전환하는 비율은 28% 증가했습니다. 가격 하나 바꾸지 않고 말입니다.&lt;/p&gt;
+
+&lt;p&gt;결국 ‘결제하기’, ‘도입 문의하기’ 버튼을 누르는 주체는 사람입니다. 번거로움, 귀찮음, 어려움을 느끼지 못해서 완벽하게 합리적인 결정을 할 수 있는 기계가 아닙니다. 고객의 문제를 뾰족하게 가리키고 그 문제를 이 가격에 가장 잘 해결할 수 있는 것은 이 제품뿐이라고, 절절히 느낄 수 있는 경험을 끊임없이 시험해야 합니다. 제품을 처음 접해서 마침내 결제할 때까지의 여정을 세심하게 설계할 필요가 있습니다. 고객이 제품의 가치를 확신하지 못하면 어떤 가격 책정 정책도 무용지물입니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;정리&quot;&gt;정리&lt;/h2&gt;
+
+&lt;p&gt;넷플릭스 사례에서 알 수 있듯, 가격 책정은 가장 영향력 있는 제품 전략입니다. 대표적인 가격 책정 전략은 아래와 같습니다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;고객 유형을 세분화하여 각 유형에 맞는 요금제 제공&lt;/li&gt;
+  &lt;li&gt;리더-필러-킬러 기능을 적절히 배분하여 요금제 구성&lt;/li&gt;
+  &lt;li&gt;제품 핵심 가치와 연관성 있고, 확장 가능하며, 투명한 과금 기준 지표 설정&lt;/li&gt;
+  &lt;li&gt;남발하지 않고 고객 기여의 결과로 할인 제공&lt;/li&gt;
+  &lt;li&gt;가격 제시 방법 실험&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;가격 책정 전략을 수익을 위한 잡기술로 여기는 것은 잘못된 생각입니다. 고객과 제품 사이의 관계는 자동차의 엔진과 바퀴의 관계와 같습니다. 고객은 제품이 필요하고, 제품은 고객이 필요합니다. 가격 책정 전략은 이 의존 관계를 효과적으로 작동시키는 연료로서 제품과 고객을 성장시킬 것입니다.&lt;/p&gt;
+
+&lt;p class=&quot;right-infor&quot;&gt;위시켓의 지원과 함께 제작된 콘텐츠입니다.&lt;/p&gt;</content><author><name>이준환</name></author><category term="design-teatime" /><summary type="html">넷플릭스는 가격 책정으로 80만 고객을 잃은 적도, 35%의 수익 성장률을 달성한 적도 있습니다. 구독 서비스 가격 책정, 그 전략에 대해 알아봅니다.</summary></entry><entry><title type="html">노션, 피그마, 오늘의집 커뮤니티 전략 분석</title><link href="https://dewberry9.github.io/product-community-study-cases" rel="alternate" type="text/html" title="노션, 피그마, 오늘의집 커뮤니티 전략 분석" /><published>2021-11-28T00:00:00+09:00</published><updated>2021-11-28T00:00:00+09:00</updated><id>https://dewberry9.github.io/product-community-study-cases</id><content type="html" xml:base="https://dewberry9.github.io/product-community-study-cases">&lt;p class=&quot;infor&quot;&gt;&lt;strong&gt;만능 성장 동력 제품 커뮤니티 시리즈&lt;/strong&gt;&lt;br /&gt;
 1부 - &lt;a title=&quot;매거진 입맛 - 전환율, 피드백, 고객지원까지. 어떻게 제품 커뮤니티를 만능 성장 동력으로 만들까?&quot; href=&quot;/product-community-as-a-growth-engine&quot; rel=&quot;noopener&quot;&gt;전환율, 피드백, 고객지원까지. 어떻게 제품 커뮤니티를 만능 성장 동력으로 만들까?&lt;/a&gt;&lt;br /&gt;
 2부 - &lt;a title=&quot;매거진 입맛 - 데이터로 대답할 수 없는 커뮤니티는 밑 빠진 독이다. 커뮤니티 성과 측정 지표&quot; href=&quot;/product-community-metrics&quot; rel=&quot;noopener&quot;&gt;데이터로 대답할 수 없는 커뮤니티는 밑 빠진 독이다. 커뮤니티 성과 측정 지표&lt;/a&gt;&lt;br /&gt;
 3부 - 노션, 피그마, 오늘의집 커뮤니티 전략 분석&lt;/p&gt;
@@ -969,136 +1084,4 @@ ROPE 방식이 통계적 유의성에 따라 결과를 판단하는 방식이었
 
 &lt;p&gt;AB 테스트 결과 분석에 빈도주의와 베이지안 무엇이 더 나은지에 대해서는 &lt;a title=&quot;Alex Birkett(CXL), 2020 - Bayesian vs. Frequentist A/B Testing: What’s the Difference?&quot; href=&quot;https://cxl.com/blog/bayesian-frequentist-ab-testing/?refer=mag_epmat&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;논란이 많습니다&lt;/a&gt;. 시리즈를 읽으면서 두 방식을 모두 알았으니, 같은 실험에서 비교해보는 것도 좋은 방법입니다.&lt;/p&gt;
 
-&lt;p class=&quot;right-infor&quot;&gt;위시켓의 지원과 함께 제작된 콘텐츠입니다.&lt;/p&gt;</content><author><name>이준환</name></author><category term="design-teatime" /><summary type="html">‘대안의 결과가 원본보다 나을 확률’, ‘대안을 선택했을 때 예상 손실’. 빈도주의 분석으로 알 수 없는 인사이트를 어떻게 얻을 수 있을까요?</summary></entry><entry><title type="html">그 AB 테스트 결과는 우연일지도 모릅니다.</title><link href="https://dewberry9.github.io/ab-test-frequentist-statistical-analysis" rel="alternate" type="text/html" title="그 AB 테스트 결과는 우연일지도 모릅니다." /><published>2021-09-13T00:00:00+09:00</published><updated>2021-09-13T00:00:00+09:00</updated><id>https://dewberry9.github.io/ab-test-frequentist-statistical-analysis</id><content type="html" xml:base="https://dewberry9.github.io/ab-test-frequentist-statistical-analysis">&lt;p class=&quot;infor&quot;&gt;&lt;strong&gt;AB 테스트 통계분석 시리즈&lt;/strong&gt;&lt;br /&gt;
-1부 - 그 AB 테스트 결과는 우연일지도 모릅니다.&lt;br /&gt;
-2부 - &lt;a title=&quot;매거진 입맛 - AB 테스트 인사이트의 수준이 달라지는 베이지안 분석&quot; href=&quot;/ab-test-bayesian-statistical-analysis&quot; rel=&quot;noopener&quot;&gt;매거진 입맛 - AB 테스트 인사이트의 수준이 달라지는 베이지안 분석&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;이전에 연재한 &lt;strong&gt;&lt;a title=&quot;매거진 입맛 - 매출 만드는 AB 테스트, 시작이 막막한가요? 3단계 가이드&quot; href=&quot;/3step-ab-test&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;AB 테스트 가이드&lt;/a&gt;&lt;/strong&gt;에서 실행한 AB 테스트의 결과 분석은 실험의 결실을 거두는 일종의 수확이라고 비유한 적 있습니다. AB 테스트의 모든 과정이 결과를 위해 존재하고, 그렇게 도출된 결과는 인사이트화되어 제품과 조직의 성장, 그리고 또 다른 AB 테스트에 기여하는 사이클에 있어서 필수적인 부분이기 때문입니다.&lt;/p&gt;
-
-&lt;p&gt;한번이라도 AB 테스트를 돌려본다면 결과 분석이 생각보다 어려운 일임을 깨닫게 됩니다. 뻔히 눈에 보이는 결과, 수치인데 매번 해석하기가 난감합니다.&lt;/p&gt;
-
-&lt;p class=&quot;full-size&quot;&gt;&lt;img src=&quot;/assets/images/design/ab-test-frequentist-statistical-analysis/01.jpg&quot; alt=&quot;AB Test Calculator&quot; title=&quot;AB Test Calculator&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;위와 같이 AB 테스트 결과의 통계적 유의성을 알려주는 계산기를 몇 번 소개한 적이 있습니다. 이런 복잡한 계산기가 필요한 이유는 ‘이 AB 테스트 결과를 믿을 것인가’를 결정하기 위해서입니다. 원본 A의 전환율이 10건 중 2건으로 20%, 대안 B의 전환율이 10건 중 6건으로 60%가 나왔다면, 대안 B가 3배의 성과를 거뒀으니 실험을 종료하고 대안 B로 고정하자고 이야기할 수 있을까요? 10건 중 6건은 우연일 수 있으니 데이터를 좀 더 모아야 한다는 의견은 충분히 상식적입니다. 그렇다면 데이터를 얼마나 더 모아야 할까요? 1천? 1만? 그 이유는 무엇인가요? 여기서부터 AB 테스트 결과 분석이 어려워집니다. 구글링을 통해 p값, 신뢰구간, 통계적 유의성에 대한 정보를 알게 됩니다. 이해는 안 되지만 아무튼 계산기도 발견합니다. 반신반의하면서도 계산기를 사용해 결과를 분석합니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a title=&quot;매거진 입맛 - 따라쓰기만 하면 테스트 문화가 만들어진다 - Growth Book&quot; href=&quot;/growth-book-and-experiment-culture&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;AB 테스트는 문화가 되었을 때 최대의 효과를 내는 전략&lt;/a&gt;&lt;/strong&gt;입니다. 어떤 테스트에 대한 결론을 내리면서 그 이유를 동료에게 설명할 수 없다면 테스트 문화를 만들 수 있을까요? 그전에 ‘AB 테스트 결과가 이렇게 나왔으니 제품에 적용하자’라는 주장이 설득력을 얻을 수 있을까요?&lt;/p&gt;
-
-&lt;p&gt;이런 태도가 별다른 문제가 되지 않을 수도 있습니다. 결국 AB 테스트는 제품과 조직을 위한 도구일 뿐입니다. 보닛 아래서 무슨 일이 일어나는지 정확히 설명할 수는 없어도 자동차를 모는 데 문제는 없습니다. 그러나 그 신뢰는 자동차가 지난 몇 세기 동안 굴러다녔다는 사실에서 비롯되었습니다. AB 테스트는 사정이 다릅니다. 좋다고는 하는데 내 제품과 조직에 맞을지는 알 수 없습니다. AB 테스트는 이유 있는 제품을 만듭니다. 어떤 테스트에 대한 결론을 내리면서 그 이유를 설명할 수 없다면 난센스일 것입니다. 이번 글을 통해 풀어내고자 하는 내용이 바로 그것입니다. &lt;strong&gt;이 시리즈를 통해 어떤 AB 테스트 결과를 통계적으로 분석하는 법에 대해 이해하게 될 것입니다.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;AB 테스트 결과를 결론 내리는 통계학적 과정은 무엇일까요?&lt;/li&gt;
-  &lt;li&gt;통계적 유의성, p값, 신뢰구간, Z 점수…. 이런 용어는 뭘 의미할까요?&lt;/li&gt;
-  &lt;li&gt;이제 이해하면서 계산기를 쓸 수 있을까요?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;ab-테스트의-원리---모집단과-표본&quot;&gt;AB 테스트의 원리 - 모집단과 표본&lt;/h2&gt;
-
-&lt;p&gt;좀 멀리 돌아가는 것처럼 보이기도 하지만, AB 테스트의 원리가 뭘까요? 원본과 대안에 각각 10,000명의 고객을 투입하여 2배의 전환율 개선을 이끌어낸 테스트가 있었다고 가정합시다. 이 테스트 결과가 의미하는 바는 제품을 대안으로 개선하면 제품의 전환율이 2배가 된다는 것입니다. 그런데 이게 말이 되나요? 실험에 참여한 고객 10,000명이 2배의 전환율을 보였다고 어떻게 앞으로 제품의 전환율이 2배가 된다고 말할 수 있나요?&lt;/p&gt;
-
-&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/ab-test-frequentist-statistical-analysis/02.jpg&quot; alt=&quot;Population and Sample&quot; title=&quot;Population and Sample&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;위 사실을 증명하는 게 통계학입니다. 미국 성인 1,000명을 조사해 600명이 매일 1잔 이상 커피를 마신다는 조사 결과는 ‘미국 성인 60%가 하루 한 잔 이상 커피를 마신다’라는 결론을 내릴 수 있지만, ‘한국 학생 60%가 하루 한 잔 이상 커피를 마신다’라는 결론은 내릴 수 없습니다. 이는 ‘미국 성인 1,000명’이 ‘미국 성인 전체’를 대표할 만한 유사성이 있다고 판단했기 때문입니다. AB 테스트에서도 마찬가지로, ‘실험에 참여한 고객’이 &lt;a title=&quot;Jacob McMillen, 2016 - A/B Testing Statistics: An Intuitive Guide For Non-Mathematicians&quot; href=&quot;https://conversionsciences.com/ab-testing-statistics/?refer=mag_epmat#attachment_35211&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;‘앞으로 제품을 사용할 고객 전체’를 대표&lt;/a&gt;합니다. 통계학에서는 전자를 표본(Sample), 후자를 모집단(Population)이라고 합니다.&lt;/p&gt;
-
-&lt;p&gt;이상적인 표본은 모집단을 완벽하게 반영합니다. 그러나 현실은 다릅니다. 미국 성인 60%가 하루 한 잔 이상 커피를 마시지만, 10명짜리 표본을 추출했더니 우연히 전부 카페인에 약해 한잔의 커피도 마시지 않을 수 있습니다. 반대로 다른 표본에서는 전부 커피 애호가일 수도 있습니다. 첫 번째 표본은 0%, 두 번째 표본은 100%가 하루 한 잔 이상 커피를 마십니다. 모집단의 비율과 큰 차이를 보입니다. 그런데 두 표본을 합치면 50%로, 그 전보다 모집단과의 차이가 훨씬 줄어들게 됩니다. 이처럼 &lt;strong&gt;표본이 규모를 키우면 점점 모집단을 더 잘 반영하게 됩니다.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;다시 말해, 충분히 큰 표본은 어느 정도 모집단을 대표할 수 있습니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;실험-결과가-정말-의미-있나---통계적-가설-검정&quot;&gt;실험 결과가 정말 의미 있나? - 통계적 가설 검정&lt;/h2&gt;
-
-&lt;p&gt;충분히 큰 표본이 어느 정도 모집단을 대표하는 성질을 이용하면 표본을 가지고 모집단에 대한 어떤 가설이 맞는지 아닌지 추론할 수 있습니다. 이를 &lt;a title=&quot;Wikipedia - Statistical hypothesis testing&quot; href=&quot;https://en.wikipedia.org/wiki/Statistical_hypothesis_testing?refer=mag_epmat&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;통계적 가설 검정(Statistical Hypothesis Testing)&lt;/a&gt;라고 합니다. 통계적 가설 검정은 &lt;a title=&quot;Khan Academy, 2010 - Hypothesis testing and p-values | Inferential statistics | Probability and Statistics&quot; href=&quot;https://www.youtube.com/watch?v=-FtlH4svqx4&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;다음 3단계&lt;/a&gt;로 진행됩니다.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;귀무가설, 대립가설, 유의 수준 설정&lt;/li&gt;
-  &lt;li&gt;귀무가설이 참인 상황에서, 표본에서 관측된 통계치와 같거나 더 극단적인 값이 관측될 확률 계산&lt;/li&gt;
-  &lt;li&gt;과정 2의 확률이 유의 수준 이하라면 귀무가설 기각, 대립가설 채택&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p class=&quot;full-size&quot;&gt;&lt;img src=&quot;/assets/images/design/ab-test-frequentist-statistical-analysis/03.jpg&quot; alt=&quot;AB Test&quot; title=&quot;AB Test&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;예시와 함께 그 뜻을 살펴보도록 하겠습니다. 상품 구매 페이지에서 AB 테스트를 하나 진행합니다. 원본 A는 배송비가 별도 표기되고, 대안 B는 배송비가 상품가에 포함되어 배송비는 별도로 표기되지 않습니다. 각 안에 참가한 고객 수는 1,000명이고, 원본 A는 300명이 구매하여 구매율은 30%, 대안 B는 350명이 구매하여 구매율이 35%로 집계되었습니다.&lt;/p&gt;
-
-&lt;p&gt;결론부터 이야기하자면 위 예시에서 원본 A와 대안 B 사이 유의미한 차이가 없다고 가정했을 때 대안 B의 구매율 35%가 관측될 확률이 매우 희박하기 때문에, 원본 A와 대안 B는 통계적으로 유의미한 차이를 가지고 있습니다. 왜 그런지 용어 개념부터 하나씩 살펴보죠.&lt;/p&gt;
-
-&lt;p class=&quot;full-size&quot;&gt;&lt;img src=&quot;/assets/images/design/ab-test-frequentist-statistical-analysis/04.jpg&quot; alt=&quot;Null Hypothesis and Alternative Hypothesis&quot; title=&quot;Null Hypothesis and Alternative Hypothesis&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;⏸️귀무가설(Null hypothesis)&lt;/strong&gt;&lt;br /&gt;
-알아내고자 하는 가설을 확인하기 위해 &lt;a title=&quot;Wikipedia - Null Hypothesis&quot; href=&quot;https://en.wikipedia.org/wiki/Null_hypothesis?refer=mag_epmat&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;기각되는 용도로 세워지는 가설&lt;/a&gt;입니다. 따라서 귀무가설은 항상 알아내고자 하는 가설에 반대편에 있는, 가설 제시 이전의 현상태를 반영합니다. 잘 알려진 비유로 무죄 추정의 원칙과 비슷합니다. 피고인은 결정적 증거로 유죄가 확정되기 전까지 항상 무죄입니다.&lt;/p&gt;
-
-&lt;p&gt;언급한 예시에서 귀무가설은 ‘대안 B(별도 배송지 미표시)가 적용돼도 구매율은 30%이다.’ 즉, 대안 B가 효과가 없다고 세울 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;🔀대립가설(Alternative Hypothesis)&lt;/strong&gt;&lt;br /&gt;
-귀무가설에 맞서는 가설로 알아내고자 하는 가설과 방향이 같습니다. 예시에서 대립가설은 ‘대안 B가 적용되면 구매율이 30%가 아니다.’ 즉, 대안 B가 효과가 있는 겁니다. 이때 ‘구매율이 30%가 아니다.’는 ‘구매율이 30%보다 낮다.’ 그리고 ‘구매율이 30%보다 크다.’의 합성입니다. 이를 제1형 대립가설이라고 합니다. 더 낮은 통계치를 알아보려는 경우를 제2형, 더 큰 통계치를 알아보려는 경우는 제3형이라고 합니다.&lt;/p&gt;
-
-&lt;p&gt;과정 2을 따라 귀무가설을 참으로 가정합니다. 즉, 대안 B가 적용돼도 구매율은 똑같이 30%입니다. 이 상황에서 실험 결과처럼 구매율이 35%인 경우와 그보다 극단적인 경우가 발생할 확률을 구합니다. 이 상황을 이해하기 쉽도록 표본 분포를 그려볼 수 있습니다. 1,000명이 참가한 실험에 구매율이 30%인 상황은 독립된 1,000번의 시행에서 각 시행의 확률이 30%인 이산 확률 분포, 곧 이항 분포로 나타낼 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;쉽게 생각해보면 1,000명이 실험에 참여해 300명이 구매한 상황이 실험마다 나올 수는 없을 겁니다. 실험을 반복할 때마다 구매 고객 수는 290, 310, 심하면 그보다 더 극단적인 값이 나오면서 구매율도 29%, 31%, 더 크고 작은 구매율이 집계될 것입니다. 다만 이러한 반복 실험 결과의 평균 구매율은 30%로 분포도는 30%에서 멀어질수록 줄어드는 형상일 것입니다.&lt;/p&gt;
-
-&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/ab-test-frequentist-statistical-analysis/05.jpg&quot; alt=&quot;Normal Distribution, Mean = 0.3&quot; title=&quot;Normal Distribution, Mean = 0.3&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;시행 확률이 30%에 가까워질수록 예상 가능한 시행 횟수가 늘어나고 멀어질수록 예상 가능한 시행 횟수가 줄어듭니다. 이제 이 표본 분포에서 구매율이 35%이거나 그보다 더 극단적인 경우의 확률을 찾아야 합니다. 이 과정은 2단계로 나눠집니다.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;30%에서 35%까지 얼마만큼의 표준오차가 있는지(Z 점수) 계산&lt;/li&gt;
-  &lt;li&gt;위의 계산을 이용, 35%와 같거나 그보다 극단적인 결과가 관측될 확률 계산&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;몇 가지 새로운 용어가 보입니다. 이를 설명하면서 계속하겠습니다.&lt;/p&gt;
-
-&lt;p class=&quot;full-size&quot;&gt;&lt;img src=&quot;/assets/images/design/ab-test-frequentist-statistical-analysis/06.jpg&quot; alt=&quot;Standard Error&quot; title=&quot;Standard Error&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;표준오차(Standard Error)&lt;/strong&gt;&lt;br /&gt;
-앞서 설명했듯 같은 실험을 반복하더라도 매번 30%의 구매율이 나오지는 않으며 반복 실험 결과의 평균이 30%일 뿐입니다. 어떤 실험에서 28%의 구매율이 나왔다면, 평균과의 차이가 -2%라고 말할 수 있습니다. 이렇게 수행하는 실험은 모집단에서 특정 표본을 표집한 것과 같으며, 각각의 실험에서 관측된 구매율은 표본평균, 이들의 평균인 구매율 30%는 표본평균의 평균으로 모평균입니다. 그리고 각 실험의 구매율과 이들의 평균 사이의 차이(오차)를 전부 모았을 때 계산할 수 있는 평균, 즉 표본평균의 표준편차를 표준오차라고 합니다. 표준오차를 계산하는 식은 다음과 같습니다.&lt;/p&gt;
-
-&lt;p&gt;표준오차 = (표준편차) / √(시행 횟수)&lt;/p&gt;
-
-&lt;p&gt;여기서 표준편차는 √(표본의 분산) 이므로 (표준편차) / √(시행 횟수) = √{ (표본의 분산) / (시행 횟수) } 으로 표현할 수 있습니다. 그런데 이항 분포에서 표본 분산은 (시행 확률) * { 1 - (시행 확률) } 입니다. 따라서 아래와 같이 정리할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;표준오차 = √[ (시행 확률) * { 1 - (시행 확률) } / (시행 횟수) ]&lt;/p&gt;
-
-&lt;p&gt;예시의 원본 A의 표준 오차를 계산하면 √{0.3 * (1 - 0.3) / 1000}이므로 0.0145(소수점 다섯째 자리에서 반올림) 정도가 됩니다. 같은 식으로 대안 B의 표준오차는 0.0151입니다. 위의 과정 1에서 필요한 표준 오차는 두 표본의 평균 차이의 표준오차입니다. 두 표본의 평균 차이의 분산은 각 평균 분산을 합한 값이므로,&lt;/p&gt;
-
-&lt;p&gt;두 표본의 평균 차이의 표준오차 = √{ (A의 표준오차)²+ (B의 표준오차)²}&lt;/p&gt;
-
-&lt;p&gt;원본 A와 대안 B 평균 시행 확률 차이의 표준오차는 0.0209입니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Z 점수(Z score; 표준 점수)&lt;/strong&gt;&lt;br /&gt;
-Z 점수는 정규분포에서 특정 통계치가 표본의 평균에서 &lt;a title=&quot;David Kindness(Investopedia), 2021 - Z-Score&quot; href=&quot;https://www.investopedia.com/terms/z/zscore.asp?refer=mag_epmat&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;얼마의 표준편차만큼 떨어져 있는지 나타낸 값&lt;/a&gt;입니다.&lt;/p&gt;
-
-&lt;p&gt;Z = { (특정 통계치) - (표본의 평균) } / 표준편차&lt;/p&gt;
-
-&lt;p&gt;과정 1을 위 식에 그대로 대입합니다. 표준편차 대신 원본 A와 대안 B 평균 차이의 표준오차를 사용합니다. Z = (0.35 - 0.30) / 0.0209 = 2.3923. 다시 말해 대안 B의 평균 35%는 원본 A의 평균 30%에서 두 평균 차이의 표준오차의 2.3923배 떨어져 있습니다.&lt;/p&gt;
-
-&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/ab-test-frequentist-statistical-analysis/07.jpg&quot; alt=&quot;Normal Distribution with Two-sided Test&quot; title=&quot;Normal Distribution with Two-sided Test&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;이로써 귀무가설이 참일 때 35%와 같거나 그보다 극단적인 결과가 관측될 영역을 특정했습니다. 이 영역의 넓이가 곧 해당 결과가 관측될 확률입니다. 대략적인 값을 Z Table, &lt;a title=&quot;Wikipedia - Standard normal table&quot; href=&quot;https://en.wikipedia.org/wiki/Standard_normal_table?refer=mag_epmat&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;표준정규분포표&lt;/a&gt;에서 확인할 수 있습니다.&lt;/p&gt;
-
-&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/ab-test-frequentist-statistical-analysis/08.jpg&quot; alt=&quot;Z-Table&quot; title=&quot;Z-Table&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Z = 2.39에서 누적 분포 함수 값은 0.99158이므로 귀무가설이 참일 때 35%와 같거나 그보다 극단적인 결과가 관측될 확률은 0.00842, 즉 0.842%입니다. 이 확률이 바로 p값(Probability Value)입니다.&lt;/p&gt;
-
-&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/design/ab-test-frequentist-statistical-analysis/09.jpg&quot; alt=&quot;Three Types of Test&quot; title=&quot;Three Types of Test&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;0.842%의 p값은 제1형 대립가설을 검정하는 양측 검정(Two-sided Test)입니다. 평균 시행 확률이 30%인 표본에서 최소 35%만큼 극단적인 결과가 관측될 확률로, 30%에서 음의 방향으로 35%만큼 극단적인 25% 이하의 값이 나타날 확률도 포함합니다. 실제로 업무에 활용한다고 생각했을 때 전환율이 저하됐을 경우의 확률까지 포함해서 검정할 필요성은 없을 듯합니다. 그러므로 대립가설을 제3형 가설, ‘대안 B가 적용되면 구매율이 30%보다 크다.’로 수정합니다. 이렇게 수정된 대립가설을 검정하는 것을 단측 검정(One-sided Test) 중 &lt;a title=&quot;Khan Academy, 2010 - One-tailed and two-tailed tests | Inferential statistics | Probability and Statistics&quot; href=&quot;https://www.youtube.com/watch?v=mvye6X_0upA&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;우측 검정(Upper Tailed Test)&lt;/a&gt;라고 합니다. 이때 p값은 양측 검정 때의 절반, 0.421%가 됩니다.&lt;/p&gt;
-
-&lt;p&gt;이제 이 확률, p값이 귀무가설을 기각할 만큼 낮은 건지 아닌지 기준을 잡아 알아보아야 합니다. 이 기준이 유의 수준입니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;유의 수준(Significance Level)&lt;/strong&gt;&lt;br /&gt;
-유의 수준은 특정 통계치가 특정 범위 안에 있는 비율입니다. 유의 수준보다 p값이 낮다면 귀무가설을 참으로 가정했을 때 극단적 통계치가 관측될 확률이 충분히 낮다고 판단하여, 귀무가설을 기각하고 대립가설을 채택합니다. 유의 수준의 값은 관습적으로 1%, 10%, 특히 5%가 자주 사용되나 의료계에서는 0.1% 수준으로 검정 기준의 &lt;a title=&quot;Andrew N. Philips, George Davey Smith, 1993 - The design of prospective epidemiological studies: More subjects or better measurements?&quot; href=&quot;https://www.sciencedirect.com/science/article/abs/pii/089543569390120P&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;허들을 더 높여야 한다는 주장&lt;/a&gt;도 제기된 바 있습니다. 그러나 이는 정도의 차이이므로 AB 테스트를 진행하는 조직 구성원끼리 합의를 통해 결정하면 될 일입니다. 35% 구매율이 우연히 관측될 확률이 0.421%라는데, 깐깐하게 보는 것도 좋지만 비즈니스의 필요에 따라 유연하게 채택할 필요가 있습니다.&lt;/p&gt;
-
-&lt;p&gt;유사한 지표로 신뢰구간이 있습니다. 단순히 1에서 유의 수준 값을 빼면 됩니다. 유의 수준이 5%일 때 신뢰구간은 95%입니다. 만약 누군가 이러한 과정을 통해 ‘이 실험의 결과는 95% 신뢰구간에서 유효하다.’고 한다면, 실험 결과가 &lt;strong&gt;95%만큼 믿을 만하다는 뜻이 아니라 결과가 유효하지 않았다면 해당 실험 결과가 나올 확률이 5% 이하라는 뜻&lt;/strong&gt;입니다. 그만큼 실험 결과가 유효하지 않을 가능성이 희박하다는 것입니다.&lt;/p&gt;
-
-&lt;p&gt;이상의 과정처럼 통계적 가설을 검정하는 접근법을 빈도주의 통계(Frequentist Statistics) 방식이라고 말합니다. 이는 알려지지 않은 모집단의 통계치를 추정하기 위해 여러 표본의 값을 비교·분석하는 방식입니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;정리&quot;&gt;정리&lt;/h2&gt;
-
-&lt;p&gt;여기까지 이해하고 계산기를 켠다면 달리 보이는 부분이 많을 겁니다. AB 테스트 결과 통계적 가설 검정 과정을 다시 한번 짚어보겠습니다.&lt;/p&gt;
-
-&lt;p&gt;AB 테스트는 ‘앞으로 제품을 사용할 고객’이라는 모집단을 대표하는 표본인 ‘실험 참여 고객’을 통해 전환율을 개선합니다.&lt;/p&gt;
-
-&lt;p&gt;빈도주의 통계적 가설 검정은 귀무가설, 대립가설, 유의 수준을 설정해 귀무가설이 참인 상황에서, 표본에서 관측된 통계치와 같거나 더 극단적인 값이 관측될 확률인 p값을 계산합니다. 이 확률이 유의 수준 이하라면 귀무가설 기각하고 대립가설을 채택합니다.&lt;/p&gt;
-
-&lt;p&gt;이제 AB 테스트 결과 분석 계산기에 나타난 여러 수치가 무얼 뜻하는지 알게 되었습니다.&lt;/p&gt;
-
-&lt;p&gt;그런데 최근에는 빈도주의 통계로 접근한 계산기가 아니라 다른 방식으로 결과를 분석하는 계산기도 종종 보입니다. 베이지안 통계(Bayesian Statistics) 방식의 계산기가 그것입니다. 베이지안 통계는 빈도주의적 통계의 라이벌이라고 할 수 있는 접근법입니다. &lt;a title=&quot;매거진 입맛 - AB 테스트 인사이트의 수준이 달라지는 베이지안 분석&quot; href=&quot;/ab-test-bayesian-statistical-analysis&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;다음 편&lt;/a&gt;에서는 베이지안 통계 방식의 AB 테스트 결과 분석과, 빈도주의 통계가 갖는 한계를 베이지안 통계 방식이 어떻게 해결하는지 알아보겠습니다.&lt;/p&gt;
-
-&lt;p class=&quot;right-infor&quot;&gt;위시켓의 지원과 함께 제작된 콘텐츠입니다.&lt;/p&gt;</content><author><name>이준환</name></author><category term="design-teatime" /><summary type="html">통계적 유의성, p값, 신뢰구간, Z 점수…. 무슨 말일까요? AB 테스트 결과를 분석하는 빈도주의 통계적 가설 감정에 대해 알아봅니다.</summary></entry></feed>
+&lt;p class=&quot;right-infor&quot;&gt;위시켓의 지원과 함께 제작된 콘텐츠입니다.&lt;/p&gt;</content><author><name>이준환</name></author><category term="design-teatime" /><summary type="html">‘대안의 결과가 원본보다 나을 확률’, ‘대안을 선택했을 때 예상 손실’. 빈도주의 분석으로 알 수 없는 인사이트를 어떻게 얻을 수 있을까요?</summary></entry></feed>
