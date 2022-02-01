@@ -28,7 +28,7 @@ selectedTargets.forEach((element) => {
 });
 
 var counter = 0;
-document.querySelectorAll('.post-list-item').forEach((element) => {
+document.querySelectorAll('.sequential-rise-target').forEach((element) => {
     if(counter === 1) {
         element.classList.add('second-position');
         counter++;

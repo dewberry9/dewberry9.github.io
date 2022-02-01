@@ -89,15 +89,14 @@
       
     </script>
     <!-- Links -->
+    <link rel="preload" as="style" href='/assets/post.css'>
+    <link rel="stylesheet" href='/assets/post.css'>
     <link rel="canonical" href="https://dewberry9.github.io/future-of-design-system">
     <link rel="alternate" href="https://dewberry9.github.io/feed.xml" type="application/atom+xml" title="Atom 0.3">
-    <link rel="preload" as="style" href='/assets/style.css'>
-    <link rel="stylesheet" href='/assets/style.css'>
     <link rel="preload" as="style" href='/assets/fonts/naaummyeongjo.css'>
-    <link href='/assets/fonts/naaummyeongjo.css' rel='stylesheet' type='text/css'>
-    <link rel="preload" as="style" href='https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css'>
-    <link href='https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="htttps://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href='/assets/fonts/naaummyeongjo.css' rel='stylesheet' type='text/css' />
+    <link rel="preload" as="style" href='https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css' />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css" />
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
@@ -107,9 +106,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="msapplication-TileColor" content="#da532c">
     <title>토스, 에어비앤비로 알아보는 디자인 시스템의 내일 | 매거진 입맛</title>
-
     <script data-ad-client="ca-pub-7525347021497850" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    
 </head><body>
     <header class="top-nav" id="nav">
     <nav>
@@ -120,22 +117,14 @@
         <div class="dynamic-nav">
             <ul>
                 <li>
-                    <a id="btn-starting" href="/" title="Starting Point" class="op75">처음</a>
+                    <a id="btn-article" href="/article" title="프로덕트 디자인 더보기" class="op75">디자인</a>
                 </li>
                 <li>
-                    <a id="btn-article" href="/article" title="Design Teatime" class="op75">디자인</a>
+                    <a id="btn-daily" href="/review" title="입맛리뷰 더보기" class="op75">입맛리뷰</a>
                 </li>
                 <li>
-                    <a id="btn-daily" href="/review" title="Daily" class="op75">입맛리뷰</a>
+                    <a id="btn-story" href="/story" title="소설 더보기" class="op75">소설</a>
                 </li>
-                <li>
-                    <a id="btn-story" href="/story" title="Story" class="op75">소설</a>
-                </li>
-                <!--
-                <li>
-                    <a id="btn-about" href="/about" title="Starting Point" class="op75">쓰는 사람<span class="num-square">4</span></a>
-                </li>
-                -->
             </ul>
         </div>
     </nav>
@@ -144,10 +133,32 @@
         <script>
     document.getElementById('nav').classList.add('show')
 </script>
-<section class="post-content">
-    <h1 class="post-title">토스, 에어비앤비로 알아보는 디자인 시스템의 내일</h1>
-    <div>
-        <p class="normal-size"><img src="/assets/images/design/future-of-design-system/01.jpg" alt="Design System" title="Design System" loading="lazy" /></p>
+
+<section class="post-content-container space-container">
+    <div class="space-left">
+        <div class="post-content-side-container">
+            <h3 class="post-share-title rise-target">매거진 입맛의 글, 자유롭게 공유하세요.</h3>
+            <p class="post-share-description rise-target">개인 블로그, 메모, 사내 래퍼런스 공유 채널, 어디든지 좋습니다.
+                
+                    인사이트는
+                나눌 수록 커지니까요.
+            </p>
+            <button id="post-share" class="rise-target">
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16 16" fill="currentColor" class="bi bi-subtract"><path d="M0 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2H2a2 2 0 0 1-2-2V2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H2z"/></svg>이 글의 공유 링크 복사
+            </button>
+            <a rel="noreferrer" class="subscribe-container rise-target" target="_blank" href="https://forms.gle/wvj73q8MWBv2j44h7" title="매거진 입맛 뉴스레터 구독 신청">
+                <div class="subscribe-text">
+                    <h3 class="subscribe-title">뉴스레터 구독 신청</h3>
+                    <p class="subscribe-description">매거진 입맛의 글을 더 쉽고 빠르게 만나세요. 새 글이 게시될 때마다 알려드립니다.</p>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16 16" fill="currentColor" class="bi bi-arrow-right-short"><path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/></svg>
+            </a>
+        </div>
+    </div>
+    <div class="space-right">
+        <div class="post-content">
+            <h1 class="post-title">토스, 에어비앤비로 알아보는 디자인 시스템의 내일</h1>
+            <p class="normal-size"><img src="/assets/images/design/future-of-design-system/01.jpg" alt="Design System" title="Design System" loading="lazy" /></p>
 
 <p>디자인 시스템(Design System)은 일관성 있고 효과적인 제품을 만들기 위해 조직 내에서 공용으로 사용하는 도구입니다. 디자인 시스템은 모듈식 UI 컴포넌트, 색상, 서체, 여백과 같은 스타일 가이드, 보이스 톤까지 여러 범주에 속한 요소를 포함합니다. 디자인 시스템은 제품 만드는 과정에 일정한 규칙을 세워 조직 구성원 간 협업의 속도와 확실성을 끌어올립니다. 제품 개발에 필요한 노력은 줄지만 유사하거나 더 나은 품질의 제품이 나옵니다. 더 중요한 일, ‘제품으로 무엇을 하려는가’에 집중할 수 있도록 해줍니다.</p>
 
@@ -228,18 +239,11 @@
 
 <p class="right-infor">위시켓의 지원과 함께 제작된 콘텐츠입니다.</p>
 
+        </div>
     </div>
 </section>
 
-<section class="subscribe subscribe-post-bottom rise-target">
-    <div class="subscribe-container">
-        <p class="subscribe-description">매거진 입맛의 취향들을 더 편하게, 더 빠르게 받아보세요.</p>
-        <a rel="noreferrer" class="btn-subscribe" target="_blank" href="https://forms.gle/wvj73q8MWBv2j44h7" title="Newsletter Subscription">뉴스레터 구독신청</a>
-    </div>
-</section>
-
-<section class="post-list related-post-list">
-    <div class="related-post-list-top-border"></div>
+<section class="post-list related-post-list three-row">
     
     
     
@@ -320,7 +324,7 @@
         
             
             
-            <a title="MVP가 실패하는 5가지 이유와 해답. MVT(최소기능검증)" href="/why-mvp-as-a-product-fails-try-mvt" class="post-list-item rise-target">
+            <a title="MVP가 실패하는 5가지 이유와 해답. MVT(최소기능검증)" href="/why-mvp-as-a-product-fails-try-mvt" class="post-list-item rise-target sequential-rise-target">
                 <div class="post-thumbnail">
                     <div class="img-source" style="background-image: url('/assets/images/design/why-mvp-as-a-product-fails-try-mvt/00.jpg')"></div>
                 </div>
@@ -337,7 +341,7 @@
         
             
             
-            <a title="로빈후드, 토스뱅크가 출시 전에 100만 고객을 모은 방법. 대기자 명단 바이럴" href="/waitlist-viral" class="post-list-item rise-target">
+            <a title="로빈후드, 토스뱅크가 출시 전에 100만 고객을 모은 방법. 대기자 명단 바이럴" href="/waitlist-viral" class="post-list-item rise-target sequential-rise-target">
                 <div class="post-thumbnail">
                     <div class="img-source" style="background-image: url('/assets/images/design/waitlist-viral/00.jpg')"></div>
                 </div>
@@ -354,7 +358,7 @@
         
             
             
-            <a title="전환율, 피드백, 고객지원까지. 어떻게 제품 커뮤니티를 만능 성장 동력으로 만들까?" href="/product-community-as-a-growth-engine" class="post-list-item rise-target">
+            <a title="전환율, 피드백, 고객지원까지. 어떻게 제품 커뮤니티를 만능 성장 동력으로 만들까?" href="/product-community-as-a-growth-engine" class="post-list-item rise-target sequential-rise-target">
                 <div class="post-thumbnail">
                     <div class="img-source" style="background-image: url('/assets/images/design/product-community-as-a-growth-engine/00.jpg')"></div>
                 </div>
@@ -515,7 +519,7 @@
         
             
             
-            <a title="로얄 워런트가 증명하는 화사함. 듀어스 12년" href="/dewars-12" class="post-list-item rise-target">
+            <a title="로얄 워런트가 증명하는 화사함. 듀어스 12년" href="/dewars-12" class="post-list-item rise-target sequential-rise-target">
             <div class="post-thumbnail">
                 <div class="img-source" style="background-image: url('/assets/images/daily/dewars-12/00.jpg')"></div>
             </div>
@@ -559,7 +563,7 @@
             
             
             
-            <a title="한참 이른 여름맛. 아드벡 10년" href="/ardbeg-for-the-beginning-of-the-summer" class="post-list-item rise-target">
+            <a title="한참 이른 여름맛. 아드벡 10년" href="/ardbeg-for-the-beginning-of-the-summer" class="post-list-item rise-target sequential-rise-target">
                     <div class="post-thumbnail">
                         <div class="img-source" style="background-image: url('/assets/images/daily/01-ardbeg/01.jpg')"></div>
                     </div>
@@ -588,24 +592,25 @@
     </div>
 </section>
 
+<script src="/assets/post-share.js"></script>
 
 <script>document.getElementById('btn-article').classList.remove('op75');
 document.getElementById('btn-article').classList.add('nav-item-act');</script>
 
     </div>
     <footer id="footer">
-    <span>
+    <span class="inner-link">
         <a id="home-page" href='/' title="Main">매거진 입맛</a>
         <a href="/article" title="Articles">디자인</a>
         <a href="/review" title="Reviews">입맛리뷰</a>
         <a href="/story" title="Stories">소설</a>
         <!-- <a href="/about" title="About Me">쓰는 사람</a> -->
     </span>
-    <span>
-        <a rel="noreferrer" id="fb-link" href="https://www.facebook.com/magepmat" title="Facebook" target="_blank"><i class='bx bxl-facebook-circle'></i><span class="link-copy">Facebook</span></a>
-        <a rel="noreferrer" id="insta-link" href="https://www.instagram.com/mag_epmat/" title="Instagram" target="_blank"><i class='bx bxl-instagram' ></i><span class="link-copy">Instagram</span></a>
-        <a id="mail-link" href="mailto:dewberryneun@gmail.com" title="Email"><i class='bx bx-envelope'></i><span class="link-copy">Email</span></a>
-        <a rel="noreferrer" id="rss-link" href="/feed.xml" title="RSS" target="_blank"><i class='bx bx-rss'></i><span class="link-copy">RSS</span></a>
+    <span class="outer-link">
+        <a rel="noreferrer" id="fb-link" href="https://www.facebook.com/magepmat" title="Facebook" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16 16" fill="currentColor" class="bi bi-facebook"><path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/></svg><span class="link-copy">Facebook</span></a>
+        <a rel="noreferrer" id="insta-link" href="https://www.instagram.com/mag_epmat/" title="Instagram" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16 16" fill="currentColor" class="bi bi-instagram"><path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/></svg><span class="link-copy">Instagram</span></a>
+        <a id="mail-link" href="mailto:dewberryneun@gmail.com" title="Email"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16 16" fill="currentColor" class="bi bi-envelope"><path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/></svg><span class="link-copy">Email</span></a>
+        <a rel="noreferrer" id="rss-link" href="/feed.xml" title="RSS" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16 16" fill="currentColor" class="bi bi-rss"><path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/><path d="M5.5 12a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm-3-8.5a1 1 0 0 1 1-1c5.523 0 10 4.477 10 10a1 1 0 1 1-2 0 8 8 0 0 0-8-8 1 1 0 0 1-1-1zm0 4a1 1 0 0 1 1-1 6 6 0 0 1 6 6 1 1 0 1 1-2 0 4 4 0 0 0-4-4 1 1 0 0 1-1-1z"/></svg><span class="link-copy">RSS</span></a>
     </span>
 </footer>
 </body>

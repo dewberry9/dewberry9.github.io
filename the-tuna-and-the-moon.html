@@ -89,15 +89,14 @@
       
     </script>
     <!-- Links -->
+    <link rel="preload" as="style" href='/assets/post.css'>
+    <link rel="stylesheet" href='/assets/post.css'>
     <link rel="canonical" href="https://dewberry9.github.io/the-tuna-and-the-moon">
     <link rel="alternate" href="https://dewberry9.github.io/feed.xml" type="application/atom+xml" title="Atom 0.3">
-    <link rel="preload" as="style" href='/assets/style.css'>
-    <link rel="stylesheet" href='/assets/style.css'>
     <link rel="preload" as="style" href='/assets/fonts/naaummyeongjo.css'>
-    <link href='/assets/fonts/naaummyeongjo.css' rel='stylesheet' type='text/css'>
-    <link rel="preload" as="style" href='https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css'>
-    <link href='https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="htttps://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href='/assets/fonts/naaummyeongjo.css' rel='stylesheet' type='text/css' />
+    <link rel="preload" as="style" href='https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css' />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css" />
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
@@ -107,9 +106,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="msapplication-TileColor" content="#da532c">
     <title>참치 | 매거진 입맛</title>
-
     <script data-ad-client="ca-pub-7525347021497850" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    
 </head><body>
     <header class="top-nav" id="nav">
     <nav>
@@ -120,22 +117,14 @@
         <div class="dynamic-nav">
             <ul>
                 <li>
-                    <a id="btn-starting" href="/" title="Starting Point" class="op75">처음</a>
+                    <a id="btn-article" href="/article" title="프로덕트 디자인 더보기" class="op75">디자인</a>
                 </li>
                 <li>
-                    <a id="btn-article" href="/article" title="Design Teatime" class="op75">디자인</a>
+                    <a id="btn-daily" href="/review" title="입맛리뷰 더보기" class="op75">입맛리뷰</a>
                 </li>
                 <li>
-                    <a id="btn-daily" href="/review" title="Daily" class="op75">입맛리뷰</a>
+                    <a id="btn-story" href="/story" title="소설 더보기" class="op75">소설</a>
                 </li>
-                <li>
-                    <a id="btn-story" href="/story" title="Story" class="op75">소설</a>
-                </li>
-                <!--
-                <li>
-                    <a id="btn-about" href="/about" title="Starting Point" class="op75">쓰는 사람<span class="num-square">4</span></a>
-                </li>
-                -->
             </ul>
         </div>
     </nav>
@@ -144,10 +133,31 @@
         <script>
     document.getElementById('nav').classList.add('show')
 </script>
-<section class="post-content">
-    <h1 class="post-title">참치</h1>
-    <div>
-        <p class="full-size"><img src="https://cdn.jsdelivr.net/gh/dewberry9/dewberry9.github.io/assets/images/story/01-tuna-moon(2).jpg" alt="The Seaside" title="조류" loading="lazy" /></p>
+
+<section class="post-content-container space-container">
+    <div class="space-left">
+        <div class="post-content-side-container">
+            <h3 class="post-share-title rise-target">매거진 입맛의 글, 자유롭게 공유하세요.</h3>
+            <p class="post-share-description rise-target">개인 블로그, 메모, 사내 래퍼런스 공유 채널, 어디든지 좋습니다.
+                
+                    문학은나눌 수록 커지니까요.
+            </p>
+            <button id="post-share" class="rise-target">
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16 16" fill="currentColor" class="bi bi-subtract"><path d="M0 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2H2a2 2 0 0 1-2-2V2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H2z"/></svg>이 글의 공유 링크 복사
+            </button>
+            <a rel="noreferrer" class="subscribe-container rise-target" target="_blank" href="https://forms.gle/wvj73q8MWBv2j44h7" title="매거진 입맛 뉴스레터 구독 신청">
+                <div class="subscribe-text">
+                    <h3 class="subscribe-title">뉴스레터 구독 신청</h3>
+                    <p class="subscribe-description">매거진 입맛의 글을 더 쉽고 빠르게 만나세요. 새 글이 게시될 때마다 알려드립니다.</p>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16 16" fill="currentColor" class="bi bi-arrow-right-short"><path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/></svg>
+            </a>
+        </div>
+    </div>
+    <div class="space-right">
+        <div class="post-content">
+            <h1 class="post-title">참치</h1>
+            <p class="full-size"><img src="https://cdn.jsdelivr.net/gh/dewberry9/dewberry9.github.io/assets/images/story/01-tuna-moon(2).jpg" alt="The Seaside" title="조류" loading="lazy" /></p>
 <h2 id="1">1</h2>
 <p>– 목적지입니다. 고객님.<br />
 청회색 사원복을 입은 기사의 ‘고객님’은 늦게 덧붙인 데가 있었다. 차창에 이마가 붙은 듯 떼어내기 어려웠다. 간신히 고개를 돌리자 썰렁한 버스 안이 보였다. 드문드문 앉아 있던 승객이 모두 빠져나간 후였다. 기사는 목덜미의 땀을 닦아내며 불만스러운 눈치로 기다렸다. 나는 미적거리며 홀쭉한 배낭을 들고 일어났다. 느린 걸음이 승강구에서 내리자마자 버스는 움직였다. 주유소만 한 작은 터미널에 뒤따라 들어서는 차는 없었다. 주차장도 텅 비어있었다. 쫓기는 듯 다급하게 움직이는 버스를 이해할 수 없었다. 구름 낀 여름 날씨는 찝찝한 느낌이 있었지만 갑갑하다 할 정도는 아니었다. 대합실에 들어가던 나는 담배 연기가 눈을 찌른 것처럼 움찔했다. 생경한 짠내가 코끝에 닿았다. 젖은 공기를 한참 킁킁대고 나서야 뒤늦게 지금 속초에 왔다는 사실을 실감했다. 속초에 부는 바람은 짙었지만 버스 안에서는 전혀 느끼지 못했다. 과하다 싶은 에어컨 바람 속에서 밀폐되어 냉동 생선처럼 옮겨진 탓이었다. 그보다 차창 밖 휑한 바닷길의 직선이 내 주의를 사로잡은 것에 이유가 있었을 것이다. 밍밍한 하늘빛 아래 나무 속살 같은 모래사장과 평평하게 오가는 해수면이 잡스럽지 않게 원근감을 뻗친 풍경이었다. 바다가 보이자 다 왔구나 속삭였지만 그다지 실감하지 못한 속내였다. 덜컹거리는 버스와 오가는 파도가 공유하는 박자를 막 찾아낸 참으로 그 규칙성에 심취해 있었다. 흐린 허공에는 차오르다 그친 허연 달이 힘없이 피어있었다. 크레이터와 얼룩이 섞인 건조한 달은 다다를 길 없는 사막 위에 떠 있는 모양 그대로였다. 연한 회색 바탕에 찍힌 연한 회색 점을 멍한 눈으로 좇았다. 가로수와 방파제 따위가 초점 바깥에서 훅 지나갔다. 고고히 떠 있는 작고 흐린 점의 모습에 익숙한 기분이 들었다. 불현듯 투명한 밤빛과 달아오른 강내가 깜빡였다. 어떤 중요한 순간이 머리 한구석에서 막혀 마음 가는 대로 기억나지 않았다. 그 순간 버스는 크게 좌회전했고 무대에 커튼을 치듯 심심한 건물이 눈앞을  가로막았다. 안전벨트를 푸는 성급한 소리가 도미노처럼 이어졌다. 찰나의 감각은 스쳐 지나가 수수한 미스터리로 남았다. 달을 향한 분간할 수 없는 원근감은 망막에 새겨졌고 내 이마는 차창에 붙어버렸다.<br />
@@ -209,18 +219,11 @@
 
 <p>– 단편 소설 <참치></참치></p>
 
+        </div>
     </div>
 </section>
 
-<section class="subscribe subscribe-post-bottom rise-target">
-    <div class="subscribe-container">
-        <p class="subscribe-description">매거진 입맛의 취향들을 더 편하게, 더 빠르게 받아보세요.</p>
-        <a rel="noreferrer" class="btn-subscribe" target="_blank" href="https://forms.gle/wvj73q8MWBv2j44h7" title="Newsletter Subscription">뉴스레터 구독신청</a>
-    </div>
-</section>
-
-<section class="post-list related-post-list">
-    <div class="related-post-list-top-border"></div>
+<section class="post-list related-post-list three-row">
     
     
     
@@ -231,7 +234,7 @@
         
             
             
-            <a title="모아이" href="/the-moai" class="post-list-item rise-target">
+            <a title="모아이" href="/the-moai" class="post-list-item rise-target sequential-rise-target">
                 <div class="post-thumbnail">
                     <div class="img-source" style="background-image: url('/assets/images/story/03-the-moai(1).jpg')"></div>
                 </div>
@@ -246,7 +249,7 @@
         
     
     
-        <a title="강변역에 와서야 고갤 들었다." href="/the-oversleeping" class="post-list-item rise-target">
+        <a title="강변역에 와서야 고갤 들었다." href="/the-oversleeping" class="post-list-item rise-target sequential-rise-target">
                 <div class="post-thumbnail">
                     <div class="img-source" style="background-image: url('/assets/images/story/02-the-oversleeping(1).jpg')"></div>
                 </div>
@@ -259,7 +262,7 @@
                 </div>
         </a>
     
-        <a title="참치" href="/the-tuna-and-the-moon" class="post-list-item rise-target">
+        <a title="참치" href="/the-tuna-and-the-moon" class="post-list-item rise-target sequential-rise-target">
                 <div class="post-thumbnail">
                     <div class="img-source" style="background-image: url('/assets/images/story/01-tuna-moon(1).jpg')"></div>
                 </div>
@@ -323,7 +326,7 @@
         
             
             
-            <a title="한 모음에 꽉 찬 화려함. 하이랜드 파크 12년" href="/highland-park-12" class="post-list-item rise-target">
+            <a title="한 모음에 꽉 찬 화려함. 하이랜드 파크 12년" href="/highland-park-12" class="post-list-item rise-target sequential-rise-target">
             <div class="post-thumbnail">
                 <div class="img-source" style="background-image: url('/assets/images/daily/03-highland-park-12/01.jpg')"></div>
             </div>
@@ -340,7 +343,7 @@
         
             
             
-            <a title="이렇게나 포근한 50도 술이라니. 와일드 터키 101" href="/wild-turkey-101" class="post-list-item rise-target">
+            <a title="이렇게나 포근한 50도 술이라니. 와일드 터키 101" href="/wild-turkey-101" class="post-list-item rise-target sequential-rise-target">
             <div class="post-thumbnail">
                 <div class="img-source" style="background-image: url('/assets/images/daily/04-wild-turkey-101/01.jpg')"></div>
             </div>
@@ -373,24 +376,25 @@
     </div>
 </section>
 
+<script src="/assets/post-share.js"></script>
 
 <script>document.getElementById('btn-story').classList.remove('op75')
 document.getElementById('btn-story').classList.add('nav-item-act')</script>
 
     </div>
     <footer id="footer">
-    <span>
+    <span class="inner-link">
         <a id="home-page" href='/' title="Main">매거진 입맛</a>
         <a href="/article" title="Articles">디자인</a>
         <a href="/review" title="Reviews">입맛리뷰</a>
         <a href="/story" title="Stories">소설</a>
         <!-- <a href="/about" title="About Me">쓰는 사람</a> -->
     </span>
-    <span>
-        <a rel="noreferrer" id="fb-link" href="https://www.facebook.com/magepmat" title="Facebook" target="_blank"><i class='bx bxl-facebook-circle'></i><span class="link-copy">Facebook</span></a>
-        <a rel="noreferrer" id="insta-link" href="https://www.instagram.com/mag_epmat/" title="Instagram" target="_blank"><i class='bx bxl-instagram' ></i><span class="link-copy">Instagram</span></a>
-        <a id="mail-link" href="mailto:dewberryneun@gmail.com" title="Email"><i class='bx bx-envelope'></i><span class="link-copy">Email</span></a>
-        <a rel="noreferrer" id="rss-link" href="/feed.xml" title="RSS" target="_blank"><i class='bx bx-rss'></i><span class="link-copy">RSS</span></a>
+    <span class="outer-link">
+        <a rel="noreferrer" id="fb-link" href="https://www.facebook.com/magepmat" title="Facebook" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16 16" fill="currentColor" class="bi bi-facebook"><path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/></svg><span class="link-copy">Facebook</span></a>
+        <a rel="noreferrer" id="insta-link" href="https://www.instagram.com/mag_epmat/" title="Instagram" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16 16" fill="currentColor" class="bi bi-instagram"><path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/></svg><span class="link-copy">Instagram</span></a>
+        <a id="mail-link" href="mailto:dewberryneun@gmail.com" title="Email"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16 16" fill="currentColor" class="bi bi-envelope"><path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/></svg><span class="link-copy">Email</span></a>
+        <a rel="noreferrer" id="rss-link" href="/feed.xml" title="RSS" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16 16" fill="currentColor" class="bi bi-rss"><path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/><path d="M5.5 12a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm-3-8.5a1 1 0 0 1 1-1c5.523 0 10 4.477 10 10a1 1 0 1 1-2 0 8 8 0 0 0-8-8 1 1 0 0 1-1-1zm0 4a1 1 0 0 1 1-1 6 6 0 0 1 6 6 1 1 0 1 1-2 0 4 4 0 0 0-4-4 1 1 0 0 1-1-1z"/></svg><span class="link-copy">RSS</span></a>
     </span>
 </footer>
 </body>
