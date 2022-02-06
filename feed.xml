@@ -1,4 +1,140 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://dewberry9.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dewberry9.github.io/" rel="alternate" type="text/html" /><updated>2022-02-01T17:51:07+09:00</updated><id>https://dewberry9.github.io/feed.xml</id><title type="html">매거진 입맛</title><subtitle>디자이너 이준환의 읽을 만한 취향들. 매거진 입맛 - 디자인 / 입맛리뷰 / 소설</subtitle><author><name>이준환</name></author><entry><title type="html">Shopify, Udemy, Etsy가 고객과 수익을 모두 얻은 방법</title><link href="https://dewberry9.github.io/win-win-business-model" rel="alternate" type="text/html" title="Shopify, Udemy, Etsy가 고객과 수익을 모두 얻은 방법" /><published>2022-01-09T00:00:00+09:00</published><updated>2022-01-09T00:00:00+09:00</updated><id>https://dewberry9.github.io/win-win-business-model</id><content type="html" xml:base="https://dewberry9.github.io/win-win-business-model">&lt;p&gt;비즈니스 모델(Business Model)은 사업이 고객에게 제공하는 가치로 수익을 내고, 이 수익으로 사업 자체를 유지하고 성장시켜서 더 큰 가치를 창출하는 순환 구조입니다. 제과점 주인은 과자를 팔고 돈을 받습니다. 이 돈은 과자 재료와 과자를 만들 공간, 과자를 팔 공간을 마련하는 데 사용됩니다. 이 과정은 반복됩니다. 이것이 비즈니스 모델입니다.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://dewberry9.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dewberry9.github.io/" rel="alternate" type="text/html" /><updated>2022-02-06T19:25:00+09:00</updated><id>https://dewberry9.github.io/feed.xml</id><title type="html">매거진 입맛</title><subtitle>디자이너 이준환의 읽을 만한 취향들. 매거진 입맛 - 디자인 / 입맛리뷰 / 소설</subtitle><author><name>이준환</name></author><entry><title type="html">아마존, 쿠팡의 AB 테스트 성공 방정식, 가설의 5층 구조와 설정 프레임워크</title><link href="https://dewberry9.github.io/conditions-for-an-effective-ab-test-hypothesis" rel="alternate" type="text/html" title="아마존, 쿠팡의 AB 테스트 성공 방정식, 가설의 5층 구조와 설정 프레임워크" /><published>2022-02-06T00:00:00+09:00</published><updated>2022-02-06T00:00:00+09:00</updated><id>https://dewberry9.github.io/conditions-for-an-effective-ab-test-hypothesis</id><content type="html" xml:base="https://dewberry9.github.io/conditions-for-an-effective-ab-test-hypothesis">&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;https://res.cloudinary.com/mag-epmat/image/upload/v1644115384/design/conditions-for-an-effective-ab-test-hypothesis/01_j6mfdh.jpg&quot; alt=&quot;AB Test Cycle&quot; title=&quot;AB Test Cycle&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;매거진 입맛에서 가장 인기 있는 글 중 하나인 &lt;a title=&quot;매거진 입맛 - 매출 만드는 AB 테스트, 시작이 막막한가요? 3단계 가이드&quot; href=&quot;/3step-ab-test&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;AB 테스트 가이드&lt;/a&gt;에서, AB 테스트를 가설 설정 → 실험 진행 → 결과 분석의 순서를 따르는 사이클로 설명한 적 있습니다. 가설을 세운 후 실험으로 증명하고, 여기서 얻은 인사이트가 다시 가설을 만드는 겁니다. 따라서 점차 핵심으로 파고드는 영향력 있는 실험을 하느냐, 아니면 빙빙 돌고 질질 끄는 실험을 하느냐는 초반의 가설 설정 단계에서 결정됩니다.&lt;/p&gt;
+
+&lt;p&gt;그렇다면 어떻게 영향력 있는 가설을 구상할 수 있을까요? 이번 글에서는 효과적인 AB 테스트 가설이 가진 5층 구조와 이런 가설을 만드는 3가지 방법론에 관해 알아보겠습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;ab-테스트에-좋은-가설이-필요한-3가지-이유&quot;&gt;AB 테스트에 좋은 가설이 필요한 3가지 이유&lt;/h2&gt;
+
+&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;https://res.cloudinary.com/mag-epmat/image/upload/v1644115384/design/conditions-for-an-effective-ab-test-hypothesis/02_v8aljz.jpg&quot; alt=&quot;3 Reasons Why You Need a Good Hypothesis&quot; title=&quot;3 Reasons Why You Need a Good Hypothesis&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;본론에 들어가기 전에, 좋은 가설의 구조와 방법론을 분석해야 하는 이유를 알아봅시다. 모든 제품과 조직은 각기 다른 환경에 처해 있습니다. 문제도 다르고 해결법도 다릅니다. 이상적 가설에 대한 지식이 내 제품, 내 조직에 도움을 줄 수 있을까요? 여기에는 3가지 이유가 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1. AB 테스트 문화를 조직 내 퍼뜨리는데 기여합니다.&lt;/strong&gt;&lt;br /&gt;
+&lt;a title=&quot;매거진 입맛 - 따라쓰기만 하면 테스트 문화가 만들어진다. Growth Book&quot; href=&quot;/growth-book-and-experiment-culture&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Growth Book을 소개하는 글&lt;/a&gt;에서 테스트 문화의 보급이 중요한 까닭을 설명한 적 있습니다. AB 테스트는 참여자가 많을수록 가치가 커지는 제품 성장 동력입니다. 서로 다른 직무를 맡은 조직원이 AB 테스트에 관여하면 할수록 제시하는 가설, 진행하는 실험, 도출하는 인사이트가 늘어납니다.&lt;/p&gt;
+
+&lt;p&gt;가설 설정은 AB 테스트의 시작입니다. 효과적인 가설 설정 방식을 이해하고 하나의 가이드로 확립한다면 그 자체로 훌륭한 테스트 문화가 됩니다. 일관된 접근 방식을 제공하여 AB 테스트의 허들을 낮추고 효율적인 협업을 만듭니다. 더 효과적인 AB 테스트가 더 많이 일어납니다. 더 많은 성과와 인사이트, 즉 가치로 이어집니다. 동료는 이 가치에 끌립니다. AB 테스트 참여자의 수는 늘어납니다. AB 테스트는 조직의 주요 의사결정 방식이 됩니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. AB 테스트의 방향이 명확해지고, 구성이 치밀해집니다.&lt;/strong&gt;&lt;br /&gt;
+대부분의 사람은 버튼이나 카피를 바꾸는 간단한 실험으로 AB 테스트를 시작합니다. 실험을 계속하면서 변수를 통제하고 데이터를 분석하는 일에 익숙해진 후에는 경쟁 제품이나 성공 사례에서 아이디어를 빌려 오기도 합니다. 처음에는 괜찮은 방법입니다. 이 시기에는 실험 과정을 온전히 내 것으로 만드는 게 중요한 과제입니다. 그러나 시간이 지나도 그 상태에 머물러 있다면 문제가 됩니다. 단편적인 부분만 건드리는 테스트를 하고, 도출한 인사이트를 다음 실험으로 발전시키지 못한다면 위에서 언급한 AB 테스트의 선순환이 작동하지 않습니다. 이런 AB 테스트는 한계가 금방 찾아옵니다. 제품의 성장 동력 역할도 할 수 없습니다.&lt;/p&gt;
+
+&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;https://res.cloudinary.com/mag-epmat/image/upload/v1644115384/design/conditions-for-an-effective-ab-test-hypothesis/03_x9kkri.jpg&quot; alt=&quot;Tactical Experimentation VS Strategic Experimentation&quot; title=&quot;Tactical Experimentation VS Strategic Experimentation&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;CRO(전환율 최적화) 전문가 카일 헌쇼(Kyle Hearnshaw)는 위와 같은 AB 테스트를 전술적 실험(Tactical Experimentation)이라고 부릅니다. 또 효과적인 가설 설정 방식을 이해하여 전술적 실험을 &lt;a title=&quot;Kyle Hearnshaw(Conversion.com), 2021 - How to build and experimentation, CRO or AB testing framework&quot; href=&quot;https://conversion.com/blog/build-experimentation-cro-ab-testing-framework?refer=mag_epmat&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;전략적 실험(Strategic Experimentation)&lt;/a&gt;으로 전환할 수 있다고 이야기합니다. 전략적 실험이란 제품 주요 지표와 조직 비전의 성취를 목적으로 하는 일련의 테스트입니다. 개별의 전략적 실험은 모두 목표를 달성하기 위한 과정입니다. 전략적 실험은 단일한 성과에 만족하고 끝나지 않습니다. 한 테스트가 만들어낸 인사이트는 다음 테스트로 연결됩니다. 무의미한 AB 테스트는 처음부터 기획되지 않습니다. 아이디어가 없어 구글만 뒤지고 있는 상황도 생기지 않습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3. AB 테스트의 영향력과 성공률이 커집니다.&lt;/strong&gt;&lt;br /&gt;
+앞서 설명한 두 가지 이유, 테스트 문화의 보급과 전략적 실험으로의 이행이 실험의 영향력과 성과를 키우는 것은 당연합니다.&lt;/p&gt;
+
+&lt;p&gt;테스트 문화 보급으로 AB 테스트 참여자가 늘어나면, 실험은 조직의 언어가 됩니다. 이 상황에서 대부분의 조직 구성원은 AB 테스트에 협조적입니다. 각자의 일을 하면서도 AB 테스트를 고려하거나 관련 전략을 적용하는 경우가 빈번해집니다. AB 테스트는 더 많은 성과를 내고, 실험에 대한 신뢰도는 높아집니다. 전략적 실험이라는 프레임워크는 이 상태를 극대화합니다. 모든 AB 테스트는 명료한 최상위 목표를 가집니다. 실험은 제품에 최대한 기여하는 방향으로 실행됩니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;가설의-5층-구조&quot;&gt;가설의 5층 구조&lt;/h2&gt;
+
+&lt;p&gt;어떤 빌딩이라도 중간부터 튼튼할 수는 없습니다. 한 층의 안정성은 아래층의 안정성에서 나옵니다. 그다음 층도 마찬가지입니다. 건물의 단단함은 높은 첨탑 꼭대기에서 땅속에 박힌 기반에 이르기까지 꼬리에 꼬리를 무는 층간 관계에서 형성됩니다. 좋은 가설도 마찬가지 층위를 이루고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;커머스 앱 하나를 운영한다고 가정하고 이 구조를 들여다보겠습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1. 목표&lt;/strong&gt;&lt;br /&gt;
+좋은 가설의 첫 번째 층은 목표입니다. 목표는 당면한 문제를 해결하는 것일 수도 있고, 특정 기능을 활성화하는 일일 수도 있습니다. 이 단계에서 무엇보다 중요한 점은 제품 주요 지표와 연관된 목표를 설정하는 것입니다.&lt;/p&gt;
+
+&lt;p&gt;우버(Uber)의 최고 제품 책임자, 아마존(Amazon)의 초창기 멤버였던 제프 홀든(Jeff Holden)은 &lt;a title=&quot;Peter Diamandis, 2016 - Culture &amp;amp; Experimentation - with Uber’s Chief Product Officer&quot; href=&quot;https://medium.com/abundance-insights/culture-experimentation-with-uber-s-chief-product-officer-520dc22cfcb4#.i9bh5xdie?refer=mag_epmat&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;목표 설정의 중요성에 관한 사례&lt;/a&gt;를 이야기한 적 있습니다. 아마존은 모든 직원이 자유롭게 AB 테스트할 수 있는 사내용 플랫폼을 만들었습니다. 그 결과 단순한 호기심으로 만들어진 쓸모없는 AB 테스트가 무질서하게 진행되었습니다. 상반되는 실험이 생겼고, 꼭 필요한 실험이 무의미한 실험에 밀려났습니다. 아마존은 AB 테스트 진행 권한을 가진 팀을 만들어 문제를 해결했습니다. 누군가 AB 테스트를 기획하면, 팀은 실험의 가설과 해당 실험이 조직에 가져다줄 가치를 검토했습니다.&lt;/p&gt;
+
+&lt;p&gt;앞으로 한층 한층 오르며 하나의 목표에서 여러 방향성과 가설이 형성될 것입니다. 기껏 고도화한 가설이 모두 무익한 것으로 드러나고 싶지 않다면, 정말로 제품에 필요한 목표인지 확신할 수 있어야 합니다.&lt;/p&gt;
+
+&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;https://res.cloudinary.com/mag-epmat/image/upload/v1644115384/design/conditions-for-an-effective-ab-test-hypothesis/04_jkspdb.jpg&quot; alt=&quot;Hypothesis Goals&quot; title=&quot;Hypothesis Goals&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;예시의 커머스 앱이 거래당 수수료를 기반으로 하는 비즈니스 모델을 갖고 있다고 가정하겠습니다. 주요 목표로 거래 횟수 늘리기, 반품률 줄이기, 고단가 제품 판매율 늘리기 등을 꼽을 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. 문제/기회&lt;/strong&gt;&lt;br /&gt;
+목표를 설정했다면 이를 달성할 방법을 찾기 위해 정보를 모아야 합니다. 커머스 앱 유저의 사용 데이터를 분석한 외부 연구 조사 자료, 제품 사용 시 느꼈던 불편한 점을 묻는 고객 설문 조사 등 정보를 얻을 수 있는 출처는 많습니다. 특히 이전 AB 테스트의 결과로 도출된 인사이트, 내부 데이터 분석 자료처럼 제품과 조직 내부에서 얻은 정보는 영향력 있는 가설을 구축하는 데 큰 도움이 됩니다. 이에 대해서는 아래 방법론 부문에서 자세히 설명하겠습니다.&lt;/p&gt;
+
+&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;https://res.cloudinary.com/mag-epmat/image/upload/v1644115384/design/conditions-for-an-effective-ab-test-hypothesis/05_e2qibd.jpg&quot; alt=&quot;Hypothesis Problem/Chance&quot; title=&quot;Hypothesis Problem/Chance&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;정리한 정보를 바탕으로 문제를 정의합니다. 예를 들어 장바구니에 상품을 등록한 고객 중 절반가량이 구매하지 않았다는 정보가 있다고 생각해봅시다. 상품 조회 → 장바구니 등록 → 구매에 이르는 상품 구매 퍼널에 문제가 있을 수도 있고, 장바구니를 의도한 것과 다르게 사용하는 고객 그룹이 있을 수도 있습니다. 이 문제들은 곧 해결책을 내는 실마리이기 때문에 기회라고도 말할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3. 솔루션&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;https://res.cloudinary.com/mag-epmat/image/upload/v1644115384/design/conditions-for-an-effective-ab-test-hypothesis/06_dn4njs.jpg&quot; alt=&quot;Hypothesis Solution&quot; title=&quot;Hypothesis Solution&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;정의한 문제에 대한 해결책을 제시합니다. 장바구니에서 결제 단계로 넘어가는 버튼에 시인성 문제가 있다면 버튼 면적을 키우고 위치를 고정하는 솔루션을 생각해볼 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;영향력 있는 문제를 정확히 집어내는 것만큼이나 적절한 처방을 내리는 일도 중요합니다. &lt;a title=&quot;Bryan Eisenberg(Buyer Legends), 2011 - The Conversion Trinity : The 3 Step Magic Formula to Increase Click Throughs &amp;amp; Conversions&quot; href=&quot;https://www.bryaneisenberg.com/the-conversion-trinity-the-3-step-magic-formula-to-increase-click-throughs-conversions?refer=mag_epmat&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;좋은 솔루션의 조건&lt;/a&gt;은 베테랑 CRO 컨설턴트 브라이언 아이젠버그(Bryan Eisenberg)가 정리한 바 있습니다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;관련성 : 고객 니즈(정의한 문제)와 연관되어야 하며, 그 관계를 한눈에도 알 수 있어야 합니다.&lt;/li&gt;
+  &lt;li&gt;가치 증명 : 고객에게 적합한 해결법을 제시하고, 그 이유도 잘 설명합니다.&lt;/li&gt;
+  &lt;li&gt;행동 제안 : 고객에게 ‘필요한 행동’을 ‘매끄럽게’ 수행할 수 있도록 ‘분명’하게 제안합니다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;모든 조건에서 고객의 이해를 요점으로 꼽는다는 점을 눈치챘을 겁니다. 가설이 옳은지 그른지 명료하게 판단해야 하는 AB 테스트에서는 고객의 이해가 특히나 중요합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4. 예상 결과&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;https://res.cloudinary.com/mag-epmat/image/upload/v1644115384/design/conditions-for-an-effective-ab-test-hypothesis/07_s2ewri.jpg&quot; alt=&quot;Hypothesis Result Expect&quot; title=&quot;Hypothesis Result Expect&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;솔루션이 가져다줄 결과를 예상합니다. 장바구니에서 결제 단계로 이동하는 버튼을 키웠다면 이 화면 사이의 전환율과 구매율의 증가가 예상 결과가 됩니다. 이 단계에서는 측정지표를 알맞게 고르도록 주의해야 합니다. 솔루션이 영향을 주는 직접 지표를 특정하고, 상위 목표와 관련된 주요 지표를 포함합니다. 직접 지표와 주요 지표 사이에 다리를 놓는 지표가 따로 있다면 이 지표도 전부 예상합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;5. 근거&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;https://res.cloudinary.com/mag-epmat/image/upload/v1644115384/design/conditions-for-an-effective-ab-test-hypothesis/08_v2hhhq.jpg&quot; alt=&quot;Hypothesis Expect Evidence&quot; title=&quot;Hypothesis Expect Evidence&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;근거는 예상 결과를 뒷받침해주는 이유입니다. 근거가 확실하지 않으면 결과가 성공적이더라도 부족한 AB 테스트가 될 수밖에 없습니다. 근거는 실험을 진행하는 이유이자, 결과 분석에 쓰이는 검사지입니다. 장바구니에서 결제 단계로 가는 버튼의 크기를 늘려, 시인성을 강화한 AB 테스트에서 화면 전환율과 구매율 상승을 예상했습니다. 그 근거는 구매를 원하는 고객이 장바구니에서 결제 단계로 넘어가는 버튼을 찾지 못하는 상황인데, 커서 잘 보이는 버튼은 이 문제를 해결할 것이기 때문입니다. 만약 이 AB 테스트가 성공하지 못했다면 어째서일까요? 설정한 근거로부터 몇 가지 상황을 추측해볼 수 있습니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;‘구매를 원하지만, 장바구니에서 결제 단계로 넘어가지 못하는 고객’은 없다.&lt;/li&gt;
+  &lt;li&gt;고객은 버튼이 잘 보이지만 다른 이유로 결제 단계로 이동하지 않는다.&lt;/li&gt;
+  &lt;li&gt;버튼을 키웠지만, 여전히 잘 보이지 않는다. 혹은 특정 기종에서 솔루션이 제대로 적용되지 않았다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;이처럼 근거는 실험 결과에서 인사이트와 방향성을 만들어줍니다. 세밀한 근거는 완벽한 AB 테스트에 필수적입니다.&lt;/p&gt;
+
+&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;https://res.cloudinary.com/mag-epmat/image/upload/v1644115384/design/conditions-for-an-effective-ab-test-hypothesis/09_wn1xgh.jpg&quot; alt=&quot;5th Floors of Hypothesis&quot; title=&quot;5th Floors of Hypothesis&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;이제 가설이 실험에 뛰어들 준비를 마쳤습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;좋은-가설을-만드는-3가지-방법&quot;&gt;좋은 가설을 만드는 3가지 방법&lt;/h2&gt;
+
+&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;https://res.cloudinary.com/mag-epmat/image/upload/v1644115384/design/conditions-for-an-effective-ab-test-hypothesis/10_ep7c98.jpg&quot; alt=&quot;Three Strategies for Effective Hypothesis&quot; title=&quot;Three Strategies for Effective Hypothesis&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;효과적인 가설의 구조를 알아봤으니, 마지막으로 이러한 가설을 만드는데 유용한 3가지 방법론을 살펴보겠습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1. 과감한 가설로 크게 휘두르기&lt;/strong&gt;&lt;br /&gt;
+날아오는 공마다 온 힘으로 휘두르는 타자. 열에 아홉은 삼진아웃일 겁니다. 그러나 이런 선수에게는 구질을 살피면서 조심히 배트를 대는 타자에게서 찾아볼 수 없는 홈런의 가능성이 있습니다.&lt;/p&gt;
+
+&lt;p&gt;AB 테스트는 크게 휘둘러야 합니다. 가설 5층위 구조를 살펴보면서 각 단계에 이런저런 단서를 많이 붙였지만, 이에 위축되어 자잘한 실험만 해서는 안 됩니다. 최고로 영향력 있는 문제/기회를 골라, 기존에서 크게 변한 솔루션을 기획해야 합니다. 한두 군데씩 차근차근 검증하는 것보다 한번 크게 바꾼 후 디테일을 고치는 것이 시간과 비용 면에서 훨씬 효율적입니다.&lt;/p&gt;
+
+&lt;p&gt;위에서 언급한 사례에서 알 수 있듯 아마존은 강력한 실험 문화를 가진 기업입니다. 초창기 행보에서도 이런 특징이 두드러집니다. 아마존은 최초에 책을 팔았습니다. 카테고리는 어렵지 않게 늘렸지만 기본적으로 보유한 재고를 판매하는 방식이었습니다. 따라서 고객 규모를 키우는 속도에는 한계가 있었습니다. 아마존은 이베이(eBay)를 벤치마킹한 온라인 경매 플랫폼 아마존 옥션, 정찰제 경매 플랫폼 zShop를 실험했고 실패했습니다. 그다음으로는 외부 판매자가 아마존 웹페이지 내에서 상품을 판매할 수 있는 마켓 플레이스 방식을 테스트했습니다. 외부 판매자에게 밀려 아마존의 매출이 줄 것이라는 걱정도 있었지만 이 방식은 성공해 오늘날에 이르렀습니다.&lt;/p&gt;
+
+&lt;p&gt;9회로 끝나는 야구 경기에서는 분명 조심스러운 타자가 필요할 겁니다. 그러나 AB 테스트에는 끝이 없습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. 확실한 정보로 단단한 가설 만들기&lt;/strong&gt;&lt;br /&gt;
+쿠팡 역시 아마존 못지않은 실험 문화를 가진 기업입니다. 쿠팡이 공유한 &lt;a title=&quot;Coupang Design, 2021 - 쿠팡 UX Club 3. 테스트 결과가 예상과 다를 때&quot; href=&quot;https://brunch.co.kr/@coupangdesign/73?refer=mag_epmat&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;패션 팀의 AB 테스트 경험 사례&lt;/a&gt;에서도 이런 점이 충분히 드러납니다.&lt;/p&gt;
+
+&lt;p&gt;쿠팡 패션 팀은 리서치 팀과 함께 각종 설문조사, 인터뷰, 사용성 테스트를 진행했습니다. 거기서 표준화되지 않은 상품 사이즈 표의 부재가 구매 결정에 악영향을 미친다는 정보를 얻어냈습니다. 팀은 상단에 위치해 처음부터 노출되는 영역인 상품평 요약 우측에 사이즈 표로 연결되는 링크를 다는 AB 테스트를 진행했습니다. 그런데 전체적인 구매율이 나아지지 않았을 뿐더러, 링크 클릭률 자체도 무척 낮았습니다. 흥미로운 점은 링크를 1회 이상 눌러본 고객의 구매율은 2배였다는 것입니다. 추가로 진행한 사용성 테스트에서는 고객 대다수가 링크를 추가한 상단을 가격·결제 혜택을 보여주는 영역으로 여기고, 새로 넣은 링크를 발견하지 못한다는 사실을 알아냅니다. 팀은 링크를 사이즈 옵션 선택 영역으로 옮겨 다시 실험했습니다. 링크 클릭률과 구매율 모두 대폭 상승했습니다.&lt;/p&gt;
+
+&lt;p&gt;쿠팡은 다방면에서 수집한 정보로 가설에 확신을 하고 있었기 때문에 실패를 차분히 진단하고 정확한 문제를 짚어 해결할 수 있었습니다. 대부분의 AB 테스트는 실패로 끝납니다. 중요한 건 실패해서 포기하는 대신, 더 집요하게 파고들어 몰랐던 인사이트를 발굴해내는 일입니다. 이는 다음 성공의 밑거름이 될 것입니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3. 준비성 있는 가설로 손해 없는 실험하기&lt;/strong&gt;&lt;br /&gt;
+AB 테스트의 결과는 크게 3가지로 나눌 수 있습니다. 성공, 실패, 변화 없음. 정말 명백하고 극적인 성공이나 실패는 매우 드뭅니다(앞서 설명한 크게 휘두르기 전략이 필요한 이유이기도 합니다). 결국 아무리 열심히 AB 테스트해도 돌아오는 건 변화 없는 실험 결과뿐입니다. 하지만 시야를 조금만 넓히는 것만으로 변화 없는 결과에서 인사이트를 만들어낼 수 있습니다. 위에서 살펴봤던 쿠팡의 사례에서도, 링크를 눌러본 고객의 구매 여부를 따로 파악하지 않았다면 후속 실험을 진행할 수 있었을까요? 모든 결과라도 대응할 수 있도록 데이터를 수집하고 다음 수를 계획해야 합니다. 그렇다고 실제로 상황별 후속 실험을 세세하게 기획할 필요까지는 없습니다. 이를 준비하는 과정에서 어떤 결과가 나와도 차분히 다음 단계를 밟을 수 있도록 계획하는 것으로 충분합니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;정리&quot;&gt;정리&lt;/h2&gt;
+
+&lt;p&gt;효과적인 AB 테스트 가설의 구조와 방법론은 다음과 같은 이유로 알 필요가 있습니다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;조직 내  AB 테스트 확산에 기여합니다.&lt;/li&gt;
+  &lt;li&gt;전술적 실험에서 전략적 실험으로 전환할 수 있습니다.&lt;/li&gt;
+  &lt;li&gt;AB 테스트의 영향력과 성공률을 키웁니다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;좋은 가설은 목표, 문제/기회, 솔루션, 예상 결과, 근거의 5층 구조로 구성되어 있습니다. 이러한 가설을 만드는 3가지 방법론은 아래와 같습니다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;과감한 가설로 크게 휘두르기&lt;/li&gt;
+  &lt;li&gt;확실한 정보로 단단한 가설 만들기&lt;/li&gt;
+  &lt;li&gt;준비성 있는 가설로 손해 없는 실험하기&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;가설은 중요합니다. 하지만 명심해야 할 점은 아무리 완벽한 가설이 있더라도 실행에 옮기지 않으면 무용하다는 것입니다. 준비가 끝났다면, 이제 행동할 시간입니다.&lt;/p&gt;</content><author><name>이준환</name></author><category term="design-teatime" /><summary type="html">AB 테스트의 영향력과 성공률을 동시에 높이면서, 동시에 실험 문화 확산까지 챙기는 전략이 있습니다. 바로 효과적인 가설이죠. 이런 가설은 어떻게 만들까요?</summary></entry><entry><title type="html">Shopify, Udemy, Etsy가 고객과 수익을 모두 얻은 방법</title><link href="https://dewberry9.github.io/win-win-business-model" rel="alternate" type="text/html" title="Shopify, Udemy, Etsy가 고객과 수익을 모두 얻은 방법" /><published>2022-01-09T00:00:00+09:00</published><updated>2022-01-09T00:00:00+09:00</updated><id>https://dewberry9.github.io/win-win-business-model</id><content type="html" xml:base="https://dewberry9.github.io/win-win-business-model">&lt;p&gt;비즈니스 모델(Business Model)은 사업이 고객에게 제공하는 가치로 수익을 내고, 이 수익으로 사업 자체를 유지하고 성장시켜서 더 큰 가치를 창출하는 순환 구조입니다. 제과점 주인은 과자를 팔고 돈을 받습니다. 이 돈은 과자 재료와 과자를 만들 공간, 과자를 팔 공간을 마련하는 데 사용됩니다. 이 과정은 반복됩니다. 이것이 비즈니스 모델입니다.&lt;/p&gt;
 
 &lt;p&gt;비즈니스 모델을 고민하다 보면 종종 ‘어떻게 더 많은 수익을 낼 것인가’에 초점을 맞추게 됩니다. 하지만 중요한 것은 ‘어떻게 고객과 사업이 서로 윈윈하도록 만들 것인가’입니다. 왜일까요? 또 이런 비즈니스 모델을 설계하려면 어떻게 해야 할까요? 이번 글에서 살펴보겠습니다.&lt;/p&gt;
 
@@ -885,86 +1021,4 @@
 
 &lt;p&gt;고객과 시장이 변하듯 제품과 디자인 시스템도 바뀌고 있습니다. 디자인 시스템이 다음에는 어떤 모습을 가지게 될지 기대가 됩니다.&lt;/p&gt;
 
-&lt;p class=&quot;right-infor&quot;&gt;위시켓의 지원과 함께 제작된 콘텐츠입니다.&lt;/p&gt;</content><author><name>이준환</name></author><category term="design-teatime" /><summary type="html">앞으로 디자인 시스템이 가야할 길은 어디일까요? 지원 툴, 코딩, 의사결정 민주화... 트렌드 분석을 통해 얻은 3가지 방향성을 설명하겠습니다.</summary></entry><entry><title type="html">사랑하거나 싫어하거나, 피트의 마술적 매력. 라프로익 10년</title><link href="https://dewberry9.github.io/laphroaig-10" rel="alternate" type="text/html" title="사랑하거나 싫어하거나, 피트의 마술적 매력. 라프로익 10년" /><published>2021-10-01T00:00:00+09:00</published><updated>2021-10-01T00:00:00+09:00</updated><id>https://dewberry9.github.io/laphroaig-10</id><content type="html" xml:base="https://dewberry9.github.io/laphroaig-10">&lt;p&gt;강한 냄새가 나는 피트 위스키는 장르 자체의 호불호가 큽니다. 꽃, 풀, 과일, 바닐라처럼 자연적이지 않고 인공적으로 만든 소독약과 병원을 연상시키는 강렬한 향은 매니아와 그렇지 않은 사람을 확실하게 나눕니다.&lt;/p&gt;
-
-&lt;p&gt;그런 피트 위스키 중에서도 단연 독보적인 개성, 전설과 악명을 떨치는 위스키가 있습니다. 바로 라프로익(Laphroaig) 10년입니다.&lt;/p&gt;
-
-&lt;p class=&quot;full-size&quot;&gt;&lt;img src=&quot;/assets/images/daily/laphroaig-10/01.jpg&quot; alt=&quot;Bottle and Package&quot; title=&quot;Bottle and Package&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;제품&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;라프로익 10년(700mL)&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;분류&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;싱글 몰트 스카치 위스키&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;생산지&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;스코틀랜드 아일라&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;알코올&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;40%&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;가격&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;8만원대(남대문 시장)&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&quot;라프로익-증류소&quot;&gt;라프로익 증류소&lt;/h2&gt;
-
-&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/daily/laphroaig-10/02.jpg&quot; alt=&quot;Package&quot; title=&quot;Package&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;스코틀랜드 아일라섬은 피트 매장량이 풍부해 피트 위스키의 성지로 불립니다. 아일라 남부 킬달튼(Kildalton) 지역에는 피트 위스키로 유명한 증류소 3곳이 붙어있습니다. &lt;a title=&quot;매거진 입맛 - 한참 이른 여름맛. 아드벡 10년&quot; href=&quot;/ardbeg-for-the-beginning-of-the-summer&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;아드벡(Ardbeg)&lt;/a&gt;, 라가불린(Lagavulin), 그리고 라프로익입니다. 세 증류소가 시작된 시점은 1815~1816년으로 비슷비슷하지만 규모는 차이가 큽니다. 라프로익의 연간 생산량은 3백 4십만 리터에 달합니다. 라가불린보다 1백만 리터 많고 아드벡의 3배 수준입니다.&lt;/p&gt;
-
-&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/daily/laphroaig-10/03.jpg&quot; alt=&quot;Bottle&quot; title=&quot;Bottle&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;스코틀랜드 이민자 알렉산더(Alexander)와 도널드 존스턴(Donald Johnston) 형제는 1815년 아일라 섬에 라프로익 증류소를 설립합니다. 20세기 초, 도널드의 증손자 이안 헌터(Ian Hunter) 대에 이르러 라프로익은 명성을 얻기 시작합니다. 금주법 시대의 미국에서 의약품으로 판매되는 등 여러 해외 시장에 진출합니다. 라프로익 증류소는 2006년부터 2014년까지 짐 빔(Jim Beam)으로 유명한 기업 빔에 있다가 일본의 산토리(Suntory)가 빔을 인수함에 따라 현재는 빔 산토리 산하에 있습니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;라프로익을-사면-땅-주인이-된다&quot;&gt;라프로익을 사면 땅 주인이 된다&lt;/h2&gt;
-
-&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/daily/laphroaig-10/04.jpg&quot; alt=&quot;Bottle, Package and Passport&quot; title=&quot;Bottle, Package and Passport&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;라프로익 패키지 안에는 아일라로 가는 여권(Passport to Islay)이라고 적힌 작은 종이쪽지가 들어있습니다. 이 여권에 적힌 코드로 Friends of Laphroaig이라는 라프로익의 멤버십에 가입하면 땅을 받을 수 있습니다.&lt;/p&gt;
-
-&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/daily/laphroaig-10/05.jpg&quot; alt=&quot;Friends of Laphroaig&quot; title=&quot;Friends of Laphroaig&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;가로세로 1피트(약 30cm)의 작은 땅이긴 하지만요. 라프로익은 제 땅을 빌려쓰는 대가로 증류소에 방문했을 때 위스키 한잔을 주겠다고 멤버십을 소개합니다. 이런 재미있는 마케팅은 라프로익이 증류소 근처의 토지를 매입하지 않았다면 없었을 겁니다. 라프로익이 증류소 부지를 확대하게 된 계기는 이웃 증류소와의 갈등에서 비롯합니다.&lt;/p&gt;
-
-&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/daily/laphroaig-10/06.jpg&quot; alt=&quot;Passport&quot; title=&quot;Passport&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;흔히 위스키의 풍미를 결정짓는 가장 중요한 요소로 곡물, 오크통, 물을 꼽습니다. 특히 물은 생산지 고유의 특색을 갖춘 위스키를 만드는 데 필수적이라서, 위스키 좀 제대로 만든다 싶은 증류소는 곡물이나 오크통은 다른 곳에서 사서 쓰더라도 물 만큼은 증류소 부지 내에 있는 수원지에서 가져다 씁니다. 라프로익 역시 증류소 북쪽에 있는 킬브라이드(Kilbride) 시내의 물로 위스키를 만들고 있었습니다. 그런데 이 물길을 벽돌로 막아버린 사건이 발생합니다. 이웃 증류소인 라가불린의 당시 주인 피터 맥키(Sir. Peter Mackie)가 벌인 일이었습니다. 피터는 블렌디드 위스키를 만들었는데, 여기에는 라프로익의 원액도 포함되어 있었습니다. 위에서 언급한 이안 헌터 때 라프로익은 피터가 너무 싼 가격에 많은 원액을 가져간다고 생각해서 계약을 끊습니다. 이는 오랜 소송전과, 킬브라이드 시내를 막아버리는 사건으로 이어집니다. 둘 다 라프로익에 유리한 방향으로 해결됐지만 라프로익은 수원지에 대한 의존도를 실감하게 되어 시내가 흐르는 주변 땅을 전부 사들었습니다. 이때 산 땅이 지금 라프로익 구매자의 손에 들어가게 된 것이죠.&lt;/p&gt;
-
-&lt;h2 id=&quot;라프로익-10년&quot;&gt;라프로익 10년&lt;/h2&gt;
-
-&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/daily/laphroaig-10/07.jpg&quot; alt=&quot;Bottle and Glass&quot; title=&quot;Bottle and Glass&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;본격적으로 라프로익 10년을 즐겨보겠습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;색&lt;/strong&gt; 라프로익 10년은 낮은 숙성 연수에 맞는 옅은 보리 색을 띄고 있습니다. 잔 표면을 쉽게 내려가는 레그와 더불어 가볍고 찰랑거리는 분위기를 만듭니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;향&lt;/strong&gt; 소독약 같은 약품 향이 강합니다. 진한 송진이 몽글몽글 맺혀 있는 오래된 나무가 인상됩니다. 그 뒤에는 바닷물에 젖은 해조류처럼 짭조름한 냄새가 납니다. 멜론처럼 무르고 담백한 과실의 뉘앙스가 있습니다. 곡물 같은 빵 내음이 슬쩍 풍깁니다. 그래도 역시 달콤하고 코를 찌르는 피트 냄새의 비중이 가장 큰 것은 부정할 수 없습니다.&lt;/p&gt;
-
-&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/daily/laphroaig-10/08.jpg&quot; alt=&quot;Glass&quot; title=&quot;Glass&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;맛&lt;/strong&gt; 도수 자체는 높지 않아 부드럽게 넘어옵니다. 쌉쌀하고 진득한 한약 내가 입안에서 굴러갑니다. 적당한 산미에 복숭아, 자두의 달콤함이 섞여 있습니다. 버번 오크통의 영향인지 바닐라 풍미가 있습니다. 김이 모락모락 나는 한 뭉텅이 건초를 물고 있으면 이런 느낌일까 같은 생각이 듭니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;피니쉬&lt;/strong&gt; 산뜻한 한 모금이 지나간 후 텁텁한 감각이 남습니다. 상큼달콤함이 자제하며 밑부분을 잡아주고, 빵의 갈색 겉껍질을 씹는 듯한 쓴맛이 그 위에 올라갑니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;왕실-훈장을-단-마술적-위스키&quot;&gt;왕실 훈장을 단 마술적 위스키&lt;/h2&gt;
-
-&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/daily/laphroaig-10/09.jpg&quot; alt=&quot;Royal Warrant&quot; title=&quot;Royal Warrant&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Love it or Hate it. 사랑하거나 싫어하거나. 라프로익의 모토는 극단적이지만 사실적입니다. 라프로익을 접하면 팬이 되어 계속 찾게 되거나 거들떠보지도 않거나, 둘 중 하나를 선택할 수밖에 없습니다. 라프로익의 패키지에 달려 있는 왕실 훈장도 같은 이유에서 어울립니다.
-로얄 워런트(Royal Warrant)는 왕실에 납품하는 물건이나 서비스를 대상으로 그 가치가 왕실로부터 인정된 것에 부여되는 증서입니다. 스카치 위스키 같은 경우 조니 워커, 발렌타인 등 로얄 워런트를 가진 블렌디드 위스키 브랜드가 꽤 있지만, 싱글 몰트 브랜드에서는 현재 하이랜드의 로얄 로크나, 그리고 라프로익이 전부입니다. 라프로익의 로얄 워런트는 찰스 왕세자로부터 받은 것입니다. 1994년 주변 지역에 방문한 왕세자가 비행기 문제로 바로 떠나지 못하고 라프로익에서 시간을 보냈습니다. 이 2시간 반 동안 왕세자는 라프로익에 빠졌고 로얄 워런트를 받는 계기가 되었습니다.&lt;/p&gt;
-
-&lt;p class=&quot;normal-size&quot;&gt;&lt;img src=&quot;/assets/images/daily/laphroaig-10/10.jpg&quot; alt=&quot;Bottle, Package and Glass&quot; title=&quot;Bottle, Package and Glass&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;라프로익의 매력은 마술적입니다. 독한 향과 맛에 푹 파묻히면 헤어나올 수가 없습니다. 선물용, 추천용 위스키는 아닙니다. 오로지 나, 내 취향을 위한 술 라프로익은 오랜 시간 다시 찾게 될 것  같습니다.&lt;/p&gt;</content><author><name>이준환</name></author><category term="review" /><summary type="html">피트로 유명한 아일라의 싱글 몰트 위스키 중에서도 라프로익은 강렬한 개성으로 손에 꼽힙니다. 10년에 불과한 숙성 기간에도 충분히 짜릿합니다.</summary></entry></feed>
+&lt;p class=&quot;right-infor&quot;&gt;위시켓의 지원과 함께 제작된 콘텐츠입니다.&lt;/p&gt;</content><author><name>이준환</name></author><category term="design-teatime" /><summary type="html">앞으로 디자인 시스템이 가야할 길은 어디일까요? 지원 툴, 코딩, 의사결정 민주화... 트렌드 분석을 통해 얻은 3가지 방향성을 설명하겠습니다.</summary></entry></feed>
