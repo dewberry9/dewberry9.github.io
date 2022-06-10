@@ -124,7 +124,7 @@ section { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex
 
 @media screen and (max-width: 1200px) { .space-container { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-flow: column; flex-flow: column; } }
 
-@media screen and (max-width: 760px) { #content { padding: 0 1.25rem; } section { margin: 2.5rem 0; } .ads-container-mobile-feedcard { display: block; } }
+@media screen and (max-width: 760px) { #content { padding: 0 1.25rem; } section { margin: 2.5rem 0; } .ads-container-mobile-feedcard { display: block; } .mobile-disappear { display: none; } }
 
 .top-nav { position: fixed; background-color: rgba(255, 255, 255, 0.95); -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05); box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05); -webkit-box-sizing: border-box; box-sizing: border-box; width: 100%; height: 56px; z-index: 10; padding-left: calc((100vw - 1600px) / 2); padding-right: calc((100vw - 1600px) / 2); -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; top: -56px; }
 
@@ -149,6 +149,8 @@ section { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex
 .top-nav .dynamic-nav ul li a.nav-item-act { background-color: #363059; color: #fff; }
 
 @media screen and (max-width: 760px) { .top-nav .dynamic-nav ul li a { padding: 4px 6px; margin: 0 8px; font-size: 0.875rem; vertical-align: middle; } }
+
+.top-nav .dynamic-nav ul li:last-child a { margin-right: 0; }
 
 @media screen and (max-width: 1600px) { .top-nav { padding: 0 2.5rem; } }
 
