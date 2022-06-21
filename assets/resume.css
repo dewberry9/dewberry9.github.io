@@ -228,7 +228,7 @@ footer a:hover, footer p:hover, .root-container .top-nav nav a:hover { opacity: 
 
 .root-container .content-container section .sub-job-list .sub-job-item.accordion-item .summary .icon-expand { -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; width: 1.25rem; height: auto; fill: #c9c9cc; margin-left: 0.75rem; }
 
-.root-container .content-container section .sub-job-list .sub-job-item.accordion-item .expand { display: none; margin-top: 2rem; }
+.root-container .content-container section .sub-job-list .sub-job-item.accordion-item .expand { display: none; margin: 2rem 0 1rem; }
 
 .root-container .content-container section .sub-job-list .sub-job-item.accordion-item .expand .number-txt span { display: block; }
 
@@ -244,9 +244,9 @@ footer a:hover, footer p:hover, .root-container .top-nav nav a:hover { opacity: 
 
 .root-container .content-container section .sub-job-list .sub-job-item.accordion-item .expand .inexpand-banner span { font-size: 0.875rem; color: #000000; }
 
-.root-container .content-container section .sub-job-list .sub-job-item.accordion-item .expand .inexpand-banner:hover { background-color: #c9c9cc; }
+.root-container .content-container section .sub-job-list .sub-job-item.accordion-item .expand .inexpand-banner:hover { background-color: #c9c9cc; transform: scale(1.02); box-shadow: 0 0.5rem 1rem -0.5rem rgba(0, 0, 0, 0.25); }
 
-.root-container .content-container section .sub-job-list .sub-job-item.accordion-item:hover { background-color: #f5f5f5; transform: scale(0.99); }
+.root-container .content-container section .sub-job-list .sub-job-item.accordion-item:hover { background-color: rgba(245, 245, 245, 0.25); transform: scale(0.99); }
 
 .root-container .content-container section .sub-job-list .sub-job-item.accordion-item:hover header, .root-container .content-container section .sub-job-list .sub-job-item.accordion-item:hover article { opacity: 0.8; }
 
