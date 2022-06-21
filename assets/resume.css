@@ -96,25 +96,25 @@ footer a:hover, footer p:hover, .root-container .top-nav nav a:hover { opacity: 
 
 .root-container .content-container section#headcopy h1 .word-container::after { content: attr(data-alt); position: absolute; z-index: -1; top: 0; left: 0; color: #000000; animation: slide-up 1s cubic-bezier(0.075, 0.82, 0.165, 1) forwards; transform: translateY(100%); }
 
-.root-container .content-container section#headcopy h1 .word-container:nth-of-type(1)::after { animation-delay: 0.05s; }
+.root-container .content-container section#headcopy h1 .word-container:nth-of-type(1)::after { animation-delay: 0.4s; }
 
-.root-container .content-container section#headcopy h1 .word-container:nth-of-type(2)::after { animation-delay: 0.1s; }
+.root-container .content-container section#headcopy h1 .word-container:nth-of-type(2)::after { animation-delay: 0.45s; }
 
-.root-container .content-container section#headcopy h1 .word-container:nth-of-type(3)::after { animation-delay: 0.15s; }
+.root-container .content-container section#headcopy h1 .word-container:nth-of-type(3)::after { animation-delay: 0.5s; }
 
-.root-container .content-container section#headcopy h1 .word-container:nth-of-type(4)::after { animation-delay: 0.2s; }
+.root-container .content-container section#headcopy h1 .word-container:nth-of-type(4)::after { animation-delay: 0.55s; }
 
-.root-container .content-container section#headcopy h1 .word-container:nth-of-type(5)::after { animation-delay: 0.25s; }
+.root-container .content-container section#headcopy h1 .word-container:nth-of-type(5)::after { animation-delay: 0.6s; }
 
-.root-container .content-container section#headcopy h1 .word-container:nth-of-type(6)::after { animation-delay: 0.3s; }
+.root-container .content-container section#headcopy h1 .word-container:nth-of-type(6)::after { animation-delay: 0.65s; }
 
-.root-container .content-container section#headcopy h1 .word-container:nth-of-type(7)::after { animation-delay: 0.35s; }
+.root-container .content-container section#headcopy h1 .word-container:nth-of-type(7)::after { animation-delay: 0.7s; }
 
-.root-container .content-container section#headcopy h1 .word-container:nth-of-type(8)::after { animation-delay: 0.4s; }
+.root-container .content-container section#headcopy h1 .word-container:nth-of-type(8)::after { animation-delay: 0.75s; }
 
-.root-container .content-container section#headcopy h1 .word-container:nth-of-type(9)::after { animation-delay: 0.5s; }
+.root-container .content-container section#headcopy h1 .word-container:nth-of-type(9)::after { animation-delay: 0.8s; }
 
-.root-container .content-container section#headcopy h1 .word-container:nth-of-type(10)::after { animation-delay: 0.55s; }
+.root-container .content-container section#headcopy h1 .word-container:nth-of-type(10)::after { animation-delay: 0.85s; }
 
 .root-container .content-container section#headcopy h1 .blue-word::after { color: #005BE4; }
 
@@ -218,7 +218,49 @@ footer a:hover, footer p:hover, .root-container .top-nav nav a:hover { opacity: 
 
 .root-container .content-container section .sub-job-list .sub-job-item header span { margin-top: 0.1rem; font-size: 0.6rem; color: #666669; }
 
+.root-container .content-container section .sub-job-list .sub-job-item.accordion-item { cursor: pointer; background-color: #ffffff; -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; }
+
+.root-container .content-container section .sub-job-list .sub-job-item.accordion-item header, .root-container .content-container section .sub-job-list .sub-job-item.accordion-item article { -webkit-transition: opacity 0.3s ease; -o-transition: opacity 0.3s ease; transition: opacity 0.3s ease; }
+
+.root-container .content-container section .sub-job-list .sub-job-item.accordion-item .summary { display: flex; align-items: center; justify-content: space-between; }
+
+.root-container .content-container section .sub-job-list .sub-job-item.accordion-item .summary p { flex-shrink: 1; margin: 0; }
+
+.root-container .content-container section .sub-job-list .sub-job-item.accordion-item .summary .icon-expand { -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; width: 1.25rem; height: auto; fill: #c9c9cc; margin-left: 0.75rem; }
+
+.root-container .content-container section .sub-job-list .sub-job-item.accordion-item .expand { display: none; margin-top: 2rem; }
+
+.root-container .content-container section .sub-job-list .sub-job-item.accordion-item .expand .number-txt span { display: block; }
+
+.root-container .content-container section .sub-job-list .sub-job-item.accordion-item .expand .number-txt span:first-child { color: #000000; font-size: 1.25rem; font-weight: 500; margin-bottom: 0.25rem; letter-spacing: -0.05rem; }
+
+.root-container .content-container section .sub-job-list .sub-job-item.accordion-item .expand .number-txt span:last-child { font-size: 0.75rem; color: #666669; }
+
+.root-container .content-container section .sub-job-list .sub-job-item.accordion-item .expand img { margin: 1.5rem 0; border-radius: 0.5rem; }
+
+.root-container .content-container section .sub-job-list .sub-job-item.accordion-item .expand .inexpand-banner { padding: 1rem; display: flex; align-items: center; justify-content: space-between; margin-top: 1rem; background-color: #f5f5f5; border-radius: 0.5rem; text-decoration: none; -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; }
+
+.root-container .content-container section .sub-job-list .sub-job-item.accordion-item .expand .inexpand-banner .icon-arrow { width: 1rem; height: auto; }
+
+.root-container .content-container section .sub-job-list .sub-job-item.accordion-item .expand .inexpand-banner span { font-size: 0.875rem; color: #000000; }
+
+.root-container .content-container section .sub-job-list .sub-job-item.accordion-item .expand .inexpand-banner:hover { background-color: #c9c9cc; }
+
+.root-container .content-container section .sub-job-list .sub-job-item.accordion-item:hover { background-color: #f5f5f5; transform: scale(0.99); }
+
+.root-container .content-container section .sub-job-list .sub-job-item.accordion-item:hover header, .root-container .content-container section .sub-job-list .sub-job-item.accordion-item:hover article { opacity: 0.8; }
+
+.root-container .content-container section .sub-job-list .sub-job-item.accordion-item:hover .summary .icon-expand { fill: #000000; }
+
+.root-container .content-container section .sub-job-list .sub-job-item.accordion-item.active .summary .icon-expand { transform: rotate(180deg); }
+
+.root-container .content-container section .sub-job-list .sub-job-item.accordion-item.active .expand { display: block; }
+
 .root-container .content-container section#portfolio article { margin: 0; }
+
+.root-container .content-container section#portfolio article a { display: block; }
+
+.root-container .content-container section#portfolio article a:first-child { margin-bottom: 1rem; }
 
 @media screen and (max-width: 1920px) { .root-container .content-container section#headcopy h1 { font-size: 2.75rem; } }
 
