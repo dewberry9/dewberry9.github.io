@@ -58,19 +58,21 @@ h1, h2, h3 { letter-spacing: -0.05rem; }
 
 .col-container.zero-verticle-gap { row-gap: 0; }
 
-.root-container .content-container section#portfolio article, .root-container .content-container section#experiences .callbuslab-summary p, .root-container .content-container section#contact article p, .root-container .content-container section#introduce .description-me p, .root-container .content-container section#headcopy p { font-size: 1rem; font-weight: 400; line-height: 1.8; margin: 1.5rem 0; letter-spacing: -0.01rem; color: #666669; }
+.root-container .content-container section#portfolio article, .root-container .content-container section#experiences .callbuslab-summary p, .root-container .content-container section#contact article p, .root-container .content-container section#introduce .description-me p, .root-container .content-container section#introduce .description-me span, .root-container .content-container section#headcopy p { font-size: 1rem; font-weight: 400; line-height: 1.8; margin: 1.5rem 0; letter-spacing: -0.01rem; color: #666669; }
 
-.root-container .content-container section#portfolio article a, .root-container .content-container section#experiences .callbuslab-summary p a, .root-container .content-container section#contact article p a, .root-container .content-container section#introduce .description-me p a, .root-container .content-container section#headcopy p a { -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; }
+.root-container .content-container section#portfolio article a, .root-container .content-container section#experiences .callbuslab-summary p a, .root-container .content-container section#contact article p a, .root-container .content-container section#introduce .description-me p a, .root-container .content-container section#introduce .description-me span a, .root-container .content-container section#headcopy p a { -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; }
 
-.root-container .content-container section#portfolio article a:hover, .root-container .content-container section#experiences .callbuslab-summary p a:hover, .root-container .content-container section#contact article p a:hover, .root-container .content-container section#introduce .description-me p a:hover, .root-container .content-container section#headcopy p a:hover { color: #005BE4; }
+.root-container .content-container section#portfolio article a:hover, .root-container .content-container section#experiences .callbuslab-summary p a:hover, .root-container .content-container section#contact article p a:hover, .root-container .content-container section#introduce .description-me p a:hover, .root-container .content-container section#introduce .description-me span a:hover, .root-container .content-container section#headcopy p a:hover { color: #005BE4; }
 
-.root-container .content-container section#portfolio article:last-child, .root-container .content-container section#experiences .callbuslab-summary p:last-child, .root-container .content-container section#contact article p:last-child, .root-container .content-container section#introduce .description-me p:last-child, .root-container .content-container section#headcopy p:last-child { margin-bottom: 0; }
+.root-container .content-container section#portfolio article:last-child, .root-container .content-container section#experiences .callbuslab-summary p:last-child, .root-container .content-container section#contact article p:last-child, .root-container .content-container section#introduce .description-me p:last-child, .root-container .content-container section#introduce .description-me span:last-child, .root-container .content-container section#headcopy p:last-child { margin-bottom: 0; }
 
-@media screen and (max-width: 760px) { .root-container .content-container section#portfolio article, .root-container .content-container section#experiences .callbuslab-summary p, .root-container .content-container section#contact article p, .root-container .content-container section#introduce .description-me p, .root-container .content-container section#headcopy p { margin: 1.25rem 0; } }
+@media screen and (max-width: 760px) { .root-container .content-container section#portfolio article, .root-container .content-container section#experiences .callbuslab-summary p, .root-container .content-container section#contact article p, .root-container .content-container section#introduce .description-me p, .root-container .content-container section#introduce .description-me span, .root-container .content-container section#headcopy p { margin: 1.25rem 0; } }
 
 footer a, footer p, .root-container .top-nav nav a { font-size: 1rem; font-weight: 400; color: #666669; letter-spacing: -0.01rem; text-decoration: none; margin-right: 1.25rem; -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; }
 
 footer a:hover, footer p:hover, .root-container .top-nav nav a:hover { opacity: 0.3; }
+
+.icon-expand { -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; width: 1.25rem; height: auto; fill: #c9c9cc; margin-left: 0.75rem; }
 
 .root-container { opacity: 0; animation: fade-in 0.75s ease forwards; padding: 3rem 3.75rem 6rem; }
 
@@ -119,6 +121,26 @@ footer a:hover, footer p:hover, .root-container .top-nav nav a:hover { opacity: 
 .root-container .content-container section#headcopy h1 .blue-word::after { color: #005BE4; }
 
 .root-container .content-container section#introduce .description-me img { border-radius: 0.5rem; }
+
+.root-container .content-container section#introduce .description-me .btn-more { display: flex; align-items: center; font-size: 0.875rem; color: #c9c9cc; -webkit-transition: opacity 0.3s ease; -o-transition: opacity 0.3s ease; transition: opacity 0.3s ease; cursor: pointer; }
+
+.root-container .content-container section#introduce .description-me .btn-more .closeCopy { display: none; }
+
+.root-container .content-container section#introduce .description-me .btn-more .openCopy, .root-container .content-container section#introduce .description-me .btn-more .closeCopy { margin: 0; }
+
+.root-container .content-container section#introduce .description-me .btn-more svg { margin-left: 0; }
+
+.root-container .content-container section#introduce .description-me .btn-more:hover { opacity: 0.7; }
+
+.root-container .content-container section#introduce .description-me .btn-more.active svg { transform: rotate(180deg); }
+
+.root-container .content-container section#introduce .description-me .btn-more.active .closeCopy { display: inline; }
+
+.root-container .content-container section#introduce .description-me .btn-more.active .openCopy { display: none; }
+
+.root-container .content-container section#introduce .description-me .more { display: none; }
+
+.root-container .content-container section#introduce .description-me .more.active { display: block; }
 
 .root-container .content-container section#contact { padding-bottom: 2rem; }
 
@@ -225,8 +247,6 @@ footer a:hover, footer p:hover, .root-container .top-nav nav a:hover { opacity: 
 .root-container .content-container section .sub-job-list .sub-job-item.accordion-item .summary { display: flex; align-items: center; justify-content: space-between; }
 
 .root-container .content-container section .sub-job-list .sub-job-item.accordion-item .summary p { flex-shrink: 1; margin: 0; }
-
-.root-container .content-container section .sub-job-list .sub-job-item.accordion-item .summary .icon-expand { -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; width: 1.25rem; height: auto; fill: #c9c9cc; margin-left: 0.75rem; }
 
 .root-container .content-container section .sub-job-list .sub-job-item.accordion-item .expand { display: none; margin: 2rem 0 1rem; }
 
