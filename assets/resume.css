@@ -18,7 +18,7 @@ svg { display: inline-block; }
 
 ul, ol { list-style: none; }
 
-html { font-size: 1vw; scroll-behavior: smooth; }
+html { font-size: 0.9vw; scroll-behavior: smooth; }
 
 @media screen and (max-width: 1920px) { html { font-size: 1.1vw; } }
 
@@ -58,15 +58,17 @@ h1, h2, h3 { letter-spacing: -0.05rem; }
 
 .col-container.zero-verticle-gap { row-gap: 0; }
 
-.root-container .content-container section#portfolio article, .root-container .content-container section#experiences .callbuslab-summary p, .root-container .content-container section#contact article p, .root-container .content-container section#introduce .description-me p, .root-container .content-container section#introduce .description-me span, .root-container .content-container section#headcopy p { font-size: 1rem; font-weight: 400; line-height: 1.8; margin: 1.5rem 0; letter-spacing: -0.01rem; color: #666669; }
+.root-container .content-container .contact-and-skills section#portfolio article, .root-container .content-container .contact-and-skills section#contact article p, .root-container .content-container section#experiences .callbuslab-summary p, .root-container .content-container section#introduce .description-me p, .root-container .content-container section#introduce .description-me span, .root-container .content-container section#headcopy p { font-size: 1rem; font-weight: 400; line-height: 1.8; margin: 1.75rem 0; letter-spacing: -0.01rem; color: #666669; }
 
-.root-container .content-container section#portfolio article a, .root-container .content-container section#experiences .callbuslab-summary p a, .root-container .content-container section#contact article p a, .root-container .content-container section#introduce .description-me p a, .root-container .content-container section#introduce .description-me span a, .root-container .content-container section#headcopy p a { -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; }
+.root-container .content-container .contact-and-skills section#portfolio article a, .root-container .content-container .contact-and-skills section#contact article p a, .root-container .content-container section#experiences .callbuslab-summary p a, .root-container .content-container section#introduce .description-me p a, .root-container .content-container section#introduce .description-me span a, .root-container .content-container section#headcopy p a { -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; }
 
-.root-container .content-container section#portfolio article a:hover, .root-container .content-container section#experiences .callbuslab-summary p a:hover, .root-container .content-container section#contact article p a:hover, .root-container .content-container section#introduce .description-me p a:hover, .root-container .content-container section#introduce .description-me span a:hover, .root-container .content-container section#headcopy p a:hover { color: #005BE4; }
+.root-container .content-container .contact-and-skills section#portfolio article a:hover, .root-container .content-container .contact-and-skills section#contact article p a:hover, .root-container .content-container section#experiences .callbuslab-summary p a:hover, .root-container .content-container section#introduce .description-me p a:hover, .root-container .content-container section#introduce .description-me span a:hover, .root-container .content-container section#headcopy p a:hover { color: #005BE4; }
 
-.root-container .content-container section#portfolio article:last-child, .root-container .content-container section#experiences .callbuslab-summary p:last-child, .root-container .content-container section#contact article p:last-child, .root-container .content-container section#introduce .description-me p:last-child, .root-container .content-container section#introduce .description-me span:last-child, .root-container .content-container section#headcopy p:last-child { margin-bottom: 0; }
+.root-container .content-container .contact-and-skills section#portfolio article:last-child, .root-container .content-container .contact-and-skills section#contact article p:last-child, .root-container .content-container section#experiences .callbuslab-summary p:last-child, .root-container .content-container section#introduce .description-me p:last-child, .root-container .content-container section#introduce .description-me span:last-child, .root-container .content-container section#headcopy p:last-child { margin-bottom: 0; }
 
-@media screen and (max-width: 760px) { .root-container .content-container section#portfolio article, .root-container .content-container section#experiences .callbuslab-summary p, .root-container .content-container section#contact article p, .root-container .content-container section#introduce .description-me p, .root-container .content-container section#introduce .description-me span, .root-container .content-container section#headcopy p { margin: 1.25rem 0; } }
+@media screen and (max-width: 760px) { .root-container .content-container .contact-and-skills section#portfolio article, .root-container .content-container .contact-and-skills section#contact article p, .root-container .content-container section#experiences .callbuslab-summary p, .root-container .content-container section#introduce .description-me p, .root-container .content-container section#introduce .description-me span, .root-container .content-container section#headcopy p { margin: 1.5rem 0; } }
+
+.root-container .content-container .contact-and-skills section#portfolio article strong, .root-container .content-container .contact-and-skills section#contact article p strong, .root-container .content-container section#experiences .callbuslab-summary p strong, .root-container .content-container section#introduce .description-me p strong, .root-container .content-container section#introduce .description-me span strong, .root-container .content-container section#headcopy p strong { font-weight: 700; }
 
 footer a, footer p, .root-container .top-nav nav a { font-size: 1rem; font-weight: 400; color: #666669; letter-spacing: -0.01rem; text-decoration: none; margin-right: 1.25rem; -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; }
 
@@ -86,7 +88,7 @@ footer a:hover, footer p:hover, .root-container .top-nav nav a:hover { opacity: 
 
 .root-container .content-container section { padding: 3rem 0; }
 
-.root-container .content-container section header.subtitle h2 { font-size: 1rem; font-weight: 500; letter-spacing: -0.01rem; color: #000000; margin-bottom: 2rem; }
+.root-container .content-container section header.subtitle h2 { font-size: 1rem; font-weight: 600; letter-spacing: -0.01rem; color: #000000; margin-bottom: 2.25rem; }
 
 .root-container .content-container section#headcopy { padding-top: 0; grid-column: 1 / 5; }
 
@@ -142,26 +144,6 @@ footer a:hover, footer p:hover, .root-container .top-nav nav a:hover { opacity: 
 
 .root-container .content-container section#introduce .description-me .more.active { display: block; }
 
-.root-container .content-container section#contact { padding-bottom: 2rem; }
-
-.root-container .content-container section#contact article p { margin: 0; }
-
-.root-container .content-container section#skills { padding-top: 2rem; }
-
-.root-container .content-container section#skills .skill-tab { margin-bottom: 1.5rem; }
-
-.root-container .content-container section#skills .skill-tab button { background: none; border: none; font-size: 0.75rem; font-weight: 500; color: #666669; padding: 0.4rem 0.6rem; display: inline-block; border-radius: 0.5rem; cursor: pointer; -webkit-transition: background-color 0.3s ease; -o-transition: background-color 0.3s ease; transition: background-color 0.3s ease; }
-
-.root-container .content-container section#skills .skill-tab button:hover { background-color: rgba(0, 91, 228, 0.05); }
-
-.root-container .content-container section#skills .skill-tab button.active { font-weight: 700; color: #005BE4; border-bottom: 3px solid #005BE4; border-radius: 0; }
-
-.root-container .content-container section#skills .skill-tab button.active:hover { background: none; }
-
-.root-container .content-container section#skills ul li { border: 1px solid #666669; color: #666669; font-size: 0.75rem; border-radius: 10rem; display: inline-block; padding: 0.25rem 0.5rem; margin: 0 0 0.4rem 0; }
-
-.root-container .content-container section#skills ul.by-keyword { display: none; }
-
 .root-container .content-container section#experiences .callbuslab-summary header h3 { font-weight: 600; line-height: 1; font-size: 1.75rem; }
 
 .root-container .content-container section#experiences .callbuslab-summary header p { line-height: 1; font-size: 0.875rem; margin-top: 0.4rem; }
@@ -190,7 +172,7 @@ footer a:hover, footer p:hover, .root-container .top-nav nav a:hover { opacity: 
 
 .root-container .content-container section#major-jobs .job-card-container .job-card:hover .icon-fullsize { opacity: 1; }
 
-.root-container .content-container section#major-jobs .job-card-container .job-card:hover .card-thumbnail img { height: 115%; opacity: 0.7; }
+.root-container .content-container section#major-jobs .job-card-container .job-card:hover .card-thumbnail img { width: 110%; opacity: 0.7; }
 
 .root-container .content-container section#major-jobs .job-card-container .job-card:hover .card-bottom .card-description { opacity: 0.7; }
 
@@ -208,7 +190,7 @@ footer a:hover, footer p:hover, .root-container .top-nav nav a:hover { opacity: 
 
 .root-container .content-container section#major-jobs .job-card-container .job-card .card-thumbnail { width: 100%; overflow: hidden; height: 10rem; position: relative; border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; }
 
-.root-container .content-container section#major-jobs .job-card-container .job-card .card-thumbnail img { -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; max-width: fit-content; height: 105%; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+.root-container .content-container section#major-jobs .job-card-container .job-card .card-thumbnail img { -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; position: absolute; max-width: fit-content; width: 100%; top: 50%; left: 50%; transform: translate(-50%, -50%); }
 
 .root-container .content-container section#major-jobs .job-card-container .job-card .card-bottom { display: flex; justify-content: space-between; align-items: center; color: #ffffff; padding: 1.25rem; }
 
@@ -276,17 +258,39 @@ footer a:hover, footer p:hover, .root-container .top-nav nav a:hover { opacity: 
 
 .root-container .content-container section .sub-job-list .sub-job-item.accordion-item.active .expand { display: block; }
 
-.root-container .content-container section#portfolio article { margin: 0; }
+.root-container .content-container .contact-and-skills section#contact { padding-bottom: 2rem; }
 
-.root-container .content-container section#portfolio article a { display: block; }
+.root-container .content-container .contact-and-skills section#contact article p { margin: 0; }
 
-.root-container .content-container section#portfolio article a:first-child { margin-bottom: 1rem; }
+.root-container .content-container .contact-and-skills section#skills { padding: 2rem 0; }
+
+.root-container .content-container .contact-and-skills section#skills .skill-tab { margin-bottom: 1.5rem; }
+
+.root-container .content-container .contact-and-skills section#skills .skill-tab button { background: none; border: none; font-size: 0.75rem; font-weight: 500; color: #666669; padding: 0.4rem 0.6rem; display: inline-block; border-radius: 0.5rem; cursor: pointer; -webkit-transition: background-color 0.3s ease; -o-transition: background-color 0.3s ease; transition: background-color 0.3s ease; }
+
+.root-container .content-container .contact-and-skills section#skills .skill-tab button:hover { background-color: rgba(0, 91, 228, 0.05); }
+
+.root-container .content-container .contact-and-skills section#skills .skill-tab button.active { font-weight: 700; color: #005BE4; border-bottom: 3px solid #005BE4; border-radius: 0; }
+
+.root-container .content-container .contact-and-skills section#skills .skill-tab button.active:hover { background: none; }
+
+.root-container .content-container .contact-and-skills section#skills ul li { border: 1px solid #666669; color: #666669; font-size: 0.75rem; border-radius: 10rem; display: inline-block; padding: 0.25rem 0.5rem; margin: 0 0 0.4rem 0; }
+
+.root-container .content-container .contact-and-skills section#skills ul.by-keyword { display: none; }
+
+.root-container .content-container .contact-and-skills section#portfolio { padding-top: 2rem; }
+
+.root-container .content-container .contact-and-skills section#portfolio article { margin: 0; font-size: 0.875rem; }
+
+.root-container .content-container .contact-and-skills section#portfolio article a { display: block; }
+
+.root-container .content-container .contact-and-skills section#portfolio article a:first-child { margin-bottom: 1rem; }
 
 @media screen and (max-width: 1920px) { .root-container .content-container section#headcopy h1 { font-size: 2.75rem; } }
 
-@media screen and (max-width: 1400px) { .root-container { padding: 2.5rem 3rem 4rem; } .root-container #contact.content-container { padding-bottom: 1.5rem; } .root-container #skills.content-container { padding-top: 1.5rem; } }
+@media screen and (max-width: 1400px) { .root-container { padding: 2.5rem 3rem 4rem; } }
 
-@media screen and (max-width: 760px) { .root-container { padding: 1rem 1.5rem; } .root-container .top-nav, .root-container .content-container { grid-column: 1 / 4 !important; display: block; } .root-container .top-nav { top: 0; left: 0; width: 100vw; background-color: rgba(255, 255, 255, 0.85); backdrop-filter: blur(1rem); padding: 1rem 1.5rem; } .root-container .top-nav nav a { font-size: 0.875rem; margin-right: 1rem; } .root-container .content-container section { padding: 2rem 0; } .root-container .content-container section#headcopy { margin-top: 5rem; } .root-container .content-container section#headcopy p { display: none; } .root-container .content-container section#headcopy h1 { font-size: 1.5rem; } .root-container .content-container section header.subtitle h2 { margin-bottom: 1.25rem; } .root-container .content-container section#experiences .callbuslab-summary header h3 { font-size: 1.5rem; } .root-container .content-container section#experiences .callbuslab-summary article { display: block; } .root-container .content-container section#experiences .callbuslab-summary article .product-banner { margin-top: 1.25rem; } .root-container .content-container section#experiences .callbuslab-summary article .product-banner .description .icon-app { width: 2.5rem; } .root-container .content-container section#experiences .callbuslab-summary article .product-banner .description h4 { font-size: 0.875rem; } .root-container .content-container section#experiences .callbuslab-summary article .product-banner .description p { font-size: 0.75rem; } .root-container .content-container section#major-jobs .job-card-container { display: block; } .root-container .content-container section#major-jobs .job-card-container .job-card { display: block; margin-bottom: 1.25rem; } .root-container .content-container section#major-jobs .job-card-container .job-card .card-thumbnail { height: 9rem; } .root-container .content-container section#major-jobs .job-card-container .job-card .card-thumbnail img { height: auto; width: 100%; } .root-container .content-container section#major-jobs .job-card-container .job-card .card-bottom { padding: 1rem; } .root-container .content-container section#major-jobs .job-card-container .job-card .card-bottom .card-description h4 { margin-bottom: 0.5rem; } .root-container .content-container section .sub-job-list .sub-job-item { display: block; padding: 1.25rem 0; } .root-container .content-container section .sub-job-list .sub-job-item header { margin-bottom: 0.5rem; display: flex; align-items: center; } .root-container .content-container section .sub-job-list .sub-job-item header span { font-size: 0.75rem; margin-left: 0.5rem; } }
+@media screen and (max-width: 760px) { .root-container { padding: 1rem 1.5rem; } .root-container .top-nav, .root-container .content-container { grid-column: 1 / 4 !important; display: block; } .root-container .top-nav { top: 0; left: 0; width: 100vw; background-color: rgba(255, 255, 255, 0.85); backdrop-filter: blur(1rem); padding: 1rem 1.5rem; } .root-container .top-nav nav a { font-size: 0.875rem; margin-right: 1rem; } .root-container .content-container section { padding: 2.25rem 0; } .root-container .content-container section#headcopy { margin-top: 5rem; } .root-container .content-container section#headcopy p { display: none; } .root-container .content-container section#headcopy h1 { font-size: 1.5rem; } .root-container .content-container section header.subtitle h2 { margin-bottom: 1.5rem; } .root-container .content-container section#experiences .callbuslab-summary header h3 { font-size: 1.5rem; } .root-container .content-container section#experiences .callbuslab-summary article { display: block; } .root-container .content-container section#experiences .callbuslab-summary article .product-banner { margin-top: 1.25rem; } .root-container .content-container section#experiences .callbuslab-summary article .product-banner .description .icon-app { width: 2.5rem; } .root-container .content-container section#experiences .callbuslab-summary article .product-banner .description h4 { font-size: 0.875rem; } .root-container .content-container section#experiences .callbuslab-summary article .product-banner .description p { font-size: 0.75rem; } .root-container .content-container section#major-jobs .job-card-container { display: block; } .root-container .content-container section#major-jobs .job-card-container .job-card { display: block; margin-bottom: 1.25rem; } .root-container .content-container section#major-jobs .job-card-container .job-card .card-thumbnail { height: 9rem; } .root-container .content-container section#major-jobs .job-card-container .job-card .card-thumbnail img { height: auto; width: 100%; } .root-container .content-container section#major-jobs .job-card-container .job-card .card-bottom { padding: 1rem; } .root-container .content-container section#major-jobs .job-card-container .job-card .card-bottom .card-description h4 { margin-bottom: 0.5rem; } .root-container .content-container section .sub-job-list .sub-job-item { display: block; padding: 1.25rem 0; } .root-container .content-container section .sub-job-list .sub-job-item header { margin-bottom: 0.5rem; display: flex; align-items: center; } .root-container .content-container section .sub-job-list .sub-job-item header span { font-size: 0.75rem; margin-left: 0.5rem; } }
 
 footer { padding: 3.75rem; display: flex; align-items: center; justify-content: space-between; background-color: #f5f5f5; }
 
