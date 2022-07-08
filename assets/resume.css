@@ -124,25 +124,9 @@ footer a:hover, footer p:hover, .root-container .top-nav nav a:hover { opacity: 
 
 .root-container .content-container section#introduce .description-me img { border-radius: 0.5rem; }
 
-.root-container .content-container section#introduce .description-me .btn-more { display: flex; align-items: center; font-size: 0.875rem; color: #c9c9cc; -webkit-transition: opacity 0.3s ease; -o-transition: opacity 0.3s ease; transition: opacity 0.3s ease; cursor: pointer; }
+.root-container .content-container section#introduce .description-me .more-about-me { margin-bottom: 1.75rem; border-top: 1px solid #c9c9cc; border-bottom: 1px solid #c9c9cc; }
 
-.root-container .content-container section#introduce .description-me .btn-more .closeCopy { display: none; }
-
-.root-container .content-container section#introduce .description-me .btn-more .openCopy, .root-container .content-container section#introduce .description-me .btn-more .closeCopy { margin: 0; }
-
-.root-container .content-container section#introduce .description-me .btn-more svg { margin-left: 0; }
-
-.root-container .content-container section#introduce .description-me .btn-more:hover { opacity: 0.7; }
-
-.root-container .content-container section#introduce .description-me .btn-more.active svg { transform: rotate(180deg); }
-
-.root-container .content-container section#introduce .description-me .btn-more.active .closeCopy { display: inline; }
-
-.root-container .content-container section#introduce .description-me .btn-more.active .openCopy { display: none; }
-
-.root-container .content-container section#introduce .description-me .more { display: none; }
-
-.root-container .content-container section#introduce .description-me .more.active { display: block; }
+.root-container .content-container section#introduce .description-me .more-about-me p { font-size: 0.875rem; line-height: 1.5; font-weight: 400; margin: 0; }
 
 .root-container .content-container section#experiences .callbuslab-summary header h3 { font-weight: 600; line-height: 1; font-size: 1.75rem; }
 
