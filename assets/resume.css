@@ -1,14 +1,24 @@
+@-webkit-keyframes fade-in { from { opacity: 0; }
+  to { opacity: 1; } }
+
 @keyframes fade-in { from { opacity: 0; }
   to { opacity: 1; } }
 
-@keyframes slide-up { from { transform: translateY(100%); }
-  to { transform: translateY(0%); } }
+@-webkit-keyframes slide-up { from { -webkit-transform: translateY(100%);
+    transform: translateY(100%); }
+  to { -webkit-transform: translateY(0%);
+    transform: translateY(0%); } }
+
+@keyframes slide-up { from { -webkit-transform: translateY(100%);
+    transform: translateY(100%); }
+  to { -webkit-transform: translateY(0%);
+    transform: translateY(0%); } }
 
 * { margin: 0; padding: 0; font: inherit; color: inherit; line-height: 1; }
 
-*, :after, :before { box-sizing: border-box; flex-shrink: 0; }
+*, :after, :before { -webkit-box-sizing: border-box; box-sizing: border-box; -ms-flex-negative: 0; flex-shrink: 0; }
 
-:root { -webkit-tap-highlight-color: transparent; -webkit-text-size-adjust: 100%; text-size-adjust: 100%; cursor: default; overflow-wrap: break-word; word-break: break-word; tab-size: 4; }
+:root { -webkit-tap-highlight-color: transparent; -webkit-text-size-adjust: 100%; -moz-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-size-adjust: 100%; cursor: default; overflow-wrap: break-word; word-break: break-word; -moz-tab-size: 4; -o-tab-size: 4; tab-size: 4; }
 
 html, body { height: 100%; }
 
@@ -76,7 +86,7 @@ footer a:hover, footer p:hover, .root-container .top-nav nav a:hover { opacity: 
 
 .icon-expand { -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; width: 1.25rem; height: auto; fill: #c9c9cc; margin-left: 0.75rem; }
 
-.root-container { opacity: 0; animation: fade-in 0.75s ease forwards; padding: 3rem 3.75rem 6rem; }
+.root-container { opacity: 0; -webkit-animation: fade-in 0.75s ease forwards; animation: fade-in 0.75s ease forwards; padding: 3rem 3.75rem 6rem; }
 
 .root-container .top-nav { position: fixed; top: 3rem; left: 3.75rem; z-index: 10; }
 
@@ -98,27 +108,27 @@ footer a:hover, footer p:hover, .root-container .top-nav nav a:hover { opacity: 
 
 .root-container .content-container section#headcopy h1 .word-container { position: relative; overflow: hidden; display: inline-block; color: rgba(0, 0, 0, 0); line-height: 1.1; }
 
-.root-container .content-container section#headcopy h1 .word-container::after { content: attr(data-alt); position: absolute; z-index: -1; top: 0; left: 0; color: #000000; animation: slide-up 1s cubic-bezier(0.075, 0.82, 0.165, 1) forwards; transform: translateY(100%); }
+.root-container .content-container section#headcopy h1 .word-container::after { content: attr(data-alt); position: absolute; z-index: -1; top: 0; left: 0; color: #000000; -webkit-animation: slide-up 1s cubic-bezier(0.075, 0.82, 0.165, 1) forwards; animation: slide-up 1s cubic-bezier(0.075, 0.82, 0.165, 1) forwards; -webkit-transform: translateY(100%); -ms-transform: translateY(100%); transform: translateY(100%); }
 
-.root-container .content-container section#headcopy h1 .word-container:nth-of-type(1)::after { animation-delay: 0.4s; }
+.root-container .content-container section#headcopy h1 .word-container:nth-of-type(1)::after { -webkit-animation-delay: 0.4s; animation-delay: 0.4s; }
 
-.root-container .content-container section#headcopy h1 .word-container:nth-of-type(2)::after { animation-delay: 0.45s; }
+.root-container .content-container section#headcopy h1 .word-container:nth-of-type(2)::after { -webkit-animation-delay: 0.45s; animation-delay: 0.45s; }
 
-.root-container .content-container section#headcopy h1 .word-container:nth-of-type(3)::after { animation-delay: 0.5s; }
+.root-container .content-container section#headcopy h1 .word-container:nth-of-type(3)::after { -webkit-animation-delay: 0.5s; animation-delay: 0.5s; }
 
-.root-container .content-container section#headcopy h1 .word-container:nth-of-type(4)::after { animation-delay: 0.55s; }
+.root-container .content-container section#headcopy h1 .word-container:nth-of-type(4)::after { -webkit-animation-delay: 0.55s; animation-delay: 0.55s; }
 
-.root-container .content-container section#headcopy h1 .word-container:nth-of-type(5)::after { animation-delay: 0.6s; }
+.root-container .content-container section#headcopy h1 .word-container:nth-of-type(5)::after { -webkit-animation-delay: 0.6s; animation-delay: 0.6s; }
 
-.root-container .content-container section#headcopy h1 .word-container:nth-of-type(6)::after { animation-delay: 0.65s; }
+.root-container .content-container section#headcopy h1 .word-container:nth-of-type(6)::after { -webkit-animation-delay: 0.65s; animation-delay: 0.65s; }
 
-.root-container .content-container section#headcopy h1 .word-container:nth-of-type(7)::after { animation-delay: 0.7s; }
+.root-container .content-container section#headcopy h1 .word-container:nth-of-type(7)::after { -webkit-animation-delay: 0.7s; animation-delay: 0.7s; }
 
-.root-container .content-container section#headcopy h1 .word-container:nth-of-type(8)::after { animation-delay: 0.75s; }
+.root-container .content-container section#headcopy h1 .word-container:nth-of-type(8)::after { -webkit-animation-delay: 0.75s; animation-delay: 0.75s; }
 
-.root-container .content-container section#headcopy h1 .word-container:nth-of-type(9)::after { animation-delay: 0.8s; }
+.root-container .content-container section#headcopy h1 .word-container:nth-of-type(9)::after { -webkit-animation-delay: 0.8s; animation-delay: 0.8s; }
 
-.root-container .content-container section#headcopy h1 .word-container:nth-of-type(10)::after { animation-delay: 0.85s; }
+.root-container .content-container section#headcopy h1 .word-container:nth-of-type(10)::after { -webkit-animation-delay: 0.85s; animation-delay: 0.85s; }
 
 .root-container .content-container section#headcopy h1 .blue-word::after { color: #005BE4; }
 
@@ -132,15 +142,15 @@ footer a:hover, footer p:hover, .root-container .top-nav nav a:hover { opacity: 
 
 .root-container .content-container section#experiences .callbuslab-summary header p { line-height: 1; font-size: 0.875rem; margin-top: 0.4rem; }
 
-.root-container .content-container section#experiences .callbuslab-summary article { align-items: flex-start; }
+.root-container .content-container section#experiences .callbuslab-summary article { -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; }
 
-.root-container .content-container section#experiences .callbuslab-summary article .product-banner { margin-top: 1.5rem; display: flex; align-items: center; justify-content: space-between; border-radius: 0.5rem; background-color: #f5f5f5; padding: 0.75rem; text-decoration: none; border: 1px solid rgba(0, 0, 0, 0); -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; }
+.root-container .content-container section#experiences .callbuslab-summary article .product-banner { margin-top: 1.5rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; border-radius: 0.5rem; background-color: #f5f5f5; padding: 0.75rem; text-decoration: none; border: 1px solid rgba(0, 0, 0, 0); -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; }
 
-.root-container .content-container section#experiences .callbuslab-summary article .product-banner:hover { transform: scale(1.03); box-shadow: 0 0.5rem 1rem -0.5rem rgba(0, 0, 0, 0.25); border-color: rgba(0, 0, 0, 0.05); }
+.root-container .content-container section#experiences .callbuslab-summary article .product-banner:hover { -webkit-transform: scale(1.03); -ms-transform: scale(1.03); transform: scale(1.03); -webkit-box-shadow: 0 0.5rem 1rem -0.5rem rgba(0, 0, 0, 0.25); box-shadow: 0 0.5rem 1rem -0.5rem rgba(0, 0, 0, 0.25); border-color: rgba(0, 0, 0, 0.05); }
 
-.root-container .content-container section#experiences .callbuslab-summary article .product-banner .description { display: inherit; align-items: inherit; }
+.root-container .content-container section#experiences .callbuslab-summary article .product-banner .description { display: inherit; -webkit-box-align: inherit; -ms-flex-align: inherit; align-items: inherit; }
 
-.root-container .content-container section#experiences .callbuslab-summary article .product-banner .description .icon-app { width: 2rem; height: auto; margin-right: 0.5rem; box-shadow: 0 0.25rem 0.5rem -0.25rem #feda10; }
+.root-container .content-container section#experiences .callbuslab-summary article .product-banner .description .icon-app { width: 2rem; height: auto; margin-right: 0.5rem; -webkit-box-shadow: 0 0.25rem 0.5rem -0.25rem #feda10; box-shadow: 0 0.25rem 0.5rem -0.25rem #feda10; }
 
 .root-container .content-container section#experiences .callbuslab-summary article .product-banner .description h4 { font-size: 0.75rem; font-weight: 600; margin-bottom: 0.1rem; }
 
@@ -152,7 +162,7 @@ footer a:hover, footer p:hover, .root-container .top-nav nav a:hover { opacity: 
 
 .root-container .content-container section#major-jobs .job-card-container .job-card { border-radius: 0.5rem; text-decoration: none; position: relative; cursor: pointer; -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; }
 
-.root-container .content-container section#major-jobs .job-card-container .job-card:hover { transform: scale(1.03); box-shadow: 0 1rem 2rem -1rem #000000; }
+.root-container .content-container section#major-jobs .job-card-container .job-card:hover { -webkit-transform: scale(1.03); -ms-transform: scale(1.03); transform: scale(1.03); -webkit-box-shadow: 0 1rem 2rem -1rem #000000; box-shadow: 0 1rem 2rem -1rem #000000; }
 
 .root-container .content-container section#major-jobs .job-card-container .job-card:hover .icon-fullsize { opacity: 1; }
 
@@ -168,17 +178,17 @@ footer a:hover, footer p:hover, .root-container .top-nav nav a:hover { opacity: 
 
 .root-container .content-container section#major-jobs .job-card-container .job-card.proj-ds { background-color: #3a3b59; }
 
-.root-container .content-container section#major-jobs .job-card-container .job-card .icon-fullsize { -webkit-transition: opacity 0.3s ease; -o-transition: opacity 0.3s ease; transition: opacity 0.3s ease; width: 1.75rem; height: 1.75rem; border-radius: 1rem; display: flex; align-items: center; justify-content: center; background-color: rgba(255, 255, 255, 0.1); position: absolute; top: 0.75rem; right: 0.75rem; z-index: 1; line-height: 1; opacity: 0; }
+.root-container .content-container section#major-jobs .job-card-container .job-card .icon-fullsize { -webkit-transition: opacity 0.3s ease; -o-transition: opacity 0.3s ease; transition: opacity 0.3s ease; width: 1.75rem; height: 1.75rem; border-radius: 1rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; background-color: rgba(255, 255, 255, 0.1); position: absolute; top: 0.75rem; right: 0.75rem; z-index: 1; line-height: 1; opacity: 0; }
 
 .root-container .content-container section#major-jobs .job-card-container .job-card .icon-fullsize svg { width: 1rem; height: auto; fill: #ffffff; }
 
 .root-container .content-container section#major-jobs .job-card-container .job-card .card-thumbnail { width: 100%; overflow: hidden; height: 10rem; position: relative; border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; }
 
-.root-container .content-container section#major-jobs .job-card-container .job-card .card-thumbnail img { -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; position: absolute; max-width: fit-content; width: 100%; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+.root-container .content-container section#major-jobs .job-card-container .job-card .card-thumbnail img { -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; position: absolute; max-width: -webkit-fit-content; max-width: -moz-fit-content; max-width: fit-content; width: 100%; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
 
-.root-container .content-container section#major-jobs .job-card-container .job-card .card-bottom { display: flex; justify-content: space-between; align-items: center; color: #ffffff; padding: 1.25rem; }
+.root-container .content-container section#major-jobs .job-card-container .job-card .card-bottom { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; color: #ffffff; padding: 1.25rem; }
 
-.root-container .content-container section#major-jobs .job-card-container .job-card .card-bottom .card-description { -webkit-transition: opacity 0.3s ease; -o-transition: opacity 0.3s ease; transition: opacity 0.3s ease; width: fit-content; }
+.root-container .content-container section#major-jobs .job-card-container .job-card .card-bottom .card-description { -webkit-transition: opacity 0.3s ease; -o-transition: opacity 0.3s ease; transition: opacity 0.3s ease; width: -webkit-fit-content; width: -moz-fit-content; width: fit-content; }
 
 .root-container .content-container section#major-jobs .job-card-container .job-card .card-bottom .card-description h4 { font-weight: 500; font-size: 0.875rem; margin-bottom: 0.125rem; line-height: 1.2; }
 
@@ -212,9 +222,9 @@ footer a:hover, footer p:hover, .root-container .top-nav nav a:hover { opacity: 
 
 .root-container .content-container section .sub-job-list .sub-job-item.accordion-item header, .root-container .content-container section .sub-job-list .sub-job-item.accordion-item article { -webkit-transition: opacity 0.3s ease; -o-transition: opacity 0.3s ease; transition: opacity 0.3s ease; }
 
-.root-container .content-container section .sub-job-list .sub-job-item.accordion-item .summary { display: flex; align-items: center; justify-content: space-between; }
+.root-container .content-container section .sub-job-list .sub-job-item.accordion-item .summary { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
 
-.root-container .content-container section .sub-job-list .sub-job-item.accordion-item .summary p { flex-shrink: 1; margin: 0; }
+.root-container .content-container section .sub-job-list .sub-job-item.accordion-item .summary p { -ms-flex-negative: 1; flex-shrink: 1; margin: 0; }
 
 .root-container .content-container section .sub-job-list .sub-job-item.accordion-item .expand { display: none; margin: 2rem 0 1rem; }
 
@@ -226,21 +236,21 @@ footer a:hover, footer p:hover, .root-container .top-nav nav a:hover { opacity: 
 
 .root-container .content-container section .sub-job-list .sub-job-item.accordion-item .expand img { margin: 1.5rem 0; border-radius: 0.5rem; }
 
-.root-container .content-container section .sub-job-list .sub-job-item.accordion-item .expand .inexpand-banner { padding: 1rem; display: flex; align-items: center; justify-content: space-between; margin-top: 1rem; background-color: #f5f5f5; border-radius: 0.5rem; text-decoration: none; -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; }
+.root-container .content-container section .sub-job-list .sub-job-item.accordion-item .expand .inexpand-banner { padding: 1rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; margin-top: 1rem; background-color: #f5f5f5; border-radius: 0.5rem; text-decoration: none; -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; }
 
 .root-container .content-container section .sub-job-list .sub-job-item.accordion-item .expand .inexpand-banner .icon-arrow { width: 1rem; height: auto; }
 
 .root-container .content-container section .sub-job-list .sub-job-item.accordion-item .expand .inexpand-banner span { font-size: 0.875rem; color: #000000; }
 
-.root-container .content-container section .sub-job-list .sub-job-item.accordion-item .expand .inexpand-banner:hover { background-color: #c9c9cc; transform: scale(1.02); box-shadow: 0 0.5rem 1rem -0.5rem rgba(0, 0, 0, 0.25); }
+.root-container .content-container section .sub-job-list .sub-job-item.accordion-item .expand .inexpand-banner:hover { background-color: #c9c9cc; -webkit-transform: scale(1.02); -ms-transform: scale(1.02); transform: scale(1.02); -webkit-box-shadow: 0 0.5rem 1rem -0.5rem rgba(0, 0, 0, 0.25); box-shadow: 0 0.5rem 1rem -0.5rem rgba(0, 0, 0, 0.25); }
 
-.root-container .content-container section .sub-job-list .sub-job-item.accordion-item:hover { background-color: rgba(245, 245, 245, 0.25); transform: scale(0.99); }
+.root-container .content-container section .sub-job-list .sub-job-item.accordion-item:hover { background-color: rgba(245, 245, 245, 0.25); -webkit-transform: scale(0.99); -ms-transform: scale(0.99); transform: scale(0.99); }
 
 .root-container .content-container section .sub-job-list .sub-job-item.accordion-item:hover header, .root-container .content-container section .sub-job-list .sub-job-item.accordion-item:hover article { opacity: 0.8; }
 
 .root-container .content-container section .sub-job-list .sub-job-item.accordion-item:hover .summary .icon-expand { fill: #000000; }
 
-.root-container .content-container section .sub-job-list .sub-job-item.accordion-item.active .summary .icon-expand { transform: rotate(180deg); }
+.root-container .content-container section .sub-job-list .sub-job-item.accordion-item.active .summary .icon-expand { -webkit-transform: rotate(180deg); -ms-transform: rotate(180deg); transform: rotate(180deg); }
 
 .root-container .content-container section .sub-job-list .sub-job-item.accordion-item.active .expand { display: block; }
 
@@ -276,9 +286,9 @@ footer a:hover, footer p:hover, .root-container .top-nav nav a:hover { opacity: 
 
 @media screen and (max-width: 1400px) { .root-container { padding: 2.5rem 3rem 4rem; } }
 
-@media screen and (max-width: 760px) { .root-container { padding: 1rem 1.5rem; } .root-container .top-nav, .root-container .content-container { grid-column: 1 / 4 !important; display: block; } .root-container .top-nav { top: 0; left: 0; width: 100vw; background-color: rgba(255, 255, 255, 0.85); backdrop-filter: blur(1rem); padding: 1rem 1.5rem; } .root-container .top-nav nav a { font-size: 0.875rem; margin-right: 1rem; } .root-container .content-container section { padding: 2.25rem 0; } .root-container .content-container section#headcopy { margin-top: 5rem; } .root-container .content-container section#headcopy p { display: none; } .root-container .content-container section#headcopy h1 { font-size: 1.5rem; } .root-container .content-container section header.subtitle h2 { margin-bottom: 1.5rem; } .root-container .content-container section#experiences .callbuslab-summary header h3 { font-size: 1.5rem; } .root-container .content-container section#experiences .callbuslab-summary article { display: block; } .root-container .content-container section#experiences .callbuslab-summary article .product-banner { margin-top: 1.25rem; } .root-container .content-container section#experiences .callbuslab-summary article .product-banner .description .icon-app { width: 2.5rem; } .root-container .content-container section#experiences .callbuslab-summary article .product-banner .description h4 { font-size: 0.875rem; } .root-container .content-container section#experiences .callbuslab-summary article .product-banner .description p { font-size: 0.75rem; } .root-container .content-container section#major-jobs .job-card-container { display: block; } .root-container .content-container section#major-jobs .job-card-container .job-card { display: block; margin-bottom: 1.25rem; } .root-container .content-container section#major-jobs .job-card-container .job-card .card-thumbnail { height: 9rem; } .root-container .content-container section#major-jobs .job-card-container .job-card .card-thumbnail img { height: auto; width: 100%; } .root-container .content-container section#major-jobs .job-card-container .job-card .card-bottom { padding: 1rem; } .root-container .content-container section#major-jobs .job-card-container .job-card .card-bottom .card-description h4 { margin-bottom: 0.5rem; } .root-container .content-container section .sub-job-list .sub-job-item { display: block; padding: 1.25rem 0; } .root-container .content-container section .sub-job-list .sub-job-item header { margin-bottom: 0.5rem; display: flex; align-items: center; } .root-container .content-container section .sub-job-list .sub-job-item header span { font-size: 0.75rem; margin-left: 0.5rem; } }
+@media screen and (max-width: 760px) { .root-container { padding: 1rem 1.5rem; } .root-container .top-nav, .root-container .content-container { grid-column: 1 / 4 !important; display: block; } .root-container .top-nav { top: 0; left: 0; width: 100vw; background-color: rgba(255, 255, 255, 0.85); -webkit-backdrop-filter: blur(1rem); backdrop-filter: blur(1rem); padding: 1rem 1.5rem; } .root-container .top-nav nav a { font-size: 0.875rem; margin-right: 1rem; } .root-container .content-container section { padding: 2.25rem 0; } .root-container .content-container section#headcopy { margin-top: 5rem; } .root-container .content-container section#headcopy p { display: none; } .root-container .content-container section#headcopy h1 { font-size: 1.5rem; } .root-container .content-container section header.subtitle h2 { margin-bottom: 1.5rem; } .root-container .content-container section#experiences .callbuslab-summary header h3 { font-size: 1.5rem; } .root-container .content-container section#experiences .callbuslab-summary article { display: block; } .root-container .content-container section#experiences .callbuslab-summary article .product-banner { margin-top: 1.25rem; } .root-container .content-container section#experiences .callbuslab-summary article .product-banner .description .icon-app { width: 2.5rem; } .root-container .content-container section#experiences .callbuslab-summary article .product-banner .description h4 { font-size: 0.875rem; } .root-container .content-container section#experiences .callbuslab-summary article .product-banner .description p { font-size: 0.75rem; } .root-container .content-container section#major-jobs .job-card-container { display: block; } .root-container .content-container section#major-jobs .job-card-container .job-card { display: block; margin-bottom: 1.25rem; } .root-container .content-container section#major-jobs .job-card-container .job-card .card-thumbnail { height: 9rem; } .root-container .content-container section#major-jobs .job-card-container .job-card .card-thumbnail img { height: auto; width: 100%; } .root-container .content-container section#major-jobs .job-card-container .job-card .card-bottom { padding: 1rem; } .root-container .content-container section#major-jobs .job-card-container .job-card .card-bottom .card-description h4 { margin-bottom: 0.5rem; } .root-container .content-container section .sub-job-list .sub-job-item { display: block; padding: 1.25rem 0; } .root-container .content-container section .sub-job-list .sub-job-item header { margin-bottom: 0.5rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; } .root-container .content-container section .sub-job-list .sub-job-item header span { font-size: 0.75rem; margin-left: 0.5rem; } }
 
-footer { padding: 3.75rem; display: flex; align-items: center; justify-content: space-between; background-color: #f5f5f5; }
+footer { padding: 3.75rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; background-color: #f5f5f5; }
 
 footer a:last-child, footer p:last-child { margin-right: 0; }
 
@@ -288,6 +298,6 @@ footer p:hover { opacity: 1; }
 
 @media screen and (max-width: 1400px) { footer { padding: 3rem; } }
 
-@media screen and (max-width: 760px) { footer { padding: 1.5rem; flex-direction: column; align-items: flex-start; } footer p, footer a { font-size: 0.875rem; margin-right: 0.75rem; } footer p { margin-bottom: 1.5rem; color: #c9c9cc; } footer a { margin-bottom: 0.5rem; display: inline-block; } footer a:last-child { margin-bottom: 0; } }
+@media screen and (max-width: 760px) { footer { padding: 1.5rem; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; } footer p, footer a { font-size: 0.875rem; margin-right: 0.75rem; } footer p { margin-bottom: 1.5rem; color: #c9c9cc; } footer a { margin-bottom: 0.5rem; display: inline-block; } footer a:last-child { margin-bottom: 0; } }
 
 /*# sourceMappingURL=resume.css.map */
