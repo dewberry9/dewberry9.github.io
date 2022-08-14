@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @-webkit-keyframes fade-in { from { opacity: 0; }
   to { opacity: 1; } }
 
@@ -28,13 +29,13 @@ svg { display: inline-block; }
 
 ul, ol { list-style: none; }
 
-html { font-size: 0.9vw; scroll-behavior: smooth; }
+html { font-size: 1vw; scroll-behavior: smooth; }
 
-@media screen and (max-width: 1920px) { html { font-size: 1.1vw; } }
+@media screen and (max-width: 1920px) { html { font-size: 1.3vw; } }
 
-@media screen and (max-width: 1400px) { html { font-size: 1.3vw; } }
+@media screen and (max-width: 1400px) { html { font-size: 1.5vw; } }
 
-@media screen and (max-width: 1000px) { html { font-size: 1.5vw; } }
+@media screen and (max-width: 1000px) { html { font-size: 1.8vw; } }
 
 @media screen and (max-width: 760px) { html { font-size: 4.5vw; } }
 
@@ -42,9 +43,9 @@ body { font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Ro
 
 h1, h2, h3 { letter-spacing: -0.05rem; }
 
-.col-container { display: grid; gap: 1rem 2.5rem; }
+.col-container { display: grid; gap: 0 2.5rem; }
 
-@media screen and (max-width: 1920px) { .col-container { gap: 1rem 1.5rem; } }
+@media screen and (max-width: 1920px) { .col-container { gap: 0 1.5rem; } }
 
 @media screen and (max-width: 760px) { .col-container { gap: 1rem; } }
 
@@ -56,6 +57,8 @@ h1, h2, h3 { letter-spacing: -0.05rem; }
 
 .col-container.col-3 .col-1to3 { grid-column: 1 / 4; }
 
+@media screen and (max-width: 760px) { .col-container.col-3 { grid-template-columns: repeat(1, 1fr); } }
+
 .col-container.col-4 { grid-template-columns: repeat(4, 1fr); }
 
 .col-container.col-4 .col-1to2 { grid-column: 1 / 3; }
@@ -64,47 +67,69 @@ h1, h2, h3 { letter-spacing: -0.05rem; }
 
 .col-container.col-4 .col-1to4 { grid-column: 1 / 5; }
 
+.col-container.col-4 .col-2to4 { grid-column: 2 / 5; }
+
+.col-container.col-4 .col-3to4 { grid-column: 3 / 5; }
+
 @media screen and (max-width: 1400px) { .col-container.col-4 { grid-template-columns: repeat(3, 1fr); } .col-container.col-4 .col-1to4 { grid-column: 1 / 4; } }
+
+@media screen and (max-width: 760px) { .col-container.col-4 { grid-template-columns: repeat(1, 1fr); } }
 
 .col-container.zero-verticle-gap { row-gap: 0; }
 
-.root-container .content-container .contact-and-skills section#portfolio article, .root-container .content-container .contact-and-skills section#contact article p, .root-container .content-container section#experiences .callbuslab-summary p, .root-container .content-container section#introduce .description-me p, .root-container .content-container section#introduce .description-me span, .root-container .content-container section#headcopy p { font-size: 1rem; font-weight: 400; line-height: 1.8; margin: 1.75rem 0; letter-spacing: -0.01rem; color: #666669; }
+.root-container .content-container section .job-list .job-item.accordion-item .expand > p, .root-container .content-container section .job-list .job-item article > p, .root-container .content-container section .job-list .job-item header span, .root-container .content-container section#about .introduce .job-list .job-item .summary p, .root-container .content-container section#headcopy .contact p, .root-container .content-container .site-title, .strip-list li p { font-size: 1rem; font-weight: 500; line-height: 1.5; margin: 0.25rem 0; letter-spacing: -0.01rem; color: #222223; }
 
-.root-container .content-container .contact-and-skills section#portfolio article a, .root-container .content-container .contact-and-skills section#contact article p a, .root-container .content-container section#experiences .callbuslab-summary p a, .root-container .content-container section#introduce .description-me p a, .root-container .content-container section#introduce .description-me span a, .root-container .content-container section#headcopy p a { -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; }
+.root-container .content-container section .job-list .job-item.accordion-item .expand > p a, .root-container .content-container section .job-list .job-item article > p a, .root-container .content-container section .job-list .job-item header span a, .root-container .content-container section#about .introduce .job-list .job-item .summary p a, .root-container .content-container section#headcopy .contact p a, .root-container .content-container .site-title a, .strip-list li p a { -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; }
 
-.root-container .content-container .contact-and-skills section#portfolio article a:hover, .root-container .content-container .contact-and-skills section#contact article p a:hover, .root-container .content-container section#experiences .callbuslab-summary p a:hover, .root-container .content-container section#introduce .description-me p a:hover, .root-container .content-container section#introduce .description-me span a:hover, .root-container .content-container section#headcopy p a:hover { color: #005BE4; }
+.root-container .content-container section .job-list .job-item.accordion-item .expand > p a:hover, .root-container .content-container section .job-list .job-item article > p a:hover, .root-container .content-container section .job-list .job-item header span a:hover, .root-container .content-container section#about .introduce .job-list .job-item .summary p a:hover, .root-container .content-container section#headcopy .contact p a:hover, .root-container .content-container .site-title a:hover, .strip-list li p a:hover { color: #005BE4; }
 
-.root-container .content-container .contact-and-skills section#portfolio article:last-child, .root-container .content-container .contact-and-skills section#contact article p:last-child, .root-container .content-container section#experiences .callbuslab-summary p:last-child, .root-container .content-container section#introduce .description-me p:last-child, .root-container .content-container section#introduce .description-me span:last-child, .root-container .content-container section#headcopy p:last-child { margin-bottom: 0; }
+.root-container .content-container section .job-list .job-item.accordion-item .expand > p:last-child, .root-container .content-container section .job-list .job-item article > p:last-child, .root-container .content-container section .job-list .job-item header span:last-child, .root-container .content-container section#about .introduce .job-list .job-item .summary p:last-child, .root-container .content-container section#headcopy .contact p:last-child, .root-container .content-container .site-title:last-child, .strip-list li p:last-child { margin-bottom: 0; }
 
-@media screen and (max-width: 760px) { .root-container .content-container .contact-and-skills section#portfolio article, .root-container .content-container .contact-and-skills section#contact article p, .root-container .content-container section#experiences .callbuslab-summary p, .root-container .content-container section#introduce .description-me p, .root-container .content-container section#introduce .description-me span, .root-container .content-container section#headcopy p { margin: 1.5rem 0; } }
+.root-container .content-container section .job-list .job-item.accordion-item .expand > p strong, .root-container .content-container section .job-list .job-item article > p strong, .root-container .content-container section .job-list .job-item header span strong, .root-container .content-container section#about .introduce .job-list .job-item .summary p strong, .root-container .content-container section#headcopy .contact p strong, .root-container .content-container .site-title strong, .strip-list li p strong { font-weight: 700; }
 
-.root-container .content-container .contact-and-skills section#portfolio article strong, .root-container .content-container .contact-and-skills section#contact article p strong, .root-container .content-container section#experiences .callbuslab-summary p strong, .root-container .content-container section#introduce .description-me p strong, .root-container .content-container section#introduce .description-me span strong, .root-container .content-container section#headcopy p strong { font-weight: 700; }
+footer p, .root-container .top-nav nav a { font-size: 0.9rem; font-weight: 400; color: #afafb3; letter-spacing: -0.01rem; text-decoration: none; margin-right: 1.25rem; -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; }
 
-footer a, footer p, .root-container .top-nav nav a { font-size: 1rem; font-weight: 400; color: #666669; letter-spacing: -0.01rem; text-decoration: none; margin-right: 1.25rem; -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; }
+footer p:hover, .root-container .top-nav nav a:hover { opacity: 0.5; }
 
-footer a:hover, footer p:hover, .root-container .top-nav nav a:hover { opacity: 0.3; }
+.icon-expand { -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; width: 1.25rem; height: auto; fill: #afafb3; margin-left: 0.75rem; }
 
-.icon-expand { -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; width: 1.25rem; height: auto; fill: #c9c9cc; margin-left: 0.75rem; }
+.strip-list li { display: -webkit-box; display: -ms-flexbox; display: flex; margin-bottom: 0.25rem; }
 
-.root-container { opacity: 0; -webkit-animation: fade-in 0.75s ease forwards; animation: fade-in 0.75s ease forwards; padding: 3rem 3.75rem 6rem; }
+.strip-list li:last-child { margin: 0; }
 
-.root-container .top-nav { position: fixed; top: 3rem; left: 3.75rem; z-index: 10; }
+.strip-list li::before { content: '–'; margin-right: 0.75rem; -ms-flex-negative: 0; flex-shrink: 0; line-height: 1.5; }
 
-.root-container .top-nav nav a.active { font-weight: 500; color: #000000; }
+.strip-list li p { -ms-flex-negative: 1; flex-shrink: 1; margin: 0; word-break: keep-all; }
+
+.link-tag { margin-left: 0.5rem; display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; font-size: 0.75rem; padding: 0.1rem 0.3rem 0.1rem 0.5rem; color: #222223; font-weight: 400; border-radius: 1.25rem; border: 1px solid #222223; -webkit-box-sizing: border-box; box-sizing: border-box; text-decoration: none; -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; }
+
+.link-tag svg { width: 1rem; }
+
+.link-tag:hover { color: #ffffff; background-color: #000000; border-color: #000000; }
+
+.root-container { opacity: 0; -webkit-animation: fade-in 0.75s ease forwards; animation: fade-in 0.75s ease forwards; padding: 2rem 3rem 4rem; }
+
+.root-container .top-nav { position: fixed; top: 2rem; left: 3rem; z-index: 10; }
+
+.root-container .top-nav nav a.active { font-weight: 600; color: #000000; }
 
 .root-container .top-nav nav a.active:hover { opacity: 1; }
 
 @media screen and (max-width: 1400px) { .root-container .top-nav { top: 2.5rem; left: 3rem; } }
 
-.root-container .content-container section { padding: 3rem 0; }
+.root-container .content-container .site-title { font-size: 0.9rem; color: #afafb3; line-height: 1; margin: 0 0 25vh 0; }
 
-.root-container .content-container section header.subtitle h2 { font-size: 1rem; font-weight: 600; letter-spacing: -0.01rem; color: #000000; margin-bottom: 2.25rem; }
+.root-container .content-container section { padding: 4rem 0; }
 
-.root-container .content-container section#headcopy { padding-top: 0; grid-column: 1 / 5; }
+.root-container .content-container section header.subtitle h3, .root-container .content-container section .job-list h3, .root-container .content-container section .job-list .job-item h5 { color: #000000; margin: 0 0 0.5rem; font-size: 1.1rem; font-weight: 700; }
 
-.root-container .content-container section#headcopy p { line-height: 1; margin: 0 0 13rem 0; }
+.root-container .content-container section header.subtitle h2 { font-size: 2rem; font-weight: 700; letter-spacing: -0.01rem; color: #000000; margin-bottom: 2rem; border-top: 1px solid #000000; padding-top: 0.75rem; }
 
-.root-container .content-container section#headcopy h1 { font-size: 3rem; font-weight: 700; color: #000000; }
+.root-container .content-container section header.subtitle h3 { letter-spacing: -0.02rem; margin-bottom: 2rem; }
+
+.root-container .content-container section#headcopy { border: none; }
+
+.root-container .content-container section#headcopy h1 { font-size: 2.75rem; font-weight: 700; color: #000000; }
 
 .root-container .content-container section#headcopy h1 .word-container { position: relative; overflow: hidden; display: inline-block; color: rgba(0, 0, 0, 0); line-height: 1.1; }
 
@@ -132,165 +157,113 @@ footer a:hover, footer p:hover, .root-container .top-nav nav a:hover { opacity: 
 
 .root-container .content-container section#headcopy h1 .blue-word::after { color: #005BE4; }
 
-.root-container .content-container section#introduce .description-me img { border-radius: 0.5rem; }
+.root-container .content-container section#headcopy .contact { -ms-flex-item-align: end; align-self: end; }
 
-.root-container .content-container section#introduce .description-me .more-about-me { margin-bottom: 1.75rem; border-top: 1px solid #c9c9cc; border-bottom: 1px solid #c9c9cc; }
+.root-container .content-container section#headcopy .contact p { font-size: 0.9rem; }
 
-.root-container .content-container section#introduce .description-me .more-about-me p { font-size: 0.875rem; line-height: 1.5; font-weight: 400; margin: 0; }
+.root-container .content-container section#headcopy .contact p:last-child { margin-bottom: 0.5rem; }
 
-.root-container .content-container section#experiences .callbuslab-summary header h3 { font-weight: 600; line-height: 1; font-size: 1.75rem; }
+.root-container .content-container section#about .introduce, .root-container .content-container section#about .skills { margin-top: 3rem; }
 
-.root-container .content-container section#experiences .callbuslab-summary header p { line-height: 1; font-size: 0.875rem; margin-top: 0.4rem; }
+.root-container .content-container section#about .introduce .lg-copy { font-size: 1.375rem; font-weight: 600; line-height: 1.4; color: #000000; margin-bottom: 2rem; word-break: keep-all; }
 
-.root-container .content-container section#experiences .callbuslab-summary article { -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; }
+.root-container .content-container section#about .introduce .lg-copy:first-child { text-indent: 35%; }
 
-.root-container .content-container section#experiences .callbuslab-summary article .product-banner { margin-top: 1.5rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; border-radius: 0.5rem; background-color: #f5f5f5; padding: 0.75rem; text-decoration: none; border: 1px solid rgba(0, 0, 0, 0); -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; }
+.root-container .content-container section#about .introduce .lg-copy:last-of-type { margin-bottom: 3.5rem; }
 
-.root-container .content-container section#experiences .callbuslab-summary article .product-banner:hover { -webkit-transform: scale(1.03); -ms-transform: scale(1.03); transform: scale(1.03); -webkit-box-shadow: 0 0.5rem 1rem -0.5rem rgba(0, 0, 0, 0.25); box-shadow: 0 0.5rem 1rem -0.5rem rgba(0, 0, 0, 0.25); border-color: rgba(0, 0, 0, 0.05); }
+.root-container .content-container section#about .introduce .job-list hr { border: none; border-top: 1px solid #f2f2f3; }
 
-.root-container .content-container section#experiences .callbuslab-summary article .product-banner .description { display: inherit; -webkit-box-align: inherit; -ms-flex-align: inherit; align-items: inherit; }
+.root-container .content-container section#about .introduce .job-list .job-item { margin: 1.5rem 0; }
 
-.root-container .content-container section#experiences .callbuslab-summary article .product-banner .description .icon-app { width: 2rem; height: auto; margin-right: 0.5rem; -webkit-box-shadow: 0 0.25rem 0.5rem -0.25rem #feda10; box-shadow: 0 0.25rem 0.5rem -0.25rem #feda10; }
+.root-container .content-container section#about .skills .skill-tab { margin-bottom: 1.5rem; }
 
-.root-container .content-container section#experiences .callbuslab-summary article .product-banner .description h4 { font-size: 0.75rem; font-weight: 600; margin-bottom: 0.1rem; }
+.root-container .content-container section#about .skills .skill-tab button { background: none; border: none; font-size: 0.75rem; font-weight: 500; color: #222223; padding: 0.4rem 0.6rem; display: inline-block; border-radius: 0.5rem; cursor: pointer; -webkit-transition: background-color 0.3s ease; -o-transition: background-color 0.3s ease; transition: background-color 0.3s ease; }
 
-.root-container .content-container section#experiences .callbuslab-summary article .product-banner .description p { font-size: 0.6rem; margin-top: 0; line-height: 1; color: #666669; }
+.root-container .content-container section#about .skills .skill-tab button:hover { background-color: rgba(0, 91, 228, 0.05); }
 
-.root-container .content-container section#experiences .callbuslab-summary article .product-banner .icon-arrow { width: 1rem; height: auto; fill: #666669; }
+.root-container .content-container section#about .skills .skill-tab button.active { font-weight: 700; color: #005BE4; border-bottom: 3px solid #005BE4; border-radius: 0; }
 
-.root-container .content-container section#major-jobs .job-card-container { row-gap: 2.5rem; }
+.root-container .content-container section#about .skills .skill-tab button.active:hover { background: none; }
 
-.root-container .content-container section#major-jobs .job-card-container .job-card { border-radius: 0.5rem; text-decoration: none; position: relative; cursor: pointer; -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; }
+.root-container .content-container section#about .skills ul li { border: 1px solid #222223; color: #222223; font-size: 0.75rem; border-radius: 10rem; display: inline-block; padding: 0.25rem 0.5rem; margin: 0 0 0.4rem 0; }
 
-.root-container .content-container section#major-jobs .job-card-container .job-card:hover { -webkit-transform: scale(1.03); -ms-transform: scale(1.03); transform: scale(1.03); -webkit-box-shadow: 0 1rem 2rem -1rem #000000; box-shadow: 0 1rem 2rem -1rem #000000; }
+.root-container .content-container section#about .skills ul.by-keyword { display: none; }
 
-.root-container .content-container section#major-jobs .job-card-container .job-card:hover .icon-fullsize { opacity: 1; }
+.root-container .content-container section#about .education .job-item { margin-bottom: 0; }
 
-.root-container .content-container section#major-jobs .job-card-container .job-card:hover .card-thumbnail img { width: 110%; opacity: 0.7; }
+.root-container .content-container section#about .links article { margin-top: 3rem; }
 
-.root-container .content-container section#major-jobs .job-card-container .job-card:hover .card-bottom .card-description { opacity: 0.7; }
+.root-container .content-container section#about .links article a:first-child:hover svg.icon { fill: #ffffff; }
 
-.root-container .content-container section#major-jobs .job-card-container .job-card.proj-retention { background-color: #141e2d; }
+.root-container .content-container section .job-list h3 { border-top: 1px solid #f2f2f3; margin-top: 3rem; padding-top: 1rem; letter-spacing: -0.02rem; }
 
-.root-container .content-container section#major-jobs .job-card-container .job-card.proj-onboarding { background-color: #1b1e24; }
+.root-container .content-container section .job-list .job-item { margin: 3rem 0; padding: 0.5rem 0; }
 
-.root-container .content-container section#major-jobs .job-card-container .job-card.proj-chat { background-color: #192e26; }
+.root-container .content-container section .job-list .job-item:last-child { border-bottom: none; }
 
-.root-container .content-container section#major-jobs .job-card-container .job-card.proj-ds { background-color: #3a3b59; }
+.root-container .content-container section .job-list .job-item h5, .root-container .content-container section .job-list .job-item header span { line-height: 1; }
 
-.root-container .content-container section#major-jobs .job-card-container .job-card .icon-fullsize { -webkit-transition: opacity 0.3s ease; -o-transition: opacity 0.3s ease; transition: opacity 0.3s ease; width: 1.75rem; height: 1.75rem; border-radius: 1rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; background-color: rgba(255, 255, 255, 0.1); position: absolute; top: 0.75rem; right: 0.75rem; z-index: 1; line-height: 1; opacity: 0; }
+.root-container .content-container section .job-list .job-item h5 { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 
-.root-container .content-container section#major-jobs .job-card-container .job-card .icon-fullsize svg { width: 1rem; height: auto; fill: #ffffff; }
+.root-container .content-container section .job-list .job-item p a { -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; }
 
-.root-container .content-container section#major-jobs .job-card-container .job-card .card-thumbnail { width: 100%; overflow: hidden; height: 10rem; position: relative; border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem; }
+.root-container .content-container section .job-list .job-item p a:hover { color: #005BE4; }
 
-.root-container .content-container section#major-jobs .job-card-container .job-card .card-thumbnail img { -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; position: absolute; max-width: -webkit-fit-content; max-width: -moz-fit-content; max-width: fit-content; width: 100%; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
+.root-container .content-container section .job-list .job-item header span { font-size: 0.75rem; color: #afafb3; }
 
-.root-container .content-container section#major-jobs .job-card-container .job-card .card-bottom { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; color: #ffffff; padding: 1.25rem; }
+.root-container .content-container section .job-list .job-item.accordion-item { cursor: pointer; background-color: #ffffff; outline: 1.5rem solid rgba(251, 251, 252, 0); border-radius: 1.25rem; -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; }
 
-.root-container .content-container section#major-jobs .job-card-container .job-card .card-bottom .card-description { -webkit-transition: opacity 0.3s ease; -o-transition: opacity 0.3s ease; transition: opacity 0.3s ease; width: -webkit-fit-content; width: -moz-fit-content; width: fit-content; }
+.root-container .content-container section .job-list .job-item.accordion-item header, .root-container .content-container section .job-list .job-item.accordion-item article { -webkit-transition: opacity 0.3s ease; -o-transition: opacity 0.3s ease; transition: opacity 0.3s ease; }
 
-.root-container .content-container section#major-jobs .job-card-container .job-card .card-bottom .card-description h4 { font-weight: 500; font-size: 0.875rem; margin-bottom: 0.125rem; line-height: 1.2; }
+.root-container .content-container section .job-list .job-item.accordion-item .summary { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
 
-.root-container .content-container section#major-jobs .job-card-container .job-card .card-bottom .card-description p { font-size: 0.75rem; line-height: 1.3; opacity: 0.6; }
+.root-container .content-container section .job-list .job-item.accordion-item .summary .summary-description, .root-container .content-container section .job-list .job-item.accordion-item .summary p { -ms-flex-negative: 1; flex-shrink: 1; }
 
-.root-container .content-container section#major-jobs .job-card-container .job-card .card-bottom .card-description .date { font-size: 0.6rem; line-height: 1; margin-bottom: 0.875rem; opacity: 0.5; }
+.root-container .content-container section .job-list .job-item.accordion-item .expand { display: none; margin: 2.5rem 0 1rem; }
 
-@media screen and (max-width: 1920px) { .root-container .content-container section#major-jobs .job-card-container { row-gap: 1.5rem; } }
+.root-container .content-container section .job-list .job-item.accordion-item .expand > p { margin: 2.5rem 0; }
 
-.root-container .content-container section .sub-job-list { border-top: 2px solid #666669; border-bottom: 2px solid #666669; }
+.root-container .content-container section .job-list .job-item.accordion-item .expand .number-txt span { display: block; }
 
-.root-container .content-container section .sub-job-list .sub-job-item { padding: 1.5rem 0; border-bottom: 1px solid #c9c9cc; }
+.root-container .content-container section .job-list .job-item.accordion-item .expand .number-txt span:first-child { color: #000000; font-size: 1.25rem; font-weight: 500; margin-bottom: 0.25rem; letter-spacing: -0.05rem; }
 
-.root-container .content-container section .sub-job-list .sub-job-item:last-child { border-bottom: none; }
+.root-container .content-container section .job-list .job-item.accordion-item .expand .number-txt span:last-child { font-size: 0.75rem; color: #222223; }
 
-.root-container .content-container section .sub-job-list .sub-job-item h5, .root-container .content-container section .sub-job-list .sub-job-item p, .root-container .content-container section .sub-job-list .sub-job-item header span { font-size: 0.875rem; letter-spacing: -0.01rem; color: #666669; line-height: 1.5; font-weight: 400; }
+.root-container .content-container section .job-list .job-item.accordion-item .expand img { margin: 1.5rem 0; width: 100%; border-radius: 1.25rem; }
 
-.root-container .content-container section .sub-job-list .sub-job-item h5 { color: #000000; font-weight: 500; }
+.root-container .content-container section .job-list .job-item.accordion-item .expand .inexpand-banner { padding: 1rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; margin-top: 1rem; background-color: #f2f2f3; border-radius: 1.25rem; text-decoration: none; -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; }
 
-.root-container .content-container section .sub-job-list .sub-job-item p { margin-bottom: 1rem; }
+.root-container .content-container section .job-list .job-item.accordion-item .expand .inexpand-banner .icon-arrow { width: 1rem; height: auto; }
 
-.root-container .content-container section .sub-job-list .sub-job-item p:last-child { margin-bottom: 0; }
+.root-container .content-container section .job-list .job-item.accordion-item .expand .inexpand-banner span { font-size: 0.875rem; color: #000000; }
 
-.root-container .content-container section .sub-job-list .sub-job-item p a { -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; }
+.root-container .content-container section .job-list .job-item.accordion-item .expand .inexpand-banner:hover { background-color: #afafb3; -webkit-transform: scale(1.02); -ms-transform: scale(1.02); transform: scale(1.02); -webkit-box-shadow: 0 0.5rem 1rem -0.5rem rgba(0, 0, 0, 0.25); box-shadow: 0 0.5rem 1rem -0.5rem rgba(0, 0, 0, 0.25); }
 
-.root-container .content-container section .sub-job-list .sub-job-item p a:hover { color: #005BE4; }
+.root-container .content-container section .job-list .job-item.accordion-item:hover { background-color: #fbfbfc; outline-color: #fbfbfc; -webkit-transform: scale(0.98); -ms-transform: scale(0.98); transform: scale(0.98); }
 
-.root-container .content-container section .sub-job-list .sub-job-item header span { margin-top: 0.1rem; font-size: 0.6rem; color: #666669; }
+.root-container .content-container section .job-list .job-item.accordion-item:hover header, .root-container .content-container section .job-list .job-item.accordion-item:hover article { opacity: 0.6; }
 
-.root-container .content-container section .sub-job-list .sub-job-item.accordion-item { cursor: pointer; background-color: #ffffff; -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; }
+.root-container .content-container section .job-list .job-item.accordion-item:hover .summary .icon-expand { fill: #000000; }
 
-.root-container .content-container section .sub-job-list .sub-job-item.accordion-item header, .root-container .content-container section .sub-job-list .sub-job-item.accordion-item article { -webkit-transition: opacity 0.3s ease; -o-transition: opacity 0.3s ease; transition: opacity 0.3s ease; }
+.root-container .content-container section .job-list .job-item.accordion-item.active .summary .icon-expand { -webkit-transform: rotate(180deg); -ms-transform: rotate(180deg); transform: rotate(180deg); }
 
-.root-container .content-container section .sub-job-list .sub-job-item.accordion-item .summary { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+.root-container .content-container section .job-list .job-item.accordion-item.active .expand { display: block; }
 
-.root-container .content-container section .sub-job-list .sub-job-item.accordion-item .summary p { -ms-flex-negative: 1; flex-shrink: 1; margin: 0; }
+.root-container .content-container section a.link-block { padding: 1rem; border-radius: 1.25rem; text-decoration: none; margin-bottom: 1.5rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; border: 1px solid #222223; }
 
-.root-container .content-container section .sub-job-list .sub-job-item.accordion-item .expand { display: none; margin: 2rem 0 1rem; }
+.root-container .content-container section a.link-block .icon { width: 1.5rem; margin-right: 0.5rem; height: auto; border-radius: 8px; }
 
-.root-container .content-container section .sub-job-list .sub-job-item.accordion-item .expand .number-txt span { display: block; }
+.root-container .content-container section a.link-block img.icon { border: 1px solid #f2f2f3; }
 
-.root-container .content-container section .sub-job-list .sub-job-item.accordion-item .expand .number-txt span:first-child { color: #000000; font-size: 1.25rem; font-weight: 500; margin-bottom: 0.25rem; letter-spacing: -0.05rem; }
-
-.root-container .content-container section .sub-job-list .sub-job-item.accordion-item .expand .number-txt span:last-child { font-size: 0.75rem; color: #666669; }
-
-.root-container .content-container section .sub-job-list .sub-job-item.accordion-item .expand img { margin: 1.5rem 0; border-radius: 0.5rem; }
-
-.root-container .content-container section .sub-job-list .sub-job-item.accordion-item .expand .inexpand-banner { padding: 1rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; margin-top: 1rem; background-color: #f5f5f5; border-radius: 0.5rem; text-decoration: none; -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; }
-
-.root-container .content-container section .sub-job-list .sub-job-item.accordion-item .expand .inexpand-banner .icon-arrow { width: 1rem; height: auto; }
-
-.root-container .content-container section .sub-job-list .sub-job-item.accordion-item .expand .inexpand-banner span { font-size: 0.875rem; color: #000000; }
-
-.root-container .content-container section .sub-job-list .sub-job-item.accordion-item .expand .inexpand-banner:hover { background-color: #c9c9cc; -webkit-transform: scale(1.02); -ms-transform: scale(1.02); transform: scale(1.02); -webkit-box-shadow: 0 0.5rem 1rem -0.5rem rgba(0, 0, 0, 0.25); box-shadow: 0 0.5rem 1rem -0.5rem rgba(0, 0, 0, 0.25); }
-
-.root-container .content-container section .sub-job-list .sub-job-item.accordion-item:hover { background-color: rgba(245, 245, 245, 0.25); -webkit-transform: scale(0.99); -ms-transform: scale(0.99); transform: scale(0.99); }
-
-.root-container .content-container section .sub-job-list .sub-job-item.accordion-item:hover header, .root-container .content-container section .sub-job-list .sub-job-item.accordion-item:hover article { opacity: 0.8; }
-
-.root-container .content-container section .sub-job-list .sub-job-item.accordion-item:hover .summary .icon-expand { fill: #000000; }
-
-.root-container .content-container section .sub-job-list .sub-job-item.accordion-item.active .summary .icon-expand { -webkit-transform: rotate(180deg); -ms-transform: rotate(180deg); transform: rotate(180deg); }
-
-.root-container .content-container section .sub-job-list .sub-job-item.accordion-item.active .expand { display: block; }
-
-.root-container .content-container .contact-and-skills section#contact { padding-bottom: 2rem; }
-
-.root-container .content-container .contact-and-skills section#contact article p { margin: 0; }
-
-.root-container .content-container .contact-and-skills section#skills { padding: 2rem 0; }
-
-.root-container .content-container .contact-and-skills section#skills .skill-tab { margin-bottom: 1.5rem; }
-
-.root-container .content-container .contact-and-skills section#skills .skill-tab button { background: none; border: none; font-size: 0.75rem; font-weight: 500; color: #666669; padding: 0.4rem 0.6rem; display: inline-block; border-radius: 0.5rem; cursor: pointer; -webkit-transition: background-color 0.3s ease; -o-transition: background-color 0.3s ease; transition: background-color 0.3s ease; }
-
-.root-container .content-container .contact-and-skills section#skills .skill-tab button:hover { background-color: rgba(0, 91, 228, 0.05); }
-
-.root-container .content-container .contact-and-skills section#skills .skill-tab button.active { font-weight: 700; color: #005BE4; border-bottom: 3px solid #005BE4; border-radius: 0; }
-
-.root-container .content-container .contact-and-skills section#skills .skill-tab button.active:hover { background: none; }
-
-.root-container .content-container .contact-and-skills section#skills ul li { border: 1px solid #666669; color: #666669; font-size: 0.75rem; border-radius: 10rem; display: inline-block; padding: 0.25rem 0.5rem; margin: 0 0 0.4rem 0; }
-
-.root-container .content-container .contact-and-skills section#skills ul.by-keyword { display: none; }
-
-.root-container .content-container .contact-and-skills section#portfolio { padding-top: 2rem; }
-
-.root-container .content-container .contact-and-skills section#portfolio article { margin: 0; font-size: 0.875rem; }
-
-.root-container .content-container .contact-and-skills section#portfolio article a { display: block; }
-
-.root-container .content-container .contact-and-skills section#portfolio article a:first-child { margin-bottom: 1rem; }
+.root-container .content-container section a.link-block:hover { background-color: #000000; color: #ffffff; -webkit-transform: scale(1.05); -ms-transform: scale(1.05); transform: scale(1.05); -webkit-box-shadow: 0 0.5rem 1rem -0.5rem rgba(0, 0, 0, 0.25); box-shadow: 0 0.5rem 1rem -0.5rem rgba(0, 0, 0, 0.25); }
 
 @media screen and (max-width: 1920px) { .root-container .content-container section#headcopy h1 { font-size: 2.75rem; } }
 
-@media screen and (max-width: 1400px) { .root-container { padding: 2.5rem 3rem 4rem; } }
+@media screen and (max-width: 1400px) { .root-container { padding: 2.5rem 3rem 4rem; } .root-container .content-container section#about .introduce .lg-copy:first-child { text-indent: 0; } }
 
-@media screen and (max-width: 760px) { .root-container { padding: 1rem 1.5rem; } .root-container .top-nav, .root-container .content-container { grid-column: 1 / 4 !important; display: block; } .root-container .top-nav { top: 0; left: 0; width: 100vw; background-color: rgba(255, 255, 255, 0.85); -webkit-backdrop-filter: blur(1rem); backdrop-filter: blur(1rem); padding: 1rem 1.5rem; } .root-container .top-nav nav a { font-size: 0.875rem; margin-right: 1rem; } .root-container .content-container section { padding: 2.25rem 0; } .root-container .content-container section#headcopy { margin-top: 5rem; } .root-container .content-container section#headcopy p { display: none; } .root-container .content-container section#headcopy h1 { font-size: 1.5rem; } .root-container .content-container section header.subtitle h2 { margin-bottom: 1.5rem; } .root-container .content-container section#experiences .callbuslab-summary header h3 { font-size: 1.5rem; } .root-container .content-container section#experiences .callbuslab-summary article { display: block; } .root-container .content-container section#experiences .callbuslab-summary article .product-banner { margin-top: 1.25rem; } .root-container .content-container section#experiences .callbuslab-summary article .product-banner .description .icon-app { width: 2.5rem; } .root-container .content-container section#experiences .callbuslab-summary article .product-banner .description h4 { font-size: 0.875rem; } .root-container .content-container section#experiences .callbuslab-summary article .product-banner .description p { font-size: 0.75rem; } .root-container .content-container section#major-jobs .job-card-container { display: block; } .root-container .content-container section#major-jobs .job-card-container .job-card { display: block; margin-bottom: 1.25rem; } .root-container .content-container section#major-jobs .job-card-container .job-card .card-thumbnail { height: 9rem; } .root-container .content-container section#major-jobs .job-card-container .job-card .card-thumbnail img { height: auto; width: 100%; } .root-container .content-container section#major-jobs .job-card-container .job-card .card-bottom { padding: 1rem; } .root-container .content-container section#major-jobs .job-card-container .job-card .card-bottom .card-description h4 { margin-bottom: 0.5rem; } .root-container .content-container section .sub-job-list .sub-job-item { display: block; padding: 1.25rem 0; } .root-container .content-container section .sub-job-list .sub-job-item header { margin-bottom: 0.5rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; } .root-container .content-container section .sub-job-list .sub-job-item header span { font-size: 0.75rem; margin-left: 0.5rem; } }
+@media screen and (max-width: 760px) { .root-container { padding: 1rem 1.5rem; } .root-container .top-nav, .root-container .content-container { grid-column: 1 / 4 !important; display: block; } .root-container .top-nav { top: 0; left: 0; width: 100vw; background-color: rgba(255, 255, 255, 0.85); -webkit-backdrop-filter: blur(1rem); backdrop-filter: blur(1rem); padding: 1rem 1.5rem; } .root-container .top-nav nav a { font-size: 0.875rem; margin-right: 1rem; } .root-container .content-container .site-title { display: none; } .root-container .content-container section { padding: 2.25rem 0; } .root-container .content-container section#headcopy { margin-top: 5rem; } .root-container .content-container section#headcopy h1 { font-size: 1.5rem; } .root-container .content-container section header.subtitle h2 { margin-bottom: 1.5rem; font-size: 1.6rem; } .root-container .content-container section header.subtitle h3 { border-top: 1px solid #f2f2f3; margin-top: 0.5rem; margin-bottom: 0.5rem; padding-top: 1rem; } .root-container .content-container section .job-list h3 { margin-top: 0.5rem; } .root-container .content-container section .job-list .job-item { display: block; padding: 1.25rem 0; margin: 0.5rem 0; } .root-container .content-container section .job-list .job-item header { margin-bottom: 1.25rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; } .root-container .content-container section .job-list .job-item header h5 { margin-bottom: 0; margin-right: 0.5rem; } .root-container .content-container section .job-list .job-item header span { font-size: 0.75rem; } .root-container .content-container section a.link-block { margin-bottom: 0; } .root-container .content-container section#about > article { display: block; } .root-container .content-container section#about > article .introduce .lg-copy:last-of-type { margin-bottom: 1.5rem; } .root-container .content-container section#about > article .introduce .job-list .job-item { margin: 0; } .root-container .content-container section#about > article .links article { margin-top: 1.5rem; } }
 
-footer { padding: 3.75rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; background-color: #f5f5f5; }
-
-footer a:last-child, footer p:last-child { margin-right: 0; }
+footer { padding: 3.75rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; background-color: #fbfbfc; }
 
 footer p { display: inline-block; }
 
@@ -298,6 +271,6 @@ footer p:hover { opacity: 1; }
 
 @media screen and (max-width: 1400px) { footer { padding: 3rem; } }
 
-@media screen and (max-width: 760px) { footer { padding: 1.5rem; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; } footer p, footer a { font-size: 0.875rem; margin-right: 0.75rem; } footer p { margin-bottom: 1.5rem; color: #c9c9cc; } footer a { margin-bottom: 0.5rem; display: inline-block; } footer a:last-child { margin-bottom: 0; } }
+@media screen and (max-width: 760px) { footer { padding: 1.5rem; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; } footer p, footer a { font-size: 0.875rem; } footer p { margin-bottom: 1.5rem; color: #afafb3; } }
 
 /*# sourceMappingURL=resume.css.map */
