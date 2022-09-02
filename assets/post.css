@@ -39,7 +39,7 @@ a:hover { color: #c3c3c7; }
 
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
 
-h1, h2, h3 { font-weight: 800; color: #272629; font-family: "RIDIBatang"; }
+h1, h2, h3 { font-weight: 800; color: #272629; font-family: "Noto Serif KR"; }
 
 h1 { line-height: 1; font-size: 2rem; }
 
@@ -89,7 +89,7 @@ section.wide { padding-left: 3%; padding-right: 3%; }
 
 .top-nav nav { width: 100%; height: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-sizing: border-box; box-sizing: border-box; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; }
 
-.top-nav nav .logo { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; font: normal 1.25rem/1 "RIDIBatang"; color: #272629; }
+.top-nav nav .logo { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; font: normal 1.25rem/1 "Noto Serif KR"; color: #272629; }
 
 .top-nav nav .logo svg { width: 1.5rem; margin: 0 4px; fill: #363059; display: none; -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; }
 
@@ -125,7 +125,7 @@ footer section { -webkit-box-pack: justify; -ms-flex-pack: justify; justify-cont
 
 footer section .link-group { font-size: 1.1rem; }
 
-footer section .link-group #home-page { font-family: "RIDIBatang"; color: #38373d; }
+footer section .link-group #home-page { font-family: "Noto Serif KR"; color: #38373d; }
 
 footer section .link-group .group-title { font-weight: 500; margin-bottom: 1rem; }
 
@@ -149,7 +149,7 @@ footer section .link-group a:hover { text-decoration: underline; }
 
 .category-list-container .category-link:hover h2 .txt-arrow { margin-left: 0.5rem; color: #86868a; }
 
-.category-list-container .category-description { margin-left: 1rem; list-style: none; font-size: 1.1rem; color: #86868a; line-height: 1; font-family: "RIDIBatang"; }
+.category-list-container .category-description { margin-left: 1rem; list-style: none; font-size: 1.1rem; color: #86868a; line-height: 1; font-family: "Noto Serif KR"; letter-spacing: -0.01rem; }
 
 .category-list-container .category-description li { margin: 1rem 0; }
 
@@ -159,7 +159,7 @@ footer section .link-group a:hover { text-decoration: underline; }
 
 .post-list.three-row { grid-template-columns: repeat(3, 1fr); }
 
-.post-list .post-list-item .post-description { font-size: 1.1rem; color: #86868a; display: -webkit-box; display: -ms-flexbox; display: flex; font-family: "RIDIBatang"; position: relative; word-break: keep-all; }
+.post-list .post-list-item .post-description { font-size: 1.1rem; color: #86868a; display: -webkit-box; display: -ms-flexbox; display: flex; font-family: "Noto Serif KR"; position: relative; word-break: keep-all; }
 
 .post-list .post-list-item .post-description .post-intro h3 { line-height: 1.4; letter-spacing: -0.05rem; margin-bottom: 1rem; font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif; font-size: 1.5rem; -webkit-transition: color 0.3s ease; -o-transition: color 0.3s ease; transition: color 0.3s ease; }
 
@@ -217,7 +217,7 @@ footer section .link-group a:hover { text-decoration: underline; }
 
 .post-content-container .space-right { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 
-.post-content-container .space-right .post-content { max-width: 760px; width: 100%; margin: 12rem 0 5rem; font-family: "RIDIBatang"; }
+.post-content-container .space-right .post-content { max-width: 760px; width: 100%; margin: 12rem 0 5rem; font-family: "Noto Serif KR"; letter-spacing: -0.01rem; }
 
 .post-content-container .space-right .post-content * { opacity: 0; -webkit-animation: 0.4s ease 0.2s forwards fade-in; animation: 0.4s ease 0.2s forwards fade-in; }
 

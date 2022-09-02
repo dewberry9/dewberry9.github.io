@@ -91,16 +91,13 @@
       
     </script>
     <!-- Links -->
-    <link rel="preload" as="style" href='/assets/post.css'>
-    <link rel="stylesheet" href='/assets/post.css'>
+    <link rel="stylesheet preload prefetch" as="style" type="text/css" href='/assets/post.css'>
     <link rel="canonical" href="https://dewberry9.github.io/glenburgie-12">
     <link rel="alternate" href="https://dewberry9.github.io/feed.xml" type="application/atom+xml" title="Atom 0.3">
 
     <!-- Fonts -->
-    <link rel="preload" as="style" href='https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.4/dist/web/static/pretendard-dynamic-subset.css' />
-    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.4/dist/web/static/pretendard-dynamic-subset.css" />
-    <link rel="preload" as="style" href='/assets/fonts/ridibatang.css'>
-    <link href='/assets/fonts/ridibatang.css' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet preload prefetch" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.4/dist/web/static/pretendard-dynamic-subset.css" />
+    <link rel="stylesheet preload prefetch" type='text/css' as="style" crossorigin href='/assets/fonts/stylesheet.css'>
 
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
@@ -125,11 +122,11 @@
                     <a id="btn-article" href="/article" title="프로덕트 디자인 더보기" class="op75">디자인</a>
                 </li>
                 <li>
-                    <a id="btn-daily" href="/review" title="입맛리뷰 더보기" class="op75">입맛리뷰</a>
+                    <a id="btn-daily" href="/review" title="입맛리뷰 더보기" class="op75">리뷰</a>
                 </li>
-                <li>
+                <!-- <li>
                     <a id="btn-story" href="/story" title="소설 더보기" class="op75">소설</a>
-                </li>
+                </li> -->
                 <li>
                     <a href="https://shouk.today?utm_source=mag_epmat" target="_blank" class="op75"><span class="mobile-disappear">인사이트 커뮤니티</span> 슉</a>
                 </li>
@@ -501,7 +498,7 @@ document.getElementById('btn-daily').classList.add('nav-item-act');</script>
             <p class="group-title">Category</p>
             <a href="/article" title="Articles">디자인</a>
             <a href="/review" title="Reviews">입맛리뷰</a>
-            <a href="/story" title="Stories">소설</a>
+            <!-- <a href="/story" title="Stories">소설</a> -->
         </div>
         <div class="link-group">
             <p class="group-title">Social</p>
