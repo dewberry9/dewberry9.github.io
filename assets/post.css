@@ -226,21 +226,25 @@ footer section .link-group a:hover { text-decoration: underline; }
 
 .post-content-container .space-right .post-content ul li:last-child, .post-content-container .space-right .post-content ol li:last-child { margin-bottom: 0; }
 
+.post-content-container .space-right .post-content a { border-bottom: 2px solid #4a37ad; color: #272629; }
+
+.post-content-container .space-right .post-content a:hover { color: #4a37ad; }
+
 .post-content-container .space-right .post-content > p.right-infor { text-align: right; }
 
 .post-content-container .space-right .post-content > p.infor, .post-content-container .space-right .post-content > p.right-infor { font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif; color: #86868a; font-size: 1rem; line-height: 2; }
 
 .post-content-container .space-right .post-content > p.infor strong, .post-content-container .space-right .post-content > p.infor em, .post-content-container .space-right .post-content > p.right-infor strong, .post-content-container .space-right .post-content > p.right-infor em { font-weight: 600; }
 
+.post-content-container .space-right .post-content > p.infor a, .post-content-container .space-right .post-content > p.right-infor a { color: #86868a; border-bottom: 1px solid #86868a; }
+
+.post-content-container .space-right .post-content > p.infor a:hover, .post-content-container .space-right .post-content > p.right-infor a:hover { color: #c3c3c7; border-color: #c3c3c7; }
+
 .post-content-container .space-right .post-content > p.infor:first-of-type { padding-bottom: 1.5rem; border-bottom: 1px solid #e3e3e6; }
 
 .post-content-container .space-right .post-content > p.refer { margin-top: 4rem; }
 
 .post-content-container .space-right .post-content > p.full-size, .post-content-container .space-right .post-content > p.normal-size { line-height: 1; }
-
-.post-content-container .space-right .post-content a { border-bottom: 2px solid #4a37ad; color: #272629; }
-
-.post-content-container .space-right .post-content a:hover { color: #4a37ad; }
 
 .post-content-container .space-right .post-content h2 { margin: 5rem 0 1.5rem; font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif; word-break: keep-all; font-size: 1.5rem; }
 

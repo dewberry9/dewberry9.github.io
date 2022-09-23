@@ -1,0 +1,101 @@
+<mjml>
+    <mj-head>
+        <mj-preview>비싸진 Product/Market Fit 검증, 대안은 Language/Market Fit입니다. LMF 제품 사례, 장점, 프로세스에 대해 이야기합니다. </mj-preview>
+
+        <mj-font name="Noto Serif KR" href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;700&display=swap" />
+        <mj-font name="Pretendard" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.4/dist/web/static/pretendard-dynamic-subset.css" />
+        <mj-attributes>
+            <mj-text padding="0" color="#333333" font-family="Noto Serif KR, -apple-system, BlinkMacSystemFont, system-ui, Roboto, Helvetica Neue, Segoe UI, Apple SD Gothic Neo, Malgun Gothic, serif" />
+            <mj-class name="sans" font-family="Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, Helvetica Neue, Segoe UI, Apple SD Gothic Neo, Malgun Gothic, serif" />
+            <mj-class name="dark-background" background-color="#1f193b" />
+            <mj-class name="white-background" background-color="#ffffff" />
+            <mj-class name="title-font" font-weight="bold" color="#1f193b" />
+            <mj-section padding="30px 25px" />
+            <mj-class name="font-size-lg" font-size="28px" />
+            <mj-class name="font-size-md" font-size="22px" />
+            <mj-class name="font-size-smmd" font-size="18px" />
+            <mj-class name="text-content" line-height="1.8" padding-bottom="25px" font-size="16px" />
+            <mj-class name="text-footer" line-height="1" font-size="14px" color="#767378" />
+            <mj-image border-radius="4px" padding="0 0 25px" />
+            <mj-class name="btn-primary" background-color="#201a3c" font-size="16px" line-height="1" />
+        </mj-attributes>
+    </mj-head>    
+    <mj-body>
+    <!-- Header -->
+    <mj-section mj-class="white-background">
+        <mj-group vertical-align="middle">
+            <mj-column>
+                <mj-raw>
+                <a href="https://dewberry9.github.io?utm_source=newsletter&utm_medium=content" target="_blank" rel="noopener noreferrer" style="display: block;line-height:1;">
+                    <img alt="Logotype" width="140px" src="https://dewberry9.github.io/assets/email/logotype_animated_white.gif" />
+                </a>
+                </mj-raw>
+            </mj-column>
+            <mj-column>
+                <mj-text align="right">
+                    <a href="" target="_blank" rel="noopener noreferrer" style="line-height:1;color:#767378;font-size:12px;text-align:right;">웹에서 보기</a>
+                </mj-text>
+            </mj-column>
+        </mj-group>
+    </mj-section>
+    <mj-section padding="0">
+        <mj-column width="100%">
+            <mj-image padding="0" alt="Product/Market Fit의 위기" src="./test.jpg" />        
+        </mj-column>
+    </mj-section>
+    <mj-section mj-class="white-background">
+        <mj-column>
+            <mj-text mj-class="title-font sans" padding-bottom="15px">
+                <h1 style="word-break: keep-all; margin: 0; line-height:1.25; font-size: 28px">
+                    9월 
+                </h1>
+            </mj-text>
+            <mj-text mj-class="sans" font-weight="light" color="#535063" font-size="14px"><p style="margin: 0;">
+                <a style="text-decoration: none; color: #535063;" href="https://dewberry9.github.io/article/?utm_source=newsletter&utm_medium=content" target="_blank" rel="noopener noreferrer">
+                    프로덕트 디자인
+                </a>
+                | UX 디자인
+            </p></mj-text>
+        </mj-column>
+    </mj-section>
+
+    <!-- Content -->
+    <mj-section mj-class="white-background">
+        <mj-column width="100%">
+            <mj-text mj-class="sans font-size-md title-font" line-height="150%" padding-bottom="10px">가나다라</mj-text>
+            <mj-text mj-class="sans font-size-smmd title-font" line-height="150%">요약</mj-text>
+            <mj-text mj-class="text-content">그러나 상황이 바뀌었습니다. 성장 비용이 증가함에 따라 단기적인 확장보다 장기적인 생존이 더 중요한 가치로 여겨지면서, 적절한 고객 유입 채널의 확보와 수익성 등 아이디어 검증에 요구되는 영역이 넓어졌습니다. 아이디어 검증은 무겁고 복잡해졌습니다. 해결책은? <b>Language/Market Fit</b>입니다.</mj-text>
+            <mj-text mj-class="sans" font-size="14px" color="#333333">
+                <p style="text-align:center;margin:0 0 20px;">이번 뉴스레터는 어땠나요? 피드백을 나눠주세요.</p>
+                <p style="text-align:center;margin:0 0 20px;">
+                    <a href="https://forms.gle/EMf71iYTEXAbEL868" target="_blank" style="text-decoration:none;background-color:#201a3c;color:#ffffff;border-radius:4px;padding:8px 10px 8px 8px;line-height:1;font-size:13px;margin-right:8px;">👍 좋았어요!</a>
+                    <a href="https://forms.gle/bXJA17sczKPTqtLR7" target="_blank" style="text-decoration:none;background-color:#201a3c;color:#ffffff;border-radius:4px;padding:8px 10px 8px 8px;line-height:1;font-size:13px;">👎 별로였어요</a>
+                </p>
+            </mj-text>
+        </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+        <mj-section background-color="#f2f2f2">
+            <mj-column width="100%" padding-bottom="10px">
+                <mj-raw>
+                <a href="https://dewberry9.github.io?utm_source=newsletter&utm_medium=content" target="_blank" rel="noopener noreferrer">
+                    <img width="20px" src="https://dewberry9.github.io/assets/email/logo.png" alt="Logo" />
+                </a>
+                </mj-raw>
+                <mj-text>
+                </mj-text>
+            </mj-column>
+            <mj-column width="100%" padding-bottom="25px">
+                <mj-text mj-class="sans text-footer">
+                    <a href="https://www.facebook.com/magepmat" style="color: #767378; font-weight: 500; margin-right: 8px" target="_blank" rel="noopener noreferrer">Facebook</a>
+                    <a href="https://www.instagram.com/mag_epmat/" style="color: #767378; font-weight: 500; margin-right: 8px;" target="_blank" rel="noopener noreferrer">Instagram</a>
+                    <a href="https://forms.gle/26d5yuzwQB3D44zm7" style="color: #767378; font-weight: 500;" target="_blank" rel="noopener noreferrer">주제 제안</a>
+                </mj-text>
+            </mj-column>
+            <mj-column width="100%">
+                <mj-text mj-class="sans text-footer">구독 취소, 피드백, 문의는 <a href="mailto:dewberryneun@gmail.com" style="color: #767378; font-weight: 500;">dewberryneun@gmail.com</a></mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
