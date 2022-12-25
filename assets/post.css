@@ -4,13 +4,13 @@
 @keyframes fade-in { from { opacity: 0; }
   to { opacity: 1; } }
 
-@-webkit-keyframes smooth-rise { from { -webkit-transform: translateY(10rem);
-    transform: translateY(10rem); }
+@-webkit-keyframes smooth-rise { from { -webkit-transform: translateY(8rem);
+    transform: translateY(8rem); }
   to { -webkit-transform: translateY(0);
     transform: translateY(0); } }
 
-@keyframes smooth-rise { from { -webkit-transform: translateY(10rem);
-    transform: translateY(10rem); }
+@keyframes smooth-rise { from { -webkit-transform: translateY(8rem);
+    transform: translateY(8rem); }
   to { -webkit-transform: translateY(0);
     transform: translateY(0); } }
 
@@ -20,7 +20,7 @@ a:hover { color: #c3c3c7; }
 
 .sink-state { -webkit-transform: translateY(10rem); -ms-transform: translateY(10rem); transform: translateY(10rem); }
 
-.rise-animated { -webkit-animation: smooth-rise 0.3s cubic-bezier(0.8, 0, 0.2, 1) forwards; animation: smooth-rise 0.3s cubic-bezier(0.8, 0, 0.2, 1) forwards; }
+.rise-animated { -webkit-animation: smooth-rise 0.25s cubic-bezier(0.8, 0, 0.2, 1) forwards; animation: smooth-rise 0.25s cubic-bezier(0.8, 0, 0.2, 1) forwards; }
 
 .rise-animated.second-position { -webkit-animation-delay: 0.1s; animation-delay: 0.1s; }
 
@@ -140,7 +140,7 @@ footer section .link-group a:hover { text-decoration: underline; }
 
 .space-left .category-link { position: -webkit-sticky; position: sticky; top: calc(56px + 6rem); -webkit-transition: transform 0.3s ease; -o-transition: transform 0.3s ease; transition: transform 0.3s ease; display: block; }
 
-.space-left .category-link .category-title { -webkit-transition: color 0.3s ease; -o-transition: color 0.3s ease; transition: color 0.3s ease; font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif; font-size: 3.5rem; line-height: 1.1; margin-bottom: 3.5rem; letter-spacing: -0.05rem; }
+.space-left .category-link .category-title { -webkit-transition: color 0.3s ease; -o-transition: color 0.3s ease; transition: color 0.3s ease; font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif; font-size: 3rem; line-height: 1.1; margin-bottom: 3.5rem; letter-spacing: -0.05rem; }
 
 .space-left .category-link button { -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; color: #272629; border-color: #272629; }
 

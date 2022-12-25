@@ -4,13 +4,13 @@
 @keyframes fade-in { from { opacity: 0; }
   to { opacity: 1; } }
 
-@-webkit-keyframes smooth-rise { from { -webkit-transform: translateY(10rem);
-    transform: translateY(10rem); }
+@-webkit-keyframes smooth-rise { from { -webkit-transform: translateY(8rem);
+    transform: translateY(8rem); }
   to { -webkit-transform: translateY(0);
     transform: translateY(0); } }
 
-@keyframes smooth-rise { from { -webkit-transform: translateY(10rem);
-    transform: translateY(10rem); }
+@keyframes smooth-rise { from { -webkit-transform: translateY(8rem);
+    transform: translateY(8rem); }
   to { -webkit-transform: translateY(0);
     transform: translateY(0); } }
 
@@ -20,7 +20,7 @@ a:hover { color: #c3c3c7; }
 
 .sink-state { -webkit-transform: translateY(10rem); -ms-transform: translateY(10rem); transform: translateY(10rem); }
 
-.rise-animated { -webkit-animation: smooth-rise 0.3s cubic-bezier(0.8, 0, 0.2, 1) forwards; animation: smooth-rise 0.3s cubic-bezier(0.8, 0, 0.2, 1) forwards; }
+.rise-animated { -webkit-animation: smooth-rise 0.25s cubic-bezier(0.8, 0, 0.2, 1) forwards; animation: smooth-rise 0.25s cubic-bezier(0.8, 0, 0.2, 1) forwards; }
 
 .rise-animated.second-position { -webkit-animation-delay: 0.1s; animation-delay: 0.1s; }
 
@@ -140,7 +140,7 @@ footer section .link-group a:hover { text-decoration: underline; }
 
 .space-left .category-link { position: -webkit-sticky; position: sticky; top: calc(56px + 6rem); -webkit-transition: transform 0.3s ease; -o-transition: transform 0.3s ease; transition: transform 0.3s ease; display: block; }
 
-.space-left .category-link .category-title { -webkit-transition: color 0.3s ease; -o-transition: color 0.3s ease; transition: color 0.3s ease; font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif; font-size: 3.5rem; line-height: 1.1; margin-bottom: 3.5rem; letter-spacing: -0.05rem; }
+.space-left .category-link .category-title { -webkit-transition: color 0.3s ease; -o-transition: color 0.3s ease; transition: color 0.3s ease; font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif; font-size: 3rem; line-height: 1.1; margin-bottom: 3.5rem; letter-spacing: -0.05rem; }
 
 .space-left .category-link button { -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; color: #272629; border-color: #272629; }
 
@@ -182,13 +182,13 @@ footer section .link-group a:hover { text-decoration: underline; }
 
 @media screen and (max-width: 760px) { .space-right .post-list, .post-list.three-row { grid-template-columns: repeat(1, 1fr); gap: 2rem; } .space-right .post-list .post-list-item .post-thumbnail, .post-list.three-row .post-list-item .post-thumbnail { margin-bottom: 1rem; } .space-right .post-list .post-list-item .post-description .post-intro h3, .post-list.three-row .post-list-item .post-description .post-intro h3 { font-size: 1.375rem; margin-bottom: 0.75rem; } .post-list.three-row { margin-top: calc(56px + 1.25rem); } .space-left .category-link { margin-bottom: 1.5rem; } .space-left .category-link .category-title { font-size: 1.75rem; margin-right: 0.5rem; } }
 
-.starting-point { padding-top: 1.5rem; display: block; }
+.starting-point { padding-top: 3.5rem; display: block; }
 
-.starting-point .txt-container { width: 100%; padding: 3.5rem 0 1.5rem; border-bottom: 5px solid #272629; position: relative; }
+.starting-point .txt-container { width: 100%; padding: 3.5rem 0 1.5rem; position: relative; }
 
 .starting-point .txt-container::before { content: ""; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Cdefs%3E%3Cfilter id='a' x='-20%25' y='-20%25' width='140%25' height='140%25' filterUnits='objectBoundingBox' primitiveUnits='userSpaceOnUse' color-interpolation-filters='linearRGB'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.071' numOctaves='4' seed='15' stitchTiles='stitch' x='0%25' y='0%25' width='100%25' height='100%25' result='turbulence'%3E%3Canimate attributeName='seed' values='5;15;' dur='1.5s' repeatCount='indefinite' /%3E%3C/feTurbulence%3E%3CfeSpecularLighting surfaceScale='15' specularConstant='.5' specularExponent='20' lighting-color='%234730b0' x='0%25' y='0%25' width='100%25' height='100%25' in='turbulence' result='specularLighting'%3E%3CfeDistantLight azimuth='3' elevation='80'/%3E%3C/feSpecularLighting%3E%3C/filter%3E%3C/defs%3E%3Cpath fill='%234730b0' filter='url(%23a)' d='M0 0h400v400H0z'/%3E%3C/svg%3E"); background-color: #fafafa; border: 3.5rem solid #fff; border-bottom-width: 5rem; -webkit-box-sizing: border-box; box-sizing: border-box; z-index: -1; }
 
-.starting-point .txt-container .main-title { margin-top: 20vh; }
+.starting-point .txt-container .main-title { margin-top: 25vh; }
 
 .starting-point .txt-container .main-title svg { width: 100%; }
 
@@ -204,7 +204,7 @@ footer section .link-group a:hover { text-decoration: underline; }
 
 @media screen and (max-width: 760px) { .starting-point .txt-container { padding: 1.5rem 0 0; border-width: 3px; } .starting-point .txt-container::before { border-width: 1rem; border-bottom-width: 2rem; border-top-width: 2.5rem; } }
 
-.starting-point .site-description { font-family: "Noto Serif KR"; line-height: 1; font-size: 1.375rem; color: #272629; margin-top: 1.5rem; text-align: right; }
+.starting-point .site-description { font-family: "Noto Serif KR"; line-height: 1; font-size: 1.25rem; color: #272629; margin-top: 0.5rem; text-align: center; }
 
 .starting-point .site-description br { content: ""; }
 
