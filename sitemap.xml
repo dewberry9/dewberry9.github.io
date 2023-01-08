@@ -707,6 +707,53 @@
     <lastmod>2018-07-28T00:00:00+09:00</lastmod>
     <changefreq>daily</changefreq>
   </url>
+  
+    
+      <url>
+        <loc>https://dewberry9.github.io/article/product</loc>
+        <changefreq>daily</changefreq>
+      </url>
+    
+      <url>
+        <loc>https://dewberry9.github.io/article/ux</loc>
+        <changefreq>daily</changefreq>
+      </url>
+    
+      <url>
+        <loc>https://dewberry9.github.io/article/ui</loc>
+        <changefreq>daily</changefreq>
+      </url>
+    
+      <url>
+        <loc>https://dewberry9.github.io/article/etc</loc>
+        <changefreq>daily</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>https://dewberry9.github.io/review/single-malt-whisky</loc>
+        <changefreq>daily</changefreq>
+      </url>
+    
+      <url>
+        <loc>https://dewberry9.github.io/review/blended-whisky</loc>
+        <changefreq>daily</changefreq>
+      </url>
+    
+      <url>
+        <loc>https://dewberry9.github.io/review/cocktail-liqueur</loc>
+        <changefreq>daily</changefreq>
+      </url>
+    
+      <url>
+        <loc>https://dewberry9.github.io/review/etc</loc>
+        <changefreq>daily</changefreq>
+      </url>
+    
+  
+    
+  
   <url>
     <loc>https://dewberry9.github.io/</loc>
     <lastmod>2022-12-01T00:00:00+09:00</lastmod>
