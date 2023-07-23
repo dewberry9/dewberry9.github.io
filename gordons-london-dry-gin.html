@@ -155,13 +155,30 @@
 <section class="post-content-container space-container">
     <div class="space-left">
         <div class="post-content-side-container">
-            <h3 class="post-share-title rise-target">매거진 입맛, 자유롭게 공유하세요.</h3>
+            
+            <div class="dailyshot-referrer-container rise-target">
+                <img src="/assets/images/dailyshot.png" alt="Dailyshot App Icon">
+                <h3>주류 쇼핑앱 데일리샷 회원가입 시 초대코드 <span class="code">V3I4A</span> 쓰고 5,000원 포인트 받으세요.</h3>
+                <button id="copy-dailyshot-code" class="copy"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16 16" fill="currentColor" class="bi bi-subtract"><path d="M0 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2H2a2 2 0 0 1-2-2V2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H2z"/></svg>코드 복사하기</button>
+            </div>
+            <script>
+                const buttonCopyDailshotCode = document.getElementById('copy-dailyshot-code');
+
+                buttonCopyDailshotCode.addEventListener('click', function(event){
+                    window.navigator.clipboard.writeText("V3I4A").then(() => {
+                        buttonCopyDailshotCode.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16 16" fill="currentColor" class="bi bi-check-circle-fill"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/></svg>복사 완료!';
+                        setTimeout(function(){
+                            buttonCopyDailshotCode.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16 16" fill="currentColor" class="bi bi-subtract"><path d="M0 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2H2a2 2 0 0 1-2-2V2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H2z"/></svg>코드 복사하기';
+                        }, 1000);
+                    });
+                });
+            </script><h3 class="post-share-title rise-target">매거진 입맛, 자유롭게 공유하세요.</h3>
             <p class="post-share-description rise-target">개인 블로그, 메모, 사내 래퍼런스 공유 채널, 어디든지 좋습니다.
                 
                     취향은
                 나눌 수록 커지니까요.
             </p>
-            <button id="post-share" class="rise-target">
+            <button id="post-share" class="rise-target copy">
                 <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16 16" fill="currentColor" class="bi bi-subtract"><path d="M0 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2H2a2 2 0 0 1-2-2V2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H2z"/></svg>이 글의 공유 링크 복사
             </button>
             <a rel="noreferrer" class="outerlink-container rise-target" target="_blank" href="https://forms.gle/wvj73q8MWBv2j44h7" title="매거진 입맛 뉴스레터 구독 신청">
@@ -172,12 +189,9 @@
                 <h3>콘텐츠 주제 제안</h3>
                 <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16 16" fill="currentColor" class="bi bi-arrow-right-short"><path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/></svg>
             </a>
-            <!-- <a rel="noreferrer" class="outerlink-container rise-target" target="_blank" href="https://shouk.today?utm_source=mag_epmat&utm_medium=sidebar_banner" title="슉 바로가기">
-                <h3>슉 - 인사이트 요약 커뮤니티</h3>
-                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16 16" fill="currentColor" class="bi bi-arrow-right-short"><path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/></svg>
-            </a> -->
         </div>
     </div>
+    <!-- 본문 -->
     <div class="space-right">
         <div class="post-content">
             <h1 class="post-title">밤을 깨우는 진한 상쾌함. 고든스 런던 드라이 진 &amp; 진토닉</h1>
@@ -294,6 +308,7 @@
     </div>
 </section>
 
+<!-- 관련된 포스트 목록 -->
 <section class="post-list related-post-list three-row">
     <!-- 동일 카테고리 -->
     
